@@ -1,0 +1,19 @@
+\section{Definitionen}
+
+\subsection{periodische zeitabhängige Größen}
+Allgemein \(x\left(t\right) \xrightarrow{}\) speziell \(u\left(t\right); i\left(t\right); q\left(t\right); \dots\) \\
+es gillt \(x\left(t\right) = x\left(t + n \cdot T\right) ; \left(n \in \N^* \right) \)
+
+\subsection{Wechselgrößen}
+Allgemein \(x_{\sim} \left(t\right)\); periodisch sich ändernde Größe, deren Gleichanteil bzw. 
+zeitlich linearer Mittelwert gleich Null ist. \\ \vspace{0mm} \\
+Nachweis: \(\int_{t1}^{t2 + n \cdot T} x_{\sim} \left(t\right)dt = 0 ; \left(n \in \N^* \right)\) \\ 
+t1: beliebiger Zeitwert
+
+\subsection{Mischgrößen}
+Sind periodisch, Ihr Gleichanteil \(\overline{x}\) bzw. zeitlich linearer Mittelwert jedoch ist ungleich Null. \\
+\begin{allign}
+Mischgröße &= Wechselgröße + Gleichanteil \\
+\(x\left(t\right)\) &= \(x_{\sim}\left(t\right) + \overline{x}\) \\
+&= gleichanteilbehaftete Wechselgröße
+\end{allign}

@@ -1,0 +1,102 @@
+\documentclass[a5paper]{report}
+%\documentclass[a5paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{german}
+\usepackage[pdftex]{graphicx}
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{multicol}
+
+\title{}
+\author{}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\hypersetup{linktocpage=true, colorlinks=false}	%Ganzseitiganzeigen %pdfpagemode=FullScreen,
+\geometry{left=15mm,right=5mm, top=15mm, bottom=15mm}
+\pagestyle{headings}
+\hyphenation{words}
+\allowdisplaybreaks
+
+%Definitionen
+\newcommand{\N}{\mathbb{N}}	%Natürliche Zahlen
+\newcommand{\R}{\mathbb{R}}	%Reelle Zahlen
+\newcommand{\C}{\mathbb{C}}	%Komplexe Zahlen
+
+
+%%%%%%%%%%%%%%%Matzes Anpassungen
+
+%Abstand zwischen Formeln
+\setlength{\abovedisplayskip}{3mm}
+\setlength{\belowdisplayskip}{3mm}
+
+\newenvironment{merkbox}{\begin{minipage}{\linewidth}}{\end{minipage}}
+
+%Einheitenbeschreibung
+\newcommand{\des}[3][1]{$\left[#2\right]=\si{#1}$: {\small\textcolor{gray}{ #3}}}
+\newcommand{\destext}[1]{{\small\textcolor{gray}{ #1}}}
+
+\newcommand{\hebox}[1]{#1}
+\newcommand{\heboxc}[1]{#1}
+
+%Differential
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\grad{\mathop{}\!\mathrm{grad}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\maketitle
+
+%INHALTSVERZEICHNIS
+	\tableofcontents
+
+		%TEIL
+	\part{Mathematik}
+
+	
+		%KAPITEL
+		\chapter{Algebra}
+		
+			\input{Mathe/Mathe.tex}
+
+	%Physik als eigenes Dokument, mit eigenen *.tex Files
+	\part{Physik}
+	
+		\chapter{Kinematik}
+		\input{Physik/Algemein.tex}
+
+		\chapter{Fluiddynamik}
+		\input{Physik/Fluiddynamik.tex}
+
+		\chapter{Gravitation}
+		\input{Physik/Gravitation.tex}
+
+		\chapter{Elektrostatik}
+		\input{Physik/Elektrostatik.tex}
+
+	\part{Elektrotechnik}
+
+		\chapter{Gleichstromtechnik}
+		\input{Elektrotechnik/Elektrotechnik.tex}
+
+		\chapter{Wechselstromtechnik}
+		\input{Elektrotechnik/Wechselstromtechnik.tex}
+
+\end{document}
