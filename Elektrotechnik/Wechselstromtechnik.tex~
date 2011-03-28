@@ -7,8 +7,13 @@ es gillt \(x\left(t\right) = x\left(t + n \cdot T\right) ; \left(n \in \N^* \rig
 \subsection{Wechselgrößen}
 Allgemein \(x_{\sim} \left(t\right)\); periodisch sich ändernde Größe, deren Gleichanteil bzw. 
 zeitlich linearer Mittelwert gleich Null ist. \\ \vspace{0mm} \\
+<<<<<<< HEAD
 Nachweis: \[\int_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \; ; \; \left(n \in \N^* \right) \;
 ; \; t1: \text{beliebiger Zeitwert}\]
+=======
+Nachweis: \[\int_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \. ; \. \left(n \in \N^* \right) \.
+; \. t1: \text{beliebiger Zeitwert}\]
+>>>>>>> fa72e0a70c152e9eb8251601fd7c950e027b1fda
 
 \subsection{Mischgrößen}
 Sind periodisch, Ihr Gleichanteil \(\overline{x}\) bzw. zeitlich linearer Mittelwert \\
@@ -18,5 +23,8 @@ jedoch ist ungleich Null.
 x\left(t\right) &= x_{\sim}\left(t\right) + \overline{x} \\
 &= \text{gleichanteilbehaftete Wechselgröße}
 \end{align*}
+<<<<<<< HEAD
 
 \subsection{Test}
+=======
+>>>>>>> fa72e0a70c152e9eb8251601fd7c950e027b1fda
