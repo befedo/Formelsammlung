@@ -1,0 +1,119 @@
+\section{Komplexe Zahlen}
+\begin{boxleft}\bla{Grundlagen}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+j&=\sqrt{-1}\\
+j^2&=-1
+\end{align}\end{boxrightshaded}
+
+\subsection{Darstellungsformen}
+
+\begin{boxleft}\bla{Kartesische Form}
+  \des[]{x}{Realanteil}\\
+  \des[]{y}{Imaginäranteil}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+z&=x+jy
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}
+  \bla{Trigometrische Form}
+\des[]{r}{Betrag}\\
+\des[]{\varphi}{Argument}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+z&=r\left(\cos{\varphi}+j\sin{\varphi}\right)
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}
+  \bla{Exponentialform}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+z&=re^{j\varphi}
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}
+  \bla{Umrechnung}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+x&=r\cos{\varphi}\\
+y&=r\sin{\varphi}\\
+r&=\left|z\right|=\sqrt{x^2+y^2}
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}
+  \bla{Umrechnung Winkel}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+\tan{\varphi}&=\frac{y}{x}\\
+\varphi&=\begin{dcases*}
+  \arctan{\frac{y}{x}}& Quadrant I\\
+\arctan{\frac{y}{x}}+\pi& Quadrant II,III\\
+\arctan{\frac{y}{x}}+2\pi& Quadrant IV
+\end{dcases*}
+\end{align}\end{boxrightshaded}
+
+\subsection{Rechenregeln}
+
+\begin{boxleft}
+  \bla{Konjugiert komplexe Zahl}
+\des[]{\overline{z}}{konjugierte Komplexe}
+\end{boxleft}\begin{boxrightshaded}
+ \begin{align} 
+\overline{z}&=z^*\\
+\overline{z}&=\overline{x+jy}\\
+&=x-jy\\
+\overline{z}&=\overline{r\left(\cos{\varphi}+j\sin{\varphi}\right)}\\
+&=r\left(\cos{\varphi}-j\sin{\varphi}\right)\\
+\overline{z}&=\overline{re^{j\varphi}}\\
+&=re^{-j\varphi}
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}\bla{Addition und Subtraktion}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align} 
+  z_1\pm z_2&=(x_1+jy_1)\pm(x_2+jy_2)\\
+	    &=(x_1\pm x_2)+ j(y_1 \pm y_2)
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}\bla{Multiplikation}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align} 
+ z_1 \cdot z_2&=(x_1+jy_1)\cdot(x_2+jy_2)\\
+	      &=(x_1x_2-y_1y_2)+ j(x_1y_2+x_2y_1)\\
+ z_1 \cdot z_2&=r_1\left(\cos{\varphi_1}+j\sin{\varphi_1}\right)\cdot r_2\left(\cos{\varphi_2}+j\sin{\varphi_2}\right)\\
+	      &=r_1r_2\left(\cos(\varphi_1+\varphi_2)+j\sin(\varphi_1+\varphi_2)\right)\\
+ z_1 \cdot z_2&=r_1e^{j\varphi_1}\cdot r_2e^{j\varphi_2}\\
+	      &=r_1r_2e^{j(\varphi_1+\varphi_2)}
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}\bla{Division}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align} 
+\frac{z_1}{z_2} &=\frac{x_1+jy_1}{x_2+jy_2}\\
+		&=\frac{x_1x_2+y_1y_2}{x_2^2+y_2^2}+j\frac{x_2y_1-x_1y_2}{x_2^2+y_2^2}\\
+\frac{z_1}{z_2} &=\frac{r_1\left(\cos{\varphi_1}+j\sin{\varphi_1}\right)}{r_2\left(\cos{\varphi_2}+j\sin{\varphi_2}\right)}\\
+	        &=\frac{r_1}{r_2}\left(\cos(\varphi_1-\varphi_2)+j\sin(\varphi_1-\varphi_2)\right)\\
+\frac{z_1}{z_2} &=\frac{r_1e^{j\varphi_1}}{r_2e^{j\varphi_2}}\\
+	        &=\frac{r_1}{r_2}e^{j(\varphi_1-\varphi_2)}
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}\bla{Potenzieren}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align} 
+z^n		&=\left(r_1\left(\cos{\varphi_1}+j\sin{\varphi_1}\right)\right)^n\\
+		&=r_1^n\left(\cos(n\varphi_1)+j\sin(n\varphi_1)\right)\\
+z^n		&=\left(r_1e^{j\varphi_1}\right)^n\\
+		&=r_1^ne^{jn\varphi_1}
+\end{align}\end{boxrightshaded}
+
+\begin{boxleft}\bla{Wurzelziehen}
+\destext{Es entsthen n Lösungen}\\
+\destext{Für k muss nacheinander $0,1,\dots,n-1$ eingesetzt werden}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align} 
+\sqrt[n]{z}	&=\sqrt[n]{r_1\left(\cos\varphi_1+j\sin{\varphi_1}\right)}\\
+\omega_k	&=\sqrt[n]{r_1}\left(\cos\left(\frac{\varphi_1+2k\pi}{n}\right)+j\sin\left(\frac{\varphi_1+2k\pi}{n}\right)\right)\\
+\sqrt[n]{z}	&=\sqrt[n]{r_1e^{j\varphi_1}}\\
+\omega_k	&=\sqrt[n]{r_1}e^{j\left(\frac{\varphi_1+2k\pi}{n}\right)}
+\end{align}\end{boxrightshaded}

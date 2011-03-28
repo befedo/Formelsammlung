@@ -1,0 +1,87 @@
+\documentclass[a5paper, DIV19,6pt]{scrbook}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[fleqn]{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage[utopia]{mathdesign}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{mdwlist}
+\usepackage{booktabs}
+\usepackage{framed}
+\usepackage{tikz}
+\usepackage{esvect}
+\usepackage{pstricks}
+\usepackage[locale=DE]{siunitx}
+\usetikzlibrary{decorations.pathreplacing}
+
+\usepackage[inner=1.5cm, top=2cm,top=1cm,bottom=1cm,footskip=.5cm]{geometry}
+
+%Si einheiten durch einen Bruch ersetzen
+%\sisetup{per=frac, fraction=nice}
+
+\setlength{\intextsep}{0mm}
+\setlength{\textfloatsep}{0mm}
+\setlength{\floatsep}{0mm}
+\definecolor{lgray}{rgb}{0.7,0.7,0.7}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{shadecolor}{rgb}{0.7,0.7,0.7}
+\lstset{basicstyle=\small\ttfamily,backgroundcolor=\color{lgray}}
+%\newcommand{\bla}[1]{\noindent\quad\textbf{#1}}
+\newcommand{\bla}[1]{\subsubsection{#1}}
+
+
+\newcommand{\Mseite}[1]{\begin{empheq}[box=\fcolorbox{gray}{lgray}]{equation}#1\end{empheq}}
+
+%Abstand zwischen Formeln
+\setlength{\abovedisplayskip}{3mm}
+\setlength{\belowdisplayskip}{3mm}
+%Größe einer Shaded box
+\setlength{\FrameSep}{1pt}
+\setlength{\parindent}{0pt}
+
+\newenvironment{merkbox}{\begin{minipage}{\linewidth}}{\end{minipage}}
+
+%Box Centriert
+\newenvironment{boxleftc}{\begin{minipage}{.5\linewidth}\noindent}{\end{minipage}}
+\newenvironment{boxrightc}{\begin{minipage}{.5\linewidth}\noindent}{\end{minipage}}
+\newenvironment{boxrightshadedc}{\begin{minipage}{.5\linewidth}\begin{shaded}\noindent}{\end{shaded}\end{minipage}}
+
+
+%Box viertel
+\newenvironment{boxleftv}{\begin{minipage}{.25\linewidth}\noindent}{\end{minipage}}
+\newenvironment{boxrightv}{\begin{minipage}{.25\linewidth}\noindent}{\end{minipage}}
+\newenvironment{boxrightshadedv}{\begin{minipage}{.25\linewidth}\begin{shaded}\noindent}{\end{shaded}\end{minipage}}
+
+
+%Box Rechts
+\newenvironment{boxleft}{\begin{minipage}{.35\linewidth}\noindent}{\end{minipage}}
+\newenvironment{boxright}{\begin{minipage}{.65\linewidth}\noindent}{\end{minipage}}
+\newenvironment{boxrightshaded}{\begin{minipage}{.65\linewidth}\begin{shaded}\noindent}{\end{shaded}\end{minipage}}
+
+%Einheitenbeschreibung
+\newcommand{\des}[3][1]{$\left[#2\right]=\si{#1}$: {\small\textcolor{gray}{ #3}}}
+\newcommand{\destext}[1]{{\small\textcolor{gray}{ #1}}}
+
+\newcommand{\hebox}[1]{#1}
+\newcommand{\heboxc}[1]{#1}
+
+%Differential
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\grad{\mathop{}\!\mathrm{grad}}
+
+
+\begin{document}
+\title{Formelsammlung für Alles}
+\author{Matthias Springstein}
+%\maketitle
+%\tableofcontents
+
+%\input{latex.tex}
+\input{mathe2.tex}
+\input{physik.tex}
+%\input{elektro.tex}
+\end{document}

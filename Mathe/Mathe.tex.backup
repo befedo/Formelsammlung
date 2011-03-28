@@ -1,0 +1,291 @@
+	%1. Abschnitt
+	\section{Rechenregeln für Potenzen}
+				
+			
+			\begin{align*}
+				a^m \cdot a^n &= a^{m+n}	& \frac{a^m}{a^n} &= a^{m-n}	\\ \\
+				\left( a^m \right)^n = \left( a^n \right)^m &= a^{m \cdot n} & a^n \cdot b^n &= \left( a \cdot b \right)^n	\\ \\
+				\frac{a^n}{b^n} &= \left( \frac{a}{b} \right)^n	\\ \\
+				\text{(f�r a} > \text{0) } a^b &= e^{b \cdot \ln a}
+			\end{align*}
+	
+	%2.Abschnitt
+	\vspace{10mm}
+	\section{Zusammenhang zwischen Wurzeln und Potenzen}
+		
+	
+			\begin{align*}
+				\boxed{
+				\text{Im Folgenden wird vorausgesetzt, dass alle Potenzen und Wurzeln existieren.}
+				} \
+			\end{align*}
+			
+			\begin{align*}
+				\sqrt[n]{a} &= a^{\frac{1}{n}} & \sqrt[n]{a^m} &= a^{\frac{m}{n}} & \left(\sqrt[n]{a}\right)^m &= a^{ \frac{m}{n}}
+			\end{align*}
+	
+	%3.Abschnitt
+	\newpage
+	\section{Potenzen und Logarithmen}
+	
+	
+			\text{Schreibweise: }
+			x\(=\log_a \left(b\right) \text{ mit } a > 0, a \neq 1 \text{ und } b > 0 \text{.}\)
+			\newline
+			\text{Es gillt: }
+			\(\log_a \left(1\right) = 0, \text{ } \log_a \left( a \right) = 1\)
+			\text{.}
+				
+	%Unterpunkt
+	\vspace{10mm}
+	\subsection{Der natürliche Logarithmus}
+	
+	
+			%Hier muss der Limes noch angepasst werden, so dass der BEreich unter dem Ausdruck steht!
+			\begin{flushleft}
+			\text{Der Logarithmus zur Basis } \(e\) \text{ mit } \(e = \lim\limits_{n\to\infty} {\left(1+\frac{1}{n}\right)^n} = 2,71828...\)
+			\begin{align*}
+				\log_e \left(b\right) &= \ln \left(b\right) & \ln \left( \frac{1}{e} \right) = -1 ; \text{ da } e^{-1} = \frac{1}{e}
+			\end{align*}
+			
+			\boxed{\text{Man beachte: } \text{x}^a = e^{\ln \left(\text{x}\right) \cdot a}}
+			\end{flushleft}
+	
+	%Unterpunkt
+	\vspace{10mm}
+	\subsection{Rechnen mit Logarithmen}
+	
+	
+			
+			
+			%Tabelle anlegen
+			\begin{table}[h]
+						
+			\begin{tabular}{|l|l|}
+				
+				\hline
+					\text{Es gillt:}
+				&	%Dient als Ueberschrifft
+					\text{Weitere Beziehungen:}
+				\\
+				\hline
+					%Beginnt in der ersten Spalte, erste Zeile
+   				\(\log_a \left({u \cdot v}\right) = \log_a \left(u\right) + \log_a \left(v\right)\)
+				&	%In die naechste Spalte springen
+					\( \log_a \left( \sqrt[n]{u} \right) = \frac{1}{n} \log_a \left( u \right)\)
+				\\%Zurueck in die erste Spalte, zweite Zeile
+					\(\log_a \left( \frac{u}{v} \right) = \log_a \left(u\right) - \log_a \left(v\right)\)
+				&	%%In die naechste Spalte springen						
+ 					\(a^{\log_a \left(u\right)} = \log_a \left(a^u\right) = u\)
+				\\%Zurueck in die erste Spalte, dritte Zeile
+					\(\log_a \left(u^p\right) = p \cdot \log_a \left(u\right)\)
+				&	%%In die naechste Spalte springen
+					\(\log_a\left(u\right) = \frac{\log_c \left( u \right)}{\log_c \left( a \right)}\)
+				\\
+				%Unterstreicht die Tabelle
+					\hline
+								
+			\end{tabular}
+			\end{table}
+			
+	%4.Abschnitt
+	\vspace{10mm}
+	\section{Der Binomische Lehrsatz}
+	
+			
+		Die Potenzen eines Binoms a+b lassen sich nach dem Binomischen Lehrsatz 
+		\newline 
+		wie folgt entwickeln \( \left(n \in \N^* \right)\):
+		\vspace{5mm}
+		\newline
+		\( \left( a + b \right)^n = a^n + \binom{n}{1} a^{n-1} \cdot b^1 + \binom{n}{2} a^{n-2} \cdot b^2 + \binom{n}{3} a^{n-3} \cdot b^3 + 
+		\ldots + \binom{n}{n-1} a^{1} \cdot b^{n-1} + b^n \)
+		\vspace{5mm}
+		\newline
+		\text{Die Koeffizienten \( \binom{n}{k} \) hei�en Binominalkoeffizienten, ihr Bildungsgesetz lautet:}
+		\vspace{5mm}
+		\newline
+		\( \binom{n}{k} = \frac{n \left( n - 1 \right) \left( n - 2 \right) \ldots \left[ n - \left( k - 1 \right) \right]}{k!} = \frac{n!}{k! \left( n - k \right) !} \)
+	
+	\vspace{10mm}
+	\subsubsection{Einige Eigenschaften der Binominalkoeffizienten}
+		
+		
+			\begin{align*}
+				\binom{n}{0} &= \binom{n}{n} = 1 & \binom{n}{k} &= 0 \text{ f�r k} > \text{n} & \binom{n}{1} &= \binom{n}{n-1} = n
+				\\
+				\binom{n}{k} &= \binom{n}{n-k} & \binom{n}{k} &+ \binom{n}{k+1} = \binom{n+1}{k+1}
+			\end{align*}
+			
+	\vspace{10mm}
+	\section{Sinus, Kosinus, Tangens und Kotangens}
+	
+	%Unterpunkt
+	\vspace{10mm}
+	\subsection{Beziehungen zwischen Sinus, Kosinus, Tangens und Kotangens}
+	
+	
+		\begin{align*}
+			&\sin^2 \left( \alpha \right) + \cos^2 \left( \alpha \right) = 1 & &\tan \left( \alpha \right) \cdot \cot \left( \alpha \right) = 1	
+			\\
+			&\tan \left( \alpha \right) = \frac{\sin \left( \alpha \right)}{\cos \left( \alpha \right)} & &\cot \left( \alpha \right) = \frac{\cos \left( \alpha \right)}{\sin \left( \alpha \right)} 
+			\\
+			&1 + \tan^2 \left( \alpha \right) = \frac{1}{\cos^2 \left( \alpha \right)} & &1 + \cot^2 \left( \alpha \right) = \frac{1}{\sin^2 \left( \alpha \right)}
+		\end{align*}
+	
+	%Unterpunkt	
+	\vspace{10mm}
+	\subsection{Additionstheoreme}
+	
+	
+		\begin{align*}
+			\sin \left( \alpha \pm \beta \right) &= \sin \left( \alpha \right) \cos \left( \beta \right) \pm \cos \left( \alpha \right) \sin \left( \beta \right)
+			\\ 
+			\cos \left( \alpha \pm \beta \right) &= \cos \left( \alpha \right) \cos \left( \beta \right) \mp \sin \left( \alpha \right) \sin \left( \beta \right)
+			\\
+			\tan \left( \alpha \pm \beta \right) &= \frac{\tan \left( \alpha \right) \pm \tan \left( \beta \right)}{1 \mp \tan \left( \alpha \right) \tan \left( \beta \right)}
+		\end{align*}
+		
+	%Unterpunkt
+	\vspace{10mm}
+	\subsection{Funktionen des doppelten und halben Winkels}
+			
+			
+			\begin{align*}
+				\sin \left( 2 \alpha \right) &= 2 \sin \left( \alpha \right) \cos \left( \alpha \right) 
+				\\
+				\cos \left( 2 \alpha \right) &= \cos^2 \left( \alpha \right) - \sin^2 \left( \alpha \right) = 2 \cos^2 \left( \alpha \right) -1 = 1 - 2 \sin^2 \left( \alpha \right)
+				\\
+				\tan \left( 2 \alpha \right) &= \frac{2 \tan \left( \alpha \right)}{1 - \tan^2 \left( \alpha \right)}
+				\\
+				\sin^2 \left( \frac{\alpha}{2} \right) &= \frac{1}{2} \left( 1 - \cos \left( \alpha \right) \right)
+				\\
+				\cos^2 \left( \frac{\alpha}{2} \right) &= \frac{1}{2} \left( 1 + \cos \left( \alpha \right) \right)
+				\\
+				\tan^2 \left( \frac{\alpha}{2} \right) &= \frac{1 - \cos \left( \alpha \right)}{1 + \cos \left( \alpha \right)}
+			\end{align*}
+			
+	%Unterpunkt
+	\vspace{10mm}
+	\subsection{Umformungen}
+	
+	%Unterunterpunkt :)
+	\vspace{10mm}
+	\subsubsection{Summe oder Differenz in ein Produkt}
+	
+	
+			\begin{flushleft}
+				\(\sin \left( \alpha \right) + \sin \left( \beta \right) = 2 \sin \left( \frac{\alpha + \beta}{2}\right) \cos \left( \frac{\alpha - \beta}{2} \right)\)
+				\\
+				\(\sin \left( \alpha \right) - \sin \left( \beta \right) = 2 \cos \left( \frac{\alpha + \beta}{2}\right) \sin \left( \frac{\alpha - \beta}{2} \right)\)
+				\\
+				\(\cos \left( \alpha \right) + \cos \left( \beta \right) = 2 \cos \left( \frac{\alpha + \beta}{2}\right) \cos \left( \frac{\alpha - \beta}{2} \right)\)
+				\\
+				\(\cos \left( \alpha \right) - \cos \left( \beta \right) = -2 \sin \left( \frac{\alpha + \beta}{2}\right) \sin \left( \frac{\alpha - \beta}{2} \right)\)
+			\end{flushleft}
+	
+	%Unterunterpunkt :)
+	\vspace{10mm}
+	\subsubsection{Produkt in eine Summe oder Differenz}
+	
+	
+			\begin{flushleft}
+				\(2 \sin \left( \alpha \right) \sin \left( \beta \right) = \cos \left( \alpha - \beta \right) - \cos \left( \alpha + \beta \right)\)
+				\\
+				\(2 \cos \left( \alpha \right) \cos \left( \beta \right) = \cos \left( \alpha - \beta \right) + \cos \left( \alpha + \beta \right)\)
+				\\
+				\(2 \sin \left( \alpha \right) \cos \left( \beta \right) = \sin \left( \alpha - \beta \right) + \sin \left( \alpha + \beta \right)\)
+			\end{flushleft}
+	
+	%5.Abschnitt		
+	\vspace{10mm}	
+	\section{Komplexe Zahlen}
+			
+			
+			\text{Für die Menge aller komplexen Zahlen schreibt man:}
+			\vspace{5mm}
+			\\
+			\fbox{\( \C = \left\{ z | z = a + bj, a \in \R \wedge b \in \R \right\} \)}
+			\vspace{5mm}
+			\\
+			\text{a-Realteil \ \  b-Imaginaerteil \ \  j-imaginaere Einheit}
+			
+			
+			%Tabelle
+			\begin{table}[h]
+			
+				\begin{tabular}{|l|l|l|}
+				\hline
+ 				\text{kartesiche Form} & \text{trigonometrische Form}  & \text{exponentialform}	 \\ 
+				\hline
+ 				\( z = a + bj \) & \( z = \left| z \right| \left( \cos \varphi + j \cdot \sin \varphi \right) \)  & \( z = \left| z \right| \cdot e^{j 	\varphi} \)  \\ 
+				\hline
+ 				\( z^* = \left( a + bj \right)^* = a-bj \) & \( z^* = \left| z \right| \left( \cos \varphi - j \cdot \sin \varphi \right) \) & \( z^* = \left| z \right| \cdot e^{-j \varphi} \) \\ 
+				\hline
+				\end{tabular}
+			
+			\end{table}
+			
+			\begin{flushleft}
+				\text{\( \left| z \right| \) = Betrag von z}
+				\\
+				\text{\( \varphi \) = Argument (Winkel) von z}
+				\\
+				\text{\( z^* \) = Konjugiert komplexe Zahl}
+			\end{flushleft}
+			
+		%Unterpunkt
+		\vspace{10mm}
+		\subsection{Umrechnungen zwischen den Darstellungsformen}
+			
+			\vspace{10mm}
+			\subsubsection{Polarform \(\rightarrow\) Kartesiche Form}
+			
+			
+				\( z = \left| z \right| \cdot e^{j \varphi} = \left| z \right| \left( \cos \varphi + j \cdot \sin \varphi \right) = 
+				\underbrace{\left| z \right| \cdot \cos \varphi}_{a} + j \cdot \underbrace{\left| z \right| \cdot \sin \varphi}_{b} = a + bj \)	
+			
+			\vspace{10mm}
+			\subsubsection{Kartesische Form \(\rightarrow\) Polarform}
+			
+			
+				\( \left| z \right| = \sqrt{a^2 + b^2}\), \ \ \(\tan \varphi = \frac{b}{a} \)
+				
+		%Unterpunkt
+		\vspace{10mm}
+		\subsection{Rechnen mit Komplexen Zahlen}
+		
+			\vspace{10mm}
+			\subsubsection{Multiplikation}
+								
+				
+				\fbox{In kartesischer Form:}
+								
+				\begin{center}
+				\(z_1 \cdot z_2 = \left( a_1 + j b_1 \right) \cdot \left( a_2 + j b_2 \right) 
+												= \left( a_1 a_2 - b_1 b_2 \right) + j \cdot \left( a_1 b_2 + a_2 b_1 \right)\)
+				\end{center}
+								
+				\fbox{In der Polarform:}
+												
+				\begin{align*}
+					z_1 \cdot z_2 &= \left[ \left| z_1 \right| \left( \cos \varphi_1 + j \cdot \sin \varphi_1 \right) \right] \cdot 
+													 \left[ \left| z_2 \right| \left( \cos \varphi_2 + j \cdot \sin \varphi_2 \right) \right]
+					\\
+					&= \left( \left| z_1 \right| \left| z_2 \right| \right) \cdot \left[ \cos \left( \varphi_1 + \varphi_2 \right) +  
+					j \cdot \sin \left(	\varphi_1 + \varphi_2 \right) \right]
+					\\
+					&= \left( \left| z_1 \right| \cdot e^{j \varphi_1} \right) \cdot \left( \left| z_2 \right| \cdot e^{j \varphi_2} \right)
+					= \left( \left| z_1 \right| \left| z_2 \right| \right) \cdot e^{j \left( \varphi_1 + \varphi_2 \right)}
+				\end{align*}
+			
+			\vspace{10mm}	
+			\subsubsection{Division}
+			
+				\fbox{In kartesischer Form}
+				
+					\begin{center}
+						
+					\end{center}
+				
+				\fbox{In der Polarform}

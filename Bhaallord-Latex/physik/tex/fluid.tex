@@ -1,0 +1,184 @@
+\section{Fluidmechanik}
+
+\subsection{Ohne Reibung}
+
+\begin{boxleft}\bla{Statischer Druck}
+\des[\pascal]{p}{Druck}\\
+\des[\newton]{p}{Kraft ($F_N \perp A$)}\\
+\des[\meter\tothe{2}]{A}{Fläche}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+p&=\frac{\diff F_N}{\diff A}
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Dynamischer Druck}
+\des[\pascal]{p}{Druck}\\
+\des[\meter\per\second]{v}{Geschwindigkeit des Mediums}\\
+\des[\kilo\gram\per\meter\tothe{3}]{\rho}{Dichte}\\
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+p&=\frac{1}{2}\rho v^2
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Schwere Druck}
+\des[\pascal]{p}{Druck}\\
+\des[\kilo\gram\per\meter\tothe{3}]{\rho}{Dichte}\\
+\des[\meter\tothe{3}]{V}{Volumen}\\
+\des[\meter\tothe{2}]{A}{Fläche}\\
+\des[\meter]{h}{Tiefe (Abstand von Oben)}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+p&=\frac{\rho V g}{A}\\
+&=h\rho g
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Volumenstrom}
+\des[\meter\tothe{3}\per\second]{\dot{V}}{Volumenstrom}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\dot{V}&=v A\\
+&=\iint_A \vv{v} \diff\vv{ A}\\
+&=\frac{\diff V}{\diff t}\\
+&=Q
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Massenstrom}
+\des[\kilo\gram\per\second]{\dot{m}}{Massenstrom}\\
+\des[\kilo\gram\per\meter\tothe{2}\per\second]{j}{Massenstromdichte}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\dot{m}&=jA\\
+&=\iint_A \vv{j} \diff\vv{A}\\
+&=\frac{\diff m}{\diff t}
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Kontinuitätsgleichung}
+\des[\meter\per\second]{v_1}{Geschwindigkeit zum Zeitpunkt 1}\\
+\des[\meter\per\second]{v_2}{Geschwindigkeit zum Zeitpunkt 2}\\
+\des[\meter\tothe{2}]{A_1}{Fläsche zum Zeitpunkt 1}\\
+\des[\meter\tothe{2}]{A_2}{Fläsche zum Zeitpunkt 2}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\left.\dot{m}\right|_1&=\left.\dot{m}\right|_2\\
+\left.\dot{V}\right|_1&=\left.\dot{V}\right|_2&&\rho_1=\rho_2\\
+v_1A_1&=v_2A_2&&\rho_1=\rho_2
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Kompressibilität}
+\des[\meter\tothe{3}]{\Delta V}{Volumenabnahme}\\
+\des[\pascal]{\Delta p}{Druckzunahme}\\
+\des[\per\pascal]{\kappa}{Kompressibilität}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\kappa&=\frac{\Delta V}{\Delta p V}
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Volumenausdehnungskoeffizient}
+\des[\kelvin]{\Delta T}{Temperaturänderung}\\
+\des[\per\kelvin]{\gamma}{Volumenausdehnungskoeffizient}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\frac{\Delta V}{V}&= \gamma \Delta T
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Barometrische Höhenformel}
+\destext{Luftdruck in der Atmosphäre}\\
+\des[\pascal]{p_0}{Druck am Boden}\\
+\des[\kilo\gram\per\meter\tothe{3}]{\rho_0}{Dichte am Boden}\\
+\des[\meter]{h}{Tiefe (Abstand von Boden)}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+p&=p_0 e^{-Ch}\\
+C&=\frac{\rho_0 g}{p_0}
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Auftrieb}
+\des[\newton]{F_A}{Kraft}\\
+\des[\kilo\gram\per\meter\tothe{3}]{\rho_V}{Dichte des verdränkten Stoffes}\\
+\des[\kilo\gram\per\meter\tothe{3}]{\rho_M}{Dichte des Stoffes}\\
+\des[\meter\tothe{3}]{V}{Volumen das verdränkt wird}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\vv{F_A}&=-\rho_V \vv{g} V\\
+&=-\frac{\rho_V}{\rho_M}\vv{F_G}
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Bernoulli Gleichung}
+\des[\kilo\gram\per\meter\tothe{3}]{\rho}{Dichte}\\
+\des[\meter\per\second]{v}{Geschwindigkeit}\\
+\des[\meter]{h}{Tiefe (Abstand von Oben)}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+p+\frac{1}{2}\rho v^2+ \rho g h= \text{const}
+\end{align}
+\end{boxrightshaded}
+
+\subsection{Laminare Reibung}
+
+\begin{boxleft}\bla{Newtonsches Reibungsgestz}
+\des[\pascal\second]{\eta}{Viskosität}\\
+\des[\meter\tothe{2}]{A}{Fläsche einer Schicht}\\
+\des[\meter\per\second]{\diff v}{Geschwindigkeit der Schichten}\\
+\des[\meter]{\diff x}{Abstand der Schichten}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+F_R&=\eta A \frac{\diff v}{\diff x}
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Laminare Strömungen in einen Rohr}
+\des[\pascal\second]{\eta}{Viskosität}\\
+\des[\meter]{l}{Länge des Rohrs}\\
+\des[\meter]{r}{Abstand von der Mittellinie}\\
+\des[\meter]{R}{Radius des Rohres}\\
+\des[\pascal]{p}{Druckabfall über das Rohr}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+v(r)&=\frac{p}{4\eta l}\left(R^2-r^2\right)\\
+p&=\frac{4\eta l}{R^2}v(0)\\
+\dot{V}&=\frac{\pi R^4}{8\eta l}p
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Umströmung einer Kugel}
+\des[\pascal\second]{\eta}{Viskosität}\\
+\des[\meter]{r}{Radius der Kugel}\\
+\des[\meter\per\second]{v}{Geschwindigkeit Strömung(Kugel)}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+F_R=6\pi\eta r v
+\end{align}
+\end{boxrightshaded}
+
+
+\begin{boxleft}\bla{Bernoulli Gleichung mit Reibung}
+\des[\pascal]{\Delta p}{Druck "Verlust" im Rohr}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+p_1+\frac{1}{2}\rho v_1^2+ \rho g h_1=p_2+\frac{1}{2}\rho v_2^2+ \rho g h_2+\Delta p
+\end{align}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Reynoldzahl}
+\des{Re}{Reynoldzahl}\\
+\des{Re_{krit}}{Kritische Reynoldzahl}\\
+\des[\meter]{L}{Charakteristische Länge}\\
+\destext{$L$ z.B. Rohr oder Kugel Durschmesser }\\
+\des[\kilo\gram\per\meter\tothe{3}]{\rho}{Dichte der Flüssigkeit}\\
+\des[\meter\per\second]{v}{Geschwindigkeit der Flüssigkeit}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+Re&=\frac{L\rho v}{\eta}\\
+Re&>Re_{krit}&&\text{Strömung wird Turbulent}
+\end{align}
+\end{boxrightshaded}

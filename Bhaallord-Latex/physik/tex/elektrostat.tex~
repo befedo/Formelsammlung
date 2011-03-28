@@ -1,0 +1,19 @@
+\section{Elektrostatik}
+
+\begin{boxleft}\bla{Ladung}
+\des[\ampere\second]{Q}{Ladung}\\
+\des[\ampere]{i}{Strom}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+Q	&=n\cdot e_0\\
+	&=CU\\
+	&=\int i \diff t
+\end{align}
+\end{boxrightshaded}
+
+
+\begin{boxleft}\bla{Coulombsches Gesetz}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align}
+\end{align}
+\end{boxrightshaded}
