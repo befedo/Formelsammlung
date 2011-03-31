@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.13)  31 MAR 2011 10:16
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.13)  31 MAR 2011 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,7 +790,7 @@ amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on Formelsammlung.pdf (34 pages, 344942 bytes).
+Output written on Formelsammlung.pdf (34 pages, 344990 bytes).
 PDF statistics:
  649 PDF objects out of 1000 (max. 8388607)
  586 compressed objects within 6 object streams

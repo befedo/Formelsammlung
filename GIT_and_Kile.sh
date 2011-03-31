@@ -25,11 +25,11 @@ kile Formelsammlung.tex
 
 echo #Leerzeile
 echo '/.git wird mit COMMIT versehen.'
-git commit -a -m '' --allow-empty-message
+git commit -a --allow-empty-message -m ''
 
 echo #Leerzeile
 echo 'Und jetzt der PUSH'
 git push origin master
 
 #Zehn Sekunden Pause, um alles nochmal zu kontrollieren (LESEN!)
-sleep 100
+sleep 10
