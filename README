@@ -1,4 +1,4 @@
 28.03.2011: Git läuft jetzt auf beiden Rechnern, Shellscript zum ausführen von MERGE und REBASE "vor" dem Start von Kile ist in Arbeit.
 
 31.03.2011: Shellscript funktioniert und führt jetzt einen COMMIT/PUSH "ohne" Kommentar aus.
-Aktuelle Informationen gibt es somit von Zeit zu Zeit hier.
+           Aktuelle Informationen gibt es somit von Zeit zu Zeit hier.
