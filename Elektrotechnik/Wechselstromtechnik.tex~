@@ -7,7 +7,7 @@ es gillt \(x\left(t\right) = x\left(t + n \cdot T\right) ; \left(n \in \N^* \rig
 \subsection{Wechselgrößen}
 Allgemein \(x_{\sim} \left(t\right)\); periodisch sich ändernde Größe, deren Gleichanteil bzw. 
 zeitlich linearer Mittelwert gleich Null ist. \\ \vspace{0mm} \\
-Nachweis: \[\int_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \; ; \; \left(n \in \N^* \right) \;
+Nachweis: \[\int\limits_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \; ; \; \left(n \in \N^* \right) \;
 ; \; t1 \; \text{beliebiger Zeitwert}\]
 
 \subsection{Mischgrößen}
@@ -19,20 +19,162 @@ x\left(t\right) &= x_{\sim}\left(t\right) + \overline{x} \\
 &= \text{gleichanteilbehaftete Wechselgröße}
 \end{align*}
 
+\newpage
 \section{Anteile und Formfaktoren}
 
 \begin{multicols}{2}{}
 \subsection{Gleichanteil}
 \[ \overline{x} = \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x \left( t \right) dt \]
-\hfill
 
 \subsection{Gleichrichtwert}
 \[ \left| \overline{x} \right| = \frac{1}{n \cdot T} \cdot 
 \int_{t_{1}}^{t_{1} + n \cdot T} \left| x \right| \left( t \right) dt\]
+
+\subsection{Effektivwert}
+\[ x_{eff} = X = \sqrt{ \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x^2 \left( t \right) dt} \]
+
+\subsection{Formfaktor}
+\[F = \frac{x_{eff}}{\left|\overline{x}\right|} \\ 
+x_{eff} = \left|\overline{x}\right| \cdot F \]
+
+\subsection{crest - Faktor}
+\[ \sigma = \frac{\hat{x}}{x_{eff}} \]
 \hfill
 \end{multicols}
 
-\(n \in \N^* \;; \; t1 \; \text{beliebiger Zeitwert} \;; \; 
+\(n \in \N^* \rightarrow
+t1 \; \text{beliebiger Zeitwert} \rightarrow
 \left[|\overline{x} \right|] = \left[ x\left( t \right) \right] \)
+
+
+\section{Leistung und Leistungsfaktoren}
+\begin{multicols}{2}{}
+ 
+\subsection{Wirkleistung}
+\begin{align*}
+P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt \\
+  &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} u \left( t \right) \cdot i \left( t \right) dt
+\end{align*}
+
+\subsection{Mittlere Leistung}
+\[\bar{p} \left(t\right) = P = \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt\]
+
+\subsection{Scheinleistung}
+\[ S = u_{eff} \cdot i_{eff} = U \cdot I\]
+\end{multicols}
+
+\subsection{Leistungsfaktor}
+\begin{align*}
+\lambda &= \frac{P}{S} \\
+	&= \frac{\frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} p\left( t \right) dt}
+	   { u_{eff} \cdot i_{eff}} \\
+	&=  \frac{ \int_{t_{1}}^{t_{1} + n \cdot T} u \left( t \right) \cdot i \left( t \right) dt}
+	   {\sqrt{ \int_{t_{1}}^{t_{1} + n \cdot T} u^2 \left( t \right) dt} \cdot
+	    \sqrt{ \int_{t_{1}}^{t_{1} + n \cdot T} i^2 \left( t \right) dt}}
+\end{align*}
+
+\newpage
+\section{Sinusförmige Größen}
+\begin{multicols}{2}{}
+ \subsection{Sinusschwingung}
+  \begin{align*}
+   x\left(t\right) &= \hat{x} \sin\left( 2 \pi f + \varphi_x\right) \\
+   x\left( \omega t \right) &= \hat{x} \sin\left( \omega t + \varphi_x\right)
+  \end{align*}
+  \begin{itemize}
+   \item \(\hat{x} :\) Amplitude
+   \item \(\varphi_x :\) Nullphasenwinkel
+   \item \(\varphi_{x}>0 :\) Linksverschiebung der Kurve
+  \end{itemize}
+
+ \subsection{Kosinusschwingung}
+  \begin{align*}
+   x\left(t\right) &= \hat{x} \cos\left( 2 \pi f + \varphi_x\right) \\
+   x\left( \omega t \right) &= \hat{x} \cos\left( \omega t + \varphi_x\right)
+  \end{align*}
+  \begin{itemize}
+   \item \(\hat{x} :\) Amplitude
+   \item \(\varphi_x :\) Nullphasenwinkel
+   \item \(\varphi_{x}>0 :\) Rechtssverschiebung der Kurve
+  \end{itemize}
+\end{multicols}
+
+\subsection{Nullphasenzeit}
+\[ t_{x} = -\frac{\varphi_x}{\omega} = -\varphi_x \cdot \frac{T}{2 \pi} \]
+
+\subsection{Addition zweier Sinusgrößen gleicher Frequenz}
+\[\text{mit: } a = \hat{a} \sin \left( \omega t + \alpha \right) \wedge b = \hat{b} \sin \left( \omega t + \beta \right)\]
+
+Resultierende Funktion:
+\begin{align*}
+ x &= a + b \\
+   &= \hat{a} \sin \left( \omega t  + \alpha \right) + \hat{b} \sin \left( \omega t  + \beta \right) \\
+   &= \hat{x} \sin \left( \omega t + \varphi \right)
+\end{align*}
+
+\begin{itemize}
+ \item \(\hat{x} :\) resultierende Amplitude
+ \item \(\varphi :\) Nullphasenwinkel
+\end{itemize}
+
+\begin{align*}
+ \text{Wobei: } \hat{x} &= + \sqrt{\hat{a}^2 + \hat{b}^2 +2 \hat{a}\hat{b} \cos\left( \alpha - \beta \right)} \\
+		\varphi &= \arctan \frac{\hat{a} \sin \alpha + \hat{b} \sin \beta}{\hat{a} \cos \alpha + \hat{b} \cos \beta } 
+\end{align*}
+
+\subsubsection*{Vierquadrantenarkustangens}
+\newcommand{\mc}[3]{\multicolumn{#1}{#2}{#3}}
+\begin{center}
+\begin{tabular}{|c|c|}
+\mc{2}{c}{\( \varphi = \arctan\frac{ZP}{NP}\)}\\\hline
+\text{2. Quadrant} \(ZP > 0 , NP < 0\) & \text{1. Quadrant} \(ZP > 0 , NP > 0\)\\\hline
+\text{3. Quadrant} \(ZP < 0 , NP < 0\) & \text{4. Quadrant} \(ZP < 0 , NP > 0\)\\\hline
+\end{tabular}
+\end{center}
+
+\subsubsection*{Der rotierende Zeiger als rotierender Vektor}
+\begin{align*}
+ \text{Allgemein gillt: } \sin \left( \omega t + \varphi_{x} \right) &= \frac{GK}{HT} = \frac{b}{\hat{x}} \\
+			  \cos \left( \omega t + \varphi_{x} \right) &= \frac{AK}{HT} = \frac{a}{\hat{x}} \\
+			  b &= \hat{x}\sin\left(\omega t + \varphi_{x}\right) \\
+			  a &= \hat{x}\cos\left(\omega t + \varphi_{x}\right) \\
+\text{Als Einheitsvektor: } \vec{x} &= a \cdot \vec{i} + b \cdot \vec{j}
+\end{align*}
+
+\subsubsection*{Zeigerspitzenendpunkt}
+\begin{align*}
+\underline{x} &= \text{ Zeigerspitzenendpunkt}\\
+\underline{x} &= \underbrace{\hat{x}\cos\left(\omega t + \varphi_{x}\right)}_{Re \rightarrow Abszisse} + j \cdot
+\underbrace{\hat{x}\sin\left(\omega t + \varphi_{x}\right)}_{Im \rightarrow Ordinate} \\
+\underline{x} &= \hat{x} \cdot e^{j \left( \omega t + \varphi_x \right)} \\
+\underline{x}_{eff} &= \text{ rotierender Effektivwertzeiger} \\
+\underline{x}_{eff} &= \hat{x}_{eff} \cdot e^{j \left( \omega t + \varphi_x \right)} 
+\end{align*}
+
+\subsection{Wechsel zwischen Sinus und Kosinus}
+\begin{align*}
+\hat{x}\left(t\right)\cos\left(\omega t + \varphi_x\right) \equiv \hat{x}\left(t\right)\sin\left(\omega t + \varphi_x + \frac{\pi}{2}\right) \\
+\hat{x}\left(t\right)\sin\left(\omega t + \varphi_x\right) \equiv \hat{x}\left(t\right)\cos\left(\omega t + \varphi_x - \frac{\pi}{2}\right)
+\end{align*}
+
+\newpage
+\begin{sideways}
+\newcommand{\mcb}[3]{\multicolumn{#1}{#2}{#3}}
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\definecolor{tcB}{rgb}{0.764706,0.764706,0.764706}
+\begin{center}
+\begin{tabular}{|l|l|l|}\hline
+% use packages: color,colortbl
+Zeitbereich &  & komplexer Zeitbereich\\\hline
+1 & \mcb{1}{>{\columncolor{tcA}}l}{2} & 3\\\hline
+4 & \mcb{1}{>{\columncolor{tcB}}l}{5} & 6\\\hline
+7 & 8 & 9\\\hline
+10 & \mcb{1}{>{\columncolor{tcA}}l}{11} & 12\\\hline
+13 & \mcb{1}{>{\columncolor{tcB}}l}{14} & 15\\\hline
+\end{tabular}
+\end{center}
+
+\end{sideways}
+
 
 

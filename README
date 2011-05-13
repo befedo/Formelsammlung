@@ -1,1 +1,8 @@
-28.03.2011: Git läuft jetzt auf beiden Rechnern, Shellscript zum ausführen von MERGE und REBASE "vor" dem Start von Kile ist in Arbeit.
+28.03.2011:	Git läuft jetzt auf beiden Rechnern, Shellscript zum ausführen von MERGE und REBASE "vor" dem Start von Kile ist in Arbeit.
+
+13.05.2011:	Na ja, mit dem pflegen der README... das müssen wir noch üben.
+		Zum aktuellen Stand:
+		Das SHELL Script läuft wunderbar. Es schaut zuerst im Repo ob alles aktuell ist, wenn nicht lädt es die Änderungen runter 			und startet anschließend KILE. Nach dem Bearbeiten wird alles gepushed.
+
+		Die Formelsammlung wird aktuell im Bereich Wechselstromtechnik aktualisiert, anschließend sind Physik und Bauelemente 			geplant. Wenn dann noch Zeit und Lußt ist wird Lineare Algebra angegangen.
+

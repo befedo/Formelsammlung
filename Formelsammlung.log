@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.13)  31 MAR 2011 20:11
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.13)  13 MAY 2011 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,8 +512,8 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texmf/tex/latex/tools/tabularx.sty
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+(/usr/share/texmf/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
 
 (/usr/share/texmf/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
@@ -523,13 +523,18 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip47
 \backup@length=\skip48
 )
+\everycr=\toks25
+\minrowclearance=\skip49
+)
+(/usr/share/texmf/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@col@width=\dimen128
 \TX@old@table=\dimen129
 \TX@old@col=\dimen130
 \TX@target=\dimen131
 \TX@delta=\dimen132
 \TX@cols=\count112
-\TX@ftn=\toks25
+\TX@ftn=\toks26
 )
 (/usr/share/texmf/tex/latex/tools/multicol.sty
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
@@ -545,8 +550,8 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \page@free=\dimen135
 \premulticols=\dimen136
 \postmulticols=\dimen137
-\multicolsep=\skip49
-\multicolbaselineskip=\skip50
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
 \partial@page=\box29
 \last@line=\box30
 \mult@rightbox=\box31
@@ -578,25 +583,37 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
 )
-Package hyperref Info: Option `linktocpage' set `true' on input line 30.
-Package hyperref Info: Option `colorlinks' set `false' on input line 30.
+(/usr/share/texmf/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count121
+\rotFPtop=\skip52
+\rotFPbot=\skip53
+\rot@float@box=\box54
+\rot@mess@toks=\toks27
+)
+Package hyperref Info: Option `linktocpage' set `true' on input line 32.
+Package hyperref Info: Option `colorlinks' set `false' on input line 32.
  (./Formelsammlung.aux)
 \openout1 = `Formelsammlung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -634,16 +651,16 @@ LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
+\scratchcounter=\count122
 \scratchdimen=\dimen141
-\scratchbox=\box54
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count124
+\scratchbox=\box55
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count125
 \MPscratchDim=\dimen142
-\MPnumerator=\count125
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count126
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -659,8 +676,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 63.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 65.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -671,27 +688,27 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 (/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
-\c@section@level=\count126
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 (./Formelsammlung.out) (./Formelsammlung.out)
 \@outlinefile=\write3
 \openout3 = `Formelsammlung.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 65.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 67.
 
 (/usr/share/texmf/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -702,82 +719,91 @@ X warning (ext4): destination with the same identifier (name{page.1}) has been
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 ...5}Elastischer Stoss}{16}{subsection.3.2.5}
+l.60 ...5}Elastischer Stoss}{17}{subsection.3.2.5}
                                                    [1
 
-])
+] [2])
 \tf@toc=\write4
 \openout4 = `Formelsammlung.toc'.
 
- [2] [3
+ [3] [4
 
 ]
 Kapitel 1.
-(./Mathe/Mathe.tex [4
+(./Mathe/Mathe.tex [5
 
-] [5] [6] [7] [8]) [9]
+] [6] [7] [8] [9]) [10]
 Kapitel 2.
-(./Mathe/Lineare-Algebra.tex) [10
+(./Mathe/Lineare-Algebra.tex) [11
 
-] [11
+] [12
 
 ]
 Kapitel 3.
-(./Physik/Algemein.tex [12
+(./Physik/Algemein.tex [13
 
-] [13] [14] [15] [16] [17] [18] [19]
-<./Physik/Bilder/Spannung.png, id=435, 501.875pt x 501.875pt>
+] [14] [15] [16] [17] [18] [19] [20]
+<./Physik/Bilder/Spannung.png, id=509, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Spannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Spannung.png>
-<./Physik/Bilder/Tangentialspannung.png, id=437, 501.875pt x 501.875pt>
+<./Physik/Bilder/Tangentialspannung.png, id=511, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Tangentialspannung.png>
-<./Physik/Bilder/Scherbeanspruchung.png, id=438, 501.875pt x 501.875pt>
+<./Physik/Bilder/Scherbeanspruchung.png, id=512, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
 
-<use ./Physik/Bilder/Scherbeanspruchung.png> [20 <./Physik/Bilder/Spannung.png>
+<use ./Physik/Bilder/Scherbeanspruchung.png> [21 <./Physik/Bilder/Spannung.png>
  <./Physik/Bilder/Tangentialspannung.png> <./Physik/Bilder/Scherbeanspruchung.p
-ng>] [21] [22]) [23]
+ng>] [22] [23]) [24]
 Kapitel 4.
-(./Physik/Fluiddynamik.tex [24
+(./Physik/Fluiddynamik.tex [25
 
-]) [25]
+]) [26]
 Kapitel 5.
-(./Physik/Gravitation.tex) [26
+(./Physik/Gravitation.tex) [27
 
 ]
 Kapitel 6.
-(./Physik/Elektrostatik.tex [27
+(./Physik/Elektrostatik.tex [28
 
-]) [28] [29
+]) [29] [30
 
 ]
 Kapitel 7.
-(./Elektrotechnik/Elektrotechnik.tex [30
+(./Elektrotechnik/Elektrotechnik.tex [31
 
-]) [31]
+]) [32]
 Kapitel 8.
-(./Elektrotechnik/Wechselstromtechnik.tex [32
+(./Elektrotechnik/Wechselstromtechnik.tex [33
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
- [33]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
- (./Formelsammlung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+] [34]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+ [35] [36])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+
+(./Formelsammlung.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package rerunfilecheck Info: File `Formelsammlung.out' has not changed.
-(rerunfilecheck)             Checksum: E51D7A183D94EF78A38496ABD4325449;3797.
+(rerunfilecheck)             Checksum: 98EF5920DD92F86654F7C39143C5E1EB;4822.
  ) 
 Here is how much of TeX's memory you used:
- 6903 strings out of 493747
- 96106 string characters out of 3151242
- 195730 words of memory out of 3500000
- 9824 multiletter control sequences out of 15000+200000
+ 7122 strings out of 493747
+ 98922 string characters out of 3151242
+ 198712 words of memory out of 3500000
+ 10008 multiletter control sequences out of 15000+200000
  14057 words of font info for 56 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 31i,15n,28p,451b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,16n,28p,451b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public
 /amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10
@@ -790,10 +816,10 @@ amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on Formelsammlung.pdf (34 pages, 344990 bytes).
+Output written on Formelsammlung.pdf (38 pages, 356424 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 586 compressed objects within 6 object streams
- 197 named destinations out of 1000 (max. 500000)
- 464 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 681 compressed objects within 7 object streams
+ 218 named destinations out of 1000 (max. 500000)
+ 576 words of extra memory for PDF output out of 10000 (max. 10000000)
 

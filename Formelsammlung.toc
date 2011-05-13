@@ -1,162 +1,176 @@
-\contentsline {part}{I\hspace {1em}Mathematik}{3}{part.1}
-\contentsline {chapter}{\numberline {1}Algebra}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}Rechenregeln fuer Potenzen}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Zusammenhang zwischen Wurzeln und Potenzen}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Potenzen und Logarithmen}{5}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Der natuerliche Logarithmus}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Rechnen mit Logarithmen}{5}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Der Binomische Lehrsatz}{5}{section.1.4}
-\contentsline {subsubsection}{Einige Eigenschaften der Binominalkoeffizienten}{6}{section*.2}
-\contentsline {section}{\numberline {1.5}Sinus, Kosinus, Tangens und Kotangens}{6}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Beziehungen zwischen Sinus, Kosinus, Tangens und Kotangens}{6}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Additionstheoreme}{6}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Funktionen des doppelten und halben Winkels}{7}{subsection.1.5.3}
-\contentsline {subsection}{\numberline {1.5.4}Umformungen}{7}{subsection.1.5.4}
-\contentsline {subsubsection}{Summe oder Differenz in ein Produkt}{7}{section*.3}
-\contentsline {subsubsection}{Produkt in eine Summe oder Differenz}{7}{section*.4}
-\contentsline {section}{\numberline {1.6}Komplexe Zahlen}{8}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Umrechnungen zwischen den Darstellungsformen}{8}{subsection.1.6.1}
-\contentsline {subsubsection}{Polarform \relax $\rightarrow \relax \GenericError { }{LaTeX Error: Bad math environment delimiter}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} Kartesiche Form}{8}{section*.5}
-\contentsline {subsubsection}{Kartesische Form \relax $\rightarrow \relax \GenericError { }{LaTeX Error: Bad math environment delimiter}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} Polarform}{8}{section*.6}
-\contentsline {subsection}{\numberline {1.6.2}Rechnen mit Komplexen Zahlen}{9}{subsection.1.6.2}
-\contentsline {subsubsection}{Multiplikation}{9}{section*.7}
-\contentsline {subsubsection}{Division}{9}{section*.8}
-\contentsline {chapter}{\numberline {2}Lineare Algebra}{10}{chapter.2}
-\contentsline {part}{II\hspace {1em}Physik}{11}{part.2}
-\contentsline {chapter}{\numberline {3}Kinematik}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Kinematik}{12}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Analogietabelle}{12}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Translation}{12}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Rotation}{12}{subsection.3.1.3}
-\contentsline {subsubsection}{Bahngroessen}{13}{section*.9}
-\contentsline {subsubsection}{Winkelgroessen}{13}{section*.10}
-\contentsline {subsubsection}{Kreisfrequenz}{13}{section*.11}
-\contentsline {subsubsection}{Radialbeschleunigung}{13}{section*.12}
-\contentsline {subsubsection}{Umdrehungen}{13}{section*.13}
-\contentsline {section}{\numberline {3.2}Dynamik}{14}{section.3.2}
-\contentsline {subsubsection}{Geradlinig (Translation)}{14}{section*.14}
-\contentsline {subsubsection}{Impuls}{14}{section*.15}
-\contentsline {subsubsection}{Kraftstoss}{14}{section*.16}
-\contentsline {subsubsection}{Arbeit}{14}{section*.17}
-\contentsline {subsubsection}{Hubarbeit}{14}{section*.18}
-\contentsline {subsubsection}{Kinetische Energie}{14}{section*.19}
-\contentsline {subsubsection}{Leistung}{14}{section*.20}
-\contentsline {subsection}{\numberline {3.2.1}Drehbewegung(Rotation)}{14}{subsection.3.2.1}
-\contentsline {subsubsection}{Massentraegheitsmoment}{14}{section*.21}
-\contentsline {subsubsection}{Drehmoment}{14}{section*.22}
-\contentsline {subsubsection}{Drehimpuls}{14}{section*.23}
-\contentsline {subsubsection}{Kinetische Energie}{14}{section*.24}
-\contentsline {subsubsection}{Arbeit}{15}{section*.25}
-\contentsline {subsubsection}{Leistung}{15}{section*.26}
-\contentsline {subsubsection}{Zentripedalkraft}{15}{section*.27}
-\contentsline {subsection}{\numberline {3.2.2}Geneigte Ebene}{15}{subsection.3.2.2}
-\contentsline {subsubsection}{Kr\IeC {\"a}fte}{15}{section*.28}
-\contentsline {subsection}{\numberline {3.2.3}Reibung}{15}{subsection.3.2.3}
-\contentsline {subsubsection}{Reibungskraft}{15}{section*.29}
-\contentsline {subsubsection}{Rollreibung}{15}{section*.30}
-\contentsline {subsection}{\numberline {3.2.4}Feder}{15}{subsection.3.2.4}
-\contentsline {subsubsection}{HOOKsches Gesetz}{15}{section*.31}
-\contentsline {subsubsection}{Federspannarbeit}{15}{section*.32}
-\contentsline {subsection}{\numberline {3.2.5}Elastischer Stoss}{16}{subsection.3.2.5}
-\contentsline {subsubsection}{Impulserhaltung}{16}{section*.33}
-\contentsline {subsubsection}{Zentraler, Gerader, Elastischer Stoss}{16}{section*.34}
-\contentsline {subsection}{\numberline {3.2.6}Unelastischer Stoss}{16}{subsection.3.2.6}
-\contentsline {subsubsection}{Energieerhaltung}{16}{section*.35}
-\contentsline {subsubsection}{Impulserhaltung}{16}{section*.36}
-\contentsline {subsubsection}{Total unelastischer Stoss}{17}{section*.37}
-\contentsline {subsubsection}{Drehimpulserhaltungssatz}{17}{section*.38}
-\contentsline {subsubsection}{Kopplung zweier Rotationsk\IeC {\"o}rper}{17}{section*.39}
-\contentsline {subsection}{\numberline {3.2.7}Rotierendes Bezugssystem}{17}{subsection.3.2.7}
-\contentsline {subsubsection}{Zentrifugalkraft}{17}{section*.40}
-\contentsline {subsubsection}{Corioliskraft}{17}{section*.41}
-\contentsline {section}{\numberline {3.3}Schwerpunkt}{18}{section.3.3}
-\contentsline {subsubsection}{Schwerpunkt mehrerer \\Punktmassen}{18}{section*.42}
-\contentsline {subsubsection}{Allgemein}{18}{section*.43}
-\contentsline {subsubsection}{Schwerpunkt in \\Zylinderkoordinaten}{18}{section*.44}
-\contentsline {subsubsection}{Schwerpunkt in \\karthesischen Koordinaten}{18}{section*.45}
-\contentsline {section}{\numberline {3.4}Tr\IeC {\"a}gheitsmoment}{19}{section.3.4}
-\contentsline {subsubsection}{STEINER'scher Satz}{19}{section*.46}
-\contentsline {subsubsection}{Traegheitsmoment Kugel}{19}{section*.47}
-\contentsline {subsubsection}{Traegheitsmoment Zylinder}{19}{section*.48}
-\contentsline {subsubsection}{Traegheitmoment Kreisring \\(Torus)}{19}{section*.49}
-\contentsline {subsubsection}{Traegheitsmoment Stab}{19}{section*.50}
-\contentsline {section}{\numberline {3.5}Elastizitaetslehre}{20}{section.3.5}
-\contentsline {subsubsection}{Spannung}{20}{section*.51}
-\contentsline {subsubsection}{Schubmodul}{20}{section*.52}
-\contentsline {subsubsection}{Drillung}{20}{section*.53}
-\contentsline {subsubsection}{Flaechenmoment}{20}{section*.54}
-\contentsline {subsubsection}{Verformungsarbeit}{20}{section*.55}
-\contentsline {section}{\numberline {3.6}Schwingungen}{21}{section.3.6}
-\contentsline {subsubsection}{Harmonische Schwingungen}{21}{section*.56}
-\contentsline {subsection}{\numberline {3.6.1}Unged\IeC {\"a}mpfte Schwingungen}{21}{subsection.3.6.1}
-\contentsline {subsubsection}{Mathemetisches Pendel}{21}{section*.57}
-\contentsline {subsubsection}{Physikalisches Pendel}{21}{section*.58}
-\contentsline {subsubsection}{Torsionsschwingung}{22}{section*.59}
-\contentsline {subsubsection}{Fl\IeC {\"u}ssigkeitspendel}{22}{section*.60}
-\contentsline {subsubsection}{Elektrischer Schwingkreis}{22}{section*.61}
-\contentsline {subsection}{\numberline {3.6.2}Gedaempfte Schwingungen}{22}{subsection.3.6.2}
-\contentsline {subsubsection}{Schwingungsgleichung}{22}{section*.62}
-\contentsline {subsubsection}{COULOMB Reibung}{22}{section*.63}
-\contentsline {subsubsection}{Gleitreibung}{23}{section*.64}
-\contentsline {subsubsection}{Viskosereibung}{23}{section*.65}
-\contentsline {chapter}{\numberline {4}Fluiddynamik}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fluidmechanik}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Ohne Reibung}{24}{subsection.4.1.1}
-\contentsline {subsubsection}{Statischer Druck}{24}{section*.66}
-\contentsline {subsubsection}{Dynamischer Druck}{24}{section*.67}
-\contentsline {subsubsection}{Schweredruck}{24}{section*.68}
-\contentsline {subsubsection}{Volumenstrom}{24}{section*.69}
-\contentsline {subsubsection}{Massenstrom}{24}{section*.70}
-\contentsline {subsubsection}{Auftrieb}{24}{section*.71}
-\contentsline {subsubsection}{Kontinuit\IeC {\"a}tsgleichung}{24}{section*.72}
-\contentsline {subsubsection}{Kompressibilit\IeC {\"a}t}{25}{section*.73}
-\contentsline {subsubsection}{Volumenausdehnungskoeffezient}{25}{section*.74}
-\contentsline {subsubsection}{Barometrische H\IeC {\"o}henformel}{25}{section*.75}
-\contentsline {subsubsection}{Bernoulli Gleichung}{25}{section*.76}
-\contentsline {subsection}{\numberline {4.1.2}Laminare Reibung}{25}{subsection.4.1.2}
-\contentsline {subsubsection}{Newtonsches Reibungsgesetz}{25}{section*.77}
-\contentsline {subsubsection}{Laminare Str\IeC {\"o}mung (Rohr)}{25}{section*.78}
-\contentsline {subsubsection}{Umstr\IeC {\"o}mung (Kugel)}{25}{section*.79}
-\contentsline {subsubsection}{Bernoulligleichung mit Reibung}{25}{section*.80}
-\contentsline {subsubsection}{Reynoldszahl}{25}{section*.81}
-\contentsline {chapter}{\numberline {5}Gravitation}{26}{chapter.5}
-\contentsline {subsubsection}{Gravitationskraft}{26}{section*.82}
-\contentsline {subsubsection}{Gravitationspotential}{26}{section*.83}
-\contentsline {subsubsection}{Arbeit}{26}{section*.84}
-\contentsline {subsubsection}{Planetenbahnen}{26}{section*.85}
-\contentsline {chapter}{\numberline {6}Elektrostatik}{27}{chapter.6}
-\contentsline {subsubsection}{Ladung}{27}{section*.86}
-\contentsline {subsubsection}{Punktladungen}{27}{section*.87}
-\contentsline {subsubsection}{COULOMB Gesetz}{27}{section*.88}
-\contentsline {subsubsection}{Spannung}{27}{section*.89}
-\contentsline {subsubsection}{El- / Verschiebungsflu\IeC {\ss }}{28}{section*.90}
-\contentsline {subsubsection}{Flu\IeC {\ss }dichte}{28}{section*.91}
-\contentsline {subsubsection}{Kapazit\IeC {\"a}t}{28}{section*.92}
-\contentsline {subsubsection}{OHMsches Gesetz}{28}{section*.93}
-\contentsline {subsubsection}{Arbeit im elektrischem Feld}{28}{section*.94}
-\contentsline {part}{III\hspace {1em}Elektrotechnik}{29}{part.3}
-\contentsline {chapter}{\numberline {7}Gleichstromtechnik}{30}{chapter.7}
-\contentsline {section}{\numberline {7.1}Grundgr\IeC {\"o}\IeC {\ss }en}{30}{section.7.1}
-\contentsline {subsubsection}{Elementarladung}{30}{section*.95}
-\contentsline {subsubsection}{Strom}{30}{section*.96}
-\contentsline {subsubsection}{Stromdichte}{30}{section*.97}
-\contentsline {subsubsection}{Potential}{30}{section*.98}
-\contentsline {subsubsection}{Spannung}{30}{section*.99}
-\contentsline {subsubsection}{Widerstand und Leitwert}{30}{section*.100}
-\contentsline {subsubsection}{Temperaturabh\IeC {\"a}ngigkeit}{31}{section*.101}
-\contentsline {subsubsection}{Leistung}{31}{section*.102}
-\contentsline {subsubsection}{Leistung im Mittel}{31}{section*.103}
-\contentsline {section}{\numberline {7.2}Lineare Quellen}{31}{section.7.2}
-\contentsline {subsubsection}{Spannungsquelle}{31}{section*.104}
-\contentsline {subsubsection}{Stromquelle}{31}{section*.105}
-\contentsline {section}{\numberline {7.3}Kirchhoffsche Gesetze}{31}{section.7.3}
-\contentsline {subsubsection}{Knotenpunktsatz}{31}{section*.106}
-\contentsline {subsubsection}{Maschensatz}{31}{section*.107}
-\contentsline {chapter}{\numberline {8}Wechselstromtechnik}{32}{chapter.8}
-\contentsline {section}{\numberline {8.1}Definitionen}{32}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}periodische zeitabh\IeC {\"a}ngige Gr\IeC {\"o}\IeC {\ss }en}{32}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Wechselgr\IeC {\"o}\IeC {\ss }en}{32}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Mischgr\IeC {\"o}\IeC {\ss }en}{32}{subsection.8.1.3}
-\contentsline {section}{\numberline {8.2}Anteile und Formfaktoren}{33}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Gleichanteil}{33}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Gleichrichtwert}{33}{subsection.8.2.2}
+\contentsline {part}{I\hspace {1em}Mathematik}{4}{part.1}
+\contentsline {chapter}{\numberline {1}Algebra}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Rechenregeln fuer Potenzen}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Zusammenhang zwischen Wurzeln und Potenzen}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Potenzen und Logarithmen}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Der natuerliche Logarithmus}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Rechnen mit Logarithmen}{6}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Der Binomische Lehrsatz}{6}{section.1.4}
+\contentsline {subsubsection}{Einige Eigenschaften der Binominalkoeffizienten}{7}{section*.2}
+\contentsline {section}{\numberline {1.5}Sinus, Kosinus, Tangens und Kotangens}{7}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Beziehungen zwischen Sinus, Kosinus, Tangens und Kotangens}{7}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Additionstheoreme}{7}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Funktionen des doppelten und halben Winkels}{8}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Umformungen}{8}{subsection.1.5.4}
+\contentsline {subsubsection}{Summe oder Differenz in ein Produkt}{8}{section*.3}
+\contentsline {subsubsection}{Produkt in eine Summe oder Differenz}{8}{section*.4}
+\contentsline {section}{\numberline {1.6}Komplexe Zahlen}{9}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Umrechnungen zwischen den Darstellungsformen}{9}{subsection.1.6.1}
+\contentsline {subsubsection}{Polarform \relax $\rightarrow \relax \GenericError { }{LaTeX Error: Bad math environment delimiter}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} Kartesiche Form}{9}{section*.5}
+\contentsline {subsubsection}{Kartesische Form \relax $\rightarrow \relax \GenericError { }{LaTeX Error: Bad math environment delimiter}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} Polarform}{9}{section*.6}
+\contentsline {subsection}{\numberline {1.6.2}Rechnen mit Komplexen Zahlen}{10}{subsection.1.6.2}
+\contentsline {subsubsection}{Multiplikation}{10}{section*.7}
+\contentsline {subsubsection}{Division}{10}{section*.8}
+\contentsline {chapter}{\numberline {2}Lineare Algebra}{11}{chapter.2}
+\contentsline {part}{II\hspace {1em}Physik}{12}{part.2}
+\contentsline {chapter}{\numberline {3}Kinematik}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Kinematik}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Analogietabelle}{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Translation}{13}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Rotation}{13}{subsection.3.1.3}
+\contentsline {subsubsection}{Bahngroessen}{14}{section*.9}
+\contentsline {subsubsection}{Winkelgroessen}{14}{section*.10}
+\contentsline {subsubsection}{Kreisfrequenz}{14}{section*.11}
+\contentsline {subsubsection}{Radialbeschleunigung}{14}{section*.12}
+\contentsline {subsubsection}{Umdrehungen}{14}{section*.13}
+\contentsline {section}{\numberline {3.2}Dynamik}{15}{section.3.2}
+\contentsline {subsubsection}{Geradlinig (Translation)}{15}{section*.14}
+\contentsline {subsubsection}{Impuls}{15}{section*.15}
+\contentsline {subsubsection}{Kraftstoss}{15}{section*.16}
+\contentsline {subsubsection}{Arbeit}{15}{section*.17}
+\contentsline {subsubsection}{Hubarbeit}{15}{section*.18}
+\contentsline {subsubsection}{Kinetische Energie}{15}{section*.19}
+\contentsline {subsubsection}{Leistung}{15}{section*.20}
+\contentsline {subsection}{\numberline {3.2.1}Drehbewegung(Rotation)}{15}{subsection.3.2.1}
+\contentsline {subsubsection}{Massentraegheitsmoment}{15}{section*.21}
+\contentsline {subsubsection}{Drehmoment}{15}{section*.22}
+\contentsline {subsubsection}{Drehimpuls}{15}{section*.23}
+\contentsline {subsubsection}{Kinetische Energie}{15}{section*.24}
+\contentsline {subsubsection}{Arbeit}{16}{section*.25}
+\contentsline {subsubsection}{Leistung}{16}{section*.26}
+\contentsline {subsubsection}{Zentripedalkraft}{16}{section*.27}
+\contentsline {subsection}{\numberline {3.2.2}Geneigte Ebene}{16}{subsection.3.2.2}
+\contentsline {subsubsection}{Kr\IeC {\"a}fte}{16}{section*.28}
+\contentsline {subsection}{\numberline {3.2.3}Reibung}{16}{subsection.3.2.3}
+\contentsline {subsubsection}{Reibungskraft}{16}{section*.29}
+\contentsline {subsubsection}{Rollreibung}{16}{section*.30}
+\contentsline {subsection}{\numberline {3.2.4}Feder}{16}{subsection.3.2.4}
+\contentsline {subsubsection}{HOOKsches Gesetz}{16}{section*.31}
+\contentsline {subsubsection}{Federspannarbeit}{16}{section*.32}
+\contentsline {subsection}{\numberline {3.2.5}Elastischer Stoss}{17}{subsection.3.2.5}
+\contentsline {subsubsection}{Impulserhaltung}{17}{section*.33}
+\contentsline {subsubsection}{Zentraler, Gerader, Elastischer Stoss}{17}{section*.34}
+\contentsline {subsection}{\numberline {3.2.6}Unelastischer Stoss}{17}{subsection.3.2.6}
+\contentsline {subsubsection}{Energieerhaltung}{17}{section*.35}
+\contentsline {subsubsection}{Impulserhaltung}{17}{section*.36}
+\contentsline {subsubsection}{Total unelastischer Stoss}{18}{section*.37}
+\contentsline {subsubsection}{Drehimpulserhaltungssatz}{18}{section*.38}
+\contentsline {subsubsection}{Kopplung zweier Rotationsk\IeC {\"o}rper}{18}{section*.39}
+\contentsline {subsection}{\numberline {3.2.7}Rotierendes Bezugssystem}{18}{subsection.3.2.7}
+\contentsline {subsubsection}{Zentrifugalkraft}{18}{section*.40}
+\contentsline {subsubsection}{Corioliskraft}{18}{section*.41}
+\contentsline {section}{\numberline {3.3}Schwerpunkt}{19}{section.3.3}
+\contentsline {subsubsection}{Schwerpunkt mehrerer \\Punktmassen}{19}{section*.42}
+\contentsline {subsubsection}{Allgemein}{19}{section*.43}
+\contentsline {subsubsection}{Schwerpunkt in \\Zylinderkoordinaten}{19}{section*.44}
+\contentsline {subsubsection}{Schwerpunkt in \\karthesischen Koordinaten}{19}{section*.45}
+\contentsline {section}{\numberline {3.4}Tr\IeC {\"a}gheitsmoment}{20}{section.3.4}
+\contentsline {subsubsection}{STEINER'scher Satz}{20}{section*.46}
+\contentsline {subsubsection}{Traegheitsmoment Kugel}{20}{section*.47}
+\contentsline {subsubsection}{Traegheitsmoment Zylinder}{20}{section*.48}
+\contentsline {subsubsection}{Traegheitmoment Kreisring \\(Torus)}{20}{section*.49}
+\contentsline {subsubsection}{Traegheitsmoment Stab}{20}{section*.50}
+\contentsline {section}{\numberline {3.5}Elastizitaetslehre}{21}{section.3.5}
+\contentsline {subsubsection}{Spannung}{21}{section*.51}
+\contentsline {subsubsection}{Schubmodul}{21}{section*.52}
+\contentsline {subsubsection}{Drillung}{21}{section*.53}
+\contentsline {subsubsection}{Flaechenmoment}{21}{section*.54}
+\contentsline {subsubsection}{Verformungsarbeit}{21}{section*.55}
+\contentsline {section}{\numberline {3.6}Schwingungen}{22}{section.3.6}
+\contentsline {subsubsection}{Harmonische Schwingungen}{22}{section*.56}
+\contentsline {subsection}{\numberline {3.6.1}Unged\IeC {\"a}mpfte Schwingungen}{22}{subsection.3.6.1}
+\contentsline {subsubsection}{Mathemetisches Pendel}{22}{section*.57}
+\contentsline {subsubsection}{Physikalisches Pendel}{22}{section*.58}
+\contentsline {subsubsection}{Torsionsschwingung}{23}{section*.59}
+\contentsline {subsubsection}{Fl\IeC {\"u}ssigkeitspendel}{23}{section*.60}
+\contentsline {subsubsection}{Elektrischer Schwingkreis}{23}{section*.61}
+\contentsline {subsection}{\numberline {3.6.2}Gedaempfte Schwingungen}{23}{subsection.3.6.2}
+\contentsline {subsubsection}{Schwingungsgleichung}{23}{section*.62}
+\contentsline {subsubsection}{COULOMB Reibung}{23}{section*.63}
+\contentsline {subsubsection}{Gleitreibung}{24}{section*.64}
+\contentsline {subsubsection}{Viskosereibung}{24}{section*.65}
+\contentsline {chapter}{\numberline {4}Fluiddynamik}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fluidmechanik}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ohne Reibung}{25}{subsection.4.1.1}
+\contentsline {subsubsection}{Statischer Druck}{25}{section*.66}
+\contentsline {subsubsection}{Dynamischer Druck}{25}{section*.67}
+\contentsline {subsubsection}{Schweredruck}{25}{section*.68}
+\contentsline {subsubsection}{Volumenstrom}{25}{section*.69}
+\contentsline {subsubsection}{Massenstrom}{25}{section*.70}
+\contentsline {subsubsection}{Auftrieb}{25}{section*.71}
+\contentsline {subsubsection}{Kontinuit\IeC {\"a}tsgleichung}{25}{section*.72}
+\contentsline {subsubsection}{Kompressibilit\IeC {\"a}t}{26}{section*.73}
+\contentsline {subsubsection}{Volumenausdehnungskoeffezient}{26}{section*.74}
+\contentsline {subsubsection}{Barometrische H\IeC {\"o}henformel}{26}{section*.75}
+\contentsline {subsubsection}{Bernoulli Gleichung}{26}{section*.76}
+\contentsline {subsection}{\numberline {4.1.2}Laminare Reibung}{26}{subsection.4.1.2}
+\contentsline {subsubsection}{Newtonsches Reibungsgesetz}{26}{section*.77}
+\contentsline {subsubsection}{Laminare Str\IeC {\"o}mung (Rohr)}{26}{section*.78}
+\contentsline {subsubsection}{Umstr\IeC {\"o}mung (Kugel)}{26}{section*.79}
+\contentsline {subsubsection}{Bernoulligleichung mit Reibung}{26}{section*.80}
+\contentsline {subsubsection}{Reynoldszahl}{26}{section*.81}
+\contentsline {chapter}{\numberline {5}Gravitation}{27}{chapter.5}
+\contentsline {subsubsection}{Gravitationskraft}{27}{section*.82}
+\contentsline {subsubsection}{Gravitationspotential}{27}{section*.83}
+\contentsline {subsubsection}{Arbeit}{27}{section*.84}
+\contentsline {subsubsection}{Planetenbahnen}{27}{section*.85}
+\contentsline {chapter}{\numberline {6}Elektrostatik}{28}{chapter.6}
+\contentsline {subsubsection}{Ladung}{28}{section*.86}
+\contentsline {subsubsection}{Punktladungen}{28}{section*.87}
+\contentsline {subsubsection}{COULOMB Gesetz}{28}{section*.88}
+\contentsline {subsubsection}{Spannung}{28}{section*.89}
+\contentsline {subsubsection}{El- / Verschiebungsflu\IeC {\ss }}{29}{section*.90}
+\contentsline {subsubsection}{Flu\IeC {\ss }dichte}{29}{section*.91}
+\contentsline {subsubsection}{Kapazit\IeC {\"a}t}{29}{section*.92}
+\contentsline {subsubsection}{OHMsches Gesetz}{29}{section*.93}
+\contentsline {subsubsection}{Arbeit im elektrischem Feld}{29}{section*.94}
+\contentsline {part}{III\hspace {1em}Elektrotechnik}{30}{part.3}
+\contentsline {chapter}{\numberline {7}Gleichstromtechnik}{31}{chapter.7}
+\contentsline {section}{\numberline {7.1}Grundgr\IeC {\"o}\IeC {\ss }en}{31}{section.7.1}
+\contentsline {subsubsection}{Elementarladung}{31}{section*.95}
+\contentsline {subsubsection}{Strom}{31}{section*.96}
+\contentsline {subsubsection}{Stromdichte}{31}{section*.97}
+\contentsline {subsubsection}{Potential}{31}{section*.98}
+\contentsline {subsubsection}{Spannung}{31}{section*.99}
+\contentsline {subsubsection}{Widerstand und Leitwert}{31}{section*.100}
+\contentsline {subsubsection}{Temperaturabh\IeC {\"a}ngigkeit}{32}{section*.101}
+\contentsline {subsubsection}{Leistung}{32}{section*.102}
+\contentsline {subsubsection}{Leistung im Mittel}{32}{section*.103}
+\contentsline {section}{\numberline {7.2}Lineare Quellen}{32}{section.7.2}
+\contentsline {subsubsection}{Spannungsquelle}{32}{section*.104}
+\contentsline {subsubsection}{Stromquelle}{32}{section*.105}
+\contentsline {section}{\numberline {7.3}Kirchhoffsche Gesetze}{32}{section.7.3}
+\contentsline {subsubsection}{Knotenpunktsatz}{32}{section*.106}
+\contentsline {subsubsection}{Maschensatz}{32}{section*.107}
+\contentsline {chapter}{\numberline {8}Wechselstromtechnik}{33}{chapter.8}
+\contentsline {section}{\numberline {8.1}Definitionen}{33}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}periodische zeitabh\IeC {\"a}ngige Gr\IeC {\"o}\IeC {\ss }en}{33}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Wechselgr\IeC {\"o}\IeC {\ss }en}{33}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Mischgr\IeC {\"o}\IeC {\ss }en}{33}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Anteile und Formfaktoren}{34}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Gleichanteil}{34}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Gleichrichtwert}{34}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Effektivwert}{34}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Formfaktor}{34}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}crest - Faktor}{34}{subsection.8.2.5}
+\contentsline {section}{\numberline {8.3}Leistung und Leistungsfaktoren}{34}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Wirkleistung}{34}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Mittlere Leistung}{34}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Scheinleistung}{34}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Leistungsfaktor}{34}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Sinusf\IeC {\"o}rmige Gr\IeC {\"o}\IeC {\ss }en}{35}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Sinusschwingung}{35}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Kosinusschwingung}{35}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Nullphasenzeit}{35}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}Addition zweier Sinusgr\IeC {\"o}\IeC {\ss }en gleicher Frequenz}{35}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.5}Wechsel zwischen Sinus und Kosinus}{36}{subsection.8.4.5}
