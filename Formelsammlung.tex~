@@ -9,13 +9,15 @@
 \usepackage{amssymb}
 \usepackage{amstext}
 \usepackage{amsfonts}
+\usepackage{amsmath}
 \usepackage{mathrsfs}
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{colortbl}
 \usepackage{tabularx}
 \usepackage{multicol}
-\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{pdflscape}
 
 \title{Formelsammlung - ET/TI}
 \author{Marc Ludwig}

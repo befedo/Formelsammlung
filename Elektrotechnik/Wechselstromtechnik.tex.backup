@@ -158,24 +158,28 @@ Resultierende Funktion:
 \end{align*}
 
 \newpage
-\begin{sideways}
-\subsection{Berechnung mit komplexen Zeigern im Komplexen Zeitbereich}
-\newcommand{\mc}[3]{\multicolumn{#1}{#2}{#3}}
+\begin{landscape}
+\newcommand{\mcb}[3]{\multicolumn{#1}{#2}{#3}}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \definecolor{tcB}{rgb}{0.764706,0.764706,0.764706}
 \begin{center}
 \begin{tabular}{|l|l|l|}\hline
 % use packages: color,colortbl
-× & × & ×\\\hline
-× & \mc{1}{>{\columncolor{tcA}}l}{×} & ×\\\hline
-× & \mc{1}{>{\columncolor{tcB}}l}{×} & ×\\\hline
-× & × & ×\\\hline
-× & \mc{1}{>{\columncolor{tcA}}l}{×} & ×\\\hline
-× & \mc{1}{>{\columncolor{tcB}}l}{×} & ×\\\hline
+Zeitbereich &  & komplexer Zeitbereich\\\hline
+\(x = \hat{x}\sin\left(\omega t + \varphi_{x}\right)\) & \mcb{1}{>{\columncolor{tcA}}l}{\( \xrightarrow{Hintransformation 1} \)} & \( \underline{x} = \hat{x}\cos\left(\omega t + \varphi_{x}\right) + j \hat{x}\sin\left(\omega t + \varphi_{x}\right) \)\\\hline
+\(x = \hat{x}\cos\left(\omega t + \varphi_{x}\right)\) & \mcb{1}{>{\columncolor{tcB}}l}{\( \xrightarrow{Hintransformation 2} \)} & \( \underline{x} = \hat{x}e^{j \left( \omega t + \varphi_x \right)} \)\\\hline
+ &  & Berechnungen im komplexen Bereich\\\hline
+\( y = Im\left\{y\right\} = \hat{y} \sin \left( \omega t + \varphi_y \right) \) & \mcb{1}{>{\columncolor{tcA}}l}{\( \xleftarrow{Ruecktransformation 1} \)} & \( \underline{y} = \hat{y} e^{j \left( \omega t + \varphi_y\right)} \)\\\hline
+\( y = Re\left\{y\right\} = \hat{y} \cos \left( \omega t + \varphi_y \right) \) & \mcb{1}{>{\columncolor{tcB}}l}{\( \xleftarrow{Ruecktransformation 2} \)} & \( \underline{y} = \hat{y} \cos \left( \omega t + \varphi_{y}\right) + j \hat{y} \sin \left( \omega t + \varphi_{y} \right) \)\\\hline
 \end{tabular}
 \end{center}
 
-\end{sideways}
+\begin{itemize}
+ \item 
+\end{itemize}
+
+
+\end{landscape}
 
 
 
