@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 28.03.2011:	Git läuft jetzt auf beiden Rechnern, Shellscript zum ausführen von MERGE und REBASE "vor" dem Start von Kile ist in Arbeit.
 
 13.05.2011:	Na ja, mit dem pflegen der README... das müssen wir noch üben.
@@ -6,3 +7,9 @@
 
 		Die Formelsammlung wird aktuell im Bereich Wechselstromtechnik aktualisiert, anschließend sind Physik und Bauelemente 			geplant. Wenn dann noch Zeit und Lußt ist wird Lineare Algebra angegangen.
 
+=======
+28.03.2011: Git läuft jetzt auf beiden Rechnern, Shellscript zum ausführen von MERGE und REBASE "vor" dem Start von Kile ist in Arbeit.
+
+31.03.2011: Shellscript funktioniert und führt jetzt einen COMMIT/PUSH "ohne" Kommentar aus.
+            Aktuelle Informationen gibt es somit von Zeit zu Zeit hier.
+>>>>>>> 7e61094524e8c1d209e66e67c4a184e2eb55ac7d
