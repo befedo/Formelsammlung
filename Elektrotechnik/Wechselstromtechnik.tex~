@@ -159,6 +159,8 @@ Resultierende Funktion:
 
 \newpage
 \begin{landscape}
+\vspace*{\fill}
+\begin{large}
 \newcommand{\mcb}[3]{\multicolumn{#1}{#2}{#3}}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \definecolor{tcB}{rgb}{0.764706,0.764706,0.764706}
@@ -180,8 +182,17 @@ Zeitbereich &  & komplexer Zeitbereich\\\hline
  \item[RT1] entnahme des Imaginärteils
  \item[RT2] entnahme des Realteils
 \end{itemize}
-
+\end{large}
+\vspace*{\fill}
 \end{landscape}
+
+\subsection{Differentiation von Sinusgrößen}
+
+\begin{itemize}
+ \item \( \frac{1}{j} = -j \)
+ \item \( j = e^{j\frac{\pi}{2}} \)
+\end{itemize}
+
 
 
 

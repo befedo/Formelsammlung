@@ -159,6 +159,8 @@ Resultierende Funktion:
 
 \newpage
 \begin{landscape}
+\vspace*{\fill}
+\begin{large}
 \newcommand{\mcb}[3]{\multicolumn{#1}{#2}{#3}}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \definecolor{tcB}{rgb}{0.764706,0.764706,0.764706}
@@ -175,11 +177,15 @@ Zeitbereich &  & komplexer Zeitbereich\\\hline
 \end{center}
 
 \begin{itemize}
- \item 
+ \item[HT1] erfordert die Ergänzung eines gleichwertigen reellen Kosinusterms mit dem ursprünglichen Sinusterm als Imaginärteil
+ \item[HT2] erfordert die Ergänzung eines gleichwertigen imaginären Sinusterms mit dem ursprünglichen Kosinusterm als Realteil
+ \item[RT1] entnahme des Imaginärteils
+ \item[RT2] entnahme des Realteils
 \end{itemize}
-
-
+\end{large}
+\vspace*{\fill}
 \end{landscape}
+
 
 
 
