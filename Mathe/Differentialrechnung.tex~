@@ -1,0 +1,242 @@
+\section{Differntialrechnung}
+
+\subsection{Erste Ableitungen der elementaren Funktionen}
+
+\begin{multicols}{2}
+\subsubsection*{Potenzfunktion}
+ \begin{align*}
+  &x^n& &\Longleftrightarrow& &n\cdot x^{n-1}
+ \end{align*}
+\vfill
+\subsubsection*{Exponentialfunktionen}
+ \begin{align*}
+  &e^x& &\Longleftrightarrow& &e^x\\
+  &a^x& &\Longleftrightarrow& &\ln a\cdot a^x
+ \end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Logarithmusfunktionen}
+ \begin{align*} 
+  &\ln x& &\Longleftrightarrow& &\frac{1}{x}\\
+  &\log_a x& &\Longleftrightarrow& &\frac{1}{(\ln a)\cdot x}
+ \end{align*}
+\vfill
+\subsubsection*{Trigonometrische Funktionen}
+ \begin{align*} 
+  &\sin x& &\Longleftrightarrow& &\cos x \\
+  &\cos x& &\Longleftrightarrow& &-\sin x\\
+  &\tan x& &\Longleftrightarrow& &\frac{1}{\cos^2 x}\\
+  &\tan x& &\Longleftrightarrow& &1+\tan^2 x
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Arcusfunktionen}
+ \begin{align*} 
+  &\arcsin x& &\Longleftrightarrow& &\frac{1}{\sqrt{1-x^2}}\\
+  &\arccos x& &\Longleftrightarrow& &\frac{-1}{\sqrt{1-x^2}}\\
+  &\arctan x& &\Longleftrightarrow& &\frac{1}{1-x^2}
+\end{align*}
+\vfill
+\subsubsection*{Hyperbolische Funktionen}
+ \begin{align*} 
+  &\sinh x& &\Longleftrightarrow& &\cosh x\\
+  &\cosh x& &\Longleftrightarrow& &\sinh x\\
+  &\tanh x& &\Longleftrightarrow& &\frac{1}{\cosh^2 x}\\
+  &\tanh x& &\Longleftrightarrow& &1+\tanh^2 x
+\end{align*}
+\vfill
+\end{multicols}
+
+\newpage
+\subsection{Rechenregeln}
+\begin{multicols}{2}
+\subsubsection*{Faktorregel}
+ \begin{align*} 
+\frac{\diff }{\diff x}\left(C\cdot f(x)\right)=C\cdot f'(x)
+ \end{align*}
+\vfill
+\subsubsection*{Summenregel}
+ \begin{align*} 
+\frac{\diff }{\diff x}\left(g(x) + f(x)\right)=g'(x)+f'(x)
+ \end{align*}
+\vfill
+\end{multicols}
+
+
+\subsubsection*{Produktregel}
+ \begin{align*} 
+\frac{\diff }{\diff x}&\left(g(x)\cdot f(x)\right)=g'(x)\cdot f(x)+g(x)\cdot f'(x)\\
+\frac{\diff }{\diff x}&\left(h(x)\cdot g(x)\cdot f(x)\right)=h'\cdot g\cdot f+h\cdot g'\cdot f+h\cdot g\cdot f'
+ \end{align*}
+
+\subsubsection*{Quotientenregel}
+ \begin{align*} 
+\frac{\diff }{\diff x}\left(\frac{g(x)}{f(x)}\right)&=\frac{g'(x)\cdot f(x)-g(x)\cdot f'(x)}{f(x)^2}
+ \end{align*}
+
+\begin{multicols}{2}
+\subsubsection*{Kettenregel}
+ \begin{align*} 
+\frac{\diff }{\diff x}\left(g\left( f(x\right)\right)&=g'(f)\cdot f'(x)
+ \end{align*}
+\vfill            
+\subsubsection*{Logarithmische Ableitungen}
+ \begin{align*} 
+\frac{\diff }{\diff x}y&=f(x)\\
+\frac{1}{y}y'&=\frac{\diff }{\diff x}\ln{f(x)}
+ \end{align*}
+\vfill
+\end{multicols}
+          
+\subsection{Fehlerrechnung}
+
+\subsubsection*{Absoluter Fehler}
+\text{\(\Delta x\)}{ Absoluter Fehler der Eingangsgröße}\\
+\text{\(\Delta y\)}{ Absoluter Fehler der Ausgangsgröße}
+\begin{align*} 
+\Delta y=f(x+\Delta x)-f(x)
+\end{align*}
+         
+\newpage
+\subsubsection*{Relativer Fehler}
+\text{\(\delta x\)}{ Relativer Fehler der Eingangsgröße in $\%$}\\
+\text{\(\delta y\)}{ Relativer Fehler der Ausgangsgröße in $\%$}
+
+\begin{align*} 
+\delta x&=\frac{\Delta x}{x}\\
+\delta y&=\frac{\Delta y}{y}\\
+\Delta y&=f'(x)\cdot \Delta x\\
+\delta y&=\frac{x\cdot f'(x)}{f(x)}\delta x
+\end{align*}
+         
+\subsection{Linearisierung und Taylor-Polynom}
+
+\subsubsection*{Tangentengleichung}
+\text{\(x_0\) Punkt an dem das Polynom entwickelt wird}
+
+\begin{align*} 
+y_T(x)&=f(x_0)+f'(x_0)(x-x_0)
+\end{align*}
+
+\subsubsection*{Taylor Polynom}
+\text{\(x_0\) Punkt an dem das Polynom entwickelt wird}\\
+\text{\(R_n\) Restglied}
+ 
+\[y(x)=f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2!}(x-x_0)^2+\dots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n+R_n(x)\]
+\[y(x)=\sum_{i=0}^n\frac{f^{(i)}}{i!}(x-x_0)^i+R_n(x)\]
+
+\subsubsection*{Restglied}
+\text{\(x_0\) Punkt an dem das Polynom entwickelt wird}\\
+\text{$x_0<c<x$, wenn $x_0<x$}\\
+\text{$x_0>c>x$, wenn $x_0>x$}
+
+\begin{align*} 
+R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-x_0)^{n+1}
+\end{align*}
+
+\subsection{Grenzwertregel von Bernoulli und de l`Hospital}
+\subsubsection*{de l`Hospital}
+\text{Gilt nur wenn $\lim\limits_{x \to x_0} f(x)$ gleich $\frac{0}{0}$ oder $\frac{\infty}{\infty}$ ist}
+
+\begin{align*} 
+ \lim_{x \to x_0}\frac{f(x)}{g(x)}=\lim_{x \to x_0}\frac{f'(x)}{g'(x)}
+\end{align*}
+
+\subsection{Differentielle Kurvenuntersuchung}
+
+
+\subsubsection*{Normale der Kurve}
+
+\begin{align*} 
+y_N(x)&=f(x_0)-\frac{1}{f'(x)}\left(x-x_0\right)
+\end{align*}
+
+\begin{multicols}{2}
+\subsubsection*{Monotonie-Verhalten}
+\[f'(x)=
+\begin{cases}
+>0\text{ Monoton wachsend}\\
+<0\text{ Monoton fallend}
+\end{cases}\]
+\vfill
+\subsubsection*{Krümmungs-Verhalten}
+\[ 
+f''(x)=
+\begin{cases}
+>0\text{ Linkskr.(konvex)}\\ 
+<0\text{ Rechtskr.(konkav)}
+\end{cases}\]
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Ableitung in Polarkordinaten}
+\text{\(\dot{r}\)}{ Ableitung nach $\varphi$}\\
+\text{\(\ddot{r}\)}{ Zweite Ableitung nach $\varphi$}
+\begin{align*} 
+y(\varphi)&=r(\varphi)\sin\varphi\\
+x(\varphi)&=r(\varphi)\cos\varphi\\
+y'&=\frac{\diff y}{\diff x}=\frac{r'\sin\varphi+r\cos\varphi}{r'\cos\varphi-r\sin\varphi}\\
+y''&=\frac{\diff^2 y}{\diff x^2}=\frac{2(r')^2-r\cdot r''+r^2}{\left(r'\cos\varphi-r\sin\varphi\right)^3}
+\end{align*}
+\vfill
+\subsubsection*{Ableitung in Parameterform}
+\text{\(\dot{x}\)}{ Ableitung nach t}\\
+\text{\(\dot{y}\)}{ Ableitung nach t}
+\begin{align*} 
+y&=y(t)\\
+x&=x(t)\\
+y'&=\frac{\diff y}{\diff x}=\frac{\dot{y}}{\dot{x}}\\
+y''&=\frac{\diff^2 y}{\diff x^2}=\frac{\dot{x}\ddot{y}-\dot{y}\ddot{x}}{\dot{x}^3}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Bogendifferential}
+\text{''Wegelement'' einer Funktion}
+\begin{align*} 
+\diff s&=\sqrt{1+\left(f'(x)\right)^2}\cdot \diff x\\
+\diff s&=\sqrt{(\dot{x})^2+(\dot{y})^2}\cdot \diff t\\
+\diff s&=\sqrt{r^2+(r')^2}\cdot \diff \varphi
+\end{align*}
+\vfill
+\subsubsection*{Winkeländerung}
+\begin{align*} 
+\tau&=\arctan y'\\
+\diff \tau&=\frac{y''}{1+(y')^2}\cdot \diff x
+\end{align*}
+\vfill
+\end{multicols}
+
+\newpage
+\subsubsection*{Krümmungskreis}
+\begin{multicols}{2}
+\vfill
+\begin{itemize}
+ \item \(\rho\) Radius des Krümmungskreises
+ \item \(x_K\) x-Koordinaten des Kreismittelpunktes
+ \item \(y_K\) y-Koordinaten des Kreismittelpunktes
+ \item \(x_P\) x-Koordinaten des Kurvenpunktes
+ \item \(y_P\) y-Koordinaten des Kurvenpunktes
+\end{itemize}
+\vfill
+\begin{align*} 
+\rho&=\frac{1}{|\kappa|}\\
+x_K&=x_P-y'\frac{1+(y')^2}{|y''|}\\
+y_K&=y_P+\frac{1+(y')^2}{|y''|}
+\end{align*}
+\vfill
+{}
+\end{multicols}
+
+\subsubsection*{Kurvenkrümmung}
+\begin{align*} 
+\kappa&=\frac{\diff \tau}{\diff s}\\
+\kappa&=\frac{y''}{\sqrt{\left(1+(y')^2\right)^3}}\\
+\kappa&=\frac{\dot{x}\ddot{y}-\dot{y}\ddot{x}}{\sqrt{\left(\dot{x}^2+\dot{y}^2\right)^3}}\\
+\kappa&=\frac{2(r')^2-r\cdot r''+r^2}{\sqrt{\left(r^2+(r')^2\right)^3}}
+\end{align*}

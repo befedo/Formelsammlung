@@ -94,7 +94,6 @@ P&=\frac{1}{T}\int_0^T u(t)\cdot i(t)\diff t
 U&=U_q-R_i\cdot I\\
 I_K&=\frac{U_q}{R_i}
 \end{align*}
-\hfill
 
 \subsubsection{Stromquelle}
 \begin{align*}

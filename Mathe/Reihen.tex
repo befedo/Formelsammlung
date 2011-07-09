@@ -1,0 +1,188 @@
+\section{Reihen}
+\subsection{Geometrische Folge}
+
+\begin{boxleft}\bla{Darstellung}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+a_n&=a\cdot q^n\\
+\sum_{n=0}^\infty a\cdot q^n&=\frac{a}{1-q}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxshaded}
+\begin{align*}
+&\text{Konvergent für |q|<1}
+\end{align*}
+\end{boxshaded}
+
+\subsection{Harmonische Reihe}
+
+\begin{boxleft}\bla{Darstellung}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\sum_{n=1}^\infty \frac{1}{n^s}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxshaded}
+\begin{align*}
+&\text{Konvergent für s>1}
+\end{align*}
+\end{boxshaded}
+
+
+\subsection{Konvergenz}
+
+\begin{boxleft}\bla{Majorantenkriterium}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\sum_{n=0}^\infty a_n\leq\sum_{n=0}^\infty b_n&&\text{$b_n$ ist eine bekannte konvergente Reihe}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Minorantenkriterium}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\sum_{n=0}^\infty a_n\geq\sum_{n=0}^\infty b_n&&\text{$b_n$ ist eine bekannte divergente Reihe}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Wurzelkriterium}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\lim_{n\to\infty}\sqrt[n]{a_n}&=q&&\text{$q>1$ ist die Reihe divergent}\\
+\lim_{n\to\infty}\sqrt[n]{a_n}&=q&&\text{$q<1$ ist die Reihe konvergent}\\
+\lim_{n\to\infty}\sqrt[n]{a_n}&=q&&\text{$q=1$ keine Aussage möglich}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Quotientenkriterium}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\lim_{n\to\infty}\frac{a_{n+1}}{a_n}&=q&&\text{$q>1$ ist die Reihe divergent}\\
+\lim_{n\to\infty}\frac{a_{n+1}}{a_n}&=q&&\text{$q<1$ ist die Reihe konvergent}\\
+\lim_{n\to\infty}\frac{a_{n+1}}{a_n}&=q&&\text{$q=1$ keine Aussage möglich}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Leibnizkriterium}
+\destext{Nur bei alternierenden Reihen}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+&\lim_{n\to\infty}\left(-1\right)^n a_n\\
+&\lim_{n\to\infty}a_n=q&&\text{$q=0$ ist die Reihe divergent}\\
+&\lim_{n\to\infty}\left(-1\right)^n a_n=\lim_{n\to\infty} a_n&&\text{Absolut Konvergent}\\
+\end{align*}
+\end{boxrightshaded}
+
+\subsection{Bekannte konvergente Reihen}
+
+
+\begin{boxleft}\bla{Reihen}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\sum_{n=0}^\infty\frac{1}{n!}&=e&\sum_{n=0}^\infty\frac{\left(-1\right)^n}{n!}&=\frac{1}{e}\\
+\sum_{n=0}^\infty\frac{1}{2^n}&=2&\sum_{n=0}^\infty\frac{\left(-1\right)^n}{2^n}&=\frac{2}{3}\\
+\sum_{n=0}^\infty\frac{\left(-1\right)^{n+1}}{n}&=\ln2&\sum_{n=0}^\infty\frac{\left(-1\right)^{n+1}}{2n-1}&=\frac{\pi}{4}
+\end{align*}
+\end{boxrightshaded}
+
+\section{Funktionsreihen}
+
+\begin{boxleft}\bla{Darstellung}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\sum_{n=0}^\infty f_n(x)
+\end{align*}
+\end{boxrightshaded}
+
+\subsection{Potenzreihen}
+
+\begin{boxleft}\bla{Darstellung}
+\des{x_0}{Verschiebung des Entwicklungspunktes}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+&\sum_{n=0}^\infty a_n x^n\\
+&\sum_{n=0}^\infty a_n \left(x-x_0\right)^n\\
+\end{align*}
+\end{boxrightshaded}
+
+\subsection{Konvergenz}
+
+\begin{boxleft}\bla{Konvergenz}
+\destext{Ränder müssen unterucht werden}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+&\sum_{n=0}^\infty a_n \left(x-x_0\right)^n\\
+r&=\lim_{n\to\infty}\left|\frac{a_n}{a_{n+1}}\right|\\
+r&=\frac{1}{\lim_{n\to\infty}\sqrt[n]{\left|a_n\right|}}
+\end{align*}
+\end{boxrightshaded}
+
+\subsection{Bekannte Potenzreihen}
+
+\begin{boxleft}\bla{Reihen}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}&x&\in\mathbb{R}\\
+\ln x&=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n}\left(x-1\right)^n&x&\in(0,2]\\
+\ln\left(1+x\right)&=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n}x^n&x&\in(-1,1]\\
+\ln\left(1-x\right)&=-\sum_{n=1}^\infty\frac{x^n}{n}&x&\in[-1,1)\\
+\left(1+x\right)^\alpha&=\sum_{n=0}^\infty\binom{\alpha}{n}x^n&x&\in[-1,1]
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Reihen}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\sin x&=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n+1\right)!}x^{2n+1}&x&\in\mathbb{R}\\
+\cos x&=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n\right)!}x^{2n}&x&\in\mathbb{R}\\
+\sinh x&=\sum_{n=0}^\infty\frac{1}{\left(2n+1\right)!}x^{2n+1}&x&\in\mathbb{R}\\
+\cosh x&=\sum_{n=0}^\infty\frac{1}{\left(2n\right)!}x^{2n}&x&\in\mathbb{R}\\
+\arcsin x &=\sum_{n=0}^\infty\frac{\left(2n\right)!}{2^{2n}\left(n!\right)^2\left(2n+1\right)}x^{2n+1}&x&\in[-1,1]\\
+\arctan x &=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n+1\right)}x^{2n+1}&x&\in\mathbb{R}\\
+\operatorname{ar sinh} x &=\sum_{n=0}^\infty\frac{\left(-1\right)^n\left(2n\right)!}{2^{2n}\left(n!\right)^2\left(2n+1\right)}x^{2n+1}&x&\in[-1,1]\\
+\operatorname{ar tanh}  x &=\sum_{n=0}^\infty\frac{1}{\left(2n+1\right)}x^{2n+1}&x&\in\mathbb{R}\\
+\end{align*}
+\end{boxrightshaded}
+
+\subsection{Fourier Reihen}
+
+\begin{boxleft}\bla{Fourier}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)+a_n\cdot\sin\left(n\omega_0 t\right)\right)\\
+a_0&=\frac{2}{T}\int_{(T)}y(t)\diff t\\
+a_n&=\frac{2}{T}\int_{(T)}y(t)\cdot\cos\left(n\omega_0 t\right)\diff t\\
+b_n&=\frac{2}{T}\int_{(T)}y(t)\cdot\sin\left(n\omega_0 t\right)\diff t
+\end{align*}
+\end{boxrightshaded}
+
+
+\begin{boxleft}\bla{Symetrie}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)\right)&&\text{gerade Funktion $b_n=0$}\\
+y(t)&=\sum_{n=1}^\infty\left(b_n\cdot\sin\left(n\omega_0 t\right)\right)&&\text{ungerade Funktion $a_n=0$}\\
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Komplex}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+y(x)&=\sum_{n=-\infty}^\infty c_n\cdot e^{jnx}\\
+c_n&=\frac{1}{T}\int_{(T)}y(x)\cdot e^{-jnx}\diff x
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Umrechnung}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+c_0&=\frac{1}{2}a_0\\
+c_n&=\frac{1}{2}\left(a_n-jb_n\right)\\
+c_{-n}&=\frac{1}{2}\left(a_n+jb_n\right)\\
+a_0&=2c_0\\
+a_n&=c_n+c_{-n}\\
+b_n&=j\left(c_n-c_{-n}\right)
+\end{align*}
+\end{boxrightshaded}

@@ -1,9 +1,16 @@
+\begin{flushright}
+ \begin{quote}
+  The year is 787!\\A.D.?\\- Monty Python
+ \end{quote}
+\end{flushright}
+
 \begin{multicols}{2}{}
 \subsubsection{Gravitationskraft}
 \begin{align*}
 \vec{F}_{g,2}&=-G\frac{m_1m_2}{r_{12}^2}\vec{e}_r\\
 \vec{F}_g&=\vec{E}_g\cdot m=\vec{g}m
 \end{align*}
+\hfill
 
 \subsubsection{Gravitationspotential}
 \begin{align*}

@@ -1,0 +1,113 @@
+\section{Systeme und Ihre Grenzen}
+\newcommand{\mce}[3]{\multicolumn{#1}{#2}{#3}}
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\begin{center}
+\begin{tabular}{|l|l|}\hline
+\mce{1}{|>{\columncolor{tcA}}l|}{offen} & 
+\(\begin{array}{l}\text{durchlässig für Materie und Energie}\end{array}\)\\\hline
+\mce{1}{|>{\columncolor{tcA}}l|}{geschlossen} & 
+\(\begin{array}{l}\text{durchlässig für Energie, undurchlässig für Materie}\end{array}\)\\\hline
+\mce{1}{|>{\columncolor{tcA}}l|}{abgeschlossen} & 
+\(\begin{array}{l}\text{undurchlässig für Energie und Materie}\end{array}\)\\\hline
+\mce{1}{|>{\columncolor{tcA}}l|}{adiabat} & 
+\(\begin{array}{l}
+\text{undurchlässig für Materie und Wärme,}\\
+\text{durchlässig für mechanische Arbeit}
+\end{array}\)
+ \\\hline
+\end{tabular}
+\end{center}
+
+\section{Längen und Volumenausdehnung}
+\begin{multicols}{2}
+ \[\rho\left(T\right) = \rho_0 \left( 1 - \beta \left(T - T_0\right)\right)\]
+ \[L\left(T\right) = L_0 \left( 1 + \alpha \left(T - T_0\right)\right)\]
+\vfill
+ \[V\left(T\right) = V_0 \left( 1 + \gamma \left(T - T_0\right)\right)\]
+ \[\text{mit } 3\alpha \approx \gamma\]
+\end{multicols}
+
+\section{Wärmekapazität}
+\begin{alignat*}{2}
+\text{Wärmekapazität} 	&\quad\quad& C &= m \cdot c \\
+\text{massenspezifisch} &\quad\quad& c &= C/m \\
+\text{molspezifisch} 	&\quad\quad& c_{mol} &= C/n = c \cdot m_{mol}
+\end{alignat*}
+
+\newpage
+\section{Wärmeleitung}
+\begin{multicols}{2}
+  \begin{align*}
+   \text{Allgemein: } Q_{12} &= m \int\limits_{T_1}^{T_2}c\left(T\right)\text{d}T \\
+			     &= v \int\limits_{T_1}^{T_2}C_m\left(T\right)\text{d}T \\
+   \text{Speziell: } Q_{12}  &=  mc\left(T_2 - T_1 \right) \\
+			     &= vC_m \left(T_2 - T_1 \right) 
+  \end{align*}
+
+  \begin{align*}
+   &\text{Wärmestrom}\\
+   &\dot{Q}=\frac{\text{d}Q}{\text{d}T}
+  \end{align*}
+
+  \begin{align*}
+   &\text{Wärmestromdichte}\\
+   q&=\frac{\text{d}\dot{Q}}{\text{d}A}\\
+   \vec{q}&=\vec{\varepsilon}_A\cdot\frac{\text{d}\dot{Q}}{\text{d}A}\\
+		     &=-\lambda\cdot \grad\left(T\right)
+  \end{align*}
+
+  \begin{align*}
+   \text{q}_{\text{homogen}} \quad \dot{Q}&=\vec{q}\cdot\vec{A}\\
+   \text{q}\left(x;y;z\right) \quad \dot{Q}&=\int\vec{q}\cdot\text{d}\vec{A}
+  \end{align*}
+
+\end{multicols}
+
+\subsection{Wärmeleitwiderstand}
+\[q=\lambda\frac{\Delta T}{\Delta s} = \frac{1}{R_L}\left( T_2 - T_1 \right) \longrightarrow R_L = \frac{\Delta s}{\lambda}\]
+
+\section{Konvektion}
+\newcommand{\mcf}[3]{\multicolumn{#1}{#2}{#3}}
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\begin{center}
+\begin{tabular}{|l|l|}\hline
+\mcf{1}{|>{\columncolor{tcA}}l|}{Fest/Flüssig} & 
+\(
+\begin{array}{l}
+Q = m \cdot c \cdot T = m \cdot c \cdot \vartheta \\
+\Delta Q = m \cdot c \cdot \Delta T = m \cdot c \left(T_2 - T_1\right)
+\end{array}\)
+\\\hline
+\mcf{1}{|>{\columncolor{tcA}}l|}{fließendes Fluid} & 
+\(\begin{array}{l}
+\Delta \dot{Q} = \dot{m} \cdot c \left(T_2 - T_1\right)
+\end{array}\)
+\\\hline
+\mcf{1}{|>{\columncolor{tcA}}l|}{freie Konvektion} & 
+\(\begin{array}{l}
+f_A = \rho \cdot g_B \left( 1 - \beta \left(T_2 - T_1\right)\right)
+\end{array}\)
+\\\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\section{Wärmestrahlung}
+\subsubsection*{Beziehungen}
+\begin{multicols}{2}
+\[\rho + \tau + \alpha = 1\]
+\[\rho = 1 - \alpha = 1 - \epsilon\]
+\end{multicols}
+
+
+\subsection{Netto Strahlungsaustausch zwischen zwei Flächen}
+\begin{align*}
+\dot{Q}_{str} = &c_{12}\left(T_1^4 - T_2^4\right) \\
+		&c_{12} \text{: Strahlungsaustauschskoeffezient}
+\end{align*}
+
+
+
+
+
+

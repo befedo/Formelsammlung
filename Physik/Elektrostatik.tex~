@@ -1,3 +1,9 @@
+\begin{flushright}
+ \begin{quote}
+  Don't interrupt me\\while I'm interrupting.\\- Winston S. Churchill
+ \end{quote}
+\end{flushright}
+
 \begin{multicols}{2}{}
 \subsubsection{Ladung}
 \begin{align*}
@@ -63,7 +69,7 @@ I &=\oint_A\vec{j}\circ\diff\vec{A}\\
   &=\oint_A \kappa\vec{E}\circ\diff\vec{A}\\
   &=\underbrace{\kappa E\cdot 4\pi r^2}_{\text{Kugel}}
 \end{align*}
-\hfill
+\vspace{20mm}
 
 \subsubsection{Arbeit im elektrischem Feld}
 \begin{align*}

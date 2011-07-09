@@ -1,0 +1,213 @@
+\section{Vektorrechnung}
+\subsection{Grundlagen}
+
+\begin{multicols}{2}
+\subsubsection*{Darstellung}
+\begin{align*}
+\vec{a}	&=\vec{a}_x+\vec{a}_y+\vec{a}_z\\
+	&=a_x\vec{e}_x+a_y\vec{e}_y+a_y\vec{e}_y\\
+	&=\begin{pmatrix} a_x\\ a_y\\a_z\end{pmatrix}
+\end{align*}
+\vfill
+\subsubsection*{2 Punkt Vektor}
+\begin{align*} 
+\vec{P_1P_2} &=\begin{pmatrix} x_2-x_1\\ y_2-y_1\\z_2-z_1\end{pmatrix}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Betrag}
+\begin{align*} 
+|\vec{a}|	&=a\\
+		&=\sqrt{a_x^2+a_y^2+a_z^2}\\
+		&=\sqrt{\vec{a}\circ\vec{a}}
+\end{align*}
+\vfill
+\subsubsection*{Richtungswinkel}
+\begin{align*} 
+\cos \alpha &= \frac{a_x}{|\vec{a}|}\\
+\cos \beta &= \frac{a_y}{|\vec{a}|}\\
+\cos \gamma &= \frac{a_z}{|\vec{a}|}\\
+1&=\cos^2\alpha+\cos^2\beta+\cos^2\gamma
+\end{align*}
+\vfill
+\end{multicols}
+
+\newpage
+\subsection{Vektoroperationen}
+\begin{multicols}{2}
+\subsubsection*{Addition und Subtraktion}
+\begin{align*} 
+\vec{a}\pm\vec{b}&= \begin{pmatrix}a_x\pm b_x\\a_y\pm b_y\\a_z\pm b_z\end{pmatrix}
+\end{align*}
+\vfill
+\subsubsection*{Multiplikation mit einem Skalar}
+\begin{align*} 
+a\cdot\vec{b}&= \begin{pmatrix}ab_x\\ ab_y\\ab_z\end{pmatrix}
+\end{align*}
+\vfill
+\end{multicols}
+
+\subsubsection*{Einheitsvektor}
+\begin{align*} 
+\vec{e}_a&=\frac{\vec{a}}{|\vec{a}|}= \begin{pmatrix}a_x/|\vec{a}|\\ a_y/|\vec{a}|\\a_z/|\vec{a}|\end{pmatrix}
+\end{align*}
+
+\begin{multicols}{2}
+\subsubsection*{Skalarprodukt}
+\begin{align*} 
+\vec{a}\circ\vec{b} &= \begin{pmatrix}a_x\\ a_y\\a_z\end{pmatrix}\circ\begin{pmatrix}b_x\\ b_y\\b_z\end{pmatrix}\\
+&=a_xb_x+a_yb_y+a_zb_z\\
+&=|\vec{a}|\cdot|\vec{b}|\cdot \cos\angle(\vec{a},\vec{b})
+\end{align*}
+\vfill
+\subsubsection*{Kreuzprodukt}
+\text{$|\vec{a}\times\vec{b}|$ Fläche des Parallelograms $\vec{a},\vec{b}$}\\
+\text{$\vec{a}\times\vec{b} \perp \vec{a} \land \vec{a}\times\vec{b} \perp \vec{b}$}
+\begin{align*} 
+\vec{a}\times\vec{b} &= \begin{pmatrix}a_x\\ a_y\\a_z\end{pmatrix}\times\begin{pmatrix}b_x\\ b_y\\b_z\end{pmatrix}\\
+&=\begin{pmatrix}a_yb_z-a_zb_y\\ a_zb_x-a_xb_z\\a_xb_y-a_yb_x\end{pmatrix}\\
+&=\begin{vmatrix}\vec{e}_x&\vec{e}_y&\vec{e}_z\\a_x&a_y&a_z\\b_x&b_y&b_z\end{vmatrix}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Spatprodukt}
+\text{$\vec{a}\circ(\vec{b}\times\vec{c})$}
+\\
+\text{Volumen des Parallelpiped $\vec{a},\vec{b},\vec{c}$}
+
+\begin{align*} 
+[\vec{a}\vec{b}\vec{c}]  &=\vec{a}\circ(\vec{b}\times\vec{c})\\
+&=a_x(b_yc_z-b_zc_y)\\&+a_y(b_zc_x-b_xc_z)\\&+a_z(b_xc_y-b_yc_x)\\
+&=\begin{vmatrix}a_x&a_y&a_z\\b_x&b_y&b_z\\c_x&c_y&c_z\end{vmatrix}
+\end{align*}
+\vfill
+\subsubsection*{Schnittwinkel}
+\begin{align*} 
+\cos\angle(\vec{a},\vec{b})&=\frac{\vec{a}\circ\vec{b}}{|\vec{a}|\cdot|\vec{b}|}
+\end{align*}
+
+\subsubsection*{Projektion}
+\begin{align*} 
+\vec{a}_b&=\left(\frac{\vec{a}\circ\vec{b}}{|\vec{a}|^2}\right)\vec{a}=(\vec{b}\circ\vec{e}_a)\vec{e}_a
+\end{align*}
+\vfill
+\end{multicols}
+
+
+\subsection{Geraden}
+\begin{multicols}{2}
+\subsubsection*{Geradegleichung}
+\begin{align*} 
+\vec{r}(t) &=\vec{r}_1+t\vec{a}\\
+	  &=\vec{r}_1+t(\vec{r}_2-\vec{r}_1)
+\end{align*}
+\vfill
+\subsubsection*{Abstand eines Punktes von einer Geraden}
+\begin{align*} 
+\vec{r}(t) &=\vec{r}_1+t\vec{a}\\
+d&=\frac{|\vec{a}\times\left(\vec{OP}-\vec{r}_1\right)|}{\vec{a}}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Abstand zweier paralleler Geraden}
+\begin{align*} 
+\vec{r}(t) &=\vec{r}_1+t\vec{a}_1\\
+\vec{g}(t) &=\vec{r}_2+t\vec{a}_1\\
+d&=\frac{|\vec{a}_1\times\left(\vec{r}_2-\vec{r}_1\right)|}{\vec{a}_1}
+\end{align*}
+\vfill
+\subsubsection*{Abstand zweier windschiefen Geraden}
+\begin{align*} 
+\vec{r}(t) &=\vec{r}_1+t\vec{a}_1\\
+\vec{g}(t) &=\vec{r}_2+t\vec{a}_2\\
+d&=\frac{|\vec{a}_1\circ\left(\vec{a}_2\times\left(\vec{r}_2-\vec{r}_1\right)\right)|}{\vec{a}_1\times\vec{a}_2}
+\end{align*}
+\vfill
+\end{multicols}
+
+\subsection{Ebenen}
+
+\begin{multicols}{2}
+\subsubsection*{Ebenengleichung}
+\begin{align*} 
+\vec{r}(t,s) =\vec{r}_1&+t\vec{a}_1+s\vec{a}_2\\
+=\vec{r}_1 &+t(\vec{r}_2-\vec{r}_1)\\
+	   &+s(\vec{r}_3-\vec{r}_1)
+\end{align*}
+\vfill
+\subsubsection*{Parameterfreie Darstellung}
+\begin{align*} 
+\vec{r}(t,s) &=\vec{r}_1+t\vec{a}_1+s\vec{a}_2\\
+\vec{r}\circ(\vec{a}_1\times\vec{a}_2)&=\vec{r}_1\circ(\vec{a}_1\times\vec{a}_2)\\
+&+t\vec{a}_1\circ(\vec{a}_1\times\vec{a}_2)\\
+&+s\vec{a}_2\circ(\vec{a}_1\times\vec{a}_2)\\
+\vec{r}\circ\vec{n}&=\vec{r}_1\circ\vec{n}+0+0\\
+\vec{n}\circ\left(\vec{r}-\vec{r}_1\right)&=0
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Normalenvektor}
+\begin{align*} 
+\vec{n}&=\vec{a}_1\times\vec{a}_2
+\end{align*}
+\vfill
+\subsubsection*{Normierter Normalenvektor}
+\begin{align*} 
+\vec{e}_n&=\frac{\vec{a}_1\times\vec{a}_2}{|\vec{a}_1\times\vec{a}_2|}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Hessesche Normalform}
+\begin{align*} 
+0&=\frac{Ax+By+Cz+D}{\sqrt{A^2+B^2+C^2}}
+\end{align*}
+\vfill
+\subsubsection*{Abstand eines Punktes von einer Ebene}
+\begin{align*} 
+d&=\frac{|\vec{n}\times\left(\vec{OP}-\vec{r}_1\right)|}{\vec{n}}\\
+d&=\frac{Ap_1+Bp_2+Cp_3+D}{\sqrt{A^2+B^2+C^2}}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Abstand eines Geraden von einer Ebene}
+\begin{align*} 
+\vec{r}(t) &=\vec{r}_G+t\vec{a}_1\\
+d&=\frac{|\vec{n}\times\left(\vec{r}_G-\vec{r}_1\right)|}{\vec{n}}\\
+d&=\frac{Ar_{G1}+Br_{G2}+Cr_{G3}+D}{\sqrt{A^2+B^2+C^2}}
+\end{align*}
+\vfill
+\subsubsection*{Abstand zweier paralleler Ebenen}
+\begin{align*} 
+\vec{r}(t,s) &=\vec{r}_1+t\vec{a}_1+s\vec{a}_2\\
+\vec{g}(t,s) &=\vec{r}_2+t\vec{a}_3+s\vec{a}_4\\
+d&=\frac{|\vec{n}\times\left(\vec{r}_1-\vec{r}_2\right)|}{\vec{n}}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+\subsubsection*{Schnittwinkel zweier Ebenen}
+\begin{align*} 
+\cos\angle(\vec{n}_1,\vec{n}_2)&=\frac{\vec{n}_1\circ\vec{n}_2}{|\vec{n}_1|\cdot|\vec{n}_2|}
+\end{align*}
+\vfill
+\subsubsection*{Durchstoßpunkt}
+\begin{align*} 
+\vec{r}(t) &=\vec{r}_G+t\vec{a}\\
+\vec{r}_s&=\vec{r}_G+\frac{\vec{n}\circ\left(\vec{r}_1-\vec{r}_G\right)}{\vec{n}\circ\vec{a}}\vec{a}\\
+\varphi&=\arcsin\left(\frac{|\vec{n}\circ\vec{a}|}{|\vec{n}|\cdot|\vec{a}|}\right)
+\end{align*}
+\vfill
+\end{multicols}

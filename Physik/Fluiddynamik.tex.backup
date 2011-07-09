@@ -1,6 +1,15 @@
-\section{Fluidmechanik}
+\begin{multicols}{2}
+\begin{quote}
+  Premature optimization\\is the root of all evil.\\- D. Knuth
+\end{quote}
+\vfill
+\begin{quote}
+ On the other hand,\\we cannot ignore efficiency.\\- Jon Bentley
+\end{quote}
+\vfill
+\end{multicols}
 
-\subsection{Ohne Reibung}
+\section{Ohne Reibung}
 
 \begin{multicols}{2}{}
 \subsubsection{Statischer Druck}
@@ -50,8 +59,10 @@ p&=\frac{\rho V g}{A}\\
 \left.\dot{V}\right|_1&=\left.\dot{V}\right|_2&&\rho_1=\rho_2\\
 v_1A_1&=v_2A_2&&\rho_1=\rho_2
 \end{align*}
+\hfill
+\end{multicols}
 
-
+\begin{multicols}{2}{}
 \subsubsection{Kompressibilität}
 \begin{align*}
 \kappa&=\frac{\Delta V}{\Delta p V}
@@ -78,7 +89,7 @@ p+\frac{1}{2}\rho v^2+ \rho g h= \text{const}
 \end{multicols}
 
 
-\subsection{Laminare Reibung}
+\section{Laminare Reibung}
 
 \begin{multicols}{2}{}
 \subsubsection{Newtonsches Reibungsgesetz}

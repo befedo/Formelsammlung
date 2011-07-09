@@ -1,0 +1,82 @@
+\section{Gleichungen}
+\subsection{Gleichungen \emph{n}-ten Grades}
+
+ \begin{equation*}
+  a_n\cdot x^n+a_{n-1}\cdot x^{n-1}+\ldots+a_1\cdot x+a_0=0\quad (a_n\neq0,a_k\in\mathbb{R})
+ \end{equation*}
+
+\subsubsection*{Eigenschafften}
+\begin{itemize}
+ \item Die Gleichung besitzen maximal $n$ reelle Lösungen.
+\item Es gibt genau $n$ komplexe Lösungen.
+\item Für ungerades $n$ gibt es mindestens eine reelle Lösung.
+\item Komplexe Lösungen treten immer Paarweise auf.
+\item Es existieren nur Lösungsformeln bis $n\leq 4$. Für $n>4$ gibt es nur noch grafische oder numerische Lösungswege.
+\item Wenn eine Nullstelle bekannt ist kann man die Gleichung um einen Grad verringern, indem man denn zugehörigen Linearfaktor $x -x_1$ abspaltet(Polynome Division).
+\end{itemize}
+
+\subsection{Lineare Gleichungen}
+ \begin{equation*}
+  a_1\cdot x+a_0=0 \Rightarrow x_1=-\frac{a_0}{a_1}\quad (a_1\neq 0)
+ \end{equation*}
+
+\subsection{Quadratische Gleichungen}
+ \begin{equation*}
+  a_2\cdot x^2+a_1\cdot x+a_0=0\quad (a_2\neq0)
+ \end{equation*}
+
+ Normalform mit Lösung
+ \begin{equation*}
+  x^2+p\cdot x+q=0\Rightarrow x_{1/2}=-\frac{p}{2}\pm\sqrt{\left(\frac{p}{2}\right)^2-q}
+ \end{equation*}
+
+\emph{Überprüfung (Vietascher Wurzelsatz)}
+ \begin{align*}
+  x_1+x_2&=-p& x_1\cdot x_2&=q 
+ \end{align*}
+$x_1, x_2:$ Lösung der quadratischen Gleichung.
+
+\subsection{Biquadratische Gleichungen}
+Diese Gleichungen lassen sich mithilfe der Substitution lösen.
+ \begin{align*}
+  a\cdot x^4+b\cdot x^2 +c&=0&u&=x^2 \\
+  a\cdot u^2+b\cdot u +c&=0&x&=\pm\sqrt{u}
+ \end{align*}
+Das $u$ kann mithilfe der Lösungsformel einer quadratischen Gleichung gelöst werden.
+
+\subsection{Gleichungen höheren Grades} 
+Gleichungen höheren Grades kann man durch graphische oder numerische Ansätze lösen. Hilfreich ist das finden einer Lösung und das abspalten eines Linearfaktor
+, mithilfe der Polynomdivision oder dem Hornor Schema,von der ursprünglichen Gleichung.
+
+\emph{Polynomdivision}
+ \begin{equation*}
+  \frac{f(x)}{x-x_0}=\frac{a_3\cdot x^3+a_2\cdot x^2+a_1\cdot x +a_0}{x-x_0}=b_2\cdot x^2+b_1 \cdot x+b_0+r(x)
+ \end{equation*}
+$x_0$ ist dabei die erste gefunden Nullstelle. r(x) verschwindet wenn $x_0$ ein Nullstellen oder eine Lösung von f(x) ist.
+
+ \begin{equation*}
+  r(x)=\frac{a_3\cdot x_0^3+a_2\cdot x_0^2+a_1\cdot x_0 +a_0}{x-x_0}=\frac{f(x_0)}{x-x_0}
+ \end{equation*}
+
+\subsection{Wurzelgleichung}
+Wurzelgleichungen löst man durch quadrieren oder mit hilfe von Substitution.
+Bei Wurzelgleichung ist zu beachten das quadrieren keine Aquivalente Umformung ist und das 
+Ergebniss überprüft werden muss.
+
+\subsection{Ungleichungen}
+\begin{itemize}
+\item Beidseitiges Subtrahieren oder Addieren ist möglich
+\item Die Ungleichung darf mit einer beliebige positiven Zahl multipliziert oder dividiert werden
+\item Die Ungleichung darf mit einer beliebige negativen Zahl multipliziert oder dividiert werden, wenn man gleichzeitig das Relationszeichen umdreht.
+\end{itemize}
+
+\subsection{Betragsgleichungen}
+Betragsgleichungen löst man mithilfe der Fallunterscheidung. Dabei wird einmal davon ausgegangen das der Term inerhalb des Betrags einmal positiv und einmal negativen
+sein kann.
+\begin{align*}
+y&=|x|=
+\begin{cases}
+x \text{ für } x \geq 0 \\
+-x \text{ für } x < 0
+\end{cases}
+\end{align*}

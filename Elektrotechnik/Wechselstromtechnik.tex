@@ -1,16 +1,18 @@
-\section{Definitionen}
+ \begin{quote}
+  No rule is so general,\\which admits not some exception.\\- Robert Burton
+ \end{quote}
 
-\subsection{periodische zeitabhängige Größen}
+\subsection*{Periodische zeitabhängige Größen}
 Allgemein \(x\left(t\right) \xrightarrow{}\) speziell \(u\left(t\right); i\left(t\right); q\left(t\right); \dots\) \\
 es gillt \(x\left(t\right) = x\left(t + n \cdot T\right) ; \left(n \in \N^* \right) \)
 
-\subsection{Wechselgrößen}
+\subsection*{Wechselgrößen}
 Allgemein \(x_{\sim} \left(t\right)\); periodisch sich ändernde Größe, deren Gleichanteil bzw. 
 zeitlich linearer Mittelwert gleich Null ist. \\ \vspace{0mm} \\
 Nachweis: \[\int\limits_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \; ; \; \left(n \in \N^* \right) \;
 ; \; t1 \; \text{beliebiger Zeitwert}\]
 
-\subsection{Mischgrößen}
+\subsection*{Mischgrößen}
 Sind periodisch, Ihr Gleichanteil \(\overline{x}\) bzw. zeitlich linearer Mittelwert \\
 jedoch ist ungleich Null. 
 \begin{align*}
@@ -19,33 +21,33 @@ x\left(t\right) &= x_{\sim}\left(t\right) + \overline{x} \\
 &= \text{gleichanteilbehaftete Wechselgröße}
 \end{align*}
 
-\newpage
 \section{Anteile und Formfaktoren}
 
 \begin{multicols}{2}{}
-\subsection{Gleichanteil}
+\subsection*{Gleichanteil}
 \[ \overline{x} = \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x \left( t \right) dt \]
 
-\subsection{Gleichrichtwert}
+\subsection*{Gleichrichtwert}
 \[ \left| \overline{x} \right| = \frac{1}{n \cdot T} \cdot 
 \int_{t_{1}}^{t_{1} + n \cdot T} \left| x \right| \left( t \right) dt\]
 
-\subsection{Effektivwert}
+\subsection*{Effektivwert}
 \[ x_{eff} = X = \sqrt{ \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x^2 \left( t \right) dt} \]
 
-\subsection{Formfaktor}
+\subsection*{Formfaktor}
 \[F = \frac{x_{eff}}{\left|\overline{x}\right|} \\ 
 x_{eff} = \left|\overline{x}\right| \cdot F \]
 
-\subsection{crest - Faktor}
+\subsection*{crest - Faktor}
 \[ \sigma = \frac{\hat{x}}{x_{eff}} \]
 \hfill
 \end{multicols}
 
+\begin{center}
 \(n \in \N^* \rightarrow
 t1 \; \text{beliebiger Zeitwert} \rightarrow
-\left[|\overline{x} \right|] = \left[ x\left( t \right) \right] \)
-
+\left[|\overline{x} \right|] = \left[ x\left( t \right) \right] \) 
+\end{center}
 
 \section{Leistung und Leistungsfaktoren}
 \begin{multicols}{2}{}
@@ -186,15 +188,245 @@ Zeitbereich &  & komplexer Zeitbereich\\\hline
 \vspace*{\fill}
 \end{landscape}
 
-\subsection{Differentiation von Sinusgrößen}
 
-\emph{Merke:}
-\begin{itemize}
- \item \( \frac{1}{j} = -j \)
- \item \( j = e^{j\frac{\pi}{2}} \)
-\end{itemize}
+\begin{alignat*}{3}
+&\text{Merke:} &\quad\quad& \frac{1}{j}=-j &\quad\quad& j=e^{j\frac{\pi}{2}}
+\end{alignat*}
 
+\subsection{Differentiation und Integration von Sinusgrößen}
 
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\begin{center}
+\begin{tabular}{|r|l|}\hline
+% use packages: color,colortbl
+\rowcolor{tcA}
+Zeitbereich & Zeigerbereich\\\hline
+\(\begin{array}{c c}
+x\left(t\right) = \hat{x} \sin\left( \omega t + \varphi_{x} \right) \xrightarrow{HT_{1}} \\
+x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow{HT_{2}}
+\end{array}\)
+ & 
+\( \underline{x} = \hat{x} e^{j \left( \omega t + \varphi_{x} \right)}\)
+\\\hline
+\(\frac{d^{n} x \left( t \right)}{{dt}^n} \xrightarrow{HT_{1/2}}\) 
+& \(\frac{d^{n} \underline{x} \left( t \right)}{{dt}^{n}} = {\left( j \omega \right)}^{n} \underline{x}\)
+\\\hline
+\end{tabular}
+\end{center}
 
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\begin{center}
+\begin{tabular}{|r|l|}\hline
+% use packages: color,colortbl
+\rowcolor{tcA}
+Zeitbereich & Zeigerbereich\\\hline
+\(\begin{array}{c c}
+x\left(t\right) = \hat{x} \sin\left( \omega t + \varphi_{x} \right) \xrightarrow{HT_{1}} \\
+x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow{HT_{2}}
+\end{array}\)
+ & 
+\( \underline{x} = \hat{x} e^{j \left( \omega t + \varphi_{x} \right)}\)
+\\\hline
+\(\idotsint x \left( t \right) dt^n \xrightarrow{HT_{1/2}}\) 
+& \(\idotsint \underline{x} \left( t \right) dt = \frac{1}{\left( j \omega \right)^n} \underline{x}\)
+\\\hline
+\end{tabular}
+\end{center}
 
+\subsection{R, L und C im kompl. Zeigerbereich}
 
+\newcommand{\mcc}[3]{\multicolumn{#1}{#2}{#3}}
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\begin{center}
+\begin{tabular}{|l|l|}\hline
+% use packages: color,colortbl
+\mcc{1}{>{\columncolor{tcA}}l}{Ohmscher Widerstand} 
+& 
+\(\begin{array}{ll}
+\hat{U} = R \hat{I}&
+\hat{I} = \frac{\hat{U}}{R}
+\end{array}\)
+\\\hline
+\mcc{1}{>{\columncolor{tcA}}l}{Induktivität} 
+&
+\(\begin{array}{ll}
+\hat{U} = \omega L \hat{I}&
+\hat{I} = \frac{\hat{U}}{\omega L}
+\end{array}\)
+\\\hline
+\mcc{1}{>{\columncolor{tcA}}l}{Kapazität} 
+& 
+\(\begin{array}{ll}
+\hat{U} = \frac{\hat{I}}{\omega C}&
+\hat{I} = \omega C \hat{U}
+\end{array}\)
+\\\hline
+\end{tabular}
+\end{center}
+
+\subsection{Widerstands und Leitwertoperator}
+
+\definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
+\begin{center}
+\begin{tabular}{|l|l|}\hline
+\rowcolor{tcA}
+\(\underline{Z}\) komplexer Widerstand / Impedanz & 
+\(\underline{Y}\) komplexer Leitwert / Admitanz
+\\\hline
+\(\underline{Z}=\frac{\underline{u}}{\underline{i}}=\frac{{\hat{U}}}{{\hat{I}}}\cdot e^{j\left(\varphi_u - \varphi_i\right)}\) & 
+\(\underline{Y}=\frac{1}{\underline{Z}}=\frac{\hat{I}}{\hat{U}}\cdot e^{j\left(\varphi_i - \varphi_u\right)}\)
+\\\hline
+\(\left|\underline{Z}\right|=Z=\frac{\hat{U}}{\hat{I}}=\frac{U}{I}\) & 
+\(\left|\underline{Y}\right|=Y=\frac{1}{\underline{Z}}=\frac{I}{U}\)
+\\\hline
+mit \(\varphi_u - \varphi_i = \varphi_Z\) &
+mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
+\\\hline
+\end{tabular}
+\end{center}
+
+\emph{Widerstand}
+\[\underline{Z} = R \wedge \underline{Y} = 1/R\]
+\emph{Kapazität}
+\[\underline{Z} = \frac{1}{j \omega C} = \frac{1}{\omega C} e^{-j \frac{\pi}{2}} \wedge \underline{Y} = j \omega C = \omega C e^{j \frac{\pi}{2}}\]
+\emph{Induktivität}
+\[\underline{Z} = j \omega L = \omega L e^{j \frac{\pi}{2}} \wedge \underline{Y} = \frac{1}{j \omega L} = \frac{1}{\omega L} e^{-j \frac{\pi}{2}}\]
+
+\newpage
+\subsection{Resultierende Operatoren}
+
+\begin{multicols}{2}{}
+\subsubsection*{Reihenschaltung}
+\[\underline{Z}_{ges} = \sum \limits_{i=1}^{n} \underline{Z}_i\]
+\subsubsection*{Parallelschaltung}
+\[\underline{Y}_{ges} = \sum \limits_{i=1}^{n} \underline{Y}_i\]
+\end{multicols}
+
+\begin{multicols}{2}{}
+\subsubsection*{Spannungsteiler}
+\[\frac{\underline{u}_1}{\underline{u}_2} = \frac{\underline{Z}_1 + \underline{Z}_2}{\underline{Z}_2}\]
+\subsubsection*{Stromteiler}
+\[\frac{\underline{i}_1}{\underline{i}_2} = \frac{\underline{Y}_1}{\underline{Y}_2}\]
+\end{multicols}
+
+\subsection{Anteile am komplexen Widerstand (Impedanz)}
+\[\underline{Z} = \operatorname{Re}\{\underline{Z}\} + j \cdot \operatorname{Im}\{\underline{Z}\} = R + jX = \left|\underline{Z}\right| \cdot e^{j\varphi}\]
+\begin{align*}
+\text{mit }\varphi &= \varphi_u - \varphi_i \text{ Phasenwinkel; } R = \text{Wirkwiderstand; } \\ X &= \text{Blindwiderstand; } \left|\underline{Z}\right| = \text{Scheinwiderstand }
+\end{align*}
+\begin{alignat*}{3}
+R&=R &\quad\quad& L=\frac{X}{\omega} \text{ mit } X>0 &\quad\quad& C=-\frac{1}{\omega X} \text{ mit } X<0
+\end{alignat*}
+
+\subsection{Anteile am komplexen Leiwert (Admitanz)}
+\[\underline{Y} = \operatorname{Re}\{\underline{Y}\} + j \cdot \operatorname{Im}\{\underline{Y}\} = G + jB = \left|\underline{Y}\right| \cdot e^{j\gamma}\]
+\begin{align*}
+\text{mit }\gamma &= \varphi_i - \varphi_u \text{ Phasenwinkel; } G = \text{Wirkleitwert; } \\ B &= \text{Blindleitwert; } \left|\underline{Y}\right| = \text{Scheinleitwert }
+\end{align*}
+\begin{alignat*}{3}
+R&=\frac{1}{G} &\quad\quad& C=\frac{B}{\omega} \text{ mit } B>0 &\quad\quad& L=-\frac{1}{\omega B} \text{ mit } B<0
+\end{alignat*}
+
+\subsection{komplexer Widerstand / komplexer Leitwert}
+\begin{align*}
+\underline{Y} = G + jB &= \frac{1}{\underline{Z}} = \frac{1}{Z} \cdot e^{-j\varphi} \\
+	      &= \frac{1}{\sqrt{R^2 + X^2}} \cdot e^{-j\arctan\frac{X}{R}} \\
+	      &= \frac{1}{R + jX} = \frac{R-jX}{R^2 + X^2} = \underbrace{\frac{R}{R^2 + X^2}}_G \underbrace{-j\frac{X}{R^2 + X^2}}_B
+\end{align*}
+\begin{align*}
+\underline{Z} = R + jX &= \frac{1}{\underline{Y}} = \frac{1}{Y} \cdot e^{-j\gamma} \\
+	      &= \frac{1}{\sqrt{G^2 + B^2}} \cdot e^{-j\arctan\frac{B}{G}} \\
+	      &= \frac{1}{G + jB} = \frac{G-jB}{G^2 + B^2} = \underbrace{\frac{G}{G^2 + B^2}}_R \underbrace{-j\frac{B}{G^2 + B^2}}_X
+\end{align*}
+
+\subsection{Momentanleistung / Augenblicksleistung}
+\begin{align*}
+P\left(t\right) &= \underbrace{UI \cos \varphi}_{\text{zeitlich konstant}} - \underbrace{UI \cos \left(2 \omega t + \varphi_u + \varphi_i\right)}_{\text{mit doppelter Frequenz schwingend}} \\
+		&= UI \cos \varphi - UI \cos \left(2 \omega t + 2\varphi_u - \varphi\right) \\ \\
+		&\text{mit } \varphi = \varphi_u - \varphi_i \rightarrow \varphi_i = \varphi_u - \varphi
+\end{align*}
+
+\subsection{Blindleistung}
+\emph{Ermittlung des Blindleistungsanteils aus der Momentanleistung}
+\begin{align*}
+P\left(t\right) &= \underbrace{UI\cos\varphi}_{\text{Wirkleistung}}\underbrace{-UI\sin\varphi\cdot\sin\left(2\omega t + 2\varphi_u\right)}_{\text{Blindleistung}} \\
+P_{ges}\left(t\right) &= P_{wirk}\left(t\right) + P_{blind}\left(t\right)
+\end{align*}
+
+\vspace{0mm}
+
+\[u\left(t\right)\cdot i\left(t\right)
+\begin{cases}
+>0\text{ Energie zum Verbraucher} \\
+<0\text{ Energie zum Erzeuger}
+\end{cases}\]
+
+\subsection{Mittlere Leistung / Wirkleistung}
+\[P = \overline{P}\left(t\right) = \frac{1}{n \cdot T} \int_{t_1}^{t_1 + n \cdot T} u\left(t\right) \cdot i\left(t\right) dt = UI\cos\varphi\]
+
+\subsection{Definition von Blind- und Scheinleistung}
+\[Q = UI\sin\varphi \quad \left[Q\right] = \text{var} \quad \text{mit}
+\begin{cases}
+Q>0\text{ induktive Blindleistung } Q_{ind} \\ 
+Q<0\text{ kapazitive Blindleistung } Q_{kap}
+\end{cases}
+\]
+\[S = u_{eff} \cdot i_{eff} = U \cdot I \quad \left[S\right] = VA\]
+
+\subsection{Beziehungen zwischen Wirk- Blind- und Scheinleistung}
+
+\begin{center}
+\boxed{P=UI\cdot\cos\varphi \quad\quad Q=UI\cdot\sin\varphi \quad\quad S=UI} 
+\end{center}
+
+\begin{multicols}{2}
+\[\tan\varphi=\frac{Q}{P}=\frac{\sin\varphi}{\cos\varphi}\]
+
+\begin{align*}
+P&=\sqrt{S^2-Q^2} \\
+ &=S\cdot\cos\varphi \\
+ &=\frac{Q}{\tan\varphi}
+\end{align*}
+
+\begin{align*}
+S&=\sqrt{P^2+Q^2} \\
+ &=\frac{Q}{\sin\varphi} \\
+ &=\frac{P}{\cos\varphi}
+\end{align*}
+
+\[P^2+Q^2=U^2\cdot I^2=S^2\]
+
+\begin{align*}
+\text{Leistungsfaktor} \\
+\lambda = \frac{P}{S} = \cos\varphi
+\end{align*}
+
+\[Q =
+\begin{cases}
+>0 \rightarrow Q_{ind} = \sqrt{S^2-P^2} \\
+<0 \rightarrow Q_{kap} = -\sqrt{S^2-P^2}
+\end{cases}\]
+
+\[Q=S\cdot\sin\varphi=P\cdot\tan\varphi\]
+
+\begin{align*}
+\varphi&=\arctan\frac{Q}{P} \\ 
+       &=\arcsin\frac{Q}{S} \\
+       &=\arccos\frac{P}{S}
+\end{align*}
+
+\end{multicols}
+
+\subsection{Die komplexe Leistung}
+\begin{alignat*}{2}
+\underline{S}&=\underline{U}\cdot\underline{I}^* &\quad\quad\quad& ^*\text{ - konjugiert Komplex} \\
+	     &=U \cdot I \cdot e^{j\left(\varphi_u - \varphi_i\right)} \\
+	     &=S \cdot e^{j\varphi} \\
+	     &=\underbrace{S \cdot \cos\varphi}_P + j \cdot \underbrace{S \cdot \sin\varphi}_Q \\
+	     &=P + j Q &\quad\quad& \left[\underline{S}\right] = VA \quad \left[P\right] = W \quad \left[Q\right] = var
+\end{alignat*}
+
+\subsubsection{Zusammenhang mit dem komplexen Leitwert / Widerstand}
+\begin{alignat*}{3}
+\underline{S} &= I^2 \cdot \underline{Z} &\quad\quad\quad  P &= I^2 \cdot R = U^2 \cdot G &\quad\quad\quad Q &= I^2 \cdot X = -U^2 \cdot B
+\end{alignat*}

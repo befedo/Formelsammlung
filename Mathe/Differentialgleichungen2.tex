@@ -1,0 +1,138 @@
+ 
+\section{Differential- und Integralrechnung mit mehreren Variablen}
+\subsection{Differentialrechnung}
+
+\begin{boxleft}\bla{Aleitung}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+y&=f(x_1,x_2,\dots,x_3)\\
+\frac{\partial y}{\partial x_1}&=y_{x_1}&&\text{Alles bis auf $x_1$ ist konstant beim ableiten}\\
+\frac{\partial y}{\partial x_n}&=y_{x_n}&&\text{Alles bis auf $x_n$ ist konstant beim ableiten}\\
+\frac{\partial^2 y}{\partial x_1^2}&=y_{x_1x_1}&&\text{Alles bis auf $x_1$ ist konstant beim ableiten}\\
+y_{x_1x_2}&=y_{x_2x_1}
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Tangentialebene}
+\des{x_0}{Entwicklungspunkt der Ebene}\\
+\des{y_0}{Entwicklungspunkt der Ebene}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+z-z_0&=f_x\left(x_0;y_0\right)\cdot\left(x-x_0\right)+f_y\left(x_0;y_0\right)\cdot\left(y-y_0\right)
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Totales Differential}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\diff z&=f_x\cdot\diff x+f_y\cdot\diff y
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Extrema}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+&f_x(x_0,y_0)=0&&f_y(x_0,y_0)=0\\
+&f_{xx}(x_0;y_0)<0&&\text{Maximum}\\
+&f_{xx}(x_0;y_0)>0&&\text{Minimum}\\
+&\begin{vmatrix}f_{xx}(x_0;y_0)&f_{xy}(x_0;y_0)\\f_{xy}(x_0;y_0)&f_{yy}(x_0;y_0)\end{vmatrix}>0
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Sattelpunkt}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+&f_x(x_0,y_0)=0&&f_y(x_0,y_0)=0\\
+&\begin{vmatrix}f_{xx}(x_0;y_0)&f_{xy}(x_0;y_0)\\f_{xy}(x_0;y_0)&f_{yy}(x_0;y_0)\end{vmatrix}<0
+\end{align*}
+\end{boxrightshaded}
+
+
+\begin{boxleft}\bla{Richtungsableitung}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\frac{\partial z}{\partial \vv{a}}&=\frac{1}{\sqrt{a_x^2+a_y^2}}\cdot\left(a_xz_x+a_yz_y\right)\\
+\frac{\partial z}{\partial \alpha}&=z_x\cos\alpha+z_y\sin\alpha\\
+\frac{\partial z}{\partial \alpha}&=\vv{e_a}\cdot \grad\left(z\right)
+\end{align*}
+\end{boxrightshaded}
+
+\subsection{Mehrfachintegral}
+
+\begin{boxleft}\bla{Polarkordinaten}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+x&=x_0+r\cos\varphi&y&=y_0+r\sin\varphi
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Volumen}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+\iiint_{V}\diff V&=\int_x\int_y\int_z \diff z\diff y\diff x\\
+\iiint_{V}\diff V&=\int_r\int_\varphi\int_z r\diff z\diff r \diff \varphi\\
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Fläche}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+A&=\iint_{(A)}\diff A
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Masse}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+m&=\iint_{(A)}\rho(x,y)\diff x\diff y\\
+m&=\iint_{(A)}\rho(r,\varphi)r\diff r\diff \varphi\\
+m&=\iiint_{(V)}\rho(x,y)\diff z\diff x\diff y\\
+m&=\iiint_{(V)}\rho(r,\varphi)r\diff z\diff r\diff \varphi
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Statische Moment}
+\des{M_x}{Moment bezüglich x-Achse}\\
+\des{M_y}{Moment bezüglich y-Achse}\\
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+M_x&=\iint_{(A)}y\rho(x,y)\diff x\diff y\\
+M_x&=\iint_{(A)}y_0+r\sin\varphi\rho(r,\varphi)r\diff r\diff \varphi\\
+M_y&=\iint_{(A)}x\rho(x,y)\diff x\diff y\\
+M_y&=\iint_{(A)}x_0+r\cos\varphi\rho(r,\varphi)r\diff r\diff \varphi
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Schwerpunkt}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+x_s&=\frac{M_y}{m}\\
+y_s&=\frac{M_x}{m}\\
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Trägheitsmoment}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+I_x&=\iint_{(A)}y^2\rho(x,y)\diff x\diff y\\
+I_x&=\iint_{(A)}\left(y_0+r\sin\varphi\right)^2\rho(r,\varphi)r\diff r\diff \varphi\\
+I_y&=\iint_{(A)}x^2\rho(x,y)\diff x\diff y\\
+I_y&=\iint_{(A)}\left(x_0+r\cos\varphi\right)^2\rho(r,\varphi)r\diff r\diff \varphi
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Polares Trägheitsmoment}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+I_x&=\iint_{(A)}\left(y^2+x^2\right)\rho(x,y)\diff x\diff y\\
+I_x&=\iint_{(A)}\left(\left(y_0+r\sin\varphi\right)^2+\left(x_0+r\cos\varphi\right)^2\right)\rho(r,\varphi)r\diff r\diff \varphi
+\end{align*}
+\end{boxrightshaded}
+
+\begin{boxleft}\bla{Kugelkoordinaten}
+\end{boxleft}\begin{boxrightshaded}
+\begin{align*}
+V&=\int_r\int_\vartheta\int_\varphi r^2\sin\vartheta\diff \varphi \diff \vartheta \diff r
+\end{align*}
+\end{boxrightshaded}
+

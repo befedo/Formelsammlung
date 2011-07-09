@@ -1,0 +1,151 @@
+\begin{multicols}{2}
+\section{Wärmedehnung}
+\begin{align*}
+\rho(T)&=\rho_0(1-\beta(T-T_0))\\
+V(T)&=V_0(1+\gamma(T-T_0))\\
+l(T)&=l_0(1+\alpha(T-T_0))\\
+\gamma&\approx 3\cdot \alpha\\
+\gamma&\approx \beta
+\end{align*}
+
+\section{Wärme}
+\begin{align*}
+\Delta Q&=c\cdot m(T-T_0)\\
+\Delta Q&=C(T-T_0)\\
+\Delta Q&=\int_{T_0}^T c\cdot m \diff T\\
+\Delta Q&=c_{mol}\cdot n(T-T_0)
+\end{align*}
+
+\section{Mischtemperatur}
+\begin{align*}
+T_m&=\frac{\sum_{i=1}^n T_i m_i c_i}{\sum_{i=1}^n m_i c_i} \\
+\dot{Q}&\text{Ist durch einen mehrschichtiges}\\
+&\text{stationäres System Konstant}
+\end{align*}
+
+\section{Wärmeleitung}
+\begin{align*}
+\dot{Q}&=\frac{\diff Q}{\diff t}=\varPhi=P\\
+\vec{\dot{q}}&=\frac{\dot{Q}}{A}\cdot\vec{e_A}\\
+\vec{\dot{q}}&=-\lambda\grad{T}\\
+\vec{\dot{q}}&=\frac{\lambda}{s}\left(T_A-T_B\right)\cdot\vec{e_s}\\
+\dot{q}&=\frac{1}{\sum_{i=1}^n\frac{s_i}{\lambda_i}}\cdot\left(T_A-T_B\right)
+\end{align*}
+
+\section{Wärmekonvektion}
+\begin{align*}
+\dot{q}&=\alpha\left(T_A-T_B\right)\\
+\dot{q}&=\frac{1}{\sum_{i=1}^n\frac{1}{\alpha_i}}\cdot\left(T_A-T_B\right)
+\end{align*}
+\vfill
+\end{multicols}
+
+\section{Wärmewiderstand}
+
+\[R_{th}=\frac{T_A-T_B}{\dot{q}\cdot A}=\frac{s}{\lambda A}=\frac{1}{\alpha A}=\sum_{i=1}^n R_{i}\]
+
+\subsection{Wärmeübertragung}
+\begin{align*}
+k&=\frac{1}{\sum_{i=1}^n\frac{s_i}{\lambda_i}+\sum_{i=1}^n\frac{1}{\alpha_i}+\sum_{i=1}^n R_{i}}\\
+\dot{q}&=\frac{1}{\sum_{i=1}^n\frac{s_i}{\lambda_i}+\sum_{i=1}^n\frac{1}{\alpha_i}+\sum_{i=1}^n R_{i}}\cdot\left(T_A-T_B\right)\\
+\dot{q}&=k\cdot\left(T_A-T_B\right)
+\end{align*}
+
+\subsection{Wärmestrahlung}
+\begin{align*}
+\alpha&=\varepsilon\\
+1&=\alpha+\tau+\vartheta\\
+\dot{Q}&=\varepsilon A \sigma T^4\\
+\dot{Q}_{AB}&=C_{AB}A_A\left(T_A^4-T_B^4\right)\\
+C_{AB}&=\varepsilon_{AB}\sigma=\frac{\sigma}{\frac{1}{\varepsilon_A}+\frac{1}{\varepsilon_B}-1}=\frac{1}{\frac{1}{\sigma_A}+\frac{1}{\sigma_B}-\frac{1}{\sigma}}&&\text{Parallel}\\
+C_{AB}&=\frac{\sigma}{\frac{1}{\varepsilon_A}+\frac{A_A}{A_B}\left(\frac{1}{\varepsilon_B}-1\right)}&&\text{$A_A$ von $A_B$ umschlossen}\\
+C_{AB}&\approx\varepsilon_A\sigma&&\text{parallel ($A_A\ll A_B$)}
+\end{align*}
+
+\subsection{Zustandsänderung des idealen Gases}
+Teilchen stehen nicht in Wechselwirkung, besitzen kein Volumen \\ und es kommt zu keinem Phasenübergang
+
+\begin{multicols}{2}
+\subsubsection{Energie}
+\begin{align*}
+U_{12}&=Q_{12}+W_{12}\\
+&\text{Nur Isobar:}\\
+\diff H&=c_pm\diff T=U+p\diff V\\
+\diff S&=\frac{\diff Q}{T}
+\end{align*}
+\vfill
+
+\subsubsection{Zustandsgleichung}
+\begin{align*}
+\frac{pV}{T}&=\text{const}\\
+pV&=NkT=mR_sT=nRT\\
+R_s&=\frac{nR}{m}\\
+R_s&=c_p-c_v
+\end{align*}
+\end{multicols}
+
+\newpage
+\begin{multicols}{2}
+\subsubsection{Isotherm}
+\begin{align*}
+pV&=\text{const}\\
+T&=\text{const}\\
+U_{12}&=0\\
+U_{12}&=Q_{12}+ W_{12}\\
+Q_{12}&=-W_{12}\\
+W_{12}&=p_1V_1\ln{\frac{V_2}{V_1}}\\
+W_{12}&=p_1V_1\ln{\frac{p_1}{p_2}}\\
+S_{12}&=mc_p\ln{\frac{V_2}{V_1}}+mc_V\ln{\frac{p_2}{p_1}}
+\end{align*}
+
+\subsubsection{Isobar}
+\begin{align*}
+\frac{V}{T}&=\text{const}\\
+p&=\text{const}\\
+Q_{12}&=mc_p\left(T_2-T_1\right)\\
+W_{12}&=-p\left(V_2-V_1\right)\\
+U_{12}&=Q_{12}+ W_{12}\\
+S_{12}&=mc_p\ln{\frac{V_2}{V_1}}
+\end{align*}
+
+\subsubsection{Isochor}
+\begin{align*}
+\frac{p}{T}&=\text{const}\\
+V&=\text{const}\\
+Q_{12}&=mc_v\left(T_2-T_1\right)\\
+W_{12}&=0\\
+U_{12}&=Q_{12}\\
+S_{12}&=mc_v\ln{\frac{p_2}{p_1}}
+\end{align*}
+
+\subsubsection{Adiabat}
+\begin{align*}
+pV^\kappa&=\text{const}\\
+Q&=\text{const}\\
+\kappa&=\frac{c_p}{c_V}\\
+\frac{T_2}{T_1}&=\left(\frac{V_2}{V_1}\right)^{1-\kappa}=\left(\frac{p_2}{p_1}\right)^{\frac{\kappa-1}{\kappa}}\\
+Q_{12}&=0\\
+W_{12}&=mc_v\left(T_2-T_1\right)\\
+W_{12}&=\frac{RT_1}{\kappa-1}\left(\left(\frac{V_2}{V_1}\right)^{1-\kappa}-1\right)\\
+U_{12}&=W_{12}\\
+S_{12}&=0;
+\end{align*}
+
+\subsubsection{Kreisprozess}
+\begin{align*}
+\oint \diff U&=0\\
+\oint \diff U&= \oint \diff Q +\oint \diff W\\
+&\text{Revesiebel:}
+\oint \diff S&=0\\
+&\text{Irrevesiebel}
+\oint \diff S&>0\\
+\end{align*}
+
+\subsubsection{Carnot-Prozeß}
+\begin{align*}
+\eta_C&=\frac{W_{ab}}{Q_{zu}}\\
+\eta_C&=\frac{Q_{zu}-Q_{AB}}{Q_{zu}}\\
+\eta_C&=\frac{T_h-T_n}{T_n}
+\end{align*}
+\vfill
+\end{multicols}

@@ -2,7 +2,7 @@
 #danach wird Kile gestartet, um die Formelsammlung zu editieren.
 
 #In den richtigen Pfad wechseln
-cd Dokumente/Formelsammlung/
+cd /home/Befedo/Documents/Formelsammlung/
 
 echo "FETCH wird ausgeführt..."
 git fetch

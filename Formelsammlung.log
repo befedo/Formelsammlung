@@ -1,24 +1,20 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.3.13)  18 MAY 2011 14:03
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.6.2)  9 JUL 2011 01:51
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **Formelsammlung.tex
 (./Formelsammlung.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
-, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
-kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
-german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
- bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
-telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
- lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
-nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
- turkmen, ukrainian, uppersorbian, welsh, loaded.
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
 (/usr/share/texmf/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: report 2005/09/16 v1.4f Standard LaTeX document class
 (/usr/share/texmf/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -34,19 +30,19 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texmf/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+Package: inputenc 2006/05/05 v1.1b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
 (/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
+... processing UTF-8 mapping file for font encodingT1
 
 (/usr/share/texmf/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -193,10 +189,10 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+2423 (decimal 9251)
 )
 Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
+... processing UTF-8 mapping file for font encodingOT1
 
 (/usr/share/texmf/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -224,10 +220,10 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+201D (decimal 8221)
 )
 Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
+... processing UTF-8 mapping file for font encodingOMS
 
 (/usr/share/texmf/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -251,19 +247,11 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texmf/tex/latex/geometry/geometry.sty
-Package: geometry 2010/07/13 v5.5 Page Geometry
+Package: geometry 2002/07/08 v3.2 Page Geometry
 
 (/usr/share/texmf/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
-)
-(/usr/share/texmf/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
 )
 \Gm@cnth=\count88
 \Gm@cntv=\count89
@@ -272,37 +260,33 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
 )
 (/usr/share/texmf/tex/generic/german/german.sty v2.5e 1998-07-08
 Package: german 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen111
-german -- \language number for Austrian undefined, default 26 used.
+\grmnU@D=\dimen107
+german -- \language number for Austrian undefined, default 11 used.
 )
 (/usr/share/texmf/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 90.
 
 (/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
 \Gread@gobject=\count91
 ))
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
 )
 (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -315,11 +299,11 @@ Package: amstext 2000/06/29 v2.01
 (/usr/share/texmf/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
-\ex@=\dimen114
+\ex@=\dimen110
 ))
 (/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen115
+\pmbraise@=\dimen111
 )
 (/usr/share/texmf/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -336,7 +320,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen116
+\big@size=\dimen112
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count97
@@ -349,12 +333,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count102
 \maxfields@=\count103
 \andhelp@=\toks20
-\eqnshift@=\dimen117
-\alignsep@=\dimen118
-\tagshift@=\dimen119
-\tagwidth@=\dimen120
-\totwidth@=\dimen121
-\lineht@=\dimen122
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
 \@envbody=\toks21
 \multlinegap=\skip44
 \multlinetaggap=\skip45
@@ -363,151 +347,73 @@ LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
 (/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+Package: amssymb 2002/01/22 v2.2d
 
 (/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+Package: amsfonts 2001/10/25 v2.2f
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 ))
 (/usr/share/texmf/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
 (/usr/share/texmf/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2010/06/18 v6.81g Hypertext links for LaTeX
-
-(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-)
-(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))
-(/usr/share/texmf/tex/generic/oberdiek/pdfescape.sty
-Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
-s (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
-
-
-(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-))
-(/usr/share/texmf/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-(/usr/share/texmf/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
-
-(/usr/share/texmf/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2009/12/12 xcolor patch
-))
-(/usr/share/texmf/tex/latex/oberdiek/letltxmacro.sty
-Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
-)
-\@linkdim=\dimen123
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen119
 \Hy@linkcounter=\count104
 \Hy@pagecounter=\count105
 
 (/usr/share/texmf/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2010/06/18 v6.81g Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/share/texmf/tex/generic/oberdiek/intcalc.sty
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-(/usr/share/texmf/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 (/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 3658.
-Package hyperref Info: Link nesting OFF on input line 3663.
-Package hyperref Info: Hyper index ON on input line 3666.
-Package hyperref Info: Plain pages OFF on input line 3673.
-Package hyperref Info: Backreferencing OFF on input line 3678.
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
 
 Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3874.
-(/usr/share/texmf/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4159.
-
-(/usr/share/texmf/tex/generic/oberdiek/bitset.sty
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/bigintcalc.sty
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-))
+LaTeX Info: Redefining \url on input line 2599.
 \Fld@menulength=\count106
-\Field@Width=\dimen124
-\Fld@charsize=\dimen125
-\Field@toks=\toks23
-Package hyperref Info: Hyper figures OFF on input line 5137.
-Package hyperref Info: Link nesting OFF on input line 5142.
-Package hyperref Info: Hyper index ON on input line 5145.
-Package hyperref Info: backreferencing OFF on input line 5152.
-Package hyperref Info: Link coloring OFF on input line 5157.
-Package hyperref Info: Link coloring with OCG OFF on input line 5162.
-Package hyperref Info: PDF/A mode OFF on input line 5167.
-LaTeX Info: Redefining \ref on input line 5207.
-LaTeX Info: Redefining \pageref on input line 5211.
-
-(/usr/share/texmf/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
-)
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+\Choice@toks=\toks23
+\Field@toks=\toks24
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
 \Hy@abspage=\count107
 \c@Item=\count108
 \c@Hfootnote=\count109
 )
-* hyperref using default driver hpdftex *
+*hyperref using default driver hpdftex*
 (/usr/share/texmf/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2010/06/18 v6.81g Hyperref driver for pdfTeX
-
-(/usr/share/texmf/tex/latex/oberdiek/atveryend.sty
-Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
-Package atveryend Info: \enddocument detected (standard).
-)
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
 \Fld@listcount=\count110
-\c@bookmark@seq@number=\count111
-
-(/usr/share/texmf/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texmf/tex/generic/oberdiek/uniquecounter.sty
-Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-71.
-)
-\Hy@SectionHShift=\skip46
 )
 (/usr/share/texmf/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texmf/tex/latex/latexconfig/color.cfg
+(/usr/share/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
@@ -516,42 +422,42 @@ Package color Info: Driver file: pdftex.def on input line 130.
 Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
 
 (/usr/share/texmf/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen126
-\extrarowheight=\dimen127
-\NC@list=\toks24
-\extratabsurround=\skip47
-\backup@length=\skip48
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen122
+\extrarowheight=\dimen123
+\NC@list=\toks25
+\extratabsurround=\skip46
+\backup@length=\skip47
 )
-\everycr=\toks25
-\minrowclearance=\skip49
+\everycr=\toks26
+\minrowclearance=\skip48
 )
 (/usr/share/texmf/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen128
-\TX@old@table=\dimen129
-\TX@old@col=\dimen130
-\TX@target=\dimen131
-\TX@delta=\dimen132
-\TX@cols=\count112
-\TX@ftn=\toks26
+\TX@col@width=\dimen124
+\TX@old@table=\dimen125
+\TX@old@col=\dimen126
+\TX@target=\dimen127
+\TX@delta=\dimen128
+\TX@cols=\count111
+\TX@ftn=\toks27
 )
 (/usr/share/texmf/tex/latex/tools/multicol.sty
-Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
-\c@tracingmulticols=\count113
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+\c@tracingmulticols=\count112
 \mult@box=\box28
-\multicol@leftmargin=\dimen133
-\c@unbalance=\count114
-\c@collectmore=\count115
-\doublecol@number=\count116
-\multicoltolerance=\count117
-\multicolpretolerance=\count118
-\full@width=\dimen134
-\page@free=\dimen135
-\premulticols=\dimen136
-\postmulticols=\dimen137
-\multicolsep=\skip50
-\multicolbaselineskip=\skip51
+\multicol@leftmargin=\dimen129
+\c@unbalance=\count113
+\c@collectmore=\count114
+\doublecol@number=\count115
+\multicoltolerance=\count116
+\multicolpretolerance=\count117
+\full@width=\dimen130
+\page@free=\dimen131
+\premulticols=\dimen132
+\postmulticols=\dimen133
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
 \partial@page=\box29
 \last@line=\box30
 \mult@rightbox=\box31
@@ -575,11 +481,11 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count119
-\c@finalcolumnbadness=\count120
-\last@try=\dimen138
-\multicolovershoot=\dimen139
-\multicolundershoot=\dimen140
+\c@columnbadness=\count118
+\c@finalcolumnbadness=\count119
+\last@try=\dimen134
+\multicolovershoot=\dimen135
+\multicolundershoot=\dimen136
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
 )
@@ -587,242 +493,251 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/share/texmf/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 77.
+Package: pdflscape 2006/04/24 v0.6 Landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: `pdftex' on input line 70.
 )
 Package hyperref Info: Option `linktocpage' set `true' on input line 34.
 Package hyperref Info: Option `colorlinks' set `false' on input line 34.
  (./Formelsammlung.aux)
 \openout1 = `Formelsammlung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+-------------------- Geometry parameters
+paper: a5paper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 42.67912pt, 367.04057pt, 14.22636pt
+v-parts: 42.67912pt, 512.14963pt, 42.67912pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  423.94606pt
+\paperheight 597.50787pt
+\textwidth  367.04057pt
+\textheight 512.14963pt
+\oddsidemargin  -29.59087pt
+\evensidemargin -29.59087pt
+\topmargin  -66.59087pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 3.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a5paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(42.67912pt, 364.1953pt, 14.22636pt)
-* v-part:(T,H,B)=(42.67912pt, 512.14963pt, 42.67912pt)
-* \paperwidth=421.10078pt
-* \paperheight=597.50787pt
-* \textwidth=364.1953pt
-* \textheight=512.14963pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=3.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen141
-\scratchbox=\box54
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen142
-\MPnumerator=\count125
-\everyMPtoPDFconversion=\toks28
-) (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
-Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 436.
-
-(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 67.
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package hyperref Info: Link coloring OFF on input line 62.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
 (/usr/share/texmf/tex/latex/oberdiek/refcount.sty
-Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-(/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+\c@section@level=\count120
 )
-\c@section@level=\count126
-)
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
-
-(./Formelsammlung.out) (./Formelsammlung.out)
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+ (./Formelsammlung.out)
+(./Formelsammlung.out)
 \@outlinefile=\write3
 \openout3 = `Formelsammlung.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 69.
-
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+ (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 69.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 69.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 64.
 
 (/usr/share/texmf/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Formelsammlung.tocpdfTe
-X warning (ext4): destination with the same identifier (name{page.1}) has been 
-already used, duplicate ignored
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Formelsammlung.tocpdf
+TeX warning (ext4): destination with the same identifier (name{page.1}) has bee
+n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 ...5}Elastischer Stoss}{17}{subsection.3.2.5}
+l.38 ...line {3.1.3}Geraden}{17}{subsection.3.1.3}
                                                    [1
 
-] [2])
+] [2] [3])
 \tf@toc=\write4
 \openout4 = `Formelsammlung.toc'.
 
- [3] [4
+ [4] [5
 
 ]
 Kapitel 1.
-(./Mathe/Mathe.tex [5
+(./Mathe/Mathe.tex [6
 
-] [6] [7] [8] [9]) [10]
+] [7] [8] [9] [10]) [11]
 Kapitel 2.
-(./Mathe/Lineare-Algebra.tex) [11
-
-] [12
-
-]
-Kapitel 3.
-(./Physik/Algemein.tex [13
-
-] [14] [15] [16] [17] [18] [19] [20]
-<./Physik/Bilder/Spannung.png, id=514, 501.875pt x 501.875pt>
-File: ./Physik/Bilder/Spannung.png Graphic file (type png)
-
-<use ./Physik/Bilder/Spannung.png>
-<./Physik/Bilder/Tangentialspannung.png, id=516, 501.875pt x 501.875pt>
-File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
-
-<use ./Physik/Bilder/Tangentialspannung.png>
-<./Physik/Bilder/Scherbeanspruchung.png, id=517, 501.875pt x 501.875pt>
-File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
-
-<use ./Physik/Bilder/Scherbeanspruchung.png> [21 <./Physik/Bilder/Spannung.png>
- <./Physik/Bilder/Tangentialspannung.png> <./Physik/Bilder/Scherbeanspruchung.p
-ng>] [22] [23]) [24]
-Kapitel 4.
-(./Physik/Fluiddynamik.tex [25
-
-]) [26]
-Kapitel 5.
-(./Physik/Gravitation.tex) [27
-
-]
-Kapitel 6.
-(./Physik/Elektrostatik.tex [28
-
-]) [29] [30
-
-]
-Kapitel 7.
-(./Elektrotechnik/Elektrotechnik.tex [31
-
-]) [32]
-Kapitel 8.
-(./Elektrotechnik/Wechselstromtechnik.tex [33
-
-] [34]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
-
-(/usr/share/texmf/tex/latex/base/omscmr.fd
+(./Mathe/Funktionen.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+ (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
- [35] [36] [37
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
- [38
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [12
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+[13]) [14]
+Kapitel 3.
+(./Mathe/Vektorrechnung.tex [15
 
-(./Formelsammlung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package rerunfilecheck Info: File `Formelsammlung.out' has not changed.
-(rerunfilecheck)             Checksum: 5DCD8856F1C6C350205F89C1A65575C6;4913.
- ) 
+] [16] [17]) [18]
+Kapitel 4.
+(./Mathe/Differentialrechnung.tex [19
+
+] [20] [21] [22])
+(./Mathe/Differentialgleichungen.tex [23] [24] [25]) [26]
+Kapitel 5.
+[27
+
+]
+Kapitel 6.
+[28
+
+] [29
+
+]
+Kapitel 7.
+(./Physik/Algemein.tex [30
+
+] [31] [32] [33] [34] [35] [36] [37]
+<./Physik/Bilder/Spannung.png, id=881, 501.875pt x 501.875pt>
+File: ./Physik/Bilder/Spannung.png Graphic file (type png)
+
+<use ./Physik/Bilder/Spannung.png>
+<./Physik/Bilder/Tangentialspannung.png, id=882, 501.875pt x 501.875pt>
+File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
+
+<use ./Physik/Bilder/Tangentialspannung.png>
+<./Physik/Bilder/Scherbeanspruchung.png, id=883, 501.875pt x 501.875pt>
+File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
+
+<use ./Physik/Bilder/Scherbeanspruchung.png> [38 <./Physik/Bilder/Spannung.png>
+ <./Physik/Bilder/Tangentialspannung.png> <./Physik/Bilder/Scherbeanspruchung.p
+ng>] [39] [40]) [41]
+Kapitel 8.
+(./Physik/Fluiddynamik.tex [42
+
+]) [43]
+Kapitel 9.
+(./Physik/Gravitation.tex) [44
+
+]
+Kapitel 10.
+(./Physik/Elektrostatik.tex [45
+
+]) [46]
+Kapitel 11.
+(./Physik/Thermodynamik.tex [47
+
+] [48]) [49]
+Kapitel 12.
+(./Physik/Optik.tex
+<./Physik/Bilder/Hohlspiegel.png, id=990, 326.72063pt x 224.33812pt>
+File: ./Physik/Bilder/Hohlspiegel.png Graphic file (type png)
+
+<use ./Physik/Bilder/Hohlspiegel.png> [50
+
+ <./Physik/Bilder/Hohlspiegel.png (PNG copy)>] <./Physik/Bilder/Linse.png, id=9
+95, 255.20343pt x 109.1578pt>
+File: ./Physik/Bilder/Linse.png Graphic file (type png)
+
+<use ./Physik/Bilder/Linse.png>
+<./Physik/Bilder/Beispiele-Linsen.png, id=996, 778.40813pt x 292.09125pt>
+File: ./Physik/Bilder/Beispiele-Linsen.png Graphic file (type png)
+
+<use ./Physik/Bilder/Beispiele-Linsen.png> [51 <./Physik/Bilder/Linse.png (PNG 
+copy)> <./Physik/Bilder/Beispiele-Linsen.png (PNG copy)>]
+<./Physik/Bilder/Lichtwellenleiter.png, id=1001, 207.77625pt x 313.17pt>
+File: ./Physik/Bilder/Lichtwellenleiter.png Graphic file (type png)
+
+<use ./Physik/Bilder/Lichtwellenleiter.png>) [52 <./Physik/Bilder/Lichtwellenle
+iter.png (PNG copy)>] [53
+
+]
+Kapitel 13.
+(./Elektrotechnik/Elektrotechnik.tex [54
+
+] [55])
+Kapitel 14.
+(./Elektrotechnik/Wechselstromtechnik.tex [56
+
+] [57] [58] [59] [60
+
+]
+Package color Info: Redefining color tcA on input line 217.
+Package color Info: Redefining color tcA on input line 239.
+Package color Info: Redefining color tcA on input line 269.
+ [61
+
+]
+[62] [63]) [64] (./Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 7048 strings out of 493747
- 98124 string characters out of 3151242
- 197440 words of memory out of 3500000
- 9932 multiletter control sequences out of 15000+200000
- 14403 words of font info for 57 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 34i,19n,28p,451b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
-xmf/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/tex
-mf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.
-pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb
-></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/a
-msfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on Formelsammlung.pdf (39 pages, 410493 bytes).
+ 4972 strings out of 256216
+ 65248 string characters out of 1917073
+ 147338 words of memory out of 1500000
+ 7743 multiletter control sequences out of 10000+200000
+ 14771 words of font info for 58 fonts, out of 1200000 for 2000
+ 646 hyphenation exceptions out of 8191
+ 34i,25n,36p,452b,387s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/c
+m/cmbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/te
+xmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/te
+xmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmmi5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb></usr/share/texmf/
+fonts/type1/bluesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8
+.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr5.pfb></usr/share/texmf/fonts/type1
+/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/sh
+are/texmf/fonts/type1/bluesky/cm/cmsl10.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy5.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/t
+exmf/fonts/type1/bluesky/ams/msbm10.pfb>
+Output written on Formelsammlung.pdf (65 pages, 622324 bytes).
 PDF statistics:
- 779 PDF objects out of 1000 (max. 8388607)
- 704 compressed objects within 8 object streams
- 220 named destinations out of 1000 (max. 500000)
- 584 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1243 PDF objects out of 1440 (max. 8388607)
+ 378 named destinations out of 1000 (max. 131072)
+ 988 words of extra memory for PDF output out of 10000 (max. 10000000)
 

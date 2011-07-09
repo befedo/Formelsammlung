@@ -1,13 +1,15 @@
+\begin{quote}
+Why waste time learning\\when ignorance is instantaneous?\\- Hobbes
+\end{quote}
+
 	%1. Abschnitt
 	\section{Rechenregeln fuer Potenzen}
 				
 			
-			\begin{align*}
-				a^m \cdot a^n &= a^{m+n}	& \frac{a^m}{a^n} &= a^{m-n}	\\ \\
-				\left( a^m \right)^n = \left( a^n \right)^m &= a^{m \cdot n} & a^n \cdot b^n &= \left( a \cdot b \right)^n	\\ \\
-				\frac{a^n}{b^n} &= \left( \frac{a}{b} \right)^n	\\ \\
-				\text{(fuer a} > \text{0) } a^b &= e^{b \cdot \ln a}
-			\end{align*}
+			\begin{alignat*}{3}
+				a^m \cdot a^n &= a^{m+n} &\quad& \frac{a^m}{a^n} = a^{m-n} &\quad& \left( a^m \right)^n = \left( a^n \right)^m = a^{m \cdot n} \\ 
+				a^n \cdot b^n &= \left( a \cdot b \right)^n && \frac{a^n}{b^n} = \left( \frac{a}{b} \right)^n && \text{(fuer a} > \text{0) } a^b = e^{b \cdot \ln a}
+			\end{alignat*}
 	
 	%2.Abschnitt
 	\vspace{10mm}
@@ -112,7 +114,7 @@
 		
 		
 			\begin{align*}
-				\binom{n}{0} &= \binom{n}{n} = 1 & \binom{n}{k} &= 0 \text{ f�r k} > \text{n} & \binom{n}{1} &= \binom{n}{n-1} = n
+				\binom{n}{0} &= \binom{n}{n} = 1 & \binom{n}{k} &= 0 \text{ fuer k} > \text{n} & \binom{n}{1} &= \binom{n}{n-1} = n
 				\\
 				\binom{n}{k} &= \binom{n}{n-k} & \binom{n}{k} &+ \binom{n}{k+1} = \binom{n+1}{k+1}
 			\end{align*}

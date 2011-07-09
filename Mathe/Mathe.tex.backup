@@ -1,12 +1,16 @@
+\begin{quote}
+Why waste time learning\\when ignorance is instantaneous?\\- Hobbes
+\end{quote}
+
 	%1. Abschnitt
-	\section{Rechenregeln für Potenzen}
+	\section{Rechenregeln fuer Potenzen}
 				
 			
 			\begin{align*}
 				a^m \cdot a^n &= a^{m+n}	& \frac{a^m}{a^n} &= a^{m-n}	\\ \\
 				\left( a^m \right)^n = \left( a^n \right)^m &= a^{m \cdot n} & a^n \cdot b^n &= \left( a \cdot b \right)^n	\\ \\
 				\frac{a^n}{b^n} &= \left( \frac{a}{b} \right)^n	\\ \\
-				\text{(f�r a} > \text{0) } a^b &= e^{b \cdot \ln a}
+				\text{(fuer a} > \text{0) } a^b &= e^{b \cdot \ln a}
 			\end{align*}
 	
 	%2.Abschnitt
@@ -14,11 +18,11 @@
 	\section{Zusammenhang zwischen Wurzeln und Potenzen}
 		
 	
-			\begin{align*}
+			
 				\boxed{
 				\text{Im Folgenden wird vorausgesetzt, dass alle Potenzen und Wurzeln existieren.}
-				} \
-			\end{align*}
+				} 
+			
 			
 			\begin{align*}
 				\sqrt[n]{a} &= a^{\frac{1}{n}} & \sqrt[n]{a^m} &= a^{\frac{m}{n}} & \left(\sqrt[n]{a}\right)^m &= a^{ \frac{m}{n}}
@@ -38,7 +42,7 @@
 				
 	%Unterpunkt
 	\vspace{10mm}
-	\subsection{Der natürliche Logarithmus}
+	\subsection{Der natuerliche Logarithmus}
 	
 	
 			%Hier muss der Limes noch angepasst werden, so dass der BEreich unter dem Ausdruck steht!
@@ -102,7 +106,7 @@
 		\ldots + \binom{n}{n-1} a^{1} \cdot b^{n-1} + b^n \)
 		\vspace{5mm}
 		\newline
-		\text{Die Koeffizienten \( \binom{n}{k} \) hei�en Binominalkoeffizienten, ihr Bildungsgesetz lautet:}
+		\text{Die Koeffizienten \( \binom{n}{k} \) heißen Binominalkoeffizienten, ihr Bildungsgesetz lautet:}
 		\vspace{5mm}
 		\newline
 		\( \binom{n}{k} = \frac{n \left( n - 1 \right) \left( n - 2 \right) \ldots \left[ n - \left( k - 1 \right) \right]}{k!} = \frac{n!}{k! \left( n - k \right) !} \)
@@ -112,7 +116,7 @@
 		
 		
 			\begin{align*}
-				\binom{n}{0} &= \binom{n}{n} = 1 & \binom{n}{k} &= 0 \text{ f�r k} > \text{n} & \binom{n}{1} &= \binom{n}{n-1} = n
+				\binom{n}{0} &= \binom{n}{n} = 1 & \binom{n}{k} &= 0 \text{ fuer k} > \text{n} & \binom{n}{1} &= \binom{n}{n-1} = n
 				\\
 				\binom{n}{k} &= \binom{n}{n-k} & \binom{n}{k} &+ \binom{n}{k+1} = \binom{n+1}{k+1}
 			\end{align*}

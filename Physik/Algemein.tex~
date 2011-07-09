@@ -1,6 +1,8 @@
-\section{Kinematik}
+\begin{quote}
+Perfection is achieved\\only on the point of collapse.\\- C. N. Parkinson
+\end{quote}
 
-\subsection{Analogietabelle}
+\section{Analogietabelle}
 
 \begin{center}
 \begin{tabular}{l|l|l}
@@ -19,6 +21,7 @@ m &  & J\\
 \end{tabular}
 \end{center}
 
+\newpage
 \begin{multicols}{2}{}
 \subsection{Translation}
 
@@ -85,7 +88,7 @@ N&=\frac{\omega_0\cdot t}{2\cdot \pi}+\frac{1}{2}\cdot\frac{\alpha}{2\cdot \pi}\
 \newpage
 \section{Dynamik}
 
-\subsubsection{Geradlinig (Translation)}
+\subsection{Geradlinig (Translation)}
 \begin{align*}
 \vec{F}&=m\cdot \vec{a}\\
 \vec{F}_{\text{Tr}}&=-m\cdot \vec{a}
@@ -193,13 +196,13 @@ F_{zp}&=-m\cdot\omega^2\cdot r\\
 \begin{align*}
 F_R=\mu\cdot F_N
 \end{align*}
-
-
+\vfill
 \subsubsection{Rollreibung}
 \begin{align*}
 M&=f\cdot F_N\\
 F_R&=\frac{f}{r}\cdot F_N
 \end{align*}
+\vfill
 \end{multicols}
 
 
@@ -272,7 +275,7 @@ m_1v_1+m_2v_2&=\left(m_1+m_2\right)v'
 \end{align*}
 
 \begin{align*}
-v'&=\frac{m_1v_1+m_2v2}{m_1+m_2}
+v'&=\frac{m_1v_1+m_2v_2}{m_1+m_2}
 \end{align*}
 
 \begin{align*}
@@ -319,13 +322,13 @@ F_Z&=-m\frac{v^2}{r}=-m\omega^2 r
 \section{Schwerpunkt}
 
 \begin{multicols}{2}{}
-\subsubsection{Schwerpunkt mehrerer \\Punktmassen}
+\subsection*{mehrere Punktmassen}
 \begin{align*}
 \vec{r}_{\text{Sp}}=\frac{\sum\vec{r}_i m_i}{\sum\ m_i}
 \end{align*}
 
 
-\subsubsection{Allgemein}
+\subsection*{Allgemein}
 \begin{align*}
 \vec{r}_{\text{Sp}}=\frac{\int \vec{r}\diff m}{\int \diff m}
 \end{align*}
@@ -346,6 +349,7 @@ x_{\text{Sp}}&=\frac{\int_z\int_y\int_x x\rho \diff x \diff y \diff z }{\int_z\i
 y_{\text{Sp}}&=\frac{\int_z\int_y\int_x y\rho \diff x \diff y \diff z }{\int_z\int_y\int_x \rho \diff x \diff y \diff z }\\
 z_{\text{Sp}}&=\frac{\int_z\int_y\int_x z\rho \diff x \diff y \diff z }{\int_z\int_y\int_x \rho \diff x \diff y \diff z }
 \end{align*}
+\hfill
 \end{multicols}
 
 

@@ -49,14 +49,9 @@
 \setlength{\abovedisplayskip}{3mm}
 \setlength{\belowdisplayskip}{3mm}
 
-\newenvironment{merkbox}{\begin{minipage}{\linewidth}}{\end{minipage}}
-
 %Einheitenbeschreibung
 \newcommand{\des}[3][1]{$\left[#2\right]=\si{#1}$: {\small\textcolor{gray}{ #3}}}
 \newcommand{\destext}[1]{{\small\textcolor{gray}{ #1}}}
-
-\newcommand{\hebox}[1]{#1}
-\newcommand{\heboxc}[1]{#1}
 
 %Differential
 \newcommand*\diff{\mathop{}\!\mathrm{d}}
@@ -74,14 +69,21 @@
 	\part{Mathematik}
 
 	
-		%KAPITEL
-		\chapter{Algebra}
-		
-			\input{Mathe/Mathe.tex}
-		
-		\chapter{Lineare Algebra}
-
-			\input{Mathe/Lineare-Algebra.tex}
+%KAPITEL
+\chapter{Algebra}
+\input{Mathe/Mathe.tex}
+\chapter{Funktionen}
+\input{Mathe/Funktionen.tex}
+\chapter{Vektorrechnung}
+\input{Mathe/Vektorrechnung.tex}
+\chapter{Differentialrechnung}
+\input{Mathe/Differentialrechnung.tex}
+\input{Mathe/Differentialgleichungen.tex}
+%\input{Mathe/Differentialgleichungen.tex}
+\chapter{Folgen und Reihen}
+%\input{Mathe/Reihen.tex}
+\chapter{Interpolation}
+%\input{Mathe/Interpolation.tex}		
 
 	%Physik als eigenes Dokument, mit eigenen *.tex Files
 	\part{Physik}
@@ -98,6 +100,12 @@
 		\chapter{Elektrostatik}
 		\input{Physik/Elektrostatik.tex}
 
+		\chapter{Thermodynamik}
+		\input{Physik/Thermodynamik.tex}
+
+		\chapter{Optik}
+		\input{Physik/Optik.tex}
+
 	\part{Elektrotechnik}
 
 		\chapter{Gleichstromtechnik}
@@ -106,4 +114,6 @@
 		\chapter{Wechselstromtechnik}
 		\input{Elektrotechnik/Wechselstromtechnik.tex}
 
+%\bibliographystyle{plain}
+%\bibliography{Formelsammlung.bib}
 \end{document}
