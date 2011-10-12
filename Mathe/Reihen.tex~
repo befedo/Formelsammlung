@@ -1,18 +1,168 @@
-\section{Reihen mit konstanten Gliedern}
+\section{Reihen}
+\subsection{Geometrische Folge}
 
-\subsection*{spezielle Reihen}
- \includegraphics[width=70mm,keepaspectratio=true]{./Mathe/spezReihen.png}
+\subsubsection{Darstellung}
 
-\subsection*{wichtige Reihenentwicklungen}
-\begin{center}
- \includegraphics[width=125mm,keepaspectratio=true]{./Mathe/Reihenentwicklungen_1.png}
-\end{center}
-\begin{center}
- \includegraphics[width=125mm,keepaspectratio=true]{./Mathe/Reihenentwicklungen_2.png}
-\end{center}
-\begin{center}
- \includegraphics[width=125mm,keepaspectratio=true]{./Mathe/Reihenentwicklungen_3.png}
-\end{center}
- 
+\begin{alignat*}{2}
+&a_n = a \cdot q^n &\quad& \sum_{n=0}^\infty a \cdot q^n = \frac{a}{1-q} \\
+&\text{Konvergent für} \left| q \right| < 1 
+\end{alignat*}
 
+\subsection{Harmonische Reihe}
+
+\subsubsection{Darstellung}
+
+\begin{align*}
+&\sum_{n=1}^\infty \frac{1}{n^s} \\
+&\text{Konvergent für } s > 1
+\end{align*}
+
+\newpage
+\subsection{Konvergenz}
+
+\begin{multicols}{2}
+\subsubsection{Majorantenkriterium}
+\begin{align*}
+&\sum_{n=0}^\infty a_n\leq\sum_{n=0}^\infty b_n \\
+& b_n \text{ bekannte konvergente Reihe}
+\end{align*}
+
+\subsubsection{Minorantenkriterium}
+\begin{align*}
+&\sum_{n=0}^\infty a_n\geq\sum_{n=0}^\infty b_n \\
+& b_n \text{ bekannte divergente Reihe}
+\end{align*}
+\end{multicols}
+
+
+\subsubsection{Wurzelkriterium}
+\[
+\lim_{n \to \infty} \sqrt[n]{a_n} = q
+\begin{cases}
+ q > 1 \text{ ist die Reihe divergent}\\
+ q < 1 \text{ ist die Reihe konvergent}\\
+ q = 1 \text{ ist keine Aussage möglich}
+\end{cases}
+\]
+
+\subsubsection{Quotientenkriterium}
+\[
+\lim_{n\to\infty} \frac{a_{n+1}}{a_n} = q
+\begin{cases}
+q > 1 \text{ ist die Reihe divergent}\\
+q < 1 \text{ ist die Reihe konvergent}\\
+q = 1 \text{ ist keine Aussage möglich}
+\end{cases}
+\]
+
+\subsubsection{Leibnizkriterium}
+\text{Nur bei alternierenden Reihen}
+
+\begin{align*}
+&\lim_{n\to\infty}\left(-1\right)^n a_n\\
+&\lim_{n\to\infty}a_n=q&&\text{$q=0$ ist die Reihe divergent}\\
+&\lim_{n\to\infty}\left(-1\right)^n a_n=\lim_{n\to\infty} a_n&&\text{Absolut Konvergent}\\
+\end{align*}
+
+\subsection{Bekannte konvergente Reihen}
+
+\begin{alignat*}{3}
+&\sum_{n=0}^\infty\frac{1}{n!}=e &\quad\quad& \sum_{n=0}^\infty\frac{\left(-1\right)^n}{n!} = \frac{1}{e} &\quad\quad& \sum_{n=0}^\infty\frac{1}{2^n} = 2 \\
+&\sum_{n=0}^\infty\frac{\left(-1\right)^n}{2^n} = \frac{2}{3} &\quad\quad& \sum_{n=0}^\infty\frac{\left(-1\right)^{n+1}}{n} =\ln2 &\quad\quad& \sum_{n=0}^\infty\frac{\left(-1\right)^{n+1}}{2n-1}=\frac{\pi}{4}
+\end{alignat*}
+
+
+\section{Funktionenreihen}
+
+\subsubsection{Darstellung}
+
+\begin{align*}
+\sum_{n=0}^\infty f_n(x)
+\end{align*}
+
+
+\subsection{Potenzreihen}
+
+\begin{multicols}{2}
+\subsubsection{Darstellung}
+\begin{align*}
+&\sum_{n=0}^\infty a_n x^n\\
+&\sum_{n=0}^\infty a_n \left(x-x_0\right)^n\\
+&x_0: \text{ Verschiebung des} \\ &\text{Entwicklungspunktes.}
+\end{align*}
+\vfill
+\subsubsection{Konvergenz}
+\begin{align*}
+r&=\lim_{n\to\infty}\left|\frac{a_n}{a_{n+1}}\right|\\
+r&=\frac{1}{\lim_{n\to\infty}\sqrt[n]{\left|a_n\right|}}\\
+&\text{Ränder müssen} \\ &\text{untersucht werden.}
+\end{align*}
+\vfill
+\end{multicols}
+
+
+\subsection{Bekannte Potenzreihen}
+\begin{align*}
+e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}&x&\in\mathbb{R}\\
+\ln x&=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n}\left(x-1\right)^n&x&\in(0,2]\\
+\ln\left(1+x\right)&=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n}x^n&x&\in(-1,1]\\
+\ln\left(1-x\right)&=-\sum_{n=1}^\infty\frac{x^n}{n}&x&\in[-1,1)\\
+\left(1+x\right)^\alpha&=\sum_{n=0}^\infty\binom{\alpha}{n}x^n&x&\in[-1,1]
+\end{align*}
+
+\newpage
+\subsection{spezielle Reihen}
+
+\begin{align*}
+\sin x&=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n+1\right)!}x^{2n+1}&x&\in\mathbb{R}\\
+\cos x&=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n\right)!}x^{2n}&x&\in\mathbb{R}\\
+\sinh x&=\sum_{n=0}^\infty\frac{1}{\left(2n+1\right)!}x^{2n+1}&x&\in\mathbb{R}\\
+\cosh x&=\sum_{n=0}^\infty\frac{1}{\left(2n\right)!}x^{2n}&x&\in\mathbb{R}\\
+\arcsin x &=\sum_{n=0}^\infty\frac{\left(2n\right)!}{2^{2n}\left(n!\right)^2\left(2n+1\right)}x^{2n+1}&x&\in[-1,1]\\
+\arctan x &=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n+1\right)}x^{2n+1}&x&\in\mathbb{R}\\
+\operatorname{ar sinh} x &=\sum_{n=0}^\infty\frac{\left(-1\right)^n\left(2n\right)!}{2^{2n}\left(n!\right)^2\left(2n+1\right)}x^{2n+1}&x&\in[-1,1]\\
+\operatorname{ar tanh}  x &=\sum_{n=0}^\infty\frac{1}{\left(2n+1\right)}x^{2n+1}&x&\in\mathbb{R}\\
+\end{align*}
+
+
+\subsection{Fourier Reihen}
+
+\subsubsection{Allgemein}
+\begin{align*}
+y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)+a_n\cdot\sin\left(n\omega_0 t\right)\right)\\
+a_0&=\frac{2}{T}\int_{(T)}y(t)\diff t\\
+a_n&=\frac{2}{T}\int_{(T)}y(t)\cdot\cos\left(n\omega_0 t\right)\diff t\\
+b_n&=\frac{2}{T}\int_{(T)}y(t)\cdot\sin\left(n\omega_0 t\right)\diff t
+\end{align*}
+
+
+\newpage
+\subsubsection{Symetrie}
+\begin{multicols}{2}
+\begin{align*}
+ y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)\right) \\ &\text{gerade Funktion } b_n = 0
+\end{align*}
+
+\begin{align*}
+ y(t)&=\sum_{n=1}^\infty\left(b_n\cdot\sin\left(n\omega_0 t\right)\right) \\ &\text{ungerade Funktion } a_n = 0 
+\end{align*}
+\end{multicols}
+
+\subsubsection{Komplex}
+\begin{alignat*}{2}
+y(x)&=\sum_{n=-\infty}^\infty c_n\cdot e^{jnx} &\quad\quad&
+c_n=\frac{1}{T}\int_{(T)}y(x)\cdot e^{-jnx}\diff x
+\end{alignat*}
+
+
+\subsubsection{Umrechnung}
+
+\begin{align*}
+c_0&=\frac{1}{2}a_0\\
+c_n&=\frac{1}{2}\left(a_n-jb_n\right)\\
+c_{-n}&=\frac{1}{2}\left(a_n+jb_n\right)\\
+a_0&=2c_0\\
+a_n&=c_n+c_{-n}\\
+b_n&=j\left(c_n-c_{-n}\right)
+\end{align*}
 

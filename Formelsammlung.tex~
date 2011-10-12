@@ -81,7 +81,7 @@
 \input{Mathe/Differentialgleichungen.tex}
 \input{Mathe/Differentialgleichungen2.tex}
 \chapter{Folgen und Reihen}
-%\input{Mathe/Reihen.tex}
+\input{Mathe/Reihen.tex}
 \chapter{Interpolation}
 %\input{Mathe/Interpolation.tex}		
 

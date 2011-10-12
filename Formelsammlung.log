@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.6.2)  5 OCT 2011 17:20
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.6.2)  12 OCT 2011 19:33
 entering extended mode
  %&-line parsing enabled.
 **Formelsammlung.tex
@@ -628,98 +628,101 @@ Kapitel 4.
 (./Mathe/Differentialgleichungen.tex [23] [24])
 (./Mathe/Differentialgleichungen2.tex [25] [26] [27]) [28]
 Kapitel 5.
-[29
+(./Mathe/Reihen.tex [29
 
-]
+] [30] [31] [32]) [33]
 Kapitel 6.
-[30
+(./Mathe/Interpolation.tex [34
 
-] [31
+]) [35] [36
 
 ]
 Kapitel 7.
-(./Physik/Algemein.tex [32
+(./Physik/Algemein.tex [37
 
-] [33] [34] [35] [36] [37] [38] [39]
-<./Physik/Bilder/Spannung.png, id=919, 501.875pt x 501.875pt>
+] [38] [39] [40] [41] [42] [43] [44]
+<./Physik/Bilder/Spannung.png, id=1012, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Spannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Spannung.png>
-<./Physik/Bilder/Tangentialspannung.png, id=920, 501.875pt x 501.875pt>
+<./Physik/Bilder/Tangentialspannung.png, id=1013, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Tangentialspannung.png>
-<./Physik/Bilder/Scherbeanspruchung.png, id=921, 501.875pt x 501.875pt>
+<./Physik/Bilder/Scherbeanspruchung.png, id=1014, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
 
-<use ./Physik/Bilder/Scherbeanspruchung.png> [40 <./Physik/Bilder/Spannung.png>
+<use ./Physik/Bilder/Scherbeanspruchung.png> [45 <./Physik/Bilder/Spannung.png>
  <./Physik/Bilder/Tangentialspannung.png> <./Physik/Bilder/Scherbeanspruchung.p
-ng>] [41] [42]) [43]
+ng>] [46] [47]) [48]
 Kapitel 8.
-(./Physik/Fluiddynamik.tex [44
+(./Physik/Fluiddynamik.tex [49
 
-]) [45]
+]) [50]
 Kapitel 9.
-(./Physik/Gravitation.tex) [46
+(./Physik/Gravitation.tex) [51
 
 ]
 Kapitel 10.
-(./Physik/Elektrostatik.tex [47
+(./Physik/Elektrostatik.tex [52
 
-]) [48]
+]) [53]
 Kapitel 11.
-(./Physik/Thermodynamik.tex [49
+(./Physik/Thermodynamik.tex [54
 
-] [50]) [51]
+] [55]) [56]
 Kapitel 12.
 (./Physik/Optik.tex
-<./Physik/Bilder/Hohlspiegel.png, id=1028, 326.72063pt x 224.33812pt>
+<./Physik/Bilder/Hohlspiegel.png, id=1121, 326.72063pt x 224.33812pt>
 File: ./Physik/Bilder/Hohlspiegel.png Graphic file (type png)
 
-<use ./Physik/Bilder/Hohlspiegel.png> [52
+<use ./Physik/Bilder/Hohlspiegel.png> [57
 
  <./Physik/Bilder/Hohlspiegel.png (PNG copy)>] <./Physik/Bilder/Linse.png, id=1
-033, 255.20343pt x 109.1578pt>
+126, 255.20343pt x 109.1578pt>
 File: ./Physik/Bilder/Linse.png Graphic file (type png)
 
 <use ./Physik/Bilder/Linse.png>
-<./Physik/Bilder/Beispiele-Linsen.png, id=1034, 778.40813pt x 292.09125pt>
+<./Physik/Bilder/Beispiele-Linsen.png, id=1127, 778.40813pt x 292.09125pt>
 File: ./Physik/Bilder/Beispiele-Linsen.png Graphic file (type png)
 
-<use ./Physik/Bilder/Beispiele-Linsen.png> [53 <./Physik/Bilder/Linse.png (PNG 
+<use ./Physik/Bilder/Beispiele-Linsen.png> [58 <./Physik/Bilder/Linse.png (PNG 
 copy)> <./Physik/Bilder/Beispiele-Linsen.png (PNG copy)>]
-<./Physik/Bilder/Lichtwellenleiter.png, id=1039, 207.77625pt x 313.17pt>
+<./Physik/Bilder/Lichtwellenleiter.png, id=1132, 207.77625pt x 313.17pt>
 File: ./Physik/Bilder/Lichtwellenleiter.png Graphic file (type png)
 
-<use ./Physik/Bilder/Lichtwellenleiter.png>) [54 <./Physik/Bilder/Lichtwellenle
-iter.png (PNG copy)>] [55
+<use ./Physik/Bilder/Lichtwellenleiter.png>) [59 <./Physik/Bilder/Lichtwellenle
+iter.png (PNG copy)>] [60
 
 ]
 Kapitel 13.
-(./Elektrotechnik/Elektrotechnik.tex [56
+(./Elektrotechnik/Elektrotechnik.tex [61
 
-] [57])
+] [62])
 Kapitel 14.
-(./Elektrotechnik/Wechselstromtechnik.tex [58
+(./Elektrotechnik/Wechselstromtechnik.tex [63
 
-] [59] [60] [61] [62
+] [64] [65] [66]
+Package color Info: Redefining color tcA on input line 167.
+ [67
 
 ]
+Package color Info: Redefining color tcA on input line 198.
 Package color Info: Redefining color tcA on input line 217.
 Package color Info: Redefining color tcA on input line 239.
 Package color Info: Redefining color tcA on input line 269.
- [63
+ [68
 
 ]
-[64] [65]) [66] (./Formelsammlung.aux) ) 
+[69] [70]) [71] (./Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 4998 strings out of 256216
- 65628 string characters out of 1917073
+ 5049 strings out of 256216
+ 66315 string characters out of 1917073
  147338 words of memory out of 1500000
- 7746 multiletter control sequences out of 10000+200000
+ 7758 multiletter control sequences out of 10000+200000
  14771 words of font info for 58 fonts, out of 1200000 for 2000
  646 hyphenation exceptions out of 8191
- 34i,25n,36p,452b,387s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 34i,25n,36p,452b,390s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/c
 m/cmbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/te
 xmf/fonts/type1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/type1/bluesky/c
@@ -736,9 +739,9 @@ ky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy5.pfb></usr/share
 /texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/c
 m/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/t
 exmf/fonts/type1/bluesky/ams/msbm10.pfb>
-Output written on Formelsammlung.pdf (67 pages, 631497 bytes).
+Output written on Formelsammlung.pdf (72 pages, 653326 bytes).
 PDF statistics:
- 1287 PDF objects out of 1440 (max. 8388607)
- 398 named destinations out of 1000 (max. 131072)
- 1012 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1384 PDF objects out of 1440 (max. 8388607)
+ 431 named destinations out of 1000 (max. 131072)
+ 1100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
