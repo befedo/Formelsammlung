@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="17cm" height="10cm" viewBox="-1 17 324 190" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="0" y1="200" x2="310.264" y2="200"/>
+    <polygon style="fill: #000000" points="317.764,200 307.764,205 310.264,200 307.764,195 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="317.764,200 307.764,205 310.264,200 307.764,195 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="160" y1="200" x2="160" y2="29.7361"/>
+    <polygon style="fill: #000000" points="160,22.2361 165,32.2361 160,29.7361 155,32.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="160,22.2361 165,32.2361 160,29.7361 155,32.2361 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="0,140 100,140 100,64 220,64 220,140 300,140 "/>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="170" y="90">
+    <tspan x="170" y="90"></tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="100" y1="149.736" x2="100" y2="190.264"/>
+    <polygon style="fill: #000000" points="100,142.236 105,152.236 100,149.736 95,152.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="100,142.236 105,152.236 100,149.736 95,152.236 "/>
+    <polygon style="fill: #000000" points="100,197.764 95,187.764 100,190.264 105,187.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="100,197.764 95,187.764 100,190.264 105,187.764 "/>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:sanserif;font-style:normal;font-weight:normal" x="104" y="172">
+    <tspan x="104" y="172">U</tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:7.66504;font-family:sanserif;font-style:normal;font-weight:normal" x="112" y="172">
+    <tspan x="112" y="172">OFFS</tspan>
+  </text>
+</svg>

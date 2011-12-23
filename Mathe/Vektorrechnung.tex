@@ -46,13 +46,9 @@
 \begin{align*} 
 a\cdot\vec{b}&= \begin{pmatrix}ab_x\\ ab_y\\ab_z\end{pmatrix}
 \end{align*}
+\vspace{5mm}
 \vfill
 \end{multicols}
-
-\subsubsection*{Einheitsvektor}
-\begin{align*} 
-\vec{e}_a&=\frac{\vec{a}}{|\vec{a}|}= \begin{pmatrix}a_x/|\vec{a}|\\ a_y/|\vec{a}|\\a_z/|\vec{a}|\end{pmatrix}
-\end{align*}
 
 \begin{multicols}{2}
 \subsubsection*{Skalarprodukt}
@@ -62,6 +58,14 @@ a\cdot\vec{b}&= \begin{pmatrix}ab_x\\ ab_y\\ab_z\end{pmatrix}
 &=|\vec{a}|\cdot|\vec{b}|\cdot \cos\angle(\vec{a},\vec{b})
 \end{align*}
 \vfill
+\subsubsection*{Einheitsvektor}
+\begin{align*} 
+\vec{e}_a&=\frac{\vec{a}}{|\vec{a}|}= \begin{pmatrix}a_x/|\vec{a}|\\ a_y/|\vec{a}|\\a_z/|\vec{a}|\end{pmatrix}
+\end{align*}
+\vfill
+\end{multicols}
+
+\begin{multicols}{2}
 \subsubsection*{Kreuzprodukt}
 \text{$|\vec{a}\times\vec{b}|$ Fläche des Parallelograms $\vec{a},\vec{b}$}\\
 \text{$\vec{a}\times\vec{b} \perp \vec{a} \land \vec{a}\times\vec{b} \perp \vec{b}$}
@@ -71,25 +75,24 @@ a\cdot\vec{b}&= \begin{pmatrix}ab_x\\ ab_y\\ab_z\end{pmatrix}
 &=\begin{vmatrix}\vec{e}_x&\vec{e}_y&\vec{e}_z\\a_x&a_y&a_z\\b_x&b_y&b_z\end{vmatrix}
 \end{align*}
 \vfill
-\end{multicols}
-
-\begin{multicols}{2}
 \subsubsection*{Spatprodukt}
 \text{$\vec{a}\circ(\vec{b}\times\vec{c})$}
 \\
 \text{Volumen des Parallelpiped $\vec{a},\vec{b},\vec{c}$}
-
 \begin{align*} 
 [\vec{a}\vec{b}\vec{c}]  &=\vec{a}\circ(\vec{b}\times\vec{c})\\
 &=a_x(b_yc_z-b_zc_y)\\&+a_y(b_zc_x-b_xc_z)\\&+a_z(b_xc_y-b_yc_x)\\
 &=\begin{vmatrix}a_x&a_y&a_z\\b_x&b_y&b_z\\c_x&c_y&c_z\end{vmatrix}
 \end{align*}
 \vfill
+\end{multicols}
+
+\begin{multicols}{2}
 \subsubsection*{Schnittwinkel}
 \begin{align*} 
 \cos\angle(\vec{a},\vec{b})&=\frac{\vec{a}\circ\vec{b}}{|\vec{a}|\cdot|\vec{b}|}
 \end{align*}
-
+\vfill
 \subsubsection*{Projektion}
 \begin{align*} 
 \vec{a}_b&=\left(\frac{\vec{a}\circ\vec{b}}{|\vec{a}|^2}\right)\vec{a}=(\vec{b}\circ\vec{e}_a)\vec{e}_a
@@ -97,7 +100,7 @@ a\cdot\vec{b}&= \begin{pmatrix}ab_x\\ ab_y\\ab_z\end{pmatrix}
 \vfill
 \end{multicols}
 
-
+\newpage
 \subsection{Geraden}
 \begin{multicols}{2}
 \subsubsection*{Geradegleichung}

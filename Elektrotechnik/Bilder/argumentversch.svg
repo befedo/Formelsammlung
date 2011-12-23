@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="17cm" height="10cm" viewBox="-1 17 324 190" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="80,200 100,200 160,80 240,80 300,200 "/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="0" y1="200" x2="310.264" y2="200"/>
+    <polygon style="fill: #000000" points="317.764,200 307.764,205 310.264,200 307.764,195 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="317.764,200 307.764,205 310.264,200 307.764,195 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="160" y1="200" x2="160" y2="29.7361"/>
+    <polygon style="fill: #000000" points="160,22.2361 165,32.2361 160,29.7361 155,32.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="160,22.2361 165,32.2361 160,29.7361 155,32.2361 "/>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="170" y="90">
+    <tspan x="170" y="90"></tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #0000ff" points="60,200 120,80 200,80 260,200 "/>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="72" y="184">
+    <tspan x="72" y="184">x(t)</tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="112" y="184">
+    <tspan x="112" y="184">x(t -t)</tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:8.85049;font-family:sanserif;font-style:normal;font-weight:normal" x="128" y="184">
+    <tspan x="128" y="184">0</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" x1="160.447" y1="72" x2="199.553" y2="72"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="166.224,69 160.224,72 166.224,75 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000" points="193.776,75 199.776,72 193.776,69 "/>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="176" y="72">
+    <tspan x="176" y="72">t</tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:8.85049;font-family:sanserif;font-style:normal;font-weight:normal" x="180" y="72">
+    <tspan x="180" y="72">0</tspan>
+  </text>
+</svg>

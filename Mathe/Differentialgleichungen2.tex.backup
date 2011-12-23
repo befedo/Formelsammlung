@@ -62,33 +62,28 @@ A&=\iint_{(A)}\diff A
 \vfill
 \end{multicols}
 
-\newpage
-\begin{multicols}{2}
 \subsubsection{Masse}
 \begin{align*}
 m&=\iint_{(A)}\rho(x,y)\diff x\diff y\\
- &=\iint_{(A)}\rho(r,\varphi)r\diff r\diff \varphi\\
- &=\iiint_{(V)}\rho(x,y)\diff z\diff x\diff y\\
- &=\iiint_{(V)}\rho(r,\varphi)r\diff z\diff r\diff \varphi
+m&=\iint_{(A)}\rho(r,\varphi)r\diff r\diff \varphi\\
+m&=\iiint_{(V)}\rho(x,y)\diff z\diff x\diff y\\
+m&=\iiint_{(V)}\rho(r,\varphi)r\diff z\diff r\diff \varphi
 \end{align*}
-\vfill
-\subsubsection{Statisches Moment}
-\( \left( M_x, M_y \right) \text{Achsmomente}\)
+
+\subsubsection{Statische Moment}
+\( \left( M_x, M_y \right) \text{Momente bezüglich den Achsen}\)
 \begin{align*}
-&M_x: \\
-&=\iint_{(A)}y\rho(x,y)\diff x\diff y\\
-&=\iint_{(A)}y_0+r\sin\varphi\rho(r,\varphi)r\diff r\diff \varphi\\
-&M_y: \\
-&=\iint_{(A)}x\rho(x,y)\diff x\diff y\\
-&=\iint_{(A)}x_0+r\cos\varphi\rho(r,\varphi)r\diff r\diff \varphi
+M_x&=\iint_{(A)}y\rho(x,y)\diff x\diff y\\
+M_x&=\iint_{(A)}y_0+r\sin\varphi\rho(r,\varphi)r\diff r\diff \varphi\\
+M_y&=\iint_{(A)}x\rho(x,y)\diff x\diff y\\
+M_y&=\iint_{(A)}x_0+r\cos\varphi\rho(r,\varphi)r\diff r\diff \varphi
 \end{align*}
-\end{multicols}
 
 \subsubsection{Schwerpunkt}
-\begin{multicols}{2}
- \(x_s=\frac{M_y}{m}\)\\
- \(y_s=\frac{M_x}{m}\)
-\end{multicols}
+\begin{align*}
+x_s&=\frac{M_y}{m}\\
+y_s&=\frac{M_x}{m}\\
+\end{align*}
 
 \subsubsection{Trägheitsmoment}
 \begin{align*}

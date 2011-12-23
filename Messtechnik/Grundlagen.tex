@@ -1,0 +1,288 @@
+\section{Begriffe}
+\begin{itemize}
+  \item Messwert \(x_i\): gemessener Wert der Messgröße
+  \item Wahrer Wert \(x_w\): existierender Wert der Messgröße
+  \item Richtiger Wert \(x_r\): bekannter Wert mit vernachläßigbarer Differenz
+  zum wahren Wert
+  \item Messabweichung \(e\): Differenz zwischen gemessenem und wahrem Wert
+  \item Systematische Messabweichung \(e_{sys}\): Bekannte systematische
+  Messabweichung (korrigierbar)
+  \item Messunsicherheit \(u\): Intervall um den Messwert in dem der wahre Wert
+  mit einer bestimmten Wahrscheinlichkeit zu finden ist
+\end{itemize}
+
+\section{Messabweichung \texorpdfstring{$e$}{}}
+\[e=x-x_w\]
+
+\subsection{relative Messabweichung}
+\[e_{rel} = \frac{e}{x_w} = \frac{x-x_w}{x_w} = \frac{x}{x_w} - 1\]
+
+\begin{multicols}{2}
+\subsubsection*{Korrekturfaktor \texorpdfstring{$K$}{}}
+Bei bekannter systematischer Messabweichung.
+\[K = -e_{sys}\]
+
+\subsubsection*{Korrigierter Messwert \texorpdfstring{$x_{korr}$}{}}
+\[x_{korr} = x + K\]
+\end{multicols}
+
+\subsection{Messabweichung \texorpdfstring{$e_y$}{}}
+\[e_y = y-y_w = f\left( x_1 + e_{x_1}, x_2 + e_{x_2}, \cdots ,x_n +
+e_{x_n}\right)\]
+
+\begin{multicols}{2}
+\[ e_y = \sum_{i = 1}^{n} \frac{\partial f}{\partial x_i} e_{x_i}\]
+\vfill
+\[ \Delta y = \sum_{i = 1}^{n} \frac{\partial f}{\partial x_i}
+\Delta{x_i}\]
+\vfill
+\end{multicols}
+
+\subsection{Fortpflanzung systematischer Messabweichungen}
+\subsubsection*{Addition / Subtraktion}
+\begin{multicols}{3}
+\[y = x_1 \pm x_2\]
+\vfill
+\[\longrightarrow\]
+\vfill
+\[e_y = e_{x_1} \pm e_{x_2}\]
+\vfill
+\end{multicols}
+
+\subsubsection*{Multiplikation}
+\begin{multicols}{3}
+\[y = x_1 \cdot x_2\]
+\vfill
+\[\longrightarrow\]
+\vfill
+\[e_y = x_2 \cdot e_{x_1} + x_1 \cdot
+e_{x_2}\]
+\end{multicols}
+
+\[ 
+e_{rel} = \frac{e_y}{y} = \frac{x_2 \cdot e_{x_1} + x_1 \cdot e_{x_2}}{x_1
+\cdot x_2} = e_{rel, x_1} + e_{rel, x_2} 
+\]
+
+\subsubsection*{Division}
+\begin{multicols}{3}
+\[y = \frac{x_1}{x_2}\]
+\vfill
+\[\longrightarrow\]
+\vfill
+\[e_y = \frac{1}{x_2}e_{x_1} -
+\frac{x_1}{{x_2}^2}e_{x_2}\]
+\end{multicols}
+\[
+e_{rel} = \frac{e_y}{y} = \frac{\frac{1}{x_2}e_{x_1} -
+\frac{x_1}{{x_2}^2}e_{x_2}}{x_1 \cdot {x_2}^{-1}} = e_{rel, x_1} - e_{rel, x_2}
+\]
+
+\section{Statistische Größen}
+\begin{multicols}{2}
+	\subsection*{Verteilungsfunktion}
+	\[F\left(x\right) = prob\left(X \leq x \right) \]
+		\vfill
+	\subsection*{Verteilungsdichtefunktion}
+	\[f\left(x\right) = \frac{d}{dx}F\left(x\right)\]
+		\vfill
+\end{multicols}
+
+Es gillt:
+\begin{align*}
+	&F\left(x\right) = \int_{-\infty}^{x} f\left(t\right)dt\\
+	&F\left(x \rightarrow \infty \right) = \int_{-\infty}^{\infty}
+	f\left(t\right)dt = 1\\
+	&prob\left( a < x \leq b \right) = F\left(b\right) - F\left(a\right) =
+	\int_{a}^{b}f\left(x\right)dx
+\end{align*}
+
+\section{Erwartungswert, Varianz und Standardabweichung}
+\begin{multicols}{2}
+	\subsection{Erwartungswert \texorpdfstring{$\mu$}{}}
+		\begin{align*}
+			\mu &= \frac{1}{N} \sum_{i = 1}^{N} x_i\\
+				&= \int_{-\infty}^{\infty} x \cdot f\left(x\right)dx\\ 
+				&\text{nur für stetige Zufallsgrößen}
+		\end{align*}
+		\vfill
+	\subsection{wahrer Wert \texorpdfstring{$X$}{}}
+		\begin{align*}
+			x_w &= \mu\\
+				&\text{nach Korrektur} \\ 
+				&\text{der systematischen Abweichung}
+		\end{align*}
+		\vspace{5mm}
+		\vfill
+\end{multicols}
+
+\begin{multicols}{2}
+	\subsection{Varianz \texorpdfstring{$\sigma^2$}{}}
+		\begin{align*}
+			\sigma^2 &= \frac{1}{N} \sum_{i = 1}^{N}\left( x_i - \mu \right)^2\\
+					 &= \int_{-\infty}^{\infty}\left( x_i - \mu \right)^2 \cdot f\left( 
+					x \right)dx
+		\end{align*}
+		\vfill
+	\subsection{Standardabweichung}
+		\[\sigma = \sqrt{\sigma^2}\]
+		\vspace{5mm}
+		\vfill
+\end{multicols}
+
+\section{Verteilungsfunktionen}
+	\subsection{Normalverteilung}
+	\begin{itemize}
+	  \item Normal oder Gaußverteilung
+	  \item gute Näherung bei unbekannter statistischer Verteilung
+	  \item Werteverteilung: \begin{itemize}
+	    \item 68,3\% aller Werte liegen in \( \mu \pm \sigma \)
+	    \item 95,5\% aller Werte liegen in \( \mu \pm 2\sigma \)
+	    \item 99,7\% aller Werte liegen in \( \mu \pm 3\sigma \) 
+	  \end{itemize}
+	\end{itemize}
+	
+	\begin{align*}
+		&f\left( x \right) = \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{1}{2}\left(
+		\frac{x - \mu}{\sigma} \right)^2}\\
+		\int_{-\infty}^{\infty} &f\left( x \right) = 1
+	\end{align*}
+
+	\subsection{Gleichverteilung}
+	\begin{itemize}
+	  \item auch Rechteckverteilung
+	  \item alle vorkommenden Werte besitzen gleiche Wahrscheinlichkeit im
+	  Intervall
+	\end{itemize}
+	
+	\begin{align*}
+		f\left( x \right) &= 
+			\begin{cases}
+				\frac{1}{2a} \quad \mu - a < x < \mu + a\\
+				0 \quad \text{ sonst}
+			\end{cases}\\
+		\int_{-\infty}^{\infty}f\left(x\right) &= 1\\
+		\sigma^2 &= \frac{1}{3}a^2
+	\end{align*}
+	
+\newpage
+\section{Stichprobe}
+\begin{multicols}{2}
+	\subsection{Mittelwert \texorpdfstring{$\overline{x}$}{}}
+	Der Mittelwert ist ein Schätzwert für den Erwartungswert \(\mu\) und damit für
+	den wahren Wert.
+
+	\[\overline{x} = \frac{1}{n} \sum_{i = 1}^{n} x_i\]
+	
+	\subsection{empirische Varianz \texorpdfstring{$s^2$}{}}
+	Die empirische Varianz ist ein Schätzwert für die eigentliche Varianz der
+	Messreihe.
+
+	\[s^2 = \frac{1}{n-1} \sum_{i = 1}^{n} \left(x_i - \overline{x}\right)^2\]
+	
+	\vfill	
+\end{multicols}
+
+\section{Vertrauensbereich für den Erwartungswert}
+Endlich große Stichprobe liefert zufällige Differenz zwischem Schätzwert
+\(\overline{x}\) und wahrem Wert \(\mu=x_w\).
+
+\begin{alignat*}{3}
+	\overline{x_g} = \frac{1}{m}\sum_{i = 1}^{m}\overline{x_i} && s_{g}^2 =
+	\frac{1}{m}s_{i}^2 && s_g = \frac{1}{\sqrt{m}}s_i
+\end{alignat*}
+
+Vertrauensbereich:
+\[
+\overline{x} - \frac{t}{\sqrt{n}} s < \mu < \overline{x} + \frac{t}{\sqrt{n}} \quad
+\text{mit} \quad t = t\left( n, \alpha \right)
+\]
+
+\subsection{Studentverteilung}
+Gibt den \(t\) Faktor für Normalverteilungen an
+\begin{itemize}
+  \item [\(\alpha\)] Überschreitungswhrscheinlichkeit
+  \item [\(1 - \alpha\)] Vertrauensniveau
+\end{itemize} 
+
+\begin{center}
+\begin{tabular}{c|c|c|c}
+\(1 - \alpha\) & 68,3\% & 95\% & 99,73\%\\
+\hline
+\(n = 2\) & 1,84 & 12,70 & 235,80\\
+\(n = 3\) & 1,32 & 4,30 & 19,21\\
+\(n = 4\) & 1,20 & 3,18 & 9,22\\
+\(n = 5\) & 1,15 & 2,78 & 6,62\\
+\(n = 6\) & 1,11 & 2,57 & 5,51\\
+\(n = 10\) & 1,06 & 2,26 & 4,09\\
+\(n = 20\) & 1,03 & 2,09 & 3,45\\
+\(n = 50\) & 1,01 & 2,01 & 3,16\\
+\(n \rightarrow \infty\) & 1,00 & 2,00 & 3,00\\
+\end{tabular}
+\end{center}
+
+\section{Fortpflanzung zufälliger Abweichungen}
+Bedingung: Messergebnis setzt sich aus mehreren Messgrößen \(x_i\) zusammen
+
+\begin{multicols}{2}
+	\subsection*{Erwartungswerte}
+	\[
+	\mu_n = \frac{1}{N}\sum_{i = 1}^{N}x_{n_i}
+	\]
+	\subsection*{Varianzen}
+	\[
+	\sigma_{n}^{2} = \frac{1}{N}\sum_{i = 1}^{N} \left( x_{n_i} - \mu_n
+	\right)^{2}
+	\]
+	\vfill
+\end{multicols}
+
+\subsection*{Worst-Case-Kombination}
+Maximale Abweichung des Ergebnisses vom Mittelwert.
+\begin{align*}
+	y &= f\left( x_1, x_2, \cdots, x_n  \right)\\
+	\left| \Delta y \right| &= \sum_{i = 1}^{n} \left| \frac{\partial f}{\partial
+	x_i} \Delta x_i \right|
+\end{align*}
+
+\subsection*{statistische Kombination der Varianzen}
+Gaußsches Fehlerfortpflanzungsgesetz\ldots
+
+\begin{align*}
+	y &= f\left( x_1, x_2, \cdots, x_n  \right)\\
+	\sigma_{y}^{2} &= \sum_{k = 1}^{n} \left( \left( \frac{\partial f}{\partial
+	x_k} \biggr|_{\left( \mu_1, \mu_2, \cdots, \mu_n \right)} \right)^2
+	\sigma_{k}^{2} \right)
+	\\
+	\sigma_{y}^{2} &= 
+	\left( \frac{\partial f}{\partial x_1} \biggr|_{\mu_1} \sigma_{1} \right)^2 + 
+	\left( \frac{\partial f}{\partial x_2} \biggr|_{\mu_2} \sigma_{2} \right)^2 + 
+	\left( \frac{\partial f}{\partial x_3} \biggr|_{\mu_3} \sigma_{3} \right)^2 +
+	\quad \cdots
+\end{align*}
+
+\ldots kann auf empirische Varianz übertragen werden.
+
+\begin{align*}
+	y &= f\left( \overline{x_1}, \overline{x_2}, \cdots, \overline{x_n} \right)\\
+	s_{y}^{2} &= \sum_{k = 1}^{n} \left( \left( \frac{\partial f}{\partial
+	\overline{x_k}} \biggr|_{\left( \mu_1, \mu_2, \cdots, \mu_n \right)} \right)^2
+	s_{k}^{2} \right)
+\end{align*}
+
+\newpage
+\section{Fortpflanzung von Messunsicherheiten}
+Worst Case Abschätzung und Gaußsches Fortpflanzungsgesetz lassen sich auf die
+Messunsicherheiten übertragen.
+
+\begin{multicols}{2}
+	Worst Case Abschätzung der Unsicherheit
+	\[
+	u_y = \sum_{i = 1}^{n} \left| \frac{\partial f}{\partial x_i} \right| u_{x_i}
+	\]
+	Statistische Fortpflanzung der Unsicherheit
+	\[
+	u_{y}^{2} = \sum_{i = 1}^{n} \left( \frac{\partial f}{\partial x_i} \right)^2
+	u_{x_i}^{2}
+	\]
+\end{multicols}

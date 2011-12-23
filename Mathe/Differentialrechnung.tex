@@ -33,6 +33,7 @@
 \vfill
 \end{multicols}
 
+\newpage
 \begin{multicols}{2}
 \subsubsection*{Arcusfunktionen}
  \begin{align*} 
@@ -51,7 +52,6 @@
 \vfill
 \end{multicols}
 
-\newpage
 \subsection{Rechenregeln}
 \begin{multicols}{2}
 \subsubsection*{Faktorregel}
@@ -101,7 +101,6 @@
 \Delta y=f(x+\Delta x)-f(x)
 \end{align*}
          
-\newpage
 \subsubsection*{Relativer Fehler}
 \text{\(\delta x\)}{ Relativer Fehler der Eingangsgröße in $\%$}\\
 \text{\(\delta y\)}{ Relativer Fehler der Ausgangsgröße in $\%$}
@@ -203,37 +202,33 @@ y''&=\frac{\diff^2 y}{\diff x^2}=\frac{\dot{x}\ddot{y}-\dot{y}\ddot{x}}{\dot{x}^
 \diff s&=\sqrt{(\dot{x})^2+(\dot{y})^2}\cdot \diff t\\
 \diff s&=\sqrt{r^2+(r')^2}\cdot \diff \varphi
 \end{align*}
-\vfill
 \subsubsection*{Winkeländerung}
 \begin{align*} 
 \tau&=\arctan y'\\
 \diff \tau&=\frac{y''}{1+(y')^2}\cdot \diff x
 \end{align*}
+\vspace{5mm}
 \vfill
 \end{multicols}
 
-\newpage
-\subsubsection*{Krümmungskreis}
+
 \begin{multicols}{2}
-\vfill{
+\subsubsection*{Krümmungskreis}
 \begin{align*} 
 \rho&=\frac{1}{|\kappa|}\\
 x_K&=x_P-y'\frac{1+(y')^2}{|y''|}\\
-y_K&=y_P+\frac{1+(y')^2}{|y''|}
-\end{align*}}
-\vfill
-\begin{align*}
+y_K&=y_P+\frac{1+(y')^2}{|y''|}\\
 \rho&: \text{Radius}\\
 \left(x_K, y_K \right)&: \text{Kreismittelpunkt} \\
 \left( x_P, y_P \right)&: \text{Kurvenpunkt}
 \end{align*}
-\vfill
-\end{multicols}
 
 \subsubsection*{Kurvenkrümmung}
 \begin{align*} 
 \kappa&=\frac{\diff \tau}{\diff s}\\
-\kappa&=\frac{y''}{\sqrt{\left(1+(y')^2\right)^3}}\\
-\kappa&=\frac{\dot{x}\ddot{y}-\dot{y}\ddot{x}}{\sqrt{\left(\dot{x}^2+\dot{y}^2\right)^3}}\\
-\kappa&=\frac{2(r')^2-r\cdot r''+r^2}{\sqrt{\left(r^2+(r')^2\right)^3}}
+&=\frac{y''}{\sqrt{\left(1+(y')^2\right)^3}}\\
+&=\frac{\dot{x}\ddot{y}-\dot{y}\ddot{x}}{\sqrt{\left(\dot{x}^2+\dot{y}^2\right)^3}}\\
+&=\frac{2(r')^2-r\cdot r''+r^2}{\sqrt{\left(r^2+(r')^2\right)^3}}
 \end{align*}
+\vfill
+\end{multicols}

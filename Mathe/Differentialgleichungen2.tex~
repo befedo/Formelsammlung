@@ -62,14 +62,13 @@ A&=\iint_{(A)}\diff A
 \vfill
 \end{multicols}
 
-\newpage
 \begin{multicols}{2}
 \subsubsection{Masse}
 \begin{align*}
-m&=\iint_{(A)}\rho(x,y)\diff x\diff y\\
- &=\iint_{(A)}\rho(r,\varphi)r\diff r\diff \varphi\\
- &=\iiint_{(V)}\rho(x,y)\diff z\diff x\diff y\\
- &=\iiint_{(V)}\rho(r,\varphi)r\diff z\diff r\diff \varphi
+m=\iint_{(A)}&\rho(x,y)\diff x\diff y\\
+m=\iint_{(A)}&\rho(r,\varphi)r\diff r\diff \varphi\\
+m=\iiint_{(V)}&\rho(x,y)\diff z\diff x\diff y\\
+m=\iiint_{(V)}&\rho(r,\varphi)r\diff z\diff r\diff \varphi
 \end{align*}
 \vfill
 \subsubsection{Statisches Moment}
