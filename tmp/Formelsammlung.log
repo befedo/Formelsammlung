@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.10.30)  12 NOV 2011 11:21
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  3 JAN 2012 08:35
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -497,25 +497,242 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package: pdflscape 2006/04/24 v0.6 Landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: `pdftex' on input line 70.
 )
-Package hyperref Info: Option `linktocpage' set `true' on input line 35.
-Package hyperref Info: Option `colorlinks' set `false' on input line 35.
- (./Formelsammlung.aux)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2006/10/26 v1.10 (rcs-revision 1.14)
+))
+Package: pgf 2006/10/11 v1.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2006/10/16 v1.10 (rcs-revision 1.19)
+\pgf@x=\dimen137
+\pgf@y=\dimen138
+\pgf@xa=\dimen139
+\pgf@ya=\dimen140
+\pgf@xb=\dimen141
+\pgf@yb=\dimen142
+\pgf@xc=\dimen143
+\pgf@yc=\dimen144
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2006/10/11  (rcs-revision 1.2)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 845.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2006/10/23  (rcs-revision 1.14)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2006/10/16  (rcs-revision 1.7)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2006/10/16  (rcs-revision 1.4)
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2006/10/11 v1.10 (rcs-revision 1.4)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoremath.code.tex
+File: pgfcoremath.code.tex 2006/10/15  (rcs-revision 1.3)
+\c@pgf@counta=\count120
+\c@pgf@countb=\count121
+\c@pgf@countc=\count122
+\c@pgf@countd=\count123
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@picminx=\dimen145
+\pgf@picmaxx=\dimen146
+\pgf@picminy=\dimen147
+\pgf@picmaxy=\dimen148
+\pgf@pathminx=\dimen149
+\pgf@pathmaxx=\dimen150
+\pgf@pathminy=\dimen151
+\pgf@pathmaxy=\dimen152
+\pgf@tempdim=\dimen153
+\c@pgf@tempcount=\count124
+\pgf@xx=\dimen154
+\pgf@xy=\dimen155
+\pgf@yx=\dimen156
+\pgf@yy=\dimen157
+\pgf@zx=\dimen158
+\pgf@zy=\dimen159
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2006/10/16  (rcs-revision 1.6)
+\pgf@path@lastx=\dimen160
+\pgf@path@lasty=\dimen161
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@shorten@end@additional=\dimen162
+\pgf@shorten@start@additional=\dimen163
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2006/10/23  (rcs-revision 1.20)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count125
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2006/10/16  (rcs-revision 1.6)
+\pgflinewidth=\dimen164
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2006/10/11  (rcs-revision 1.4)
+\pgf@pt@x=\dimen165
+\pgf@pt@y=\dimen166
+\pgf@pt@temp=\dimen167
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2006/10/16  (rcs-revision 1.5)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2006/10/16  (rcs-revision 1.6)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2006/10/16  (rcs-revision 1.7)
+\pgf@max=\dimen168
+\pgf@sys@shading@range@num=\count126
+)))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseshapes.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseshapes.code.tex
+Package: pgfbaseshapes 2006/10/16 v1.10 (rcs-revision 1.16)
+\pgfnodeparttextbox=\box57
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseplot.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseplot.code.tex
+Package: pgfbaseplot 2006/10/16 v1.10 (rcs-revision 1.5)
+\pgf@plotwrite=\write3
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaseimage.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaseimage.code.tex
+Package: pgfbaseimage 2006/10/16 v1.10 (rcs-revision 1.5)
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbaselayers.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbaselayers.code.tex
+Package: pgfbaselayers 2006/10/16 v1.10 (rcs-revision 1.5)
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasesnakes.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasesnakes.code.tex
+Package: pgfbasesnakes 2006/10/16 v1.10 (rcs-revision 1.10)
+\pgfsnakeremainingdistance=\dimen169
+\pgfsnakecompleteddistance=\dimen170
+))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfbasepatterns.sty
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfbasepatterns.code.tex
+Package: pgfbasepatterns 2006/10/16 v1.10 (rcs-revision 1.9)
+))
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2006/10/11 v1.10 (rcs-revision 1.4)
+\pgf@nodesepstart=\dimen171
+\pgf@nodesepend=\dimen172
+))
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count127
+\calc@Bcount=\count128
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count129
+\calc@Cskip=\skip53
+)
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2006/10/16 v1.10 (rcs-revision 1.5)
+\pgffor@iter=\dimen175
+\pgffor@skip=\dimen176
+))
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2006/11/18 v2.5f package option processing (HA)
+
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.tex
+\XKV@toks=\toks28
+\XKV@depth=\count130
+File: xkeyval.tex 2006/11/18 v2.5f key=value parser (HA)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz.code.tex
+Package: tikz 2006/10/17 v1.10 (rcs-revision 1.68)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2006/10/16 v1.10 (rcs-revision 1.8)
+\pgf@plot@mark@count=\count131
+\pgfplotmarksize=\dimen177
+)
+\tikz@lastx=\dimen178
+\tikz@lasty=\dimen179
+\tikz@lastxsaved=\dimen180
+\tikz@lastysaved=\dimen181
+\tikzleveldistance=\dimen182
+\tikzsiblingdistance=\dimen183
+\tikz@figbox=\box58
+\tikz@tempbox=\box59
+\tikztreelevel=\count132
+\tikznumberofchildren=\count133
+\tikznumberofcurrentchild=\count134
+\tikz@fig@count=\count135
+\tikz@expandcount=\count136
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarytikztopaths.code.tex
+File: pgflibrarytikztopaths.code.tex 2006/10/16 v1.10 (rcs-revision 1.5)
+)))
+Package hyperref Info: Option `linktocpage' set `true' on input line 36.
+Package hyperref Info: Option `colorlinks' set `false' on input line 36.
+
+(./Formelsammlung.aux)
 \openout1 = `Formelsammlung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 -------------------- Geometry parameters
 paper: a5paper
 landscape: --
@@ -555,33 +772,32 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 63.
-
-(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring OFF on input line 64.
+ (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
 (/usr/share/texmf/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-\c@section@level=\count120
+\c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
  (./Formelsammlung.out)
 (./Formelsammlung.out)
-\@outlinefile=\write3
-\openout3 = `Formelsammlung.out'.
+\@outlinefile=\write4
+\openout4 = `Formelsammlung.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
  (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 65.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 66.
 
 (/usr/share/texmf/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -596,8 +812,8 @@ l.37 ...line {3.1.3}Geraden}{18}{subsection.3.1.3}
                                                    [1
 
 ] [2] [3] [4])
-\tf@toc=\write4
-\openout4 = `Formelsammlung.toc'.
+\tf@toc=\write5
+\openout5 = `Formelsammlung.toc'.
 
  [5]
 [6
@@ -734,80 +950,38 @@ Overfull \vbox (24.77089pt too high) has occurred while \output is active []
 Kapitel 14.
 (./Elektrotechnik/Wechselstromtechnik.tex [67
 
-] [68] [69] [70] [71]
-Package color Info: Redefining color tcA on input line 167.
- [72
+] [68] [69] [70] [71] [72
 
 ]
-Package color Info: Redefining color tcA on input line 198.
-Package color Info: Redefining color tcA on input line 217.
-Package color Info: Redefining color tcA on input line 239.
-Package color Info: Redefining color tcA on input line 269.
-
 [73
 
 ] [74] [75] [76]) [77]
 Kapitel 15.
-(./Elektrotechnik/SignaleundSysteme.tex
-<./Elektrotechnik/Bilder/rect.pdf, id=1402, 483.69682pt x 312.98033pt>
-File: ./Elektrotechnik/Bilder/rect.pdf Graphic file (type pdf)
+(./Elektrotechnik/SignaleundSysteme.tex (./Elektrotechnik/Bilder/rect.tex
+\du=\skip54
+)
+(./Elektrotechnik/Bilder/lambda.tex) [78
 
-<use ./Elektrotechnik/Bilder/rect.pdf>
-<./Elektrotechnik/Bilder/lambda.pdf, id=1403, 477.72527pt x 298.57828pt>
-File: ./Elektrotechnik/Bilder/lambda.pdf Graphic file (type pdf)
-
-<use ./Elektrotechnik/Bilder/lambda.pdf> [78
-
- <./Elektrotechnik/Bilder/rect.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/rect.pdf): PDF 
-inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
-> <./Elektrotechnik/Bilder/lambda.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/lambda.pdf): PD
-F inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
->] <./Elektrotechnik/Bilder/uoffs.pdf, id=1427, 477.72527pt x 279.54391pt>
-File: ./Elektrotechnik/Bilder/uoffs.pdf Graphic file (type pdf)
-
-<use ./Elektrotechnik/Bilder/uoffs.pdf>
-<./Elektrotechnik/Bilder/skalierung.pdf, id=1428, 477.72527pt x 279.54391pt>
-File: ./Elektrotechnik/Bilder/skalierung.pdf Graphic file (type pdf)
-
-<use ./Elektrotechnik/Bilder/skalierung.pdf>
-<./Elektrotechnik/Bilder/zeitbasis.pdf, id=1429, 451.30724pt x 268.06432pt>
-File: ./Elektrotechnik/Bilder/zeitbasis.pdf Graphic file (type pdf)
-
-<use ./Elektrotechnik/Bilder/zeitbasis.pdf>
-<./Elektrotechnik/Bilder/argument.pdf, id=1430, 477.72527pt x 279.54391pt>
+] (./Elektrotechnik/Bilder/uoffs.tex)
+(./Elektrotechnik/Bilder/skalierung.tex) (./Elektrotechnik/Bilder/zeitbasis.tex
+) <./Elektrotechnik/Bilder/argument.pdf, id=1407, 477.72527pt x 279.54391pt>
 File: ./Elektrotechnik/Bilder/argument.pdf Graphic file (type pdf)
 
-<use ./Elektrotechnik/Bilder/argument.pdf> [79 <./Elektrotechnik/Bilder/uoffs.p
-df
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/uoffs.pdf): PDF
- inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
-> <./Elektrotechnik/Bilder/skalierung.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/skalierung.pdf)
-: PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
-> <./Elektrotechnik/Bilder/zeitbasis.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/zeitbasis.pdf):
- PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
-> <./Elektrotechnik/Bilder/argument.pdf
+<use ./Elektrotechnik/Bilder/argument.pdf> [79 <./Elektrotechnik/Bilder/argumen
+t.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/argument.pdf): 
 PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
 >]
-<./Elektrotechnik/Bilder/argumentversch.pdf, id=1475, 477.72527pt x 279.54391pt
+<./Elektrotechnik/Bilder/argumentversch.pdf, id=1425, 477.72527pt x 279.54391pt
 >
 File: ./Elektrotechnik/Bilder/argumentversch.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/argumentversch.pdf>
-<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1476, 477.72527pt x 279.5439
+<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1426, 477.72527pt x 279.5439
 1pt>
 File: ./Elektrotechnik/Bilder/skalierungsfaktor.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/skalierungsfaktor.pdf>
-<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1477, 476.92241pt x 305.8078
+<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1427, 476.92241pt x 305.8078
 5pt>
 File: ./Elektrotechnik/Bilder/einheitssprungang.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitssprungang.pdf> [80 <./Elektrotechnik/Bild
@@ -827,7 +1001,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/einheitssprunga
 ng.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring
  it.
 >]
-<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1512, 477.72527pt x 300.35112pt
+<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1462, 477.72527pt x 300.35112pt
 >
 File: ./Elektrotechnik/Bilder/einheitsimpuls.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitsimpuls.pdf>) [81 <./Elektrotechnik/Bilder
@@ -845,13 +1019,13 @@ Kapitel 16.
 ] [84] [85] [86] [87] [88]) [89]
 (./Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 5212 strings out of 256216
- 69790 string characters out of 1917071
- 139338 words of memory out of 1500000
- 7836 multiletter control sequences out of 10000+200000
+ 8631 strings out of 256216
+ 129366 string characters out of 1917071
+ 212844 words of memory out of 1500000
+ 11086 multiletter control sequences out of 10000+200000
  16183 words of font info for 64 fonts, out of 1200000 for 2000
  646 hyphenation exceptions out of 8191
- 34i,25n,36p,452b,452s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 45i,25n,41p,452b,635s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></u
 sr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/
 bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></u
@@ -868,9 +1042,9 @@ type1/bluesky/cm/cmsl10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb
 e1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></u
 sr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1
 /bluesky/ams/msbm10.pfb>
-Output written on Formelsammlung.pdf (90 pages, 753082 bytes).
+Output written on Formelsammlung.pdf (90 pages, 732349 bytes).
 PDF statistics:
- 1749 PDF objects out of 2073 (max. 8388607)
+ 1699 PDF objects out of 1728 (max. 8388607)
  499 named destinations out of 1000 (max. 131072)
- 1398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
