@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  3 JAN 2012 08:35
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  15 FEB 2012 23:22
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -859,15 +859,15 @@ Kapitel 7.
 (./Physik/Algemein.tex [39
 
 ] [40] [41] [42] [43] [44] [45] [46]
-<./Physik/Bilder/Spannung.png, id=1175, 501.875pt x 501.875pt>
+<./Physik/Bilder/Spannung.png, id=1190, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Spannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Spannung.png>
-<./Physik/Bilder/Tangentialspannung.png, id=1176, 501.875pt x 501.875pt>
+<./Physik/Bilder/Tangentialspannung.png, id=1191, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Tangentialspannung.png>
-<./Physik/Bilder/Scherbeanspruchung.png, id=1177, 501.875pt x 501.875pt>
+<./Physik/Bilder/Scherbeanspruchung.png, id=1192, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Scherbeanspruchung.png>
@@ -913,22 +913,22 @@ Kapitel 11.
 ] [57] [58]) [59]
 Kapitel 12.
 (./Physik/Optik.tex
-<./Physik/Bilder/Hohlspiegel.png, id=1288, 326.72063pt x 224.33812pt>
+<./Physik/Bilder/Hohlspiegel.png, id=1303, 326.72063pt x 224.33812pt>
 File: ./Physik/Bilder/Hohlspiegel.png Graphic file (type png)
 
 <use ./Physik/Bilder/Hohlspiegel.png> [60
 
  <./Physik/Bilder/Hohlspiegel.png (PNG copy)>] <./Physik/Bilder/Linse.png, id=1
-294, 255.20343pt x 109.1578pt>
+309, 255.20343pt x 109.1578pt>
 File: ./Physik/Bilder/Linse.png Graphic file (type png)
 
 <use ./Physik/Bilder/Linse.png>
-<./Physik/Bilder/Beispiele-Linsen.png, id=1295, 778.40813pt x 292.09125pt>
+<./Physik/Bilder/Beispiele-Linsen.png, id=1310, 778.40813pt x 292.09125pt>
 File: ./Physik/Bilder/Beispiele-Linsen.png Graphic file (type png)
 
 <use ./Physik/Bilder/Beispiele-Linsen.png> [61 <./Physik/Bilder/Linse.png (PNG 
 copy)> <./Physik/Bilder/Beispiele-Linsen.png (PNG copy)>]
-<./Physik/Bilder/Lichtwellenleiter.png, id=1300, 207.77625pt x 313.17pt>
+<./Physik/Bilder/Lichtwellenleiter.png, id=1315, 207.77625pt x 313.17pt>
 File: ./Physik/Bilder/Lichtwellenleiter.png Graphic file (type png)
 
 <use ./Physik/Bilder/Lichtwellenleiter.png>) [62 <./Physik/Bilder/Lichtwellenle
@@ -964,7 +964,7 @@ Kapitel 15.
 
 ] (./Elektrotechnik/Bilder/uoffs.tex)
 (./Elektrotechnik/Bilder/skalierung.tex) (./Elektrotechnik/Bilder/zeitbasis.tex
-) <./Elektrotechnik/Bilder/argument.pdf, id=1407, 477.72527pt x 279.54391pt>
+) <./Elektrotechnik/Bilder/argument.pdf, id=1422, 477.72527pt x 279.54391pt>
 File: ./Elektrotechnik/Bilder/argument.pdf Graphic file (type pdf)
 
 <use ./Elektrotechnik/Bilder/argument.pdf> [79 <./Elektrotechnik/Bilder/argumen
@@ -973,15 +973,15 @@ t.pdf
 pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/argument.pdf): 
 PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
 >]
-<./Elektrotechnik/Bilder/argumentversch.pdf, id=1425, 477.72527pt x 279.54391pt
+<./Elektrotechnik/Bilder/argumentversch.pdf, id=1440, 477.72527pt x 279.54391pt
 >
 File: ./Elektrotechnik/Bilder/argumentversch.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/argumentversch.pdf>
-<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1426, 477.72527pt x 279.5439
+<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1441, 477.72527pt x 279.5439
 1pt>
 File: ./Elektrotechnik/Bilder/skalierungsfaktor.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/skalierungsfaktor.pdf>
-<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1427, 476.92241pt x 305.8078
+<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1442, 476.92241pt x 305.8078
 5pt>
 File: ./Elektrotechnik/Bilder/einheitssprungang.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitssprungang.pdf> [80 <./Elektrotechnik/Bild
@@ -1001,28 +1001,36 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/einheitssprunga
 ng.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring
  it.
 >]
-<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1462, 477.72527pt x 300.35112pt
+<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1477, 477.72527pt x 300.35112pt
 >
 File: ./Elektrotechnik/Bilder/einheitsimpuls.pdf Graphic file (type pdf)
- <use ./Elektrotechnik/Bilder/einheitsimpuls.pdf>) [81 <./Elektrotechnik/Bilder
-/einheitsimpuls.pdf
+ <use ./Elektrotechnik/Bilder/einheitsimpuls.pdf>
+Overfull \hbox (1.25809pt too wide) in paragraph at lines 200--200
+[]\OT1/cmr/bx/n/12 Zusammenhang zwi-schen Del-taim-puls, Ein-heits-sprung-
+ []
+
+(./Elektrotechnik/Bilder/zusammenhang.tex) [81 <./Elektrotechnik/Bilder/einheit
+simpuls.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/einheitsimpuls.
 pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it
 .
->] [82
+>] (./Elektrotechnik/Bilder/delta.tex)
+(./Elektrotechnik/Bilder/einheitssprung.tex)
+(./Elektrotechnik/Bilder/einheitsanstieg.tex) [82]
+(./Elektrotechnik/Bilder/signalstatistik.tex)) [83] [84
 
 ]
 Kapitel 16.
-(./Messtechnik/Grundlagen.tex [83
+(./Messtechnik/Grundlagen.tex [85
 
-] [84] [85] [86] [87] [88]) [89]
+] [86] [87] [88] [89] [90]) [91]
 (./Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 8631 strings out of 256216
- 129366 string characters out of 1917071
+ 8660 strings out of 256216
+ 130065 string characters out of 1917071
  212844 words of memory out of 1500000
- 11086 multiletter control sequences out of 10000+200000
+ 11093 multiletter control sequences out of 10000+200000
  16183 words of font info for 64 fonts, out of 1200000 for 2000
  646 hyphenation exceptions out of 8191
  45i,25n,41p,452b,635s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -1042,9 +1050,9 @@ type1/bluesky/cm/cmsl10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb
 e1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></u
 sr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1
 /bluesky/ams/msbm10.pfb>
-Output written on Formelsammlung.pdf (90 pages, 732349 bytes).
+Output written on Formelsammlung.pdf (92 pages, 740570 bytes).
 PDF statistics:
- 1699 PDF objects out of 1728 (max. 8388607)
- 499 named destinations out of 1000 (max. 131072)
- 1373 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1728 PDF objects out of 1728 (max. 8388607)
+ 507 named destinations out of 1000 (max. 131072)
+ 1397 words of extra memory for PDF output out of 10000 (max. 10000000)
 

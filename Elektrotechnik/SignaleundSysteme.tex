@@ -197,3 +197,78 @@ Deltaimpuls \( \delta \left( t \right) \).
 \vfill
 \end{multicols}
 
+\subsection{Zusammenhang zwischen Deltaimpuls, Einheitssprungfunktion und Einheitsanstiegsfunktion}
+
+\begin{center}
+	\input{./Elektrotechnik/Bilder/zusammenhang.tex}
+\end{center}
+
+\begin{align*}
+\delta \left( t \right) &= \frac{\mathrm{d} \sigma \left( t \right)}{\mathrm{dt}} =
+\frac{\mathrm{d^2} \alpha \left( t \right)}{\mathrm{dt^2}} & \sigma \left( t \right) &=
+\int\limits_{-\infty}^{t} \delta \left( t \right) \mathrm{dt} =
+\frac{\mathrm{d} \alpha \left( t \right)}{\mathrm{dt}}
+\end{align*}
+
+\[
+\alpha \left( t \right) = 
+\begin{cases}
+	t \text{ für } t > 0
+	\\
+	\\
+	0 \text{ für } t \leq 0
+\end{cases}
+= \int\limits_{-\infty}^{t} \sigma \left( t \right) \mathrm{dt}
+= \int\limits_{-\infty}^{t} \int\limits_{-\infty}^{t} \delta \left( t \right) \mathrm{dt}
+\]
+
+\subsection{zeitliche Verschiebung und Wichtung}
+
+\subsubsection{Deltaimpuls}
+	\begin{multicols}{2}
+		\vfill
+		\begin{align*}
+			x \left( t \right) &= A_x \cdot \delta \left( t - t_0 \right) \\
+			\left[ x\left(t\right) \right] &= \left[ A_x \right] \cdot \left[ \delta\left( t \right) \right]
+		\end{align*}
+		\vspace{20mm}
+		\vfill
+		\input{./Elektrotechnik/Bilder/delta.tex}
+		\vfill
+	\end{multicols}
+	
+\subsubsection{Einheitssprung}
+	\begin{multicols}{2}
+		\vfill
+		\begin{align*}
+			x\left( t \right) &= X_0 \cdot \sigma \left( t - t_0 \right) \\
+			\left[ x\left( t \right) \right] &= \left[ X_0 \right]
+		\end{align*}
+		\vspace{20mm}
+		\vfill
+		\input{./Elektrotechnik/Bilder/einheitssprung.tex}
+		\vfill
+	\end{multicols}
+	
+\subsubsection{Einheitsanstiegsfunktion}
+	\begin{multicols}{2}
+		\vfill
+		\begin{align*}
+			x \left( t \right) &= m \cdot \alpha \left( t - t_0 \right) \\
+			\left[ x \left( t \right) \right] &= \left[ m \right] \cdot \left[ \alpha \left(t\right) \right]
+		\end{align*}
+		\vspace{20mm}
+		\vfill
+		\input{./Elektrotechnik/Bilder/einheitsanstieg.tex}
+		\vfill
+	\end{multicols}
+	
+\newpage
+\section{Signale}
+\textbf{Definition:}
+Ein Signal ist eine zeitlich und / oder örtlich veränderliche Größe (physikalisch).
+Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informationsgehalt aus.
+	
+\begin{center}
+	\input{./Elektrotechnik/Bilder/signalstatistik.tex}
+\end{center}
