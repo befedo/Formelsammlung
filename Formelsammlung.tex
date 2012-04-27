@@ -11,6 +11,8 @@
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{makeidx}
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{colortbl}
@@ -33,7 +35,7 @@
   /Keywords (Hilfe, Formeln, Hirn leer,...)
 }
 
-\hypersetup{linktocpage=true, colorlinks=false}	%Ganzseitiganzeigen %pdfpagemode=FullScreen,
+%\hypersetup{linktocpage=true, colorlinks=false}	%Ganzseitiganzeigen %pdfpagemode=FullScreen,
 \geometry{left=15mm,right=5mm, top=15mm, bottom=15mm}
 \pagestyle{headings}
 \hyphenation{words}
@@ -60,7 +62,7 @@
 \newcommand*\grad{\mathop{}\!\mathrm{grad}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\makeindex
 \begin{document}
 \maketitle
 
@@ -69,23 +71,27 @@
 
 		%TEIL
 	\part{Mathematik}
-
 	
-%KAPITEL
-\chapter{Algebra}
-\input{Mathe/Mathe.tex}
-\chapter{Funktionen}
-\input{Mathe/Funktionen.tex}
-\chapter{Vektorrechnung}
-\input{Mathe/Vektorrechnung.tex}
-\chapter{Differentialrechnung}
-\input{Mathe/Differentialrechnung.tex}
-\input{Mathe/Differentialgleichungen.tex}
-\input{Mathe/Differentialgleichungen2.tex}
-\chapter{Folgen und Reihen}
-\input{Mathe/Reihen.tex}
-\chapter{Interpolation}
-\input{Mathe/Interpolation.tex}		
+		%KAPITEL
+		\chapter{Algebra}
+		\input{Mathe/Mathe.tex}
+		
+		\chapter{Funktionen}
+		\input{Mathe/Funktionen.tex}
+		
+		\chapter{Vektorrechnung}
+		\input{Mathe/Vektorrechnung.tex}
+		
+		\chapter{Differentialrechnung}
+		\input{Mathe/Differentialrechnung.tex}
+		\input{Mathe/Differentialgleichungen.tex}
+		\input{Mathe/Differentialgleichungen2.tex}
+		
+		\chapter{Folgen und Reihen}
+		\input{Mathe/Reihen.tex}
+		
+		\chapter{Interpolation}
+		\input{Mathe/Interpolation.tex}		
 
 	%Physik als eigenes Dokument, mit eigenen *.tex Files
 	\part{Physik}
@@ -126,4 +132,9 @@
 
 %\bibliographystyle{plain}
 %\bibliography{Formelsammlung.bib}
+\renewcommand{\indexname}{Sachregister}
+\addcontentsline{toc}{section}{Sachregister}
+\part{Anhang}
+\printindex
+
 \end{document}

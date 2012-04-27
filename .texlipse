@@ -1,13 +1,14 @@
 #TeXlipse project settings
-#Thu Nov 03 22:18:29 CET 2011
+#Fri Apr 27 15:25:50 CEST 2012
+markTmpDer=true
 builderNum=2
 outputDir=
-makeIndSty=
+makeIndSty=iso.ist
 bibrefDir=
 outputFormat=pdf
 tempDir=tmp
 mainTexFile=Formelsammlung.tex
 outputFile=Formelsammlung.pdf
-langSpell=en
+langSpell=de
 markDer=true
 srcDir=

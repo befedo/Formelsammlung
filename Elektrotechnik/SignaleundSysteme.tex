@@ -1,5 +1,5 @@
 \section{Einfache Impulse}
-\subsection{Rechteckimpuls/ -funktion \texorpdfstring{$rect_T\left(t\right)$}{}}
+\subsection*{Rechteckimpuls/ -funktion \texorpdfstring{$rect_T\left(t\right)$}{}}
 \begin{multicols}{2}
 \begin{equation*}
 x\left(t\right) = X_0 \cdot rect_T\left(t\right) 
@@ -16,7 +16,7 @@ x\left(t\right) = X_0 \cdot rect_T\left(t\right)
 
 \end{multicols}
 
-\subsection{Dreiecksimpuls/ -funktion \texorpdfstring{$\Lambda_T\left(t\right)$}{}}
+\subsection*{Dreiecksimpuls/ -funktion \texorpdfstring{$\Lambda_T\left(t\right)$}{}}
 \begin{multicols}{2}
  \begin{align*}
 x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
@@ -37,7 +37,7 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
 \end{multicols}
 
 \section{Elementare Operationen auf zeitliche Verläufe}
-\subsection{Beeinflußung der Ordinate}
+\subsection*{Beeinflußung der Ordinate}
 
 \begin{multicols}{2}
  \subsubsection*{Signaloffset \texorpdfstring{$X_{OFFS}$}{}}
@@ -61,9 +61,9 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
   \end{center}
 \end{multicols}
 
-\subsection{Beeinflußung der Abszisse}
+\subsection*{Beeinflußung der Abszisse}
 \begin{multicols}{2}
- \subsubsection{zeitliche Verschiebung \texorpdfstring{$t_0$}{}}
+ \subsubsection*{zeitliche Verschiebung \texorpdfstring{$t_0$}{}}
   \begin{equation*}
    x_{neu}\left(t\right) = x_{alt}\left(t - t_0\right) \text{ mit } t_0 = const.
   \end{equation*}
@@ -81,7 +81,7 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
 \end{multicols}
 
 \begin{multicols}{2}
- \subsubsection{Negation des Arguments \texorpdfstring{$t$}{}}
+ \subsubsection*{Negation des Arguments \texorpdfstring{$t$}{}}
   \begin{align*}
    x_{neu}\left(t\right) &= x_{alt}\left(-t\right) \text{ mit } \tau = -t \\
    x_{neu}\left(-\tau\right) &= x_{alt}\left(\tau\right)
@@ -136,7 +136,7 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
        \(0 < a < 1\) Funktion wird gestreckt 
 \end{itemize}
 
-\subsection{Einheitssprungfunktion / Deltaimpuls}
+\subsection*{Einheitssprungfunktion / Deltaimpuls}
 \subsubsection*{angenäherte Einheitssprungfunktion
 \texorpdfstring{$\tilde{\sigma}\left(t, \epsilon \right)$}{}}
 \begin{multicols}{2}
@@ -197,7 +197,7 @@ Deltaimpuls \( \delta \left( t \right) \).
 \vfill
 \end{multicols}
 
-\subsection{Zusammenhang zwischen Deltaimpuls, Einheitssprungfunktion und Einheitsanstiegsfunktion}
+\subsection*{Zusammenhang zwischen Deltaimpuls, Einheitssprungfunktion und Einheitsanstiegsfunktion}
 
 \begin{center}
 	\input{./Elektrotechnik/Bilder/zusammenhang.tex}
@@ -222,9 +222,9 @@ Deltaimpuls \( \delta \left( t \right) \).
 = \int\limits_{-\infty}^{t} \int\limits_{-\infty}^{t} \delta \left( t \right) \mathrm{dt}
 \]
 
-\subsection{zeitliche Verschiebung und Wichtung}
+\subsection*{zeitliche Verschiebung und Wichtung}
 
-\subsubsection{Deltaimpuls}
+\subsubsection*{Deltaimpuls}
 	\begin{multicols}{2}
 		\vfill
 		\begin{align*}
@@ -237,7 +237,7 @@ Deltaimpuls \( \delta \left( t \right) \).
 		\vfill
 	\end{multicols}
 	
-\subsubsection{Einheitssprung}
+\subsubsection*{Einheitssprung}
 	\begin{multicols}{2}
 		\vfill
 		\begin{align*}
@@ -250,7 +250,7 @@ Deltaimpuls \( \delta \left( t \right) \).
 		\vfill
 	\end{multicols}
 	
-\subsubsection{Einheitsanstiegsfunktion}
+\subsubsection*{Einheitsanstiegsfunktion}
 	\begin{multicols}{2}
 		\vfill
 		\begin{align*}
@@ -272,3 +272,290 @@ Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informat
 \begin{center}
 	\input{./Elektrotechnik/Bilder/signalstatistik.tex}
 \end{center}
+
+\subsection*{Energiewandlung}
+\begin{align*}
+	E_R &= \int\limits_{-\infty}^{\infty} u \left( t \right) \cdot i \left( t \right) \mathrm{dt} &
+	\left[ E_R \right] &= V \cdot A \cdot s = Ws 
+	\\
+	\text{mit } i \left( t \right) &= \frac{u \left( t \right)}{R} \text{ folgt}
+	\\
+	E_R &= \frac{1}{R}\int\limits_{-\infty}^{\infty}u^2 \left( t \right) \mathrm{dt}  
+\end{align*}
+
+\subsection*{Momentanleistung \texorpdfstring{$P_r\left(t_1\right)$}}
+\begin{align*}
+	P_R \left(t_1\right) &= u\left(t_1\right) \cdot i\left(t_1\right) &
+	&\left[P_R\left(t_1\right)\right] = W
+	\\
+	P_R &= U_0 \cdot I_0 = \frac{U_0^2}{R} & &\text{ bei Gleichleistung}	
+\end{align*}
+
+\subsection*{Mittlere Leistung \texorpdfstring{$P_R$}}
+\begin{align*}
+	P_R &= \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 + T} u\left(t\right) \cdot
+	i\left(t\right) \mathrm{dt} & \left[P_R\right] &= W
+	\\
+	    &= \frac{1}{R} \cdot \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 + T} u^2
+		\left(t\right) \mathrm{dt}
+	\\
+	&\textbf{Spezialfall: } \text{Periodische Signalverläufe}
+	\\
+		&= \frac{1}{n \cdot t_P} \int\limits_{t_1}^{t_1 + n\cdot t_P} u_P \left(t\right) \cdot
+		i_P\left(t\right) \mathrm{dt} = \frac{1}{R \cdot n \cdot t_P} \int\limits_{t_1}^{t_1 + n \cdot
+		t_P} u_P^2 \left(t\right) \mathrm{dt}
+\end{align*}
+\[T \text{: Betrachtungszeit, Meßdauer } t_1 \text{: Startzeitpunkt } t_P \text{: Periodendauer } R
+= const.\]
+
+\subsection*{Signalenergie / Impulsenergie / Impulsmoment 2. Ordnung \texorpdfstring{$E_U$}}
+
+Nur für Energiesignale sinnvoll.
+\begin{align*}
+	E_U &= {m_i}_2 = \int\limits_{-\infty}^{\infty}u^2\left(t\right) \mathrm{dt} & \left[E_U\right] =
+	{V^2}s
+\end{align*}
+
+Zeitdiskrete Signalverläufe:
+\begin{align*}
+	E_X &= {m_i}_2 = \sum\limits_{k = -\infty}^{\infty} X^2_q\left(k\right) &	\left[E_X\right] &= 1
+\end{align*}
+
+Entnormierung über einem realen Widerstand:
+\begin{align*}
+	E_R &= E_U \cdot \frac{1}{R} & \left[E_R\right] &= Ws
+\end{align*}
+
+\subsection*{Signalleistung \texorpdfstring{$P_u$} // Gesamtsignalleistung \texorpdfstring{$P_i$} //
+quadratischer Mittelwert \texorpdfstring{$\overline{u^2}$} // gewöhnliches Moment 2. Ordnung
+\texorpdfstring{$m_2$} }
+
+Nur für Leistungssignale sinnvoll.
+\begin{align*}
+	P_u &= \overline{u^2} = m_2 = \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 +
+	T}u^2\left(t\right) \mathrm{dt} & \left[P_u\right] &= V^2
+\end{align*}
+
+\begin{align*}
+	&\textbf{Spezialfall: } \text{Periodische Signalverläufe}
+	\\
+	P_u &= \overline{u^2} = m_2 = \frac{1}{t_p} \int\limits_{t_1}^{t_1 + t_p}u^2_p\left(t\right)
+	\mathrm{dt}
+	\\
+&\textbf{Spezialfall: } \text{zeitdiskrete Signalverläufe}
+	\\
+	&\text{beliebiges nichtperiodisches Signal:} & &\text{periodisches Signal:}
+	\\
+	P_X &= \lim\limits_{N \to \infty} \frac{1}{N} \cdot \sum\limits_{k = k_1}^{k_1 +
+	N - 1} X_q^2\left(k\right) &
+	P_X &= \frac{1}{N_P} \sum\limits_{k = k_1}^{k_1 + N - 1}X_q^2\left(k\right)_P
+	\\
+&\textbf{Spezialfall: } \text{konstannte Werte}
+	\\
+	P_X &= X^2_q\left(k_1\right)_k
+\end{align*}
+
+Entnormierung über einem realen Widerstand:
+\begin{align*}
+	P_R &= P_U \cdot \frac{1}{R} & \left[P_R\right] &= W
+\end{align*}
+
+\subsection*{Signalenergie\texorpdfstring{$\leftrightarrow$}/Signalleistung}
+\begin{tabularx}{\textwidth}{|X|X|X|}\hline
+					& Energiesignal 	& Leistungssignal	\\ \hline
+	Signalenergie	& endlicher Wert	& \(+\infty\)		\\ \hline
+	Signalleistung	& \(0\)				& endlicher Wert	\\ \hline
+\end{tabularx}
+
+\section{Signalbeschreibung Leistungssignale}
+\subsection*{Effektivwert}
+Energiesignale haben einen Effektivwert von Null.
+\[
+u_{eff} = \sqrt{P_u} = \sqrt{\lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 +
+	T}u^2\left(t\right) \mathrm{dt}}
+\]
+\textbf{Spezialfall: } \text{zeitdiskrete Signalverläufe}
+\[
+X_{eff} = \sqrt{P_X} = \sqrt{\lim\limits_{N \to \infty} \frac{1}{N} \cdot \sum\limits_{k = k_1}^{k_1 +
+	N - 1} X_q^2\left(k\right)}
+\]
+
+\subsection*{Gleichanteil / linearer Mittelwert / gewöhnliches Moment 1. Ordnung
+\texorpdfstring{$m_1$}} 
+Enrgiesignale haben einen Gleichanteil von Null.
+
+\begin{align*}
+&\textbf{beliebige Signalverläufe}
+	\\
+	\overline{x} &= m_1 = \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 + T}
+	x\left(t\right) \mathrm{dt} & \left[\overline{x}\right] = \left[x\right]
+	\\
+&\textbf{periodische Signalverläufe}
+	\\
+	\overline{x} &= m_1 = \frac{1}{t_p} \int\limits_{t_1}^{t_1 + t_p}
+	x\left(t\right) \mathrm{dt} & \left[\overline{x}\right] = \left[x\right]
+	\\
+&\textbf{zeitdiskrete Signalverläufe}
+	\\
+	\overline{x_k} &= \lim\limits_{N \to \infty} \frac{1}{N} \sum\limits_{k = k_1}^{k_1 + N -
+	1}x_q\left(k\right)
+	\\
+&\textbf{periodische zeitdiskrete Signalverläufe}
+	\\
+	\overline{x_k} &= \frac{1}{N_p} \sum\limits_{k = k_1}^{k_1 + N -
+	1}x_q\left(k\right)_p
+\end{align*}
+
+\subsection*{Signalgleichleistung / quadrierter linearer Mittelwert
+\texorpdfstring{$\overline{u}^2$} // quadriertes gewöhnliches Moment 1. Ordnung
+\texorpdfstring{$m_1^2$}}
+Energiesignale haben eine Signalgleichleistung von Null.
+
+\begin{align*}
+&\textbf{beliebige Signalverläufe}
+	\\
+	P_{u_{=}} &= \left[\overline{u}\right]^2 = m_1^2 = \left[ \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 + T}
+	u\left(t\right) \mathrm{dt} \right]^2 & \left[ P_{u_{=}} \right] &= V^2
+	\\
+&\textbf{zeitdiskrete Signalverläufe}
+	\\
+	P_{X_{=}} &= \left[\overline{x}\right]^2 = m_1^2 = \left[ \lim\limits_{N \to \infty} \frac{1}{N}
+	\sum\limits_{k = k_1}^{k_1 + N - 1}X_q\left(k\right) \right]^2 & \left[ P_{X_{=}} \right] &= 1
+	\\
+&\textbf{Entnormierung}
+	\\
+	P_{R_{=}} &= \frac{P_{u_{=}}}{R} & \left[ P_{R_{=}} \right] &= W
+\end{align*}
+
+\subsection*{Signalwechselleistung \texorpdfstring{$P_{u_{\sim}}$} // Varianz
+\texorpdfstring{$\sigma^2$} // zentrales Moment 2. Ordnung \texorpdfstring{$\mu_2$}}
+Energiesignale haben eine Signalwechselleistung von Null.
+\begin{align*}
+	P_{u_{\sim}} &= \sigma^2 = \mu_2 = \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 +
+	T} \left[ u\left(t\right) - \overline{u} \right]^2 \mathrm{dt}
+	\\
+	&\textbf{periodischer Spannungsverlauf}
+	\\
+	P_{p_{\sim}} &= \frac{1}{t_p} \int\limits_{t_1}^{t_1 + t_p} \left[ u\left(t\right) - \overline{u}
+	\right]^2 \mathrm{dt}
+	\\
+	&\textbf{zeitdiskrete Signale}
+	\\
+	P_{X_{\sim}} &= \lim\limits_{N \to \infty} \frac{1}{N} \sum\limits_{k = k_1}^{k_1 + N -1}\left[
+ 	X_q \left(k\right) - \overline{X} \right]^2
+	\\
+	&\textbf{periodische zeitdiskrete Signale}
+	\\
+	P_{X_{\sim}} &= \frac{1}{N_p} \sum\limits_{k = k_1}^{k_1 + N -1}\left[
+ 	X_q \left(k\right)_p - \overline{X} \right]^2
+	\\
+	&\textbf{Entnormierung}
+	\\
+	P_{R_{\sim}} &= \frac{P_{u_{\sim}}}{R} & \left[ P_{R_{\sim}} \right] = W
+\end{align*}
+
+\subsection*{Leistungsbilanz}
+\[P_u = P_{u_{=}} + P_{u_{\sim}} = m_2 = m_1^2 + \mu_2 = \left[\overline{u}\right]^2 + \sigma^2 \]
+
+\newpage
+\section{Signalbeschreibung Energiesignale}
+
+\subsection*{Impulsfläche \texorpdfstring{$A_u$} // Impulsmoment 1. Ordnung
+\texorpdfstring{${m_i}_1$}}
+Leistungssignale besitzen Flächen von \(\pm\infty\) bzw. Null.
+
+\begin{align*}
+	A_u &= \int\limits_{-\infty}^{\infty} u\left( t \right) \mathrm{dt} & \left[ A_u \right] &= Vs
+	\\
+&\textbf{zeitdiskrete Signale}
+	\\
+	A_X &= \sum\limits_{k = -\infty}^{\infty} X_q\left( k \right) & \left[A_X\right] &= 1
+\end{align*}
+
+\newpage
+\begin{landscape}
+	\begin{center}
+		\input{./Elektrotechnik/Bilder/uebersicht-signale.tex}
+	\end{center}
+\end{landscape}
+
+\section{Systeme}
+\textbf{Definition:} Ein System ist ein physikalisches oder auch technisches Gebilde, welches ein
+Signal (Eingangssignal, Systemerregung / -anregung) in ein im Allgemeinen andersartiges Signal
+umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
+
+\begin{center}
+	\input{./Elektrotechnik/Bilder/systemeigenschaften.tex}
+\end{center}
+
+\textbf{Übersicht:}
+\newline
+\begin{tabularx}{\textwidth}{|c|X|}\hline
+	Linearität	& Ist nur vorhanden, wenn Homogenität und Additivität vorliegen. \newline Die
+	Multiplikation eines konstannten Faktors mit dem Eingang, führt zu Multiplikation des
+	gleichen Faktors mit dem Ausgang.\\\hline
+	
+	Additivität & \(x\left(t\right)\) ist additiv zerlegbar, diese Anteile können getrennt verarbeitet
+	sowie die Systemreaktionen addiert werden.\\\hline
+	
+	Zeitinvarianz & Zeitinvarianz ist vorhanden, wenn sich die Systemeigenschaften zeitlich nicht
+	ändern. \newline Eine Zeitverzögerung des Eingangssignals überträgt sich somit um eine gleiche
+	Verzögerung ins Ausgangssignal.\\\hline
+	
+	Kausalität & Kausalität ist Vorhanden, wenn die Systemreaktion nicht schon vor Begin der
+	Systemerregung einsetzt. \newline Somit ist jedes realisierbare System zwingend kausal.\\\hline
+	
+	Stabilität & 	\textbf{Stabilität} \newline
+					Ist vorhanden, wenn bei einem betragsmäßig beschränktem, beliebigem breitbandigen
+					Eingangssignal auch ein betragsmäßig beschränktes Ausgangssignal vorliegt.
+					\newline \textbf{Grenzstabilität} \newline
+					Bedingungen der Stabilität werden nicht erfüllt, jedoch ist die Signalleistung ab einem best
+					Zeitpunkt konstannt. 
+					\newline \textbf{Instabilität} \newline
+					Ausgangssignal wächst selbst beim verschwinden von \(x\left(t\right)\) unbegrenzt an.
+					\\\hline		
+\end{tabularx}
+
+\subsection*{Impulsantwort / Gewichtsfunktion \texorpdfstring{$g\left(t\right)$}}
+\begin{align*}
+	\text{mit } x\left(t\right) &= \delta\left( t \right) \text{ folgt } y\left(t\right) =
+	g\left(t\right)
+	\\
+	\left[g\left(t\right)\right] &= \left[ \delta\left(t\right) \right] = s^{-1}
+\end{align*}
+
+\subsection*{Sprungantwort / Übergangsfunktion \texorpdfstring{$ h\left(t\right) $}}
+\textbf{Zusammenhang:}
+\begin{align*}
+	\sigma \left(t\right) &= \int\limits_{-\infty}^{t} \delta\left(t\right) \mathrm{dt} \Leftrightarrow
+	\delta \left(t\right) = \frac{\mathrm{d}\sigma\left(t\right)}{\mathrm{dt}}
+	\\
+	FT\{\sigma\left(t\right)\} &= \frac{1}{2}\delta\left(f\right) - j\frac{1}{2\pi f}
+\end{align*}
+
+\subsection*{Zusammenhang zwischen Übergangs- und Gewichtsfunktion}
+\begin{align*}
+	g\left(t\right) = \frac{\mathrm{d}h\left(t\right)}{\mathrm{dt}} &&\leadsto&& h\left(t\right) &=
+	\int\limits_{-\infty}^{t}g\left(t\right)\mathrm{dt}
+	\\
+	&& && &= \underbrace{\int\limits_{0}^{t}g\left(t\right)\mathrm{dt}}_{Kausales System}
+\end{align*}
+
+\subsection*{Faltungsoperation}
+\begin{itemize}
+  \item setzt LTI-Systeme voraus
+  \item Gewichtsfunktion wird nur bei LTI-Systemen angegeben
+\end{itemize}
+
+\begin{align*}
+	y\left( t \right) &= T \{ x\left(t\right) \}  = \int\limits_{-\infty}^{\infty}
+	x\left(\tau\right) \cdot g\left(t-\tau\right) \mathrm{d\tau} = x\left(t\right) \ast g\left(t\right)
+	\\
+	&\textbf{zeitdiskrete Systeme:}
+	\\
+	y\left( k \right) &= T \{ x\left(k\right) \}  = \sum\limits_{L = -\infty}^{\infty}
+	x\left(k\right) \cdot g\left(k-L\right) = x\left(k\right) \ast g\left(k\right)
+\end{align*}
+
+
+

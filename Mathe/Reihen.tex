@@ -1,7 +1,7 @@
 \section{Reihen}
 \subsection{Geometrische Folge}
 
-\subsubsection{Darstellung}
+\subsubsection*{Darstellung}
 
 \begin{alignat*}{2}
 &a_n = a \cdot q^n &\quad& \sum_{n=0}^\infty a \cdot q^n = \frac{a}{1-q} \\
@@ -10,7 +10,7 @@
 
 \subsection{Harmonische Reihe}
 
-\subsubsection{Darstellung}
+\subsubsection*{Darstellung}
 
 \begin{align*}
 &\sum_{n=1}^\infty \frac{1}{n^s} \\
@@ -21,13 +21,13 @@
 \subsection{Konvergenz}
 
 \begin{multicols}{2}
-\subsubsection{Majorantenkriterium}
+\subsubsection*{Majorantenkriterium}
 \begin{align*}
 &\sum_{n=0}^\infty a_n\leq\sum_{n=0}^\infty b_n \\
 & b_n \text{ bekannte konvergente Reihe}
 \end{align*}
 
-\subsubsection{Minorantenkriterium}
+\subsubsection*{Minorantenkriterium}
 \begin{align*}
 &\sum_{n=0}^\infty a_n\geq\sum_{n=0}^\infty b_n \\
 & b_n \text{ bekannte divergente Reihe}
@@ -35,7 +35,7 @@
 \end{multicols}
 
 
-\subsubsection{Wurzelkriterium}
+\subsubsection*{Wurzelkriterium}
 \[
 \lim_{n \to \infty} \sqrt[n]{a_n} = q
 \begin{cases}
@@ -45,7 +45,7 @@
 \end{cases}
 \]
 
-\subsubsection{Quotientenkriterium}
+\subsubsection*{Quotientenkriterium}
 \[
 \lim_{n\to\infty} \frac{a_{n+1}}{a_n} = q
 \begin{cases}
@@ -55,7 +55,7 @@ q = 1 \text{ ist keine Aussage möglich}
 \end{cases}
 \]
 
-\subsubsection{Leibnizkriterium}
+\subsubsection*{Leibnizkriterium}
 \text{Nur bei alternierenden Reihen}
 
 \begin{align*}
@@ -74,7 +74,7 @@ q = 1 \text{ ist keine Aussage möglich}
 
 \section{Funktionenreihen}
 
-\subsubsection{Darstellung}
+\subsubsection*{Darstellung}
 
 \begin{align*}
 \sum_{n=0}^\infty f_n(x)
@@ -84,14 +84,14 @@ q = 1 \text{ ist keine Aussage möglich}
 \subsection{Potenzreihen}
 
 \begin{multicols}{2}
-\subsubsection{Darstellung}
+\subsubsection*{Darstellung}
 \begin{align*}
 &\sum_{n=0}^\infty a_n x^n\\
 &\sum_{n=0}^\infty a_n \left(x-x_0\right)^n\\
 &x_0: \text{ Verschiebung des} \\ &\text{Entwicklungspunktes.}
 \end{align*}
 \vfill
-\subsubsection{Konvergenz}
+\subsubsection*{Konvergenz}
 \begin{align*}
 r&=\lim_{n\to\infty}\left|\frac{a_n}{a_{n+1}}\right|\\
 r&=\frac{1}{\lim_{n\to\infty}\sqrt[n]{\left|a_n\right|}}\\
@@ -127,7 +127,7 @@ e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}&x&\in\mathbb{R}\\
 
 \subsection{Fourier Reihen}
 
-\subsubsection{Allgemein}
+\subsubsection*{Allgemein}
 \begin{align*}
 y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)+a_n\cdot\sin\left(n\omega_0 t\right)\right)\\
 a_0&=\frac{2}{T}\int_{(T)}y(t)\diff t\\
@@ -137,7 +137,7 @@ b_n&=\frac{2}{T}\int_{(T)}y(t)\cdot\sin\left(n\omega_0 t\right)\diff t
 
 
 \newpage
-\subsubsection{Symetrie}
+\subsubsection*{Symetrie}
 \begin{multicols}{2}
 \begin{align*}
  y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)\right) \\ &\text{gerade Funktion } b_n = 0
@@ -148,14 +148,14 @@ b_n&=\frac{2}{T}\int_{(T)}y(t)\cdot\sin\left(n\omega_0 t\right)\diff t
 \end{align*}
 \end{multicols}
 
-\subsubsection{Komplex}
+\subsubsection*{Komplex}
 \begin{alignat*}{2}
 y(x)&=\sum_{n=-\infty}^\infty c_n\cdot e^{jnx} &\quad\quad\quad&
 c_n=\frac{1}{T}\int_{(T)}y(x)\cdot e^{-jnx}\diff x
 \end{alignat*}
 
 
-\subsubsection{Umrechnung}
+\subsubsection*{Umrechnung}
 
 \begin{align*}
 c_0&=\frac{1}{2}a_0\\

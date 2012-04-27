@@ -52,20 +52,20 @@ t1 \; \text{beliebiger Zeitwert} \rightarrow
 \section{Leistung und Leistungsfaktoren}
 \begin{multicols}{2}{}
  
-\subsection{Wirkleistung}
+\subsection*{Wirkleistung}
 \begin{align*}
 P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt \\
   &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} u \left( t \right) \cdot i \left( t \right) dt
 \end{align*}
 
-\subsection{Mittlere Leistung}
+\subsection*{Mittlere Leistung}
 \[\bar{p} \left(t\right) = P = \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt\]
 
-\subsection{Scheinleistung}
+\subsection*{Scheinleistung}
 \[ S = u_{eff} \cdot i_{eff} = U \cdot I\]
 \end{multicols}
 
-\subsection{Leistungsfaktor}
+\subsection*{Leistungsfaktor}
 \begin{align*}
 \lambda &= \frac{P}{S} \\
 	&= \frac{\frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} p\left( t \right) dt}
@@ -78,7 +78,7 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
 \newpage
 \section{Sinusförmige Größen}
 \begin{multicols}{2}{}
- \subsection{Sinusschwingung}
+ \subsection*{Sinusschwingung}
   \begin{align*}
    x\left(t\right) &= \hat{x} \sin\left( 2 \pi f + \varphi_x\right) \\
    x\left( \omega t \right) &= \hat{x} \sin\left( \omega t + \varphi_x\right)
@@ -89,7 +89,7 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
    \item \(\varphi_{x}>0 :\) Linksverschiebung der Kurve
   \end{itemize}
 
- \subsection{Kosinusschwingung}
+ \subsection*{Kosinusschwingung}
   \begin{align*}
    x\left(t\right) &= \hat{x} \cos\left( 2 \pi f + \varphi_x\right) \\
    x\left( \omega t \right) &= \hat{x} \cos\left( \omega t + \varphi_x\right)
@@ -101,10 +101,10 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
   \end{itemize}
 \end{multicols}
 
-\subsection{Nullphasenzeit}
+\subsection*{Nullphasenzeit}
 \[ t_{x} = -\frac{\varphi_x}{\omega} = -\varphi_x \cdot \frac{T}{2 \pi} \]
 
-\subsection{Addition zweier Sinusgrößen gleicher Frequenz}
+\subsection*{Addition zweier Sinusgrößen gleicher Frequenz}
 \[\text{mit: } a = \hat{a} \sin \left( \omega t + \alpha \right) \wedge b = \hat{b} \sin \left( \omega t + \beta \right)\]
 
 Resultierende Funktion:
@@ -153,7 +153,7 @@ Resultierende Funktion:
 \underline{x}_{eff} &= \hat{x}_{eff} \cdot e^{j \left( \omega t + \varphi_x \right)} 
 \end{align*}
 
-\subsection{Wechsel zwischen Sinus und Kosinus}
+\subsection*{Wechsel zwischen Sinus und Kosinus}
 \begin{align*}
 \hat{x}\left(t\right)\cos\left(\omega t + \varphi_x\right) \equiv \hat{x}\left(t\right)\sin\left(\omega t + \varphi_x + \frac{\pi}{2}\right) \\
 \hat{x}\left(t\right)\sin\left(\omega t + \varphi_x\right) \equiv \hat{x}\left(t\right)\cos\left(\omega t + \varphi_x - \frac{\pi}{2}\right)
@@ -193,7 +193,7 @@ Zeitbereich &  & komplexer Zeitbereich\\\hline
 &\text{Merke:} &\quad\quad& \frac{1}{j}=-j &\quad\quad& j=e^{j\frac{\pi}{2}}
 \end{alignat*}
 
-\subsection{Differentiation und Integration von Sinusgrößen}
+\subsection*{Differentiation und Integration von Sinusgrößen}
 
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \begin{center}
@@ -233,7 +233,7 @@ x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow
 \end{tabular}
 \end{center}
 
-\subsection{R, L und C im kompl. Zeigerbereich}
+\subsection*{R, L und C im kompl. Zeigerbereich}
 
 \newcommand{\mcc}[3]{\multicolumn{#1}{#2}{#3}}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
@@ -264,7 +264,7 @@ x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow
 \end{tabular}
 \end{center}
 
-\subsection{Widerstands und Leitwertoperator}
+\subsection*{Widerstands und Leitwertoperator}
 
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \begin{center}
@@ -293,7 +293,7 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 \[\underline{Z} = j \omega L = \omega L e^{j \frac{\pi}{2}} \wedge \underline{Y} = \frac{1}{j \omega L} = \frac{1}{\omega L} e^{-j \frac{\pi}{2}}\]
 
 \newpage
-\subsection{Resultierende Operatoren}
+\subsection*{Resultierende Operatoren}
 
 \begin{multicols}{2}{}
 \subsubsection*{Reihenschaltung}
@@ -309,7 +309,7 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 \[\frac{\underline{i}_1}{\underline{i}_2} = \frac{\underline{Y}_1}{\underline{Y}_2}\]
 \end{multicols}
 
-\subsection{Anteile am komplexen Widerstand (Impedanz)}
+\subsection*{Anteile am komplexen Widerstand (Impedanz)}
 \[\underline{Z} = \operatorname{Re}\{\underline{Z}\} + j \cdot \operatorname{Im}\{\underline{Z}\} = R + jX = \left|\underline{Z}\right| \cdot e^{j\varphi}\]
 \begin{align*}
 \text{mit }\varphi &= \varphi_u - \varphi_i \text{ Phasenwinkel; } R = \text{Wirkwiderstand; } \\ X &= \text{Blindwiderstand; } \left|\underline{Z}\right| = \text{Scheinwiderstand }
@@ -318,7 +318,7 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 R&=R &\quad\quad& L=\frac{X}{\omega} \text{ mit } X>0 &\quad\quad& C=-\frac{1}{\omega X} \text{ mit } X<0
 \end{alignat*}
 
-\subsection{Anteile am komplexen Leiwert (Admitanz)}
+\subsection*{Anteile am komplexen Leiwert (Admitanz)}
 \[\underline{Y} = \operatorname{Re}\{\underline{Y}\} + j \cdot \operatorname{Im}\{\underline{Y}\} = G + jB = \left|\underline{Y}\right| \cdot e^{j\gamma}\]
 \begin{align*}
 \text{mit }\gamma &= \varphi_i - \varphi_u \text{ Phasenwinkel; } G = \text{Wirkleitwert; } \\ B &= \text{Blindleitwert; } \left|\underline{Y}\right| = \text{Scheinleitwert }
@@ -327,7 +327,7 @@ R&=R &\quad\quad& L=\frac{X}{\omega} \text{ mit } X>0 &\quad\quad& C=-\frac{1}{\
 R&=\frac{1}{G} &\quad\quad& C=\frac{B}{\omega} \text{ mit } B>0 &\quad\quad& L=-\frac{1}{\omega B} \text{ mit } B<0
 \end{alignat*}
 
-\subsection{komplexer Widerstand / komplexer Leitwert}
+\subsection*{komplexer Widerstand / komplexer Leitwert}
 \begin{align*}
 \underline{Y} = G + jB &= \frac{1}{\underline{Z}} = \frac{1}{Z} \cdot e^{-j\varphi} \\
 	      &= \frac{1}{\sqrt{R^2 + X^2}} \cdot e^{-j\arctan\frac{X}{R}} \\
@@ -339,14 +339,14 @@ R&=\frac{1}{G} &\quad\quad& C=\frac{B}{\omega} \text{ mit } B>0 &\quad\quad& L=-
 	      &= \frac{1}{G + jB} = \frac{G-jB}{G^2 + B^2} = \underbrace{\frac{G}{G^2 + B^2}}_R \underbrace{-j\frac{B}{G^2 + B^2}}_X
 \end{align*}
 
-\subsection{Momentanleistung / Augenblicksleistung}
+\subsection*{Momentanleistung / Augenblicksleistung}
 \begin{align*}
 P\left(t\right) &= \underbrace{UI \cos \varphi}_{\text{zeitlich konstant}} - \underbrace{UI \cos \left(2 \omega t + \varphi_u + \varphi_i\right)}_{\text{mit doppelter Frequenz schwingend}} \\
 		&= UI \cos \varphi - UI \cos \left(2 \omega t + 2\varphi_u - \varphi\right) \\ \\
 		&\text{mit } \varphi = \varphi_u - \varphi_i \rightarrow \varphi_i = \varphi_u - \varphi
 \end{align*}
 
-\subsection{Blindleistung}
+\subsection*{Blindleistung}
 \emph{Ermittlung des Blindleistungsanteils aus der Momentanleistung}
 \begin{align*}
 P\left(t\right) &= \underbrace{UI\cos\varphi}_{\text{Wirkleistung}}\underbrace{-UI\sin\varphi\cdot\sin\left(2\omega t + 2\varphi_u\right)}_{\text{Blindleistung}} \\
@@ -361,10 +361,10 @@ P_{ges}\left(t\right) &= P_{wirk}\left(t\right) + P_{blind}\left(t\right)
 <0\text{ Energie zum Erzeuger}
 \end{cases}\]
 
-\subsection{Mittlere Leistung / Wirkleistung}
+\subsection*{Mittlere Leistung / Wirkleistung}
 \[P = \overline{P}\left(t\right) = \frac{1}{n \cdot T} \int_{t_1}^{t_1 + n \cdot T} u\left(t\right) \cdot i\left(t\right) dt = UI\cos\varphi\]
 
-\subsection{Definition von Blind- und Scheinleistung}
+\subsection*{Definition von Blind- und Scheinleistung}
 \[Q = UI\sin\varphi \quad \left[Q\right] = \text{var} \quad \text{mit}
 \begin{cases}
 Q>0\text{ induktive Blindleistung } Q_{ind} \\ 
@@ -373,7 +373,7 @@ Q<0\text{ kapazitive Blindleistung } Q_{kap}
 \]
 \[S = u_{eff} \cdot i_{eff} = U \cdot I \quad \left[S\right] = VA\]
 
-\subsection{Beziehungen zwischen Wirk- Blind- und Scheinleistung}
+\subsection*{Beziehungen zwischen Wirk- Blind- und Scheinleistung}
 
 \begin{center}
 \boxed{P=UI\cdot\cos\varphi \quad\quad Q=UI\cdot\sin\varphi \quad\quad S=UI} 
@@ -417,7 +417,7 @@ S&=\sqrt{P^2+Q^2} \\
 
 \end{multicols}
 
-\subsection{Die komplexe Leistung}
+\subsection*{Die komplexe Leistung}
 \begin{alignat*}{2}
 \underline{S}&=\underline{U}\cdot\underline{I}^* &\quad\quad\quad& ^*\text{ - konjugiert Komplex} \\
 	     &=U \cdot I \cdot e^{j\left(\varphi_u - \varphi_i\right)} \\
@@ -426,7 +426,7 @@ S&=\sqrt{P^2+Q^2} \\
 	     &=P + j Q &\quad\quad& \left[\underline{S}\right] = VA \quad \left[P\right] = W \quad \left[Q\right] = var
 \end{alignat*}
 
-\subsubsection{Zusammenhang mit dem komplexen Leitwert / Widerstand}
+\subsubsection*{Zusammenhang mit dem komplexen Leitwert / Widerstand}
 \begin{alignat*}{3}
 \underline{S} &= I^2 \cdot \underline{Z} &\quad\quad\quad  P &= I^2 \cdot R = U^2 \cdot G &\quad\quad\quad Q &= I^2 \cdot X = -U^2 \cdot B
 \end{alignat*}

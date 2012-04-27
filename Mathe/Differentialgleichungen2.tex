@@ -1,7 +1,7 @@
 \section{Differential- und Integralrechnung mit mehreren Variablen}
 \subsection{Differentialrechnung}
 
-\subsubsection{Aleitung}
+\subsubsection*{Aleitung}
 \begin{align*}
 y&=f(x_1,x_2,\dots,x_3)\\
 \frac{\partial y}{\partial x_1}&=y_{x_1}&&\text{Alles bis auf $x_1$ ist konstant beim ableiten}\\
@@ -10,18 +10,18 @@ y&=f(x_1,x_2,\dots,x_3)\\
 y_{x_1x_2}&=y_{x_2x_1}
 \end{align*}
 
-\subsubsection{Tangentialebene}
+\subsubsection*{Tangentialebene}
 \( \left(x_0, y_0 \right) \text{Entwicklungspunkte der Ebene} \)
 \begin{align*}
 z-z_0&=f_x\left(x_0;y_0\right)\cdot\left(x-x_0\right)+f_y\left(x_0;y_0\right)\cdot\left(y-y_0\right)
 \end{align*}
 
-\subsubsection{Totales Differential}
+\subsubsection*{Totales Differential}
 \begin{align*}
 \diff z&=f_x\cdot\diff x+f_y\cdot\diff y
 \end{align*}
 
-\subsubsection{Extrema}
+\subsubsection*{Extrema}
 \begin{align*}
 &f_x(x_0,y_0)=0&&f_y(x_0,y_0)=0\\
 &f_{xx}(x_0;y_0)<0&&\text{Maximum}\\
@@ -29,13 +29,13 @@ z-z_0&=f_x\left(x_0;y_0\right)\cdot\left(x-x_0\right)+f_y\left(x_0;y_0\right)\cd
 &\begin{vmatrix}f_{xx}(x_0;y_0)&f_{xy}(x_0;y_0)\\f_{xy}(x_0;y_0)&f_{yy}(x_0;y_0)\end{vmatrix}>0
 \end{align*}
 
-\subsubsection{Sattelpunkt}
+\subsubsection*{Sattelpunkt}
 \begin{align*}
 &f_x(x_0,y_0)=0&&f_y(x_0,y_0)=0\\
 &\begin{vmatrix}f_{xx}(x_0;y_0)&f_{xy}(x_0;y_0)\\f_{xy}(x_0;y_0)&f_{yy}(x_0;y_0)\end{vmatrix}<0
 \end{align*}
 
-\subsubsection{Richtungsableitung}
+\subsubsection*{Richtungsableitung}
 \begin{align*}
 \frac{\partial z}{\partial \vec{a}}&=\frac{1}{\sqrt{a_x^2+a_y^2}}\cdot\left(a_xz_x+a_yz_y\right)\\
 \frac{\partial z}{\partial \alpha}&=z_x\cos\alpha+z_y\sin\alpha\\
@@ -43,19 +43,19 @@ z-z_0&=f_x\left(x_0;y_0\right)\cdot\left(x-x_0\right)+f_y\left(x_0;y_0\right)\cd
 \end{align*}
 
 \subsection{Mehrfachintegral}
-\subsubsection{Polarkordinaten}
+\subsubsection*{Polarkordinaten}
 \begin{align*}
 x&=x_0+r\cos\varphi&y&=y_0+r\sin\varphi
 \end{align*}
 
 \begin{multicols}{2}
-\subsubsection{Volumen}
+\subsubsection*{Volumen}
 \begin{align*}
 \iiint_{V}\diff V&=\int_x\int_y\int_z \diff z\diff y\diff x\\
 \iiint_{V}\diff V&=\int_r\int_\varphi\int_z r\diff z\diff r \diff \varphi\\
 \end{align*}
 
-\subsubsection{Fläche}
+\subsubsection*{Fläche}
 \begin{align*}
 A&=\iint_{(A)}\diff A
 \end{align*} 
@@ -64,7 +64,7 @@ A&=\iint_{(A)}\diff A
 
 \newpage
 \begin{multicols}{2}
-\subsubsection{Masse}
+\subsubsection*{Masse}
 \begin{align*}
 m&=\iint_{(A)}\rho(x,y)\diff x\diff y\\
  &=\iint_{(A)}\rho(r,\varphi)r\diff r\diff \varphi\\
@@ -72,7 +72,7 @@ m&=\iint_{(A)}\rho(x,y)\diff x\diff y\\
  &=\iiint_{(V)}\rho(r,\varphi)r\diff z\diff r\diff \varphi
 \end{align*}
 \vfill
-\subsubsection{Statisches Moment}
+\subsubsection*{Statisches Moment}
 \( \left( M_x, M_y \right) \text{Achsmomente}\)
 \begin{align*}
 &M_x: \\
@@ -84,13 +84,13 @@ m&=\iint_{(A)}\rho(x,y)\diff x\diff y\\
 \end{align*}
 \end{multicols}
 
-\subsubsection{Schwerpunkt}
+\subsubsection*{Schwerpunkt}
 \begin{multicols}{2}
  \(x_s=\frac{M_y}{m}\)\\
  \(y_s=\frac{M_x}{m}\)
 \end{multicols}
 
-\subsubsection{Trägheitsmoment}
+\subsubsection*{Trägheitsmoment}
 \begin{align*}
 I_x&=\iint_{(A)}y^2\rho(x,y)\diff x\diff y\\
 I_x&=\iint_{(A)}\left(y_0+r\sin\varphi\right)^2\rho(r,\varphi)r\diff r\diff \varphi\\
@@ -98,13 +98,13 @@ I_y&=\iint_{(A)}x^2\rho(x,y)\diff x\diff y\\
 I_y&=\iint_{(A)}\left(x_0+r\cos\varphi\right)^2\rho(r,\varphi)r\diff r\diff \varphi
 \end{align*}
 
-\subsubsection{Polares Trägheitsmoment}
+\subsubsection*{Polares Trägheitsmoment}
 \begin{align*}
 I_x&=\iint_{(A)}\left(y^2+x^2\right)\rho(x,y)\diff x\diff y\\
 I_x&=\iint_{(A)}\left(\left(y_0+r\sin\varphi\right)^2+\left(x_0+r\cos\varphi\right)^2\right)\rho(r,\varphi)r\diff r\diff \varphi
 \end{align*}
 
-\subsubsection{Kugelkoordinaten}
+\subsubsection*{Kugelkoordinaten}
 \begin{align*}
 V&=\int_r\int_\vartheta\int_\varphi r^2\sin\vartheta\diff \varphi \diff \vartheta \diff r
 \end{align*}

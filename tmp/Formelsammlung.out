@@ -3,14 +3,10 @@
 \BOOKMARK [1][-]{section.1.1}{Rechenregeln fuer Potenzen}{chapter.1}
 \BOOKMARK [1][-]{section.1.2}{Zusammenhang zwischen Wurzeln und Potenzen}{chapter.1}
 \BOOKMARK [1][-]{section.1.3}{Potenzen und Logarithmen}{chapter.1}
-\BOOKMARK [2][-]{subsection.1.3.1}{Der natuerliche Logarithmus}{section.1.3}
-\BOOKMARK [2][-]{subsection.1.3.2}{Rechnen mit Logarithmen}{section.1.3}
 \BOOKMARK [1][-]{section.1.4}{Der Binomische Lehrsatz}{chapter.1}
 \BOOKMARK [1][-]{section.1.5}{Sinus, Kosinus, Tangens und Kotangens}{chapter.1}
 \BOOKMARK [2][-]{subsection.1.5.1}{Beziehungen zwischen Sinus, Kosinus, Tangens und Kotangens}{section.1.5}
 \BOOKMARK [2][-]{subsection.1.5.2}{Additionstheoreme}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.3}{Funktionen des doppelten und halben Winkels}{section.1.5}
-\BOOKMARK [2][-]{subsection.1.5.4}{Umformungen}{section.1.5}
 \BOOKMARK [1][-]{section.1.6}{Komplexe Zahlen}{chapter.1}
 \BOOKMARK [2][-]{subsection.1.6.1}{Umrechnungen zwischen den Darstellungsformen}{section.1.6}
 \BOOKMARK [2][-]{subsection.1.6.2}{Rechnen mit Komplexen Zahlen}{section.1.6}
@@ -106,40 +102,14 @@
 \BOOKMARK [0][-]{chapter.14}{Wechselstromtechnik}{part.3}
 \BOOKMARK [1][-]{section.14.1}{Anteile und Formfaktoren}{chapter.14}
 \BOOKMARK [1][-]{section.14.2}{Leistung und Leistungsfaktoren}{chapter.14}
-\BOOKMARK [2][-]{subsection.14.2.1}{Wirkleistung}{section.14.2}
-\BOOKMARK [2][-]{subsection.14.2.2}{Mittlere Leistung}{section.14.2}
-\BOOKMARK [2][-]{subsection.14.2.3}{Scheinleistung}{section.14.2}
-\BOOKMARK [2][-]{subsection.14.2.4}{Leistungsfaktor}{section.14.2}
 \BOOKMARK [1][-]{section.14.3}{Sinusf\366rmige Gr\366\337en}{chapter.14}
-\BOOKMARK [2][-]{subsection.14.3.1}{Sinusschwingung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.2}{Kosinusschwingung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.3}{Nullphasenzeit}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.4}{Addition zweier Sinusgr\366\337en gleicher Frequenz}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.5}{Wechsel zwischen Sinus und Kosinus}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.6}{Differentiation und Integration von Sinusgr\366\337en}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.7}{R, L und C im kompl. Zeigerbereich}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.8}{Widerstands und Leitwertoperator}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.9}{Resultierende Operatoren}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.10}{Anteile am komplexen Widerstand \(Impedanz\)}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.11}{Anteile am komplexen Leiwert \(Admitanz\)}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.12}{komplexer Widerstand / komplexer Leitwert}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.13}{Momentanleistung / Augenblicksleistung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.14}{Blindleistung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.15}{Mittlere Leistung / Wirkleistung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.16}{Definition von Blind- und Scheinleistung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.17}{Beziehungen zwischen Wirk- Blind- und Scheinleistung}{section.14.3}
-\BOOKMARK [2][-]{subsection.14.3.18}{Die komplexe Leistung}{section.14.3}
 \BOOKMARK [0][-]{chapter.15}{Signal- und Systemtheorie}{part.3}
 \BOOKMARK [1][-]{section.15.1}{Einfache Impulse}{chapter.15}
-\BOOKMARK [2][-]{subsection.15.1.1}{Rechteckimpuls/ -funktion }{section.15.1}
-\BOOKMARK [2][-]{subsection.15.1.2}{Dreiecksimpuls/ -funktion }{section.15.1}
 \BOOKMARK [1][-]{section.15.2}{Elementare Operationen auf zeitliche Verl\344ufe}{chapter.15}
-\BOOKMARK [2][-]{subsection.15.2.1}{Beeinflu\337ung der Ordinate}{section.15.2}
-\BOOKMARK [2][-]{subsection.15.2.2}{Beeinflu\337ung der Abszisse}{section.15.2}
-\BOOKMARK [2][-]{subsection.15.2.3}{Einheitssprungfunktion / Deltaimpuls}{section.15.2}
-\BOOKMARK [2][-]{subsection.15.2.4}{Zusammenhang zwischen Deltaimpuls, Einheitssprungfunktion und Einheitsanstiegsfunktion}{section.15.2}
-\BOOKMARK [2][-]{subsection.15.2.5}{zeitliche Verschiebung und Wichtung}{section.15.2}
 \BOOKMARK [1][-]{section.15.3}{Signale}{chapter.15}
+\BOOKMARK [1][-]{section.15.4}{Signalbeschreibung Leistungssignale}{chapter.15}
+\BOOKMARK [1][-]{section.15.5}{Signalbeschreibung Energiesignale}{chapter.15}
+\BOOKMARK [1][-]{section.15.6}{Systeme}{chapter.15}
 \BOOKMARK [-1][-]{part.4}{IV Messtechnik}{}
 \BOOKMARK [0][-]{chapter.16}{Grundlagen}{part.4}
 \BOOKMARK [1][-]{section.16.1}{Begriffe}{chapter.16}
@@ -149,17 +119,10 @@
 \BOOKMARK [2][-]{subsection.16.2.3}{Fortpflanzung systematischer Messabweichungen}{section.16.2}
 \BOOKMARK [1][-]{section.16.3}{Statistische Gr\366\337en}{chapter.16}
 \BOOKMARK [1][-]{section.16.4}{Erwartungswert, Varianz und Standardabweichung}{chapter.16}
-\BOOKMARK [2][-]{subsection.16.4.1}{Erwartungswert }{section.16.4}
-\BOOKMARK [2][-]{subsection.16.4.2}{wahrer Wert }{section.16.4}
-\BOOKMARK [2][-]{subsection.16.4.3}{Varianz }{section.16.4}
-\BOOKMARK [2][-]{subsection.16.4.4}{Standardabweichung}{section.16.4}
 \BOOKMARK [1][-]{section.16.5}{Verteilungsfunktionen}{chapter.16}
-\BOOKMARK [2][-]{subsection.16.5.1}{Normalverteilung}{section.16.5}
-\BOOKMARK [2][-]{subsection.16.5.2}{Gleichverteilung}{section.16.5}
 \BOOKMARK [1][-]{section.16.6}{Stichprobe}{chapter.16}
-\BOOKMARK [2][-]{subsection.16.6.1}{Mittelwert }{section.16.6}
-\BOOKMARK [2][-]{subsection.16.6.2}{empirische Varianz }{section.16.6}
 \BOOKMARK [1][-]{section.16.7}{Vertrauensbereich f\374r den Erwartungswert}{chapter.16}
-\BOOKMARK [2][-]{subsection.16.7.1}{Studentverteilung}{section.16.7}
 \BOOKMARK [1][-]{section.16.8}{Fortpflanzung zuf\344lliger Abweichungen}{chapter.16}
 \BOOKMARK [1][-]{section.16.9}{Fortpflanzung von Messunsicherheiten}{chapter.16}
+\BOOKMARK [1][-]{section.16.9}{Sachregister}{chapter.16}
+\BOOKMARK [-1][-]{part.5}{V Anhang}{}
