@@ -1,5 +1,6 @@
 \section{Einfache Impulse}
 \subsection*{Rechteckimpuls/ -funktion \texorpdfstring{$rect_T\left(t\right)$}{}}
+\index{Impulse!Rechteck}
 \begin{multicols}{2}
 \begin{equation*}
 x\left(t\right) = X_0 \cdot rect_T\left(t\right) 
@@ -17,6 +18,7 @@ x\left(t\right) = X_0 \cdot rect_T\left(t\right)
 \end{multicols}
 
 \subsection*{Dreiecksimpuls/ -funktion \texorpdfstring{$\Lambda_T\left(t\right)$}{}}
+\index{Impulse!Dreieck}
 \begin{multicols}{2}
  \begin{align*}
 x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
@@ -52,6 +54,7 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
 
 \begin{multicols}{2}
  \subsubsection*{Skalierungsfaktor \texorpdfstring{$V \left(V \neq 0 \right) $}{}}
+ \index{Skalierungsfaktor}
   \begin{equation*}
    x_{neu}\left(t\right) = V \cdot x_{alt}\left(t\right) 
   \end{equation*}
@@ -116,6 +119,7 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
 \end{itemize}
 
 \subsubsection*{Skalierungsfaktor \texorpdfstring{$a \neq 0$}{}}
+\index{Skalierungsfaktor}
 \begin{multicols}{2}
 \begin{align*}
   &x_{neu}\left(t\right) = x_{alt}\left(a \cdot t\right) \\
@@ -136,7 +140,8 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
        \(0 < a < 1\) Funktion wird gestreckt 
 \end{itemize}
 
-\subsection*{Einheitssprungfunktion / Deltaimpuls}
+\subsection*{Einheitssprungfunktion}
+\index{Einheitssprungfunktion}
 \subsubsection*{angenäherte Einheitssprungfunktion
 \texorpdfstring{$\tilde{\sigma}\left(t, \epsilon \right)$}{}}
 \begin{multicols}{2}
@@ -152,6 +157,7 @@ x\left(t\right) &= X_0 \cdot \Lambda_T\left(t\right) \\
 \end{multicols}
 
 \subsubsection*{Einheitsimpuls / Deltaimpuls
+\index{Deltaimpuls}
 \texorpdfstring{$\tilde{\delta}\left(t, \epsilon\right)$}{}}
 \begin{multicols}{2}
 \begin{itemize}
@@ -198,7 +204,9 @@ Deltaimpuls \( \delta \left( t \right) \).
 \end{multicols}
 
 \subsection*{Zusammenhang zwischen Deltaimpuls, Einheitssprungfunktion und Einheitsanstiegsfunktion}
-
+\index{Deltaimpuls}
+\index{Einheitssprungfunktion}
+\index{Einheitsanstiegsfunktion}
 \begin{center}
 	\input{./Elektrotechnik/Bilder/zusammenhang.tex}
 \end{center}
@@ -265,6 +273,7 @@ Deltaimpuls \( \delta \left( t \right) \).
 	
 \newpage
 \section{Signale}
+\index{Signale!Definition}
 \textbf{Definition:}
 Ein Signal ist eine zeitlich und / oder örtlich veränderliche Größe (physikalisch).
 Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informationsgehalt aus.
@@ -274,6 +283,7 @@ Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informat
 \end{center}
 
 \subsection*{Energiewandlung}
+\index{Signale!Energiewandlung}
 \begin{align*}
 	E_R &= \int\limits_{-\infty}^{\infty} u \left( t \right) \cdot i \left( t \right) \mathrm{dt} &
 	\left[ E_R \right] &= V \cdot A \cdot s = Ws 
@@ -284,6 +294,7 @@ Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informat
 \end{align*}
 
 \subsection*{Momentanleistung \texorpdfstring{$P_r\left(t_1\right)$}}
+\index{Signale!Momentanleistung}
 \begin{align*}
 	P_R \left(t_1\right) &= u\left(t_1\right) \cdot i\left(t_1\right) &
 	&\left[P_R\left(t_1\right)\right] = W
@@ -292,6 +303,7 @@ Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informat
 \end{align*}
 
 \subsection*{Mittlere Leistung \texorpdfstring{$P_R$}}
+\index{Signale!Mittlere Leistung}
 \begin{align*}
 	P_R &= \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 + T} u\left(t\right) \cdot
 	i\left(t\right) \mathrm{dt} & \left[P_R\right] &= W
@@ -309,7 +321,9 @@ Die Veränderung dieser physikalischen Größe, sagt nichts über Ihren Informat
 = const.\]
 
 \subsection*{Signalenergie / Impulsenergie / Impulsmoment 2. Ordnung \texorpdfstring{$E_U$}}
-
+\index{Signalenergie}
+\index{Impulsenergie}
+\index{Impulsmoment 2. Ordnung}
 Nur für Energiesignale sinnvoll.
 \begin{align*}
 	E_U &= {m_i}_2 = \int\limits_{-\infty}^{\infty}u^2\left(t\right) \mathrm{dt} & \left[E_U\right] =
@@ -326,10 +340,12 @@ Entnormierung über einem realen Widerstand:
 	E_R &= E_U \cdot \frac{1}{R} & \left[E_R\right] &= Ws
 \end{align*}
 
-\subsection*{Signalleistung \texorpdfstring{$P_u$} // Gesamtsignalleistung \texorpdfstring{$P_i$} //
-quadratischer Mittelwert \texorpdfstring{$\overline{u^2}$} // gewöhnliches Moment 2. Ordnung
+\subsection*{Mittlere Signalleistung \texorpdfstring{$P_u$} // Gesamtsignalleistung
+\texorpdfstring{$P_i$} // quadratischer Mittelwert \texorpdfstring{$\overline{u^2}$} // gewöhnliches Moment 2. Ordnung
 \texorpdfstring{$m_2$} }
-
+\index{Signalleistung!Mittlere}
+\index{Gesamtsignalleistung}
+\index{gewöhnliches Moment 2. Ordnung}
 Nur für Leistungssignale sinnvoll.
 \begin{align*}
 	P_u &= \overline{u^2} = m_2 = \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 +
@@ -361,6 +377,8 @@ Entnormierung über einem realen Widerstand:
 \end{align*}
 
 \subsection*{Signalenergie\texorpdfstring{$\leftrightarrow$}/Signalleistung}
+\index{Signalenergie}
+\index{Signalleistung}
 \begin{tabularx}{\textwidth}{|X|X|X|}\hline
 					& Energiesignal 	& Leistungssignal	\\ \hline
 	Signalenergie	& endlicher Wert	& \(+\infty\)		\\ \hline
@@ -368,6 +386,7 @@ Entnormierung über einem realen Widerstand:
 \end{tabularx}
 
 \section{Signalbeschreibung Leistungssignale}
+\index{Leistungssignale!Effektivwert}
 \subsection*{Effektivwert}
 Energiesignale haben einen Effektivwert von Null.
 \[
@@ -380,8 +399,21 @@ X_{eff} = \sqrt{P_X} = \sqrt{\lim\limits_{N \to \infty} \frac{1}{N} \cdot \sum\l
 	N - 1} X_q^2\left(k\right)}
 \]
 
+\subsection*{gerader-/ungerader Anteil}
+\index{Anteil!gerade}
+\index{Anteil!ungerade}
+\begin{align*}
+&\textbf{gerader Anteil:} & &\textbf{ungerader Anteil:}
+	\\
+	u_g\left(t\right) &= \frac{u\left(t\right)+u\left(-t\right)}{2} & u_u\left(t\right) &=
+	\frac{u\left(t\right)-u\left(-t\right)}{2}
+\end{align*}
+
 \subsection*{Gleichanteil / linearer Mittelwert / gewöhnliches Moment 1. Ordnung
 \texorpdfstring{$m_1$}} 
+\index{Leistungssignale!Gleichanteil}
+\index{Leistungssignale!linearer Mittelwert}
+\index{Leistungssignale!gewöhnliches Moment 1. Ordnung}
 Enrgiesignale haben einen Gleichanteil von Null.
 
 \begin{align*}
@@ -409,6 +441,8 @@ Enrgiesignale haben einen Gleichanteil von Null.
 \subsection*{Signalgleichleistung / quadrierter linearer Mittelwert
 \texorpdfstring{$\overline{u}^2$} // quadriertes gewöhnliches Moment 1. Ordnung
 \texorpdfstring{$m_1^2$}}
+\index{Leistungssignale!Signalgleichleistung}
+\index{Leistungssignale!quadriertes gewöhnliches Moment 1. Ordnung}
 Energiesignale haben eine Signalgleichleistung von Null.
 
 \begin{align*}
@@ -429,6 +463,9 @@ Energiesignale haben eine Signalgleichleistung von Null.
 
 \subsection*{Signalwechselleistung \texorpdfstring{$P_{u_{\sim}}$} // Varianz
 \texorpdfstring{$\sigma^2$} // zentrales Moment 2. Ordnung \texorpdfstring{$\mu_2$}}
+\index{Leistungssignale!Varianz}
+\index{Leistungssignale!Signalwechselleistung}
+\index{Leistungssignale!zentrales Moment 2. Ordnung}
 Energiesignale haben eine Signalwechselleistung von Null.
 \begin{align*}
 	P_{u_{\sim}} &= \sigma^2 = \mu_2 = \lim\limits_{T \to \infty} \frac{1}{T} \int\limits_{t_1}^{t_1 +
@@ -462,6 +499,8 @@ Energiesignale haben eine Signalwechselleistung von Null.
 
 \subsection*{Impulsfläche \texorpdfstring{$A_u$} // Impulsmoment 1. Ordnung
 \texorpdfstring{${m_i}_1$}}
+\index{Energiesignale!Impulsfläche}
+\index{Energiesignale!Impulsmoment 1. Ordnung}
 Leistungssignale besitzen Flächen von \(\pm\infty\) bzw. Null.
 
 \begin{align*}
@@ -485,10 +524,12 @@ Signal (Eingangssignal, Systemerregung / -anregung) in ein im Allgemeinen anders
 umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 
 \begin{center}
+	\index{Systeme!Eigenschaften}
 	\input{./Elektrotechnik/Bilder/systemeigenschaften.tex}
 \end{center}
 
 \textbf{Übersicht:}
+\index{Systeme!Übersicht}
 \newline
 \begin{tabularx}{\textwidth}{|c|X|}\hline
 	Linearität	& Ist nur vorhanden, wenn Homogenität und Additivität vorliegen. \newline Die
@@ -517,6 +558,8 @@ umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 \end{tabularx}
 
 \subsection*{Impulsantwort / Gewichtsfunktion \texorpdfstring{$g\left(t\right)$}}
+\index{Impulsantwort}
+\index{Gewichtsfunktion}
 \begin{align*}
 	\text{mit } x\left(t\right) &= \delta\left( t \right) \text{ folgt } y\left(t\right) =
 	g\left(t\right)
@@ -525,6 +568,8 @@ umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 \end{align*}
 
 \subsection*{Sprungantwort / Übergangsfunktion \texorpdfstring{$ h\left(t\right) $}}
+\index{Sprungantwort}
+\index{Ubergangsfunktion@Übergangsfunktion}
 \textbf{Zusammenhang:}
 \begin{align*}
 	\sigma \left(t\right) &= \int\limits_{-\infty}^{t} \delta\left(t\right) \mathrm{dt} \Leftrightarrow
@@ -534,6 +579,10 @@ umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 \end{align*}
 
 \subsection*{Zusammenhang zwischen Übergangs- und Gewichtsfunktion}
+\index{Sprungantwort}
+\index{Ubergangsfunktion@Übergangsfunktion}
+\index{Impulsantwort}
+\index{Gewichtsfunktion}
 \begin{align*}
 	g\left(t\right) = \frac{\mathrm{d}h\left(t\right)}{\mathrm{dt}} &&\leadsto&& h\left(t\right) &=
 	\int\limits_{-\infty}^{t}g\left(t\right)\mathrm{dt}
@@ -542,6 +591,9 @@ umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 \end{align*}
 
 \subsection*{Faltungsoperation}
+\index{Faltung}
+\index{Faltung!zeitdiskret}
+\index{Faltung!Polynommultiplikation}Polynommultiplikation
 \begin{itemize}
   \item setzt LTI-Systeme voraus
   \item Gewichtsfunktion wird nur bei LTI-Systemen angegeben
@@ -555,7 +607,10 @@ umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 	\\
 	y\left( k \right) &= T \{ x\left(k\right) \}  = \sum\limits_{L = -\infty}^{\infty}
 	x\left(k\right) \cdot g\left(k-L\right) = x\left(k\right) \ast g\left(k\right)
+	\\
+	&\textbf{Polynommultiplikation:}
+	\\
+	p_p &= \sum Ordinatenwert \cdot r^{Abszissenwert}
+	\\
+	y_p \left(k\right) &= x_p \cdot g_p
 \end{align*}
-
-
-

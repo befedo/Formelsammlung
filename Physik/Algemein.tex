@@ -3,6 +3,7 @@ Perfection is achieved\\only on the point of collapse.\\- C. N. Parkinson
 \end{quote}
 
 \section{Analogietabelle}
+\index{Kinematik!Analogietabelle Translation - Rotation}
 
 %Wegen Build Fehlern, ein '\:' vor jedem '\downarrow' entfernt
 
@@ -26,7 +27,7 @@ m &  & J\\
 \newpage
 \begin{multicols}{2}{}
 \subsection{Translation}
-
+\index{Kinematik!Translation}
 \begin{align*}
 	a(t)&=a_0=\frac{\diff v}{\diff t}=\dot{v}=\ddot{s} \\
 	v(t)&=a_0\cdot t+v_0=\frac{\diff s}{\diff t}=\dot{s} \\
@@ -34,7 +35,7 @@ m &  & J\\
 \end{align*}
 
 \subsection{Rotation}
-
+\index{Kinematik!Rotation}
 \begin{align*}
 \alpha(t)&=\alpha_0=\frac{\diff \omega}{\diff t}=\dot{\omega}=\ddot{\varphi} \\
 \omega(t)&=\alpha_0\cdot t+\omega_0=\frac{\diff \varphi}{\diff t}=\dot{\varphi} \\
@@ -44,6 +45,7 @@ m &  & J\\
 
 \begin{multicols}{2}{}
 \subsubsection*{Bahngroessen}
+\index{Kinematik!Bahngrößen}
 \begin{align*}
 a_t(t)&=a_0=\frac{\diff v}{\diff t}=\dot{v}=\ddot{s} \\
 v(t)&=a_0\cdot t+v_0=\frac{\diff s}{\diff t}=\dot{s} \\
@@ -52,6 +54,7 @@ s(t)&=\frac{1}{2}a_0\cdot t^2+v_0\cdot t+s_0
 
 
 \subsubsection*{Winkelgroessen}
+\index{Kinematik!Winkelgrößen}
 \begin{align*}
 \vec{a_t}	&=\vec{\alpha} \times \vec{r} =\alpha\cdot r \qquad \alpha \perp r \\
 \vec{\alpha}	&=\vec{r} \times \vec{a_t}\\
@@ -97,6 +100,7 @@ N&=\frac{\omega_0\cdot t}{2\cdot \pi}+\frac{1}{2}\cdot\frac{\alpha}{2\cdot \pi}\
 \end{align*}
 \begin{multicols}{2}{}
 \subsubsection*{Impuls}
+\index{Translation!Impuls}
 \begin{align*}
 \vec{p}&=m\cdot \vec{v}\\ \\
 \end{align*}
@@ -110,6 +114,7 @@ N&=\frac{\omega_0\cdot t}{2\cdot \pi}+\frac{1}{2}\cdot\frac{\alpha}{2\cdot \pi}\
 
 \begin{multicols}{2}{}
 \subsubsection*{Arbeit}
+\index{Translation!Arbeit}
 \begin{align*}
 W&=-\int_{\vec{s}_1}^{\vec{s}_2}\vec{F_{\text{Tr}}}\circ\diff \vec{s}\\
 &=\int_{\vec{v}_0}^{\vec{v}_1}m\vec{v}\circ\diff \vec{v}=\frac{1}{2}m\left(v_1^2-v_0^2\right) 
@@ -135,14 +140,15 @@ P=\vec{F}\circ\vec{v}=\frac{\diff W}{\diff t}=\dot{W}
 
 
 \subsection{Drehbewegung(Rotation)}
-
 \begin{multicols}{2}{}
 \subsubsection*{Massentraegheitsmoment}
+\index{Rotation!Massenträgheitsmoment}
 \begin{align*}
 J=\int r^2 \diff m
 \end{align*}
 
 \subsubsection*{Drehmoment}
+\index{Rotation!Drehmoment}
 \begin{align*}
 \vec{M}&=\vec{r}\times\vec{F}=J\vec{\alpha}=\dot{\vec{L}}
 \end{align*}
@@ -150,6 +156,7 @@ J=\int r^2 \diff m
 
 \begin{multicols}{2}{}
 \subsubsection*{Drehimpuls}
+\index{Rotation!Drehimpuls}
 \begin{align*}
 \vec{L}&=\vec{r}\times\vec{p} \\
 &=J\cdot \vec{\omega}
@@ -175,6 +182,7 @@ P=\vec{M}\circ\vec{\omega}
 \end{align*}
 
 \subsubsection*{Zentripedalkraft}
+\index{Rotation!Zentripedalkraft}
 \begin{align*}
 F_{zp}&=-m\cdot\omega^2\cdot r\\
 &=-m\cdot v^2\cdot \frac{\vec{e_r}}{r}
@@ -183,7 +191,7 @@ F_{zp}&=-m\cdot\omega^2\cdot r\\
 
 
 \subsection{Geneigte Ebene}
-
+\index{Geneigte Ebene}
 \subsubsection*{Kräfte}
 \begin{align*}
 \vec{F}_N&=\vec{F}_G\cos\alpha\\
@@ -209,9 +217,9 @@ F_R&=\frac{f}{r}\cdot F_N
 
 \newpage
 \subsection{Feder}
-
 \begin{multicols}{2}{}
 \subsubsection*{HOOKsches Gesetz}
+\index{Hook'sches Gesetz}
 \begin{align*}
 F&=-kx\\
 M&=D\varphi
@@ -224,8 +232,7 @@ W	&=\int_{x_\text{min}}^{x_\text{max}}F\diff x=\int_{x_\text{min}}^{x_\text{max}
 \end{align*}
 \end{multicols}
 
-\subsection{Elastischer Stoss}
-
+\subsection{Elastischer Stoß}
 \begin{align*}
 \text{Energie vor den Stoß} &= \text{Energie nach den Stoß}\nonumber\\
 \sum E_{\text{kin}}&=\sum E_{\text{kin}}'
@@ -233,13 +240,15 @@ W	&=\int_{x_\text{min}}^{x_\text{max}}F\diff x=\int_{x_\text{min}}^{x_\text{max}
 
 
 \subsubsection*{Impulserhaltung}
+\index{Elastischer Stoß!Impulserhaltung}
 \begin{align*}
 \text{Impuls vor den Stoß} &= \text{Impuls nach den Stoß}\nonumber\\
 \sum m\vec{v}&= \sum m\vec{v}'
 \end{align*}
 
 
-\subsubsection*{Zentraler, Gerader, Elastischer Stoss}
+\subsubsection*{Zentraler, Gerader, Elastischer Stoß}
+\index{Elastischer Stoß!Zentral und Gerade}
 \begin{align*}
 \frac{1}{2}m_1v_1^2+\frac{1}{2}m_2v_2^2&=\frac{1}{2}m_1v_1'^2+\frac{1}{2}m_2v_2'^2\\
 m_1v_1+m_2v_2&=m_1v_1'+m_2v_2'
@@ -251,8 +260,8 @@ v_1'&=\frac{2m_2}{m_1+m_2}v_2+\frac{m_1-m_2}{m_1+m_2}v_1
 \end{align*}
 
 
-\subsection{Unelastischer Stoss}
-
+\subsection{Unelastischer Stoß}
+\index{Unelastischer Stoß!Energieerhaltung}
 \subsubsection*{Energieerhaltung}
 \begin{align*}
 \text{Energie vor den Stoß} &= \text{Energie nach den Stoß}+\text{Arbeit}\nonumber\\
@@ -261,6 +270,7 @@ v_1'&=\frac{2m_2}{m_1+m_2}v_2+\frac{m_1-m_2}{m_1+m_2}v_1
 
 
 \subsubsection*{Impulserhaltung}
+\index{Unelastischer Stoß!Impulserhaltung}
 \begin{align*}
 \text{Impuls vor den Stoß} &= \text{Impuls nach den Stoß}\nonumber\\
 \sum m\vec{v}&= \sum m\vec{v}'
@@ -298,7 +308,7 @@ W&=\frac{J_0\cdot J_1}{2\left(J_0+J_1\right)}\left(\omega_0-\omega_1\right)^2
 
 
 \subsection{Rotierendes Bezugssystem}
-
+\index{Rotierendes Bezugssystem!Zentrifugalkraft}
 \begin{multicols}{2}{}
 \subsubsection*{Zentrifugalkraft}
 \begin{align*}
@@ -309,6 +319,7 @@ F_Z&=-m\frac{v^2}{r}=-m\omega^2 r
 
 
 \subsubsection*{Corioliskraft}
+\index{Rotierendes Bezugssystem!Corioliskraft}
 \begin{align*}
 \vec{F}_C&=-2m\vec{\omega}\times\vec{v}
 \end{align*}
@@ -316,7 +327,7 @@ F_Z&=-m\frac{v^2}{r}=-m\omega^2 r
 \end{multicols}
 
 \section{Schwerpunkt}
-
+\index{Schwerpunkt!Punktmasse}
 \begin{multicols}{2}{}
 \subsection*{mehrere Punktmassen}
 \begin{align*}
@@ -325,6 +336,7 @@ F_Z&=-m\frac{v^2}{r}=-m\omega^2 r
 
 
 \subsection*{Allgemein}
+\index{Schwerpunkt!Allgemein}
 \begin{align*}
 \vec{r}_{\text{Sp}}=\frac{\int \vec{r}\diff m}{\int \diff m}
 \end{align*}
@@ -332,6 +344,7 @@ F_Z&=-m\frac{v^2}{r}=-m\omega^2 r
 
 \begin{multicols}{2}{}
 \subsubsection*{Schwerpunkt in \\Zylinderkoordinaten}
+\index{Schwerpunkt!Zylinderkoordinaten}
 \begin{align*}
 r_{\text{Sp}}&=\frac{\int_z\int_\varphi\int_r r^2\rho \diff r \diff \varphi \diff z }{\int_z\int_\varphi\int_r r\rho \diff r \diff \varphi \diff z }\\
 \varphi_{\text{Sp}}&=\frac{\int_z\int_\varphi\int_r \varphi r\rho \diff r \diff \varphi \diff z }{\int_z\int_\varphi\int_r r\rho \diff r \diff \varphi \diff z }\\
@@ -340,6 +353,7 @@ x&=r\cos{\varphi}\hspace{3mm}y=r\sin{\varphi}\hspace{3mm}z=z
 \end{align*}
 
 \subsubsection*{Schwerpunkt in \\karthesischen Koordinaten}
+\index{Schwerpunkt!Kartesischekoordinaten}
 \begin{align*}
 x_{\text{Sp}}&=\frac{\int_z\int_y\int_x x\rho \diff x \diff y \diff z }{\int_z\int_y\int_x \rho \diff x \diff y \diff z }\\
 y_{\text{Sp}}&=\frac{\int_z\int_y\int_x y\rho \diff x \diff y \diff z }{\int_z\int_y\int_x \rho \diff x \diff y \diff z }\\
@@ -351,13 +365,14 @@ z_{\text{Sp}}&=\frac{\int_z\int_y\int_x z\rho \diff x \diff y \diff z }{\int_z\i
 
 \newpage
 \section{Trägheitsmoment}
-
-
+\index{Trägheitsmoment}
 \begin{align*}
 J&=\sum m_i r_i^2\\
 J&=\int_m r^2 \diff m \\
 J&=\int_z\int_\varphi\int_r r^3\rho \diff r \diff \varphi \diff z 
 \end{align*}
+
+\subsection*{}%Leer hmpf\ldots!
 
 \begin{multicols}{2}{}
 \subsubsection*{STEINER'scher Satz}
@@ -365,26 +380,26 @@ J&=\int_z\int_\varphi\int_r r^3\rho \diff r \diff \varphi \diff z
 J_x&=mr^2+J_s
 \end{align*}
 
-%Tabelle einf�gen
-\subsubsection*{Traegheitsmoment Kugel}
+%Tabelle einfügen
+\subsubsection*{Trägheitsmoment Kugel}
 \begin{align*}
 J_\text{Sp}&=\frac{2}{5}mr^2
 \end{align*}
 
 
-\subsubsection*{Traegheitsmoment Zylinder}
+\subsubsection*{Trägheitsmoment Zylinder}
 \begin{align*}
 J_\text{Sp}&=\frac{1}{2}mr^2
 \end{align*}
 
 
-\subsubsection*{Traegheitmoment Kreisring \\(Torus)}
+\subsubsection*{Trägheitmoment Kreisring \\(Torus)}
 \begin{align*}
 J_\text{Sp}&=mr^2
 \end{align*}
 
 
-\subsubsection*{Traegheitsmoment Stab}
+\subsubsection*{Trägheitsmoment Stab}
 \begin{align*}
 J_\text{Sp}=\frac{1}{12}ml^2
 \end{align*}
@@ -392,10 +407,12 @@ J_\text{Sp}=\frac{1}{12}ml^2
 
 
 \newpage
-\section{Elastizitaetslehre}
+\section{Elastizitätslehre}
+\subsection*{}%Leer hmpf\ldots!
 
 \begin{multicols}{2}{}
 \subsubsection*{Spannung}
+\index{Elastizitätslehre!Spannung}
 \begin{align*}
 \vec{\sigma}&=\frac{\diff\vec{F}_n}{\diff A}\\
 \sigma&=E \varepsilon=E\frac{\Delta l}{l}\\
@@ -410,7 +427,7 @@ J_\text{Sp}=\frac{1}{12}ml^2
 
 
 \subsubsection*{Schubmodul}
-
+\index{Elastizitätslehre!Schub}
 \begin{multicols}{2}{}
 \begin{align*}
 G&=\frac{\tau}{\varphi}
@@ -424,7 +441,7 @@ G&=\frac{\tau}{\varphi}
 
 
 \subsubsection*{Drillung}
-
+\index{Elastizitätslehre!Drill}
 \begin{multicols}{2}{}
 \begin{align*}
 \psi&=\frac{\diff \varphi}{\diff l}=\frac{W_t}{G\cdot J_p}\tau=\frac{M_t}{G\cdot J_p}
@@ -438,13 +455,15 @@ G&=\frac{\tau}{\varphi}
 
 
 \begin{multicols}{2}{}
-\subsubsection*{Flaechenmoment}
+\subsubsection*{Flächenmoment}
+\index{Elastizitätslehre!Flächenmoment}
 \begin{align*}
 J_p&=\int r^2\diff A=\int_\varphi\int_r r^3\diff r \diff \varphi 
 \end{align*}
 
 
 \subsubsection*{Verformungsarbeit}
+\index{Elastizitätslehre!Verformungsarbeit}
 \begin{align*}
 W&=V\int \sigma(\varepsilon) \diff \varepsilon 
 \end{align*}
@@ -452,7 +471,7 @@ W&=V\int \sigma(\varepsilon) \diff \varepsilon
 
 
 \section{Schwingungen}
-
+\subsection*{}%Leer hmpf\ldots!
 
 \subsubsection*{Harmonische Schwingungen}
 \begin{align*}
@@ -475,6 +494,7 @@ T&=2\pi\sqrt{\frac{m}{k}}
 \newpage
 \begin{multicols}{2}{}
 \subsubsection*{Mathemetisches Pendel}
+\index{Schwingungen!Mathematisches Pendel}
 \begin{align*}
 \ddot{\varphi}&=-\frac{g}{l}\varphi\\
 \varphi(t)&=\hat{\varphi}\cos(\omega_0 t+\varphi_0)\\
@@ -486,6 +506,7 @@ T&=2\pi\sqrt{\frac{l}{g}}
 \end{align*}
 
 \subsubsection*{Physikalisches Pendel}
+\index{Schwingungen!Physikalisches Pendel}
 \begin{align*}
 \ddot{\varphi}&=-\frac{lmg}{J_A}\varphi\\
 \varphi(t)&=\hat{\varphi}\cos(\omega_0 t+\varphi_0)\\
@@ -499,6 +520,7 @@ T&=2\pi\sqrt{\frac{J_A}{mgl}}
 
 \begin{multicols}{2}{}
 \subsubsection*{Torsionsschwingung}
+\index{Schwingungen!Torsionsschwingung}
 \begin{align*}
 \ddot{\varphi}&=-\frac{D}{J_A}\varphi\\
 \varphi(t)&=\hat{\varphi}\cos(\omega_0 t+\varphi_0)\\
@@ -512,6 +534,7 @@ T&=2\pi\sqrt{\frac{J_A}{D}}
 
 
 \subsubsection*{Flüssigkeitspendel}
+\index{Schwingungen!Flüssigkeitspendel}
 \begin{align*}
 \ddot{y}&=-\frac{2A\rho g}{m}y\\
 \varphi(t)&=\hat{y}\cos(\omega_0 t+\varphi_0)\\
@@ -538,16 +561,18 @@ T&=2\pi\sqrt{\frac{1}{LC}}
 \end{multicols}
 
 
-\subsection{Gedaempfte Schwingungen}
+\subsection{Gedämpfte Schwingungen}
 
 \begin{multicols}{2}{}
 \subsubsection*{Schwingungsgleichung}
+\index{Schwingungen!gedämpft!Schwingungsgleichung}
 \begin{align*}
 m\ddot{x}=-kx+F_R
 \end{align*}
 \hfill
 
 \subsubsection*{COULOMB Reibung}
+\index{Schwingungen!gedämpft!COULOMB Reibung}
 \begin{align*}
 F_R&=-\operatorname{sgn}({\dot{x}})\mu F_N\\
 0&=m\ddot{x}+kx+\operatorname{sgn}({\dot{x}})\mu F_N\\
@@ -556,6 +581,7 @@ F_R&=-\operatorname{sgn}({\dot{x}})\mu F_N\\
 
 
 \subsubsection*{Gleitreibung}
+\index{Schwingungen!gedämpft!Gleitreibung}
 \begin{align*}
 x(t)&=-(\hat{x}_0-\hat{x}_1)\cos(\omega t)-\hat{x}_1\qquad 0\leq t\leq \frac{T}{2}\\
 x(t)&=-(\hat{x}_0-3\hat{x}_1)\cos(\omega t)+\hat{x}_1\qquad \frac{T}{2}\leq t\leq T\\
@@ -564,6 +590,7 @@ x(t)&=-(\hat{x}_0-3\hat{x}_1)\cos(\omega t)+\hat{x}_1\qquad \frac{T}{2}\leq t\le
 
 
 \subsubsection*{Viskosereibung}
+\index{Schwingungen!gedämpft!Viskosereibung}
 \begin{multicols}{2}{}
 \begin{align*}
 0&=m\ddot{x}+b\dot{x}+kx\\

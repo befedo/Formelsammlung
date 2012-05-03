@@ -1,5 +1,6 @@
 \section{Reihen}
 \subsection{Geometrische Folge}
+\index{Reihen!Geometrische Folge}
 
 \subsubsection*{Darstellung}
 
@@ -9,6 +10,7 @@
 \end{alignat*}
 
 \subsection{Harmonische Reihe}
+\index{Reihen!Harmonische Reihe}
 
 \subsubsection*{Darstellung}
 
@@ -19,15 +21,18 @@
 
 \newpage
 \subsection{Konvergenz}
+\index{Konvergenz}
 
 \begin{multicols}{2}
 \subsubsection*{Majorantenkriterium}
+\index{Konvergenz!Majorantenkriterium}
 \begin{align*}
 &\sum_{n=0}^\infty a_n\leq\sum_{n=0}^\infty b_n \\
 & b_n \text{ bekannte konvergente Reihe}
 \end{align*}
 
 \subsubsection*{Minorantenkriterium}
+\index{Konvergenz!Minorantenkriterium}
 \begin{align*}
 &\sum_{n=0}^\infty a_n\geq\sum_{n=0}^\infty b_n \\
 & b_n \text{ bekannte divergente Reihe}
@@ -36,6 +41,7 @@
 
 
 \subsubsection*{Wurzelkriterium}
+\index{Konvergenz!Wurzelkriterium}
 \[
 \lim_{n \to \infty} \sqrt[n]{a_n} = q
 \begin{cases}
@@ -46,6 +52,7 @@
 \]
 
 \subsubsection*{Quotientenkriterium}
+\index{Konvergenz!Quotientenkriterium}
 \[
 \lim_{n\to\infty} \frac{a_{n+1}}{a_n} = q
 \begin{cases}
@@ -56,8 +63,8 @@ q = 1 \text{ ist keine Aussage möglich}
 \]
 
 \subsubsection*{Leibnizkriterium}
+\index{Konvergenz!Leibnizkriterium}
 \text{Nur bei alternierenden Reihen}
-
 \begin{align*}
 &\lim_{n\to\infty}\left(-1\right)^n a_n\\
 &\lim_{n\to\infty}a_n=q&&\text{$q=0$ ist die Reihe divergent}\\
@@ -65,7 +72,7 @@ q = 1 \text{ ist keine Aussage möglich}
 \end{align*}
 
 \subsection{Bekannte konvergente Reihen}
-
+\index{Konvergenz!Bekannte konvergente Reihen}
 \begin{alignat*}{3}
 &\sum_{n=0}^\infty\frac{1}{n!}=e &\quad\quad& \sum_{n=0}^\infty\frac{\left(-1\right)^n}{n!} = \frac{1}{e} &\quad\quad& \sum_{n=0}^\infty\frac{1}{2^n} = 2 \\
 &\sum_{n=0}^\infty\frac{\left(-1\right)^n}{2^n} = \frac{2}{3} &\quad\quad& \sum_{n=0}^\infty\frac{\left(-1\right)^{n+1}}{n} =\ln2 &\quad\quad& \sum_{n=0}^\infty\frac{\left(-1\right)^{n+1}}{2n-1}=\frac{\pi}{4}
@@ -73,7 +80,7 @@ q = 1 \text{ ist keine Aussage möglich}
 
 
 \section{Funktionenreihen}
-
+\index{Funktionenreihen}
 \subsubsection*{Darstellung}
 
 \begin{align*}
@@ -82,7 +89,7 @@ q = 1 \text{ ist keine Aussage möglich}
 
 
 \subsection{Potenzreihen}
-
+\index{Potenzreihen}
 \begin{multicols}{2}
 \subsubsection*{Darstellung}
 \begin{align*}
@@ -102,6 +109,7 @@ r&=\frac{1}{\lim_{n\to\infty}\sqrt[n]{\left|a_n\right|}}\\
 
 
 \subsection{Bekannte Potenzreihen}
+\index{Potenzreihen!Bekannte Potenzreihen}
 \begin{align*}
 e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}&x&\in\mathbb{R}\\
 \ln x&=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n}\left(x-1\right)^n&x&\in(0,2]\\
@@ -112,7 +120,7 @@ e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}&x&\in\mathbb{R}\\
 
 \newpage
 \subsection{spezielle Reihen}
-
+\index{Potenzreihen!spezielle Reihen}
 \begin{align*}
 \sin x&=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n+1\right)!}x^{2n+1}&x&\in\mathbb{R}\\
 \cos x&=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{\left(2n\right)!}x^{2n}&x&\in\mathbb{R}\\
@@ -126,7 +134,7 @@ e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}&x&\in\mathbb{R}\\
 
 
 \subsection{Fourier Reihen}
-
+\index{Fourier Reihen}
 \subsubsection*{Allgemein}
 \begin{align*}
 y(t)&=\frac{a_0}{2}+\sum_{n=1}^\infty\left(a_n\cdot\cos\left(n\omega_0 t\right)+a_n\cdot\sin\left(n\omega_0 t\right)\right)\\

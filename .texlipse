@@ -1,9 +1,9 @@
 #TeXlipse project settings
-#Fri Apr 27 15:25:50 CEST 2012
+#Wed May 02 11:11:23 CEST 2012
 markTmpDer=true
 builderNum=2
 outputDir=
-makeIndSty=iso.ist
+makeIndSty=myiso.ist
 bibrefDir=
 outputFormat=pdf
 tempDir=tmp

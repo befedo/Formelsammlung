@@ -1,18 +1,22 @@
  \begin{quote}
   No rule is so general,\\which admits not some exception.\\- Robert Burton
  \end{quote}
+ 
+\section{}%Leer hmpf\ldots!
 
 \subsection*{Periodische zeitabhängige Größen}
 Allgemein \(x\left(t\right) \xrightarrow{}\) speziell \(u\left(t\right); i\left(t\right); q\left(t\right); \dots\) \\
 es gillt \(x\left(t\right) = x\left(t + n \cdot T\right) ; \left(n \in \N^* \right) \)
 
 \subsection*{Wechselgrößen}
+\index{Wechselgrößen}
 Allgemein \(x_{\sim} \left(t\right)\); periodisch sich ändernde Größe, deren Gleichanteil bzw. 
 zeitlich linearer Mittelwert gleich Null ist. \\ \vspace{0mm} \\
 Nachweis: \[\int\limits_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \; ; \; \left(n \in \N^* \right) \;
 ; \; t1 \; \text{beliebiger Zeitwert}\]
 
 \subsection*{Mischgrößen}
+\index{Mischgrößen}
 Sind periodisch, Ihr Gleichanteil \(\overline{x}\) bzw. zeitlich linearer Mittelwert \\
 jedoch ist ungleich Null. 
 \begin{align*}
@@ -25,20 +29,30 @@ x\left(t\right) &= x_{\sim}\left(t\right) + \overline{x} \\
 
 \begin{multicols}{2}{}
 \subsection*{Gleichanteil}
+\index{Anteile!Gleichanteil}
+\index{Formfaktoren!Gleichanteil}
 \[ \overline{x} = \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x \left( t \right) dt \]
 
 \subsection*{Gleichrichtwert}
+\index{Anteile!Gleichrichtwert}
+\index{Formfaktoren!Gleichrichtwert}
 \[ \left| \overline{x} \right| = \frac{1}{n \cdot T} \cdot 
 \int_{t_{1}}^{t_{1} + n \cdot T} \left| x \right| \left( t \right) dt\]
 
 \subsection*{Effektivwert}
+\index{Anteile!Effektivwert}
+\index{Formfaktoren!Effektivwert}
 \[ x_{eff} = X = \sqrt{ \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x^2 \left( t \right) dt} \]
 
 \subsection*{Formfaktor}
+\index{Anteile!Formfaktor}
+\index{Formfaktoren!Formfaktoren}
 \[F = \frac{x_{eff}}{\left|\overline{x}\right|} \\ 
 x_{eff} = \left|\overline{x}\right| \cdot F \]
 
 \subsection*{crest - Faktor}
+\index{Anteile!crest - Faktor}
+\index{Formfaktoren!crest - Faktor}
 \[ \sigma = \frac{\hat{x}}{x_{eff}} \]
 \hfill
 \end{multicols}
@@ -53,19 +67,23 @@ t1 \; \text{beliebiger Zeitwert} \rightarrow
 \begin{multicols}{2}{}
  
 \subsection*{Wirkleistung}
+\index{Leistung!Wirkleistung}
 \begin{align*}
 P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt \\
   &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} u \left( t \right) \cdot i \left( t \right) dt
 \end{align*}
 
 \subsection*{Mittlere Leistung}
+\index{Leistung!Mittlere Leistung}
 \[\bar{p} \left(t\right) = P = \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt\]
 
 \subsection*{Scheinleistung}
+\index{Leistung!Scheinleistung}
 \[ S = u_{eff} \cdot i_{eff} = U \cdot I\]
 \end{multicols}
 
 \subsection*{Leistungsfaktor}
+\index{Leistung!Leistungssfaktor}
 \begin{align*}
 \lambda &= \frac{P}{S} \\
 	&= \frac{\frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} p\left( t \right) dt}
@@ -79,6 +97,7 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
 \section{Sinusförmige Größen}
 \begin{multicols}{2}{}
  \subsection*{Sinusschwingung}
+ \index{Sinus!Schwingung}
   \begin{align*}
    x\left(t\right) &= \hat{x} \sin\left( 2 \pi f + \varphi_x\right) \\
    x\left( \omega t \right) &= \hat{x} \sin\left( \omega t + \varphi_x\right)
@@ -90,6 +109,7 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
   \end{itemize}
 
  \subsection*{Kosinusschwingung}
+ \index{Kosinus!Schwingung}
   \begin{align*}
    x\left(t\right) &= \hat{x} \cos\left( 2 \pi f + \varphi_x\right) \\
    x\left( \omega t \right) &= \hat{x} \cos\left( \omega t + \varphi_x\right)
@@ -102,9 +122,11 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
 \end{multicols}
 
 \subsection*{Nullphasenzeit}
+\index{Nullphasenzeit}
 \[ t_{x} = -\frac{\varphi_x}{\omega} = -\varphi_x \cdot \frac{T}{2 \pi} \]
 
 \subsection*{Addition zweier Sinusgrößen gleicher Frequenz}
+\index{Sinus!Addition}
 \[\text{mit: } a = \hat{a} \sin \left( \omega t + \alpha \right) \wedge b = \hat{b} \sin \left( \omega t + \beta \right)\]
 
 Resultierende Funktion:
@@ -135,6 +157,7 @@ Resultierende Funktion:
 \end{center}
 
 \subsubsection*{Der rotierende Zeiger als rotierender Vektor}
+\index{rotierender Zeiger}
 \begin{align*}
  \text{Allgemein gillt: } \sin \left( \omega t + \varphi_{x} \right) &= \frac{GK}{HT} = \frac{b}{\hat{x}} \\
 			  \cos \left( \omega t + \varphi_{x} \right) &= \frac{AK}{HT} = \frac{a}{\hat{x}} \\
@@ -154,6 +177,8 @@ Resultierende Funktion:
 \end{align*}
 
 \subsection*{Wechsel zwischen Sinus und Kosinus}
+\index{Sinus!zu Kosinus}
+\index{Kosinus!zu Sinus}
 \begin{align*}
 \hat{x}\left(t\right)\cos\left(\omega t + \varphi_x\right) \equiv \hat{x}\left(t\right)\sin\left(\omega t + \varphi_x + \frac{\pi}{2}\right) \\
 \hat{x}\left(t\right)\sin\left(\omega t + \varphi_x\right) \equiv \hat{x}\left(t\right)\cos\left(\omega t + \varphi_x - \frac{\pi}{2}\right)
@@ -161,6 +186,8 @@ Resultierende Funktion:
 
 \newpage
 \begin{landscape}
+\index{Transformation!Zeitbereich}
+\index{Transformation!Bildbereich}
 \vspace*{\fill}
 \begin{large}
 \newcommand{\mcb}[3]{\multicolumn{#1}{#2}{#3}}
@@ -194,7 +221,8 @@ Zeitbereich &  & komplexer Zeitbereich\\\hline
 \end{alignat*}
 
 \subsection*{Differentiation und Integration von Sinusgrößen}
-
+\index{Sinus!Differentiation}
+\index{Kosinus!Differentiation}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \begin{center}
 \begin{tabular}{|r|l|}\hline
@@ -240,21 +268,24 @@ x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow
 \begin{center}
 \begin{tabular}{|l|l|}\hline
 % use packages: color,colortbl
-\mcc{1}{>{\columncolor{tcA}}l}{Ohmscher Widerstand} 
+\mcc{1}{>{\columncolor{tcA}}l}{Ohmscher Widerstand}
+\index{Zeigerbereich!R}
 & 
 \(\begin{array}{ll}
 \hat{U} = R \hat{I}&
 \hat{I} = \frac{\hat{U}}{R}
 \end{array}\)
 \\\hline
-\mcc{1}{>{\columncolor{tcA}}l}{Induktivität} 
+\mcc{1}{>{\columncolor{tcA}}l}{Induktivität}
+\index{Zeigerbereich!L}
 &
 \(\begin{array}{ll}
 \hat{U} = \omega L \hat{I}&
 \hat{I} = \frac{\hat{U}}{\omega L}
 \end{array}\)
 \\\hline
-\mcc{1}{>{\columncolor{tcA}}l}{Kapazität} 
+\mcc{1}{>{\columncolor{tcA}}l}{Kapazität}
+\index{Zeigerbereich!C}
 & 
 \(\begin{array}{ll}
 \hat{U} = \frac{\hat{I}}{\omega C}&
@@ -268,6 +299,8 @@ x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow
 
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \begin{center}
+\index{Operatoren!Widerstandsop.}
+\index{Operatoren!Leitwertsop.}
 \begin{tabular}{|l|l|}\hline
 \rowcolor{tcA}
 \(\underline{Z}\) komplexer Widerstand / Impedanz & 
@@ -297,15 +330,19 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 
 \begin{multicols}{2}{}
 \subsubsection*{Reihenschaltung}
+\index{Operatoren!Reihenschaltung}
 \[\underline{Z}_{ges} = \sum \limits_{i=1}^{n} \underline{Z}_i\]
 \subsubsection*{Parallelschaltung}
+\index{Operatoren!Parallelschaltung}
 \[\underline{Y}_{ges} = \sum \limits_{i=1}^{n} \underline{Y}_i\]
 \end{multicols}
 
 \begin{multicols}{2}{}
 \subsubsection*{Spannungsteiler}
+\index{Operatoren!Spannungsteiler}
 \[\frac{\underline{u}_1}{\underline{u}_2} = \frac{\underline{Z}_1 + \underline{Z}_2}{\underline{Z}_2}\]
 \subsubsection*{Stromteiler}
+\index{Operatoren!Stromteiler}
 \[\frac{\underline{i}_1}{\underline{i}_2} = \frac{\underline{Y}_1}{\underline{Y}_2}\]
 \end{multicols}
 
@@ -340,6 +377,7 @@ R&=\frac{1}{G} &\quad\quad& C=\frac{B}{\omega} \text{ mit } B>0 &\quad\quad& L=-
 \end{align*}
 
 \subsection*{Momentanleistung / Augenblicksleistung}
+\index{Leistung!Momentanleistung}
 \begin{align*}
 P\left(t\right) &= \underbrace{UI \cos \varphi}_{\text{zeitlich konstant}} - \underbrace{UI \cos \left(2 \omega t + \varphi_u + \varphi_i\right)}_{\text{mit doppelter Frequenz schwingend}} \\
 		&= UI \cos \varphi - UI \cos \left(2 \omega t + 2\varphi_u - \varphi\right) \\ \\
@@ -347,6 +385,7 @@ P\left(t\right) &= \underbrace{UI \cos \varphi}_{\text{zeitlich konstant}} - \un
 \end{align*}
 
 \subsection*{Blindleistung}
+\index{Leistung!Blindleistung}
 \emph{Ermittlung des Blindleistungsanteils aus der Momentanleistung}
 \begin{align*}
 P\left(t\right) &= \underbrace{UI\cos\varphi}_{\text{Wirkleistung}}\underbrace{-UI\sin\varphi\cdot\sin\left(2\omega t + 2\varphi_u\right)}_{\text{Blindleistung}} \\
@@ -362,9 +401,12 @@ P_{ges}\left(t\right) &= P_{wirk}\left(t\right) + P_{blind}\left(t\right)
 \end{cases}\]
 
 \subsection*{Mittlere Leistung / Wirkleistung}
+\index{Leistung!Wirkleistung}
 \[P = \overline{P}\left(t\right) = \frac{1}{n \cdot T} \int_{t_1}^{t_1 + n \cdot T} u\left(t\right) \cdot i\left(t\right) dt = UI\cos\varphi\]
 
 \subsection*{Definition von Blind- und Scheinleistung}
+\index{Leistung!Blindleistung!Definition}
+\index{Leistung!Scheinleistung!Definition}
 \[Q = UI\sin\varphi \quad \left[Q\right] = \text{var} \quad \text{mit}
 \begin{cases}
 Q>0\text{ induktive Blindleistung } Q_{ind} \\ 
@@ -418,6 +460,7 @@ S&=\sqrt{P^2+Q^2} \\
 \end{multicols}
 
 \subsection*{Die komplexe Leistung}
+\index{Leistung!komplexe L.}
 \begin{alignat*}{2}
 \underline{S}&=\underline{U}\cdot\underline{I}^* &\quad\quad\quad& ^*\text{ - konjugiert Komplex} \\
 	     &=U \cdot I \cdot e^{j\left(\varphi_u - \varphi_i\right)} \\

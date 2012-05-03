@@ -1,4 +1,5 @@
 \section{Begriffe}
+\index{Messtechnik!Begriffe}
 \begin{itemize}
   \item Messwert \(x_i\): gemessener Wert der Messgröße
   \item Wahrer Wert \(x_w\): existierender Wert der Messgröße
@@ -12,13 +13,16 @@
 \end{itemize}
 
 \section{Messabweichung \texorpdfstring{$e$}{}}
+\index{Messabweichung}
 \[e=x-x_w\]
 
 \subsection{relative Messabweichung}
+\index{Messabweichung!relativ}
 \[e_{rel} = \frac{e}{x_w} = \frac{x-x_w}{x_w} = \frac{x}{x_w} - 1\]
 
 \begin{multicols}{2}
 \subsubsection*{Korrekturfaktor \texorpdfstring{$K$}{}}
+\index{Korrekturfaktor}
 Bei bekannter systematischer Messabweichung.
 \[K = -e_{sys}\]
 
@@ -27,6 +31,7 @@ Bei bekannter systematischer Messabweichung.
 \end{multicols}
 
 \subsection{Messabweichung \texorpdfstring{$e_y$}{}}
+\index{Messabweichung}
 \[e_y = y-y_w = f\left( x_1 + e_{x_1}, x_2 + e_{x_2}, \cdots ,x_n +
 e_{x_n}\right)\]
 
@@ -39,6 +44,7 @@ e_{x_n}\right)\]
 \end{multicols}
 
 \subsection{Fortpflanzung systematischer Messabweichungen}
+\index{Messabweichung!Fortpflanzung}
 \subsubsection*{Addition / Subtraktion}
 \begin{multicols}{3}
 \[y = x_1 \pm x_2\]
@@ -81,9 +87,11 @@ e_{rel} = \frac{e_y}{y} = \frac{\frac{1}{x_2}e_{x_1} -
 \section{Statistische Größen}
 \begin{multicols}{2}
 	\subsection*{Verteilungsfunktion}
+	\index{Verteilungsfunktion}
 	\[F\left(x\right) = prob\left(X \leq x \right) \]
 		\vfill
 	\subsection*{Verteilungsdichtefunktion}
+	\index{Verteilungsdichtefunktion}
 	\[f\left(x\right) = \frac{d}{dx}F\left(x\right)\]
 		\vfill
 \end{multicols}
@@ -100,6 +108,7 @@ Es gillt:
 \section{Erwartungswert, Varianz und Standardabweichung}
 \begin{multicols}{2}
 	\subsection*{Erwartungswert \texorpdfstring{$\mu$}{}}
+	\index{Erwartungswert}
 		\begin{align*}
 			\mu &= \frac{1}{N} \sum_{i = 1}^{N} x_i\\
 				&= \int_{-\infty}^{\infty} x \cdot f\left(x\right)dx\\ 
@@ -107,6 +116,7 @@ Es gillt:
 		\end{align*}
 		\vfill
 	\subsection*{wahrer Wert \texorpdfstring{$X$}{}}
+	\index{wahrer Wert}
 		\begin{align*}
 			x_w &= \mu\\
 				&\text{nach Korrektur} \\ 
@@ -118,6 +128,7 @@ Es gillt:
 
 \begin{multicols}{2}
 	\subsection*{Varianz \texorpdfstring{$\sigma^2$}{}}
+	\index{Varianz}
 		\begin{align*}
 			\sigma^2 &= \frac{1}{N} \sum_{i = 1}^{N}\left( x_i - \mu \right)^2\\
 					 &= \int_{-\infty}^{\infty}\left( x_i - \mu \right)^2 \cdot f\left( 
@@ -125,6 +136,7 @@ Es gillt:
 		\end{align*}
 		\vfill
 	\subsection*{Standardabweichung}
+	\index{Standardabweichung}
 		\[\sigma = \sqrt{\sigma^2}\]
 		\vspace{5mm}
 		\vfill
@@ -132,6 +144,7 @@ Es gillt:
 
 \section{Verteilungsfunktionen}
 	\subsection*{Normalverteilung}
+	\index{Verteilungsfunktion!Normalverteilung}
 	\begin{itemize}
 	  \item Normal oder Gaußverteilung
 	  \item gute Näherung bei unbekannter statistischer Verteilung
@@ -149,6 +162,7 @@ Es gillt:
 	\end{align*}
 
 	\subsection*{Gleichverteilung}
+	\index{Verteilungsfunktion!Gleichverteilung}
 	\begin{itemize}
 	  \item auch Rechteckverteilung
 	  \item alle vorkommenden Werte besitzen gleiche Wahrscheinlichkeit im
@@ -169,12 +183,14 @@ Es gillt:
 \section{Stichprobe}
 \begin{multicols}{2}
 	\subsection*{Mittelwert \texorpdfstring{$\overline{x}$}{}}
+	\index{Stichprobe!Mittelwert}
 	Der Mittelwert ist ein Schätzwert für den Erwartungswert \(\mu\) und damit für
 	den wahren Wert.
 
 	\[\overline{x} = \frac{1}{n} \sum_{i = 1}^{n} x_i\]
 	
 	\subsection*{empirische Varianz \texorpdfstring{$s^2$}{}}
+	\index{Stichprobe!empirische Varianz}
 	Die empirische Varianz ist ein Schätzwert für die eigentliche Varianz der
 	Messreihe.
 
@@ -184,6 +200,7 @@ Es gillt:
 \end{multicols}
 
 \section{Vertrauensbereich für den Erwartungswert}
+\index{Vertrauensbereich}
 Endlich große Stichprobe liefert zufällige Differenz zwischem Schätzwert
 \(\overline{x}\) und wahrem Wert \(\mu=x_w\).
 
@@ -199,6 +216,7 @@ Vertrauensbereich:
 \]
 
 \subsection*{Studentverteilung}
+\index{Studentverteilung}
 Gibt den \(t\) Faktor für Normalverteilungen an
 \begin{itemize}
   \item [\(\alpha\)] Überschreitungswhrscheinlichkeit
@@ -226,10 +244,12 @@ Bedingung: Messergebnis setzt sich aus mehreren Messgrößen \(x_i\) zusammen
 
 \begin{multicols}{2}
 	\subsection*{Erwartungswerte}
+	\index{Fortpflanzung!zufällige Abweichungen!Erwartungswerte}
 	\[
 	\mu_n = \frac{1}{N}\sum_{i = 1}^{N}x_{n_i}
 	\]
 	\subsection*{Varianzen}
+	\index{Fortpflanzung!zufällige Abweichungen!Varianzen}
 	\[
 	\sigma_{n}^{2} = \frac{1}{N}\sum_{i = 1}^{N} \left( x_{n_i} - \mu_n
 	\right)^{2}
@@ -238,6 +258,8 @@ Bedingung: Messergebnis setzt sich aus mehreren Messgrößen \(x_i\) zusammen
 \end{multicols}
 
 \subsection*{Worst-Case-Kombination}
+\index{Wurst Kase@Wurst Käse}
+\index{Worst Case|see{Wurst Käse}}
 Maximale Abweichung des Ergebnisses vom Mittelwert.
 \begin{align*}
 	y &= f\left( x_1, x_2, \cdots, x_n  \right)\\
@@ -246,6 +268,7 @@ Maximale Abweichung des Ergebnisses vom Mittelwert.
 \end{align*}
 
 \subsection*{statistische Kombination der Varianzen}
+\index{Fortpflanzung!Fehlerfortpflanzungsgesetz \emph{Gauß}}
 Gaußsches Fehlerfortpflanzungsgesetz\ldots
 
 \begin{align*}
@@ -272,6 +295,7 @@ Gaußsches Fehlerfortpflanzungsgesetz\ldots
 
 \newpage
 \section{Fortpflanzung von Messunsicherheiten}
+\index{Fortpflanzung!Messunsicherheiten}
 Worst Case Abschätzung und Gaußsches Fortpflanzungsgesetz lassen sich auf die
 Messunsicherheiten übertragen.
 

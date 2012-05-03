@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  27 APR 2012 15:27
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  3 MAY 2012 15:05
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -866,42 +866,20 @@ Kapitel 7.
 (./Physik/Algemein.tex [38
 
 ] [39] [40] [41] [42] [43] [44] [45]
-<./Physik/Bilder/Spannung.png, id=1004, 501.875pt x 501.875pt>
+<./Physik/Bilder/Spannung.png, id=1020, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Spannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Spannung.png>
-<./Physik/Bilder/Tangentialspannung.png, id=1005, 501.875pt x 501.875pt>
+<./Physik/Bilder/Tangentialspannung.png, id=1021, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Tangentialspannung.png>
-<./Physik/Bilder/Scherbeanspruchung.png, id=1006, 501.875pt x 501.875pt>
+<./Physik/Bilder/Scherbeanspruchung.png, id=1022, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
 
-<use ./Physik/Bilder/Scherbeanspruchung.png>
-Overfull \vbox (8.70871pt too high) has occurred while \output is active []
-
-
-[46 <./Physik/Bilder/Spannung.png> <./Physik/Bilder/Tangentialspannung.png> <./
-Physik/Bilder/Scherbeanspruchung.png>]
-Overfull \vbox (29.68077pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (28.68077pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (27.68077pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (26.68077pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (25.68077pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (24.68077pt too high) has occurred while \output is active []
-
-
-[47] [48] [49])
+<use ./Physik/Bilder/Scherbeanspruchung.png> [46 <./Physik/Bilder/Spannung.png>
+ <./Physik/Bilder/Tangentialspannung.png> <./Physik/Bilder/Scherbeanspruchung.p
+ng>] [47] [48] [49])
 Kapitel 8.
 (./Physik/Fluiddynamik.tex [50
 
@@ -920,22 +898,22 @@ Kapitel 11.
 ] [56] [57]) [58]
 Kapitel 12.
 (./Physik/Optik.tex
-<./Physik/Bilder/Hohlspiegel.png, id=1117, 326.72063pt x 224.33812pt>
+<./Physik/Bilder/Hohlspiegel.png, id=1135, 326.72063pt x 224.33812pt>
 File: ./Physik/Bilder/Hohlspiegel.png Graphic file (type png)
 
 <use ./Physik/Bilder/Hohlspiegel.png> [59
 
  <./Physik/Bilder/Hohlspiegel.png (PNG copy)>] <./Physik/Bilder/Linse.png, id=1
-122, 255.20343pt x 109.1578pt>
+140, 255.20343pt x 109.1578pt>
 File: ./Physik/Bilder/Linse.png Graphic file (type png)
 
 <use ./Physik/Bilder/Linse.png>
-<./Physik/Bilder/Beispiele-Linsen.png, id=1123, 778.40813pt x 292.09125pt>
+<./Physik/Bilder/Beispiele-Linsen.png, id=1141, 778.40813pt x 292.09125pt>
 File: ./Physik/Bilder/Beispiele-Linsen.png Graphic file (type png)
 
 <use ./Physik/Bilder/Beispiele-Linsen.png> [60 <./Physik/Bilder/Linse.png (PNG 
 copy)> <./Physik/Bilder/Beispiele-Linsen.png (PNG copy)>]
-<./Physik/Bilder/Lichtwellenleiter.png, id=1129, 207.77625pt x 313.17pt>
+<./Physik/Bilder/Lichtwellenleiter.png, id=1147, 207.77625pt x 313.17pt>
 File: ./Physik/Bilder/Lichtwellenleiter.png Graphic file (type png)
 
 <use ./Physik/Bilder/Lichtwellenleiter.png>) [61 <./Physik/Bilder/Lichtwellenle
@@ -946,7 +924,7 @@ Kapitel 13.
 (./Elektrotechnik/Elektrotechnik.tex [63
 
 ]
-Overfull \vbox (14.91129pt too high) has occurred while \output is active []
+Overfull \vbox (21.3696pt too high) has occurred while \output is active []
 
 
 [64]
@@ -971,7 +949,7 @@ Kapitel 15.
 
 ] (./Elektrotechnik/Bilder/uoffs.tex)
 (./Elektrotechnik/Bilder/skalierung.tex) (./Elektrotechnik/Bilder/zeitbasis.tex
-) <./Elektrotechnik/Bilder/argument.pdf, id=1259, 477.72527pt x 279.54391pt>
+) <./Elektrotechnik/Bilder/argument.pdf, id=1277, 477.72527pt x 279.54391pt>
 File: ./Elektrotechnik/Bilder/argument.pdf Graphic file (type pdf)
 
 <use ./Elektrotechnik/Bilder/argument.pdf> [78 <./Elektrotechnik/Bilder/argumen
@@ -980,15 +958,15 @@ t.pdf
 pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/argument.pdf): 
 PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
 >]
-<./Elektrotechnik/Bilder/argumentversch.pdf, id=1280, 477.72527pt x 279.54391pt
+<./Elektrotechnik/Bilder/argumentversch.pdf, id=1298, 477.72527pt x 279.54391pt
 >
 File: ./Elektrotechnik/Bilder/argumentversch.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/argumentversch.pdf>
-<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1281, 477.72527pt x 279.5439
+<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1299, 477.72527pt x 279.5439
 1pt>
 File: ./Elektrotechnik/Bilder/skalierungsfaktor.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/skalierungsfaktor.pdf>
-<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1282, 476.92241pt x 305.8078
+<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1300, 476.92241pt x 305.8078
 5pt>
 File: ./Elektrotechnik/Bilder/einheitssprungang.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitssprungang.pdf> [79 <./Elektrotechnik/Bild
@@ -1008,7 +986,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/einheitssprunga
 ng.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring
  it.
 >]
-<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1318, 477.72527pt x 300.35112pt
+<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1336, 477.72527pt x 300.35112pt
 >
 File: ./Elektrotechnik/Bilder/einheitsimpuls.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitsimpuls.pdf>
@@ -1031,42 +1009,394 @@ pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it
 
 ]
 Kapitel 16.
-(./Messtechnik/Grundlagen.tex [92
+(./Elektrotechnik/AnalogeSchaltungstechnik/Grundschaltungen.tex
+(./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/konststromquelle.tex)
+Overfull \vbox (91.99957pt too high) has occurred while \output is active []
 
-] [93] [94] [95] [96] [97]) [98] [99
+
+Overfull \vbox (90.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (89.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (88.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (87.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (86.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (85.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (84.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (83.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (82.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (81.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (80.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (79.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (78.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (77.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (76.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (75.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (74.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (73.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (72.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (71.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (70.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (69.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (68.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (67.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (66.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (65.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (64.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (63.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (62.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (61.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (60.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (59.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (58.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (57.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (56.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (55.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (54.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (53.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (52.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (51.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (50.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (49.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (48.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (47.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (46.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (45.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (44.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (43.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (42.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (41.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (40.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (39.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (38.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (37.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.99957pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.99957pt too high) has occurred while \output is active []
+
+
+[92
 
 ]
-(./Formelsammlung.ind [100
+(./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/emitterschaltung.tex)
+Overfull \vbox (61.74966pt too high) has occurred while \output is active []
 
+
+Overfull \vbox (60.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (59.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (58.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (57.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (56.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (55.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (54.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (53.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (52.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (51.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (50.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (49.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (48.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (47.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (46.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (45.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (44.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (43.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (42.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (41.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (40.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (39.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (38.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (37.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.74966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.74966pt too high) has occurred while \output is active []
+
+)
+[93] [94
+
+]
+Kapitel 17.
+(./Messtechnik/Grundlagen.tex [95
+
+] [96] [97] [98] [99] [100]) [101] [102
+
+]
+(./Formelsammlung.ind [103
+
+] [104] [105] [106] [107
 
 ]) (./Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 8688 strings out of 256216
- 130155 string characters out of 1917071
+ 8729 strings out of 256216
+ 131324 string characters out of 1917071
  213094 words of memory out of 1500000
- 11073 multiletter control sequences out of 10000+200000
- 16802 words of font info for 66 fonts, out of 1200000 for 2000
+ 11079 multiletter control sequences out of 10000+200000
+ 17500 words of font info for 68 fonts, out of 1200000 for 2000
  646 hyphenation exceptions out of 8191
- 45i,25n,41p,374b,627s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb>
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmbxti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>
-</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi5.pfb></u
-sr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/b
-luesky/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/sh
-are/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesk
-y/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/t
-exmf/fonts/type1/bluesky/cm/cmr5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
-mr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fon
-ts/type1/bluesky/cm/cmsl10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.
-pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy5.pfb></usr/share/texmf/fonts/
-type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type
-1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msbm10.pfb>
-Output written on Formelsammlung.pdf (101 pages, 757768 bytes).
+ 45i,25n,41p,374b,800s stack positions out of 5000i,500n,6000p,200000b,15000s
+pdfTeX warning (dest): name{page.78\\protect\040\\ke
+rn\040+.1667em\\relax\040f.} has been referenced but does not exist, replaced b
+y a fixed one
+
+pdfTeX warning (dest): name{page.83\\protect\040\\kern\040+.1667em\\relax\040f.
+} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.6\\protect\040\\kern\040+.1667em\\relax\040f.}
+ has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.95\\protect\040\\kern\040+.1667em\\relax\040f.
+} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.10\\protect\040\\kern\040+.1667em\\relax\040f.
+} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.89\\protect\040\\kern\040+.1667em\\relax\040f.
+} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.79\\protect\040\\kern\040+.1667em\\relax\040f.
+} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbxti10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/
+bluesky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi7.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/
+texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm
+/cmr5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/f
+onts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsl10.
+pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti7.pfb></us
+r/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/
+bluesky/ams/msbm10.pfb>
+Output written on Formelsammlung.pdf (108 pages, 820863 bytes).
 PDF statistics:
- 1673 PDF objects out of 1728 (max. 8388607)
- 536 named destinations out of 1000 (max. 131072)
- 1101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1951 PDF objects out of 2073 (max. 8388607)
+ 559 named destinations out of 1000 (max. 131072)
+ 1125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
