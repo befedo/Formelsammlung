@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  3 MAY 2012 15:05
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.12.23)  14 MAY 2012 18:20
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -1219,142 +1219,102 @@ Overfull \vbox (24.99957pt too high) has occurred while \output is active []
 
 ]
 (./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/emitterschaltung.tex)
-Overfull \vbox (61.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (60.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (59.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (58.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (57.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (56.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (55.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (54.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (53.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (52.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (51.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (50.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (49.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (48.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (47.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (46.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (45.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (44.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (43.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (42.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (41.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (40.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (39.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (38.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (37.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (36.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (35.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (34.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (33.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (32.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (31.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (30.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (28.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (27.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (26.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (25.74966pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (24.74966pt too high) has occurred while \output is active []
-
+[93]
+(./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/differenzverstaerker.tex
 )
-[93] [94
+Overfull \hbox (51.70552pt too wide) in paragraph at lines 699--70
+ [][] 
+ []
+
+
+Overfull \vbox (45.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (44.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (43.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (42.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (41.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (40.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (39.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (38.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (37.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (35.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (34.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (33.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (32.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (31.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (30.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (28.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (27.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (26.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.24966pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (24.24966pt too high) has occurred while \output is active []
+
+
+[94]) [95] [96
 
 ]
 Kapitel 17.
-(./Messtechnik/Grundlagen.tex [95
+(./Messtechnik/Grundlagen.tex [97
 
-] [96] [97] [98] [99] [100]) [101] [102
+] [98] [99] [100] [101] [102]) [103] [104
 
 ]
-(./Formelsammlung.ind [103
+(./Formelsammlung.ind [105
 
-] [104] [105] [106] [107
+] [106] [107] [108] [109
 
 ]) (./Formelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 8729 strings out of 256216
- 131324 string characters out of 1917071
- 213094 words of memory out of 1500000
+ 8737 strings out of 256216
+ 131552 string characters out of 1917071
+ 216207 words of memory out of 1500000
  11079 multiletter control sequences out of 10000+200000
  17500 words of font info for 68 fonts, out of 1200000 for 2000
  646 hyphenation exceptions out of 8191
- 45i,25n,41p,374b,800s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 45i,25n,41p,374b,864s stack positions out of 5000i,500n,6000p,200000b,15000s
 pdfTeX warning (dest): name{page.78\\protect\040\\ke
 rn\040+.1667em\\relax\040f.} has been referenced but does not exist, replaced b
 y a fixed one
@@ -1365,7 +1325,7 @@ pdfTeX warning (dest): name{page.83\\protect\040\\kern\040+.1667em\\relax\040f.
 pdfTeX warning (dest): name{page.6\\protect\040\\kern\040+.1667em\\relax\040f.}
  has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{page.95\\protect\040\\kern\040+.1667em\\relax\040f.
+pdfTeX warning (dest): name{page.97\\protect\040\\kern\040+.1667em\\relax\040f.
 } has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{page.10\\protect\040\\kern\040+.1667em\\relax\040f.
@@ -1394,9 +1354,9 @@ pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts
 1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti7.pfb></us
 r/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/texmf/fonts/type1/
 bluesky/ams/msbm10.pfb>
-Output written on Formelsammlung.pdf (108 pages, 820863 bytes).
+Output written on Formelsammlung.pdf (110 pages, 830337 bytes).
 PDF statistics:
- 1951 PDF objects out of 2073 (max. 8388607)
- 559 named destinations out of 1000 (max. 131072)
+ 1967 PDF objects out of 2073 (max. 8388607)
+ 564 named destinations out of 1000 (max. 131072)
  1125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -226,27 +226,30 @@
 \indexentry{Faltung!Polynommultiplikation|hyperpage}{90}
 \indexentry{Konstantstromquelle!Bipolar|hyperpage}{92}
 \indexentry{Emitterschaltung|hyperpage}{93}
-\indexentry{Messtechnik!Begriffe|hyperpage}{95}
-\indexentry{Messabweichung|hyperpage}{95}
-\indexentry{Messabweichung!relativ|hyperpage}{95}
-\indexentry{Korrekturfaktor|hyperpage}{96}
-\indexentry{Messabweichung|hyperpage}{96}
-\indexentry{Messabweichung!Fortpflanzung|hyperpage}{96}
-\indexentry{Verteilungsfunktion|hyperpage}{97}
-\indexentry{Verteilungsdichtefunktion|hyperpage}{97}
-\indexentry{Erwartungswert|hyperpage}{97}
-\indexentry{wahrer Wert|hyperpage}{97}
-\indexentry{Varianz|hyperpage}{97}
-\indexentry{Standardabweichung|hyperpage}{97}
-\indexentry{Verteilungsfunktion!Normalverteilung|hyperpage}{98}
-\indexentry{Verteilungsfunktion!Gleichverteilung|hyperpage}{98}
-\indexentry{Stichprobe!Mittelwert|hyperpage}{99}
-\indexentry{Stichprobe!empirische Varianz|hyperpage}{99}
-\indexentry{Vertrauensbereich|hyperpage}{99}
-\indexentry{Studentverteilung|hyperpage}{99}
-\indexentry{Fortpflanzung!zuf\IeC {\"a}llige Abweichungen!Erwartungswerte|hyperpage}{100}
-\indexentry{Fortpflanzung!zuf\IeC {\"a}llige Abweichungen!Varianzen|hyperpage}{100}
-\indexentry{Wurst Kase@Wurst K\IeC {\"a}se|hyperpage}{100}
-\indexentry{Worst Case|see{Wurst K\IeC {\"a}se}}{100}
-\indexentry{Fortpflanzung!Fehlerfortpflanzungsgesetz \emph{Gau\IeC {\ss }}|hyperpage}{100}
-\indexentry{Fortpflanzung!Messunsicherheiten|hyperpage}{101}
+\indexentry{Differenzverst\IeC {\"a}rker|hyperpage}{94}
+\indexentry{Differenzverst\IeC {\"a}rker!Differenzaussteuerung|hyperpage}{94}
+\indexentry{Differenzverst\IeC {\"a}rker!Gleichtaktaussteuerung|hyperpage}{95}
+\indexentry{Messtechnik!Begriffe|hyperpage}{97}
+\indexentry{Messabweichung|hyperpage}{97}
+\indexentry{Messabweichung!relativ|hyperpage}{97}
+\indexentry{Korrekturfaktor|hyperpage}{98}
+\indexentry{Messabweichung|hyperpage}{98}
+\indexentry{Messabweichung!Fortpflanzung|hyperpage}{98}
+\indexentry{Verteilungsfunktion|hyperpage}{99}
+\indexentry{Verteilungsdichtefunktion|hyperpage}{99}
+\indexentry{Erwartungswert|hyperpage}{99}
+\indexentry{wahrer Wert|hyperpage}{99}
+\indexentry{Varianz|hyperpage}{99}
+\indexentry{Standardabweichung|hyperpage}{99}
+\indexentry{Verteilungsfunktion!Normalverteilung|hyperpage}{100}
+\indexentry{Verteilungsfunktion!Gleichverteilung|hyperpage}{100}
+\indexentry{Stichprobe!Mittelwert|hyperpage}{101}
+\indexentry{Stichprobe!empirische Varianz|hyperpage}{101}
+\indexentry{Vertrauensbereich|hyperpage}{101}
+\indexentry{Studentverteilung|hyperpage}{101}
+\indexentry{Fortpflanzung!zuf\IeC {\"a}llige Abweichungen!Erwartungswerte|hyperpage}{102}
+\indexentry{Fortpflanzung!zuf\IeC {\"a}llige Abweichungen!Varianzen|hyperpage}{102}
+\indexentry{Wurst Kase@Wurst K\IeC {\"a}se|hyperpage}{102}
+\indexentry{Worst Case|see{Wurst K\IeC {\"a}se}}{102}
+\indexentry{Fortpflanzung!Fehlerfortpflanzungsgesetz \emph{Gau\IeC {\ss }}|hyperpage}{102}
+\indexentry{Fortpflanzung!Messunsicherheiten|hyperpage}{103}

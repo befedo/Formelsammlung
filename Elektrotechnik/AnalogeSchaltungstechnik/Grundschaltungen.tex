@@ -16,21 +16,112 @@
 
 \end{multicols}
 
+
 \section*{Emitterschaltung}
 \index{Emitterschaltung}
 
 \begin{multicols}{2}
-			
+
 	\begin{center}
 		\input{./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/emitterschaltung.tex}
 	\end{center}
-	
+
+
 	\begin{align*}
 		&\textbf{Verstärkung}
 		\\
 		A \text{ bzw. } V &= \frac{\mathrm{d}U_a}{\mathrm{d}U_e}
 		\\
-		&Bla
-	\end{align*}	
-		
+						  &= -S\left( R_C \| r_{CE} \right)
+		\\
+		&\textbf{Eingangswiderstand}
+		\\
+		r_e &= r_{BE} = \frac{\mathrm{d}U_e}{\mathrm{d}I_e} = \frac{1}{Y_{11}}
+		\\
+		&\textbf{Ausgangswiderstand}
+		\\
+		r_a &= - \frac{\mathrm{d}U_a}{\mathrm{d}I_a} = R_C \| r_{CE}
+		\\
+		&\textbf{Parameter}
+		\\
+		\mathrm{d}I_B &= \underbrace{\frac{\partial I_B}{\partial U_{BE}}}_{Y_{11} = \frac{1}{r_{BE}}}
+		\cdot \mathrm{d}U_{BE} 
+		\\
+		&\hspace{3mm}+ \underbrace{\frac{\partial I_B}{\partial U_{CE}}}_{Y_{12} =
+		Sr} \cdot \mathrm{d}U_{CE}
+		\\
+		\mathrm{d}I_C &= \underbrace{\frac{\partial I_C}{\partial U_{BE}}}_{Y_{21} = S}
+		\cdot \mathrm{d}U_{BE} 
+		\\
+		&\hspace{3mm}+ \underbrace{\frac{\partial I_C}{\partial U_{CE}}}_{Y_{22} =
+		\frac{1}{r_{CE}}} \cdot \mathrm{d}U_{CE}
+	\end{align*}
+	
 \end{multicols}
+
+\newpage
+\section*{Differenzverstärker}
+\index{Differenzverstärker}
+
+\begin{multicols}{2}
+
+	\begin{center}
+		\input{./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/differenzverstaerker.tex}
+	\end{center}
+
+	\begin{align*}
+		&\textbf{Gleichtaktaussteuerung}
+		\\
+		&\quad A_{GL} = \frac{\mathrm{d} U_a}{\mathrm{d} U_{GL}} \stackrel{!}{=} 0
+		\\
+		&\textbf{Differenzverstärkung}
+		\\
+		&\text{mit } U_D = U_{B_1} - U_{B_2} \text{ folgt}
+		\\
+		&\quad A_D = \frac{\Delta U_{C2}}{\Delta U_D}
+		\\
+		&\textbf{Gleichtakteingangsspannung}
+		\\
+		&\quad U_{GL} = \frac{U_{B_1} + U_{B_2}}{2}
+	\end{align*}
+
+\end{multicols}
+
+\subsection*{reine Differenzaussteuerung}
+\index{Differenzverstärker!Differenzaussteuerung}
+\( 
+\Delta U_{B_1} = -\Delta U_{B_2} \quad \leadsto \quad \mathrm{d} U_{B_1} = -\mathrm{d} U_{B_2} =
+\frac{\mathrm{d}U_D}{2}
+\)
+
+\[
+\text{mit } U_E = const. \text{ folgt:}
+\]
+
+\begin{align*}
+	\frac{\mathrm{d} U_{C1}}{\mathrm{d} U_D} &= \frac{\mathrm{d} U_{C1}}{2 \mathrm{d} U_{B_1}} =
+	-\frac{1}{2} S \left( R_C \parallel r_{CE} \right) = -A_D
+	\\
+	\frac{\mathrm{d} U_{C2}}{\mathrm{d} U_D} &= \frac{\mathrm{d} U_{C2}}{2 \mathrm{d} U_{B_2}} =
+	\frac{1}{2} S \left( R_C \parallel r_{CE} \right) = A_D
+\end{align*}
+
+\newpage
+\subsection*{Gleichtaktaussteuerung}
+\index{Differenzverstärker!Gleichtaktaussteuerung}
+\(
+\mathrm{d} U_E = \mathrm{d} U_{GL} \quad \leadsto \quad \mathrm{d} I_K = \frac{\mathrm{d}
+U_{GL}}{r_K} \neq const.
+\)
+
+\[
+\text{mit } \mathrm{d}U_C = -\mathrm{d}I_C \cdot R_C \text{ folgt:}
+\]
+
+\begin{align*}
+\mathrm{d}U_{C1} &= \mathrm{d}U_{C2} = -\frac{R_C}{2 r_K} \cdot \mathrm{d}U_{Gl} \quad \leadsto
+\quad A_{Gl} =
+\frac{\mathrm{d}U_a}{\mathrm{d}U_{Gl}} = -\frac{R_C}{2 r_K}
+\end{align*}
+
+
