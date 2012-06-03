@@ -557,14 +557,24 @@ umformt. Dieses wird Ausgangssignal bzw. Systemantwort / -reaktion genannt.
 					\\\hline		
 \end{tabularx}
 
+\newpage
 \subsection*{Impulsantwort / Gewichtsfunktion \texorpdfstring{$g\left(t\right)$}}
 \index{Impulsantwort}
 \index{Gewichtsfunktion}
+\index{Faltung}
 \begin{align*}
 	\text{mit } x\left(t\right) &= \delta\left( t \right) \text{ folgt } y\left(t\right) =
 	g\left(t\right)
 	\\
 	\left[g\left(t\right)\right] &= \left[ \delta\left(t\right) \right] = s^{-1}
+	\\
+	y\left(t\right) &= T \left\{ x\left(t\right) \right\} = \int\limits_{-\infty}^{\infty}
+	x\left(\tau\right) \cdot g\left(t - \tau\right) \mathrm{d}\tau = x\left(t\right) \star g\left(t\right)
+	\\
+	\textbf{Zeitdiskret:}
+	\\
+	y\left(k\right) &= \sum\limits_{L=-\infty}^{\infty} x\left(k\right) \cdot g\left(k-L\right) =
+	x\left(k\right) \star g\left(k\right)
 \end{align*}
 
 \subsection*{Sprungantwort / Übergangsfunktion \texorpdfstring{$ h\left(t\right) $}}
