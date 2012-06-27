@@ -1,25 +1,26 @@
 \documentclass[a5paper]{report}
-%\documentclass[a5paper,10pt]{scrartcl}
-
 \usepackage[utf8]{inputenc}
-\usepackage{geometry}
-\usepackage{german}
+\usepackage[OT2,T2A,T1]{fontenc}
+\usepackage[german]{babel}
 \usepackage[pdftex]{graphicx}
 \usepackage[fleqn]{amsmath}
 \usepackage{amssymb}
 \usepackage{amstext}
 \usepackage{amsfonts}
-\usepackage{amsmath}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{german}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{lscape}
+\usepackage{mathtools}
 \usepackage{mathrsfs}
 \usepackage{multirow}
 \usepackage{makeidx}
-\usepackage{hyperref}
-\usepackage{color}
-\usepackage{colortbl}
-\usepackage{tabularx}
 \usepackage{multicol}
-\usepackage{lscape}
 \usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{trfsigns}
 \usepackage{tikz}
 
 \title{Formelsammlung - ET/TI}
@@ -44,8 +45,9 @@
 %Definitionen
 \newcommand{\N}{\mathbb{N}}	%Natürliche Zahlen
 \newcommand{\R}{\mathbb{R}}	%Reelle Zahlen
-\newcommand{\C}{\mathbb{C}}	%Komplexe Zahlen
-
+%\newcommand{\C}{\mathbb{C}}	%Komplexe Zahlen
+\newcommand\SCHA{\fontencoding{OT2}\selectfont SH}	% Dasselbe in OT2
+\newcommand\scha{\fontencoding{OT2}\selectfont sh}
 
 %%%%%%%%%%%%%%%Matzes Anpassungen
 
@@ -124,6 +126,7 @@
 
 		\chapter{Signal- und Systemtheorie}
 		\input{Elektrotechnik/SignaleundSysteme.tex}
+		\input{Elektrotechnik/Signalverarbeitung.tex}
 		
 	\part{Analoge Schaltungstechnik}
 	
