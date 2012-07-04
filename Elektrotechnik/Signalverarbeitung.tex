@@ -1,4 +1,4 @@
-\section*{Laplace-Transformation}
+\section{Laplace / Fourier-Transformation}
 
 \subsection*{Laplaceintegral}
 \index{Laplaceintegral}
@@ -7,8 +7,6 @@
 &X\left(p\right) =\mathscr{L}\{x\left(t\right)\}=\int_{0}^{\infty}x\left(t\right)e^{-p\cdot t}\diff
 t
 \end{align*}
-
-\section*{Fourier-Transformation}
 
 \subsection*{Fourierintegral}
 \index{Fourierintegral}
@@ -25,108 +23,157 @@ t}\diff \omega\\
 &x\left(t\right) =\int_{-\infty}^{\infty}X\left(f \right)e^{j2\pi f t}\diff \omega
 \end{align*}
 
-\subsection*{Additionssatz}
+\subsection*{Diskrete Fourier Transformation}
+\index{Diskrete Fourier Transformation}
+\begin{multicols}{2}
+\textbf{1. Variante}
+\begin{align*}
+	X\left(l\right)&=\sum_{k=0}^{N-1}x\left(k\right)e^{-j2\pi\cdot l \cdot\frac{k}{N}}\\
+	x\left(k\right)&=\frac{1}{N}\sum_{k=0}^{N-1}x\left(k\right)e^{j2\pi\cdot l \cdot\frac{k}{N}}
+\end{align*}
+\textbf{2. Variante}
+\begin{align*}
+	X\left(l\right)&=\frac{1}{N}\sum_{k=0}^{N-1}x\left(k\right)e^{-j2\pi\cdot l \cdot\frac{k}{N}}\\
+	x\left(k\right)&=\sum_{k=0}^{N-1}x\left(k\right)e^{j2\pi\cdot l \cdot\frac{k}{N}}
+\end{align*}
+\textbf{3. Variante}
+\begin{align*}
+	X\left(l\right)&=\frac{1}{\sqrt{N}}\sum_{k=0}^{N-1}x\left(k\right)e^{-j2\pi\cdot l
+	\cdot\frac{k}{N}}\\
+	x\left(k\right)&=\frac{1}{\sqrt{N}}\sum_{k=0}^{N-1}x\left(k\right)e^{j2\pi\cdot l
+	\cdot\frac{k}{N}}
+\end{align*}
+\vfill
+\end{multicols}
+
+\subsection*{DFT als Matrizen-Multiplikation}
+\index{Diskrete Fourier Transformation!Matrizen-Multiplikation}
+\begin{align*}
+\left[X\left(l\right)\right]&=\frac{1}{\alpha}\cdot\left[F_{l,k}^N\right]\cdot\left[x\left(k\right)\right]&t&\Rightarrow
+f\\
+\left[x\left(k\right)\right]&=\frac{1}{\alpha}\cdot\left[f_{k,l}^N\right]\cdot\left[X\left(l\right)\right]&f&\Rightarrow
+t\\
+\left[f_{k,l}^N\right]&=\frac{1}{\alpha}\cdot\left[F_{l,k}^N\right]^*
+\end{align*}
+
+\(\alpha \) ist je nach Art der Transformationsvariante \(1, N \text{ oder } \sqrt{N}\) und
+eigentlich schon in der Transformationsvorschrifft enthalten.
+
+\[
+F_{l,k}^N=e^{-j2\pi \cdot l\cdot \frac{k}{N}} = \cos\left(2 \pi l \frac{k}{N}\right)-j\sin\left(2
+\pi l \frac{k}{N}\right)
+\]
+
+\newpage
+\textbf{Additionssatz}
 \index{Additionssatz}
 \begin{align*}
-x\left(t\right) &=x_1\left(t\right)+x_2\left(t\right)+\dots \quad \Laplace \quad
+x\left(t\right) &=x_1\left(t\right)+x_2\left(t\right)+\dots \quad \laplace \quad
 X\left(f\right) &=X_1\left(f\right)+X_2\left(f\right)+\dots
 \end{align*}
 
-\subsubsection*{Linearität}
+\textbf{Linearität}
 \index{Linearität}
 \begin{align*}
-x\left(t\right) &=C\cdot x_1\left(t\right)\quad \Laplace \quad X\left(f\right) =C\cdot
+x\left(t\right) &=C\cdot x_1\left(t\right)\quad \laplace \quad X\left(f\right) =C\cdot
 X_1\left(f\right)
 \end{align*}
 
-\subsection*{Verschiebungssatz}
+\textbf{Verschiebungssatz}
 \index{Verschiebungssatz}
 \begin{align*}
-x\left(t\right) &=x_1\left(t-t_0\right)\quad \Laplace \quad X\left(f\right) =X_1\left(f\right)\cdot
+x\left(t\right) &=x_1\left(t-t_0\right)\quad \laplace \quad X\left(f\right) =X_1\left(f\right)\cdot
 e^{-j2\pi f\cdot t_0}
 \end{align*}
 
-\subsection*{Ähnlichkeitssatz}
-\index{Ähnlichkeitssatz}
+\textbf{Ähnlichkeitssatz}
+\index{Aehnlichkeitssatz}
 \begin{align*}
-x\left(t\right) &=x_1\left(a\cdot t\right)\quad &\Laplace \quad X\left(f\right)
+x\left(t\right) =x_1\left(a\cdot t\right)\quad &\laplace \quad X\left(f\right)
 =\frac{1}{\left|a\right|}X_1\left(\frac{f}{a}\right)\\
-x\left(t\right) &=\frac{1}{\left|b\right|}x_1\left(\frac{t}{b}\right) \quad &\Laplace \quad
+x\left(t\right) =\frac{1}{\left|b\right|}x_1\left(\frac{t}{b}\right) \quad &\laplace \quad
 X\left(f\right) =X_1\left(b\cdot f\right)
 \end{align*}
 
-\subsection*{Differentationssatz}
-\index{Differentationssatz}
+\textbf{Differentiationssatz}
+\index{Differentiationssatz}
 \begin{align*}
-x\left(t\right) =\frac{\diff x_1\left(t\right)}{\diff t} \quad &\Laplace \quad X\left(f\right)
+x\left(t\right) =\frac{\diff x_1\left(t\right)}{\diff t} \quad &\laplace \quad X\left(f\right)
 =j2\pi f\cdot X\left(f\right)\\
-x\left(t\right) =\frac{\diff^K x_1\left(t\right)}{\diff t^K} \quad &\Laplace \quad X\left(f\right)
+x\left(t\right) =\frac{\diff^K x_1\left(t\right)}{\diff t^K} \quad &\laplace \quad X\left(f\right)
 =j^K\left(2\pi f\right)^K\cdot X\left(f\right)\\
-x\left(t\right) =\frac{\diff^K x_1\left(t\right)}{\diff t^K} \quad &\Laplace \quad
+x\left(t\right) =\frac{\diff^K x_1\left(t\right)}{\diff t^K} \quad &\laplace \quad
 X\left(\omega\right) =j^K\left(\omega\right)^K\cdot X\left(\omega\right)
 \end{align*}
 
-\subsection*{Integrationssatz}
+\textbf{Integrationssatz}
 \index{Integrationssatz}
 \begin{align*}
-x\left(t\right) =\int_\infty^tx_1\left(\tau\right)\diff\tau \quad \Laplace \quad X\left(f\right) =\frac{1}{j2\pi f}\cdot X_1\left(f\right)+\frac{1}{2}X_1\left(f=0\right)\delta\left(f\right)\\
-x\left(t\right) =\int_\infty^tx_1\left(\tau\right)\diff\tau \quad \Laplace \quad X\left(\omega\right) =\frac{1}{j \omega}\cdot X_1\left(\omega\right)+\pi\cdot X_1\left(\omega=0\right)\delta\left(\omega\right)
+x\left(t\right) =\int_\infty^tx_1\left(\tau\right)\diff\tau \quad &\laplace \quad X\left(f\right)
+=\frac{1}{j2\pi f}\cdot X_1\left(f\right)+\frac{1}{2}X_1\left(f=0\right)\delta\left(f\right)\\
+x\left(t\right) =\int_\infty^tx_1\left(\tau\right)\diff\tau \quad &\laplace \quad
+X\left(\omega\right) =\frac{1}{j \omega}\cdot X_1\left(\omega\right)+\pi\cdot X_1\left(\omega=0\right)\delta\left(\omega\right)
 \end{align*}
 
-\subsection*{Integrationssatz im Frequenzbereich}
+\textbf{Integrationssatz im Frequenzbereich}
 \begin{align*}
-x\left(t\right) =\frac{1}{-j2\pi t}\cdot x_1\left(t\right)+\frac{1}{2}x_1\left(t=0\right)\delta\left(t\right) \quad \Laplace \quad X\left(f\right) =\int_{-\infty}^{f}X_1\left(\varphi\right)\diff \varphi\\
-x\left(t\right) =\frac{1}{-j t}\cdot x_1\left(t\right)+\pi\cdot x_1\left(t=0\right)\delta\left(t\right) \quad \Laplace \quad X\left(\omega\right) =\int_{-\infty}^{\omega}X_1\left(\varphi\right)\diff \varphi
+x\left(t\right) =\frac{1}{-j2\pi t}\cdot x_1\left(t\right)+\frac{1}{2}x_1\left(t=0\right)\delta\left(t\right) \quad \laplace \quad X\left(f\right) =\int_{-\infty}^{f}X_1\left(\varphi\right)\diff \varphi\\
+x\left(t\right) =\frac{1}{-j t}\cdot x_1\left(t\right)+\pi\cdot x_1\left(t=0\right)\delta\left(t\right) \quad \laplace \quad X\left(\omega\right) =\int_{-\infty}^{\omega}X_1\left(\varphi\right)\diff \varphi
 \end{align*}
 
-\subsection*{Vertauschungssatz}
+\textbf{Vertauschungssatz}
 \index{Vertauschungssatz}
 \begin{align*}
-x\left(t\right) =x_1\left(t\right) \quad &\Laplace \quad X\left(f\right) =X_1\left(f\right)\\
-x\left(t\right) =X_1\left(t\right) \quad &\Laplace \quad X\left(f\right) =x_1\left(-f\right)\\
-x\left(t\right) =x_1\left(t\right) \quad &\Laplace \quad X\left(\omega\right)
+x\left(t\right) =x_1\left(t\right) \quad &\laplace \quad X\left(f\right) =X_1\left(f\right)\\
+x\left(t\right) =X_1\left(t\right) \quad &\laplace \quad X\left(f\right) =x_1\left(-f\right)\\
+x\left(t\right) =x_1\left(t\right) \quad &\laplace \quad X\left(\omega\right)
 =X_1\left(\omega\right)\\
-x\left(t\right) =X_1\left(t\right) \quad &\Laplace \quad X\left(\omega\right) =2\pi\cdot
+x\left(t\right) =X_1\left(t\right) \quad &\laplace \quad X\left(\omega\right) =2\pi\cdot
 x_1\left(-\omega\right)
 \end{align*}
 
 \subsection*{Faltung}
 \index{Faltung}
 \begin{align*}
-&x\left(t\right) =x_1\left(t\right) \quad \Laplace \quad X\left(f\right) =\int_{-\infty}^\infty
+&x\left(t\right) =x_1\left(t\right) \quad \laplace \quad X\left(f\right) =\int_{-\infty}^\infty
 X_1\left(\varphi\right)\cdot X_2\left(f-\varphi\right)\diff \varphi\\
-&x\left(t\right) =x_1\left(t\right) \quad \Laplace \quad X\left(\omega\right)
+&x\left(t\right) =x_1\left(t\right) \quad \laplace \quad X\left(\omega\right)
 =\frac{1}{2\pi}\int_{-\infty}^\infty X_1\left(\varphi\right)\cdot X_2\left(\omega-\varphi\right)\diff \varphi\\
 &x\left(t\right) =\int_{-\infty}^\infty x_1\left(\tau\right)\cdot x_2\left(t-\tau\right)\diff \tau 
-\quad \Laplace \quad X\left(f\right) =x_1\left(f\right)\cdot x_2\left(f\right)
+\quad \laplace \quad X\left(f\right) =x_1\left(f\right)\cdot x_2\left(f\right)
 \end{align*}
 
 \subsection*{Delta-Impulsfläche}
 \index{Delta Impulsfläche}
 \begin{align*}
-\text{\scha}_p\left(t\right) =\sum_{k=-\infty}^{\infty}\delta\left(t-kt_p\right) \quad &\Laplace
-\quad\text{\SCHA}_A\left(f\right) =f_A\sum_{m=-\infty}^{\infty}\delta\left(f-mf_a\right)\\
+\text{\scha}_p\left(t\right) &=\sum_{k=-\infty}^{\infty}\delta\left(t-kt_p\right) s^{-1} \quad
+\laplace \quad\text{\SCHA}_A\left(f\right)
+=f_a \sum_{m=-\infty}^{\infty}\delta\left(f-mf_a\right) {Hz}^{-1}\\
 f_a &=\frac{1}{t_p}\\
-\text{\scha}_a\left(t\right) =\sum_{k=-\infty}^{\infty}t_a\delta\left(t-kt_a\right) \quad &\Laplace
-\quad\text{\SCHA}_P\left(f\right) =\sum_{m=-\infty}^{\infty}\delta\left(f-mf_p\right)\\
+\text{\scha}_a\left(t\right) &=t_a\sum_{k=-\infty}^{\infty}\delta\left(t-kt_a\right)
+s^{-1} \quad \laplace \quad\text{\SCHA}_P\left(f\right)
+=\sum_{m=-\infty}^{\infty}\delta\left(f-mf_p\right) {Hz}^{-1}\\
 f_p &=\frac{1}{t_a}
 \end{align*}
 
+\newpage
 \subsection*{Periodifizierung}
-\index{Periodifizierung}
+\index{Signale!Periodifizierung}
 \begin{align*}
-x\left(t\right) =x_T\left(t\right)\ast\text{\scha}_p\left(t\right) \quad \Laplace \quad X\left(f\right) =X_T\left(f\right)\cdot \text{\SCHA}_A\left(f\right)
+x\left(t\right) =x_T\left(t\right)\ast\text{\scha}_p\left(t\right) \quad \laplace \quad X\left(f\right) =X_T\left(f\right)\cdot \text{\SCHA}_A\left(f\right)
 \end{align*}
 
 \subsection*{Abgetastete Funktionen}
+\index{Signale!Abtastung}
 \begin{align*}
-x_\delta\left(t\right) =x\left(t\right)\cdot\text{\scha}_a\left(t\right) \quad &\Laplace \quad
+x_\delta\left(t\right) =x\left(t\right)\cdot\text{\scha}_a\left(t\right) \quad &\laplace \quad
 X_\delta\left(f\right) =X\left(f\right)\ast\text{\SCHA}_p\left(f\right)\\
 x_\delta\left(t\right) =\sum_{k=-\infty}^{\infty}x\left(kt_a\right)\cdot t_a\cdot
-\delta\left(t-kt_a\right) \quad &\Laplace \quad X_\delta =\sum_{m=-\infty}^{\infty}X\left(f-mf_p\right)
+\delta\left(t-kt_a\right) \quad &\laplace \quad X_\delta =\sum_{m=-\infty}^{\infty}X\left(f-mf_p\right)
 \end{align*}
 
 \subsection*{Abgetastete und Periodifizierte Funktionen}
+\index{Signale!Abtastung + Periodifizierung}
 \begin{align*}
 x_{\delta p}\left(t\right)
 &=\left(x_T\left(t\right)\ast\text{\scha}_p\left(t\right)\right)\cdot\text{\scha}_a\left(t\right) \\
@@ -140,20 +187,20 @@ f_a &=\frac{1}{t_p}\\
 f_p &=\frac{1}{t_a}
 \end{align*}
 
-\newpage
 \subsection*{Korrespodenz}
+\index{Transformationen!Korrespondenz}
 \begin{align*}
-x\left(t\right) &=\hat{X}\mathrm{rect}_{T}\left(t\right) \laplace X\left(j\omega\right)
+x\left(t\right) =\hat{X}\mathrm{rect}_{T}\left(t\right) \quad &\laplace \quad X\left(j\omega\right)
 =\hat{X}T\cdot\mathrm{si}\left({\omega\cdot\frac{T}{2}}\right)\\
-x\left(t\right) &=\hat{X}\Lambda_{T}\left(t\right) \laplace X\left(j\omega\right)
+x\left(t\right) =\hat{X}\Lambda_{T}\left(t\right) \quad &\laplace \quad X\left(j\omega\right)
 =\hat{X}T\cdot\mathrm{si}^2\left({\omega\cdot\frac{T}{2}}\right)\\
-x\left(t\right) &=\hat{X}\sin\left(2\pi f_0 t\right) \laplace X\left(f\right)
+x\left(t\right) =\hat{X}\sin\left(2\pi f_0 t\right) \quad &\laplace \quad X\left(f\right)
 =\frac{\hat{jX}}{2}\left(\delta\left(f+f_0\right)-\delta\left(f-f_0\right)\right)\\
-x\left(t\right) &=\hat{X}\cos\left(2\pi f_0 t\right) \laplace X\left(f\right)
+x\left(t\right) =\hat{X}\cos\left(2\pi f_0 t\right) \quad &\laplace \quad X\left(f\right)
 =\frac{\hat{X}}{2}\left(\delta\left(f+f_0\right)+\delta\left(f-f_0\right)\right)
 \end{align*}
 
-\section*{Spektrum}
+\section{Spektrum}
 \index{Spektrum}
 \subsection*{Betragsspektrum}
 \index{Betragsspektrum}
@@ -173,7 +220,7 @@ x\left(t\right) &=\hat{X}\cos\left(2\pi f_0 t\right) \laplace X\left(f\right)
 E =m_{i2}=\int_{-\infty}^\infty x^2\left(t\right)\diff t=\int_{-\infty}^\infty \left|X\left(f\right)\right|^2\diff f
 \end{align*}
 
-\section*{Korrelation}
+\section{Korrelation}
 \index{Korrelation}
 \subsection*{Kreuzkorrelationsfunktion}
 \index{Kreuzkorrelationsfunktion}

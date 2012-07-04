@@ -2,20 +2,20 @@
   No rule is so general,\\which admits not some exception.\\- Robert Burton
  \end{quote}
  
-\section{}%Leer hmpf\ldots!
+\section{Definitionen}
 
-\subsection*{Periodische zeitabhängige Größen}
+\subsection{Periodische zeitabhängige Größen}
 Allgemein \(x\left(t\right) \xrightarrow{}\) speziell \(u\left(t\right); i\left(t\right); q\left(t\right); \dots\) \\
 es gillt \(x\left(t\right) = x\left(t + n \cdot T\right) ; \left(n \in \N^* \right) \)
 
-\subsection*{Wechselgrößen}
+\subsection{Wechselgrößen}
 \index{Wechselgrößen}
 Allgemein \(x_{\sim} \left(t\right)\); periodisch sich ändernde Größe, deren Gleichanteil bzw. 
 zeitlich linearer Mittelwert gleich Null ist. \\ \vspace{0mm} \\
 Nachweis: \[\int\limits_{t1}^{t1 + n \cdot T} x_{\sim} \left(t\right)dt = 0 \; ; \; \left(n \in \N^* \right) \;
 ; \; t1 \; \text{beliebiger Zeitwert}\]
 
-\subsection*{Mischgrößen}
+\subsection{Mischgrößen}
 \index{Mischgrößen}
 Sind periodisch, Ihr Gleichanteil \(\overline{x}\) bzw. zeitlich linearer Mittelwert \\
 jedoch ist ungleich Null. 
@@ -28,29 +28,29 @@ x\left(t\right) &= x_{\sim}\left(t\right) + \overline{x} \\
 \section{Anteile und Formfaktoren}
 
 \begin{multicols}{2}{}
-\subsection*{Gleichanteil}
+\textbf{Gleichanteil}
 \index{Anteile!Gleichanteil}
 \index{Formfaktoren!Gleichanteil}
 \[ \overline{x} = \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x \left( t \right) dt \]
 
-\subsection*{Gleichrichtwert}
+\textbf{Gleichrichtwert}
 \index{Anteile!Gleichrichtwert}
 \index{Formfaktoren!Gleichrichtwert}
 \[ \left| \overline{x} \right| = \frac{1}{n \cdot T} \cdot 
 \int_{t_{1}}^{t_{1} + n \cdot T} \left| x \right| \left( t \right) dt\]
 
-\subsection*{Effektivwert}
+\textbf{Effektivwert}
 \index{Anteile!Effektivwert}
 \index{Formfaktoren!Effektivwert}
 \[ x_{eff} = X = \sqrt{ \frac{1}{n \cdot T} \cdot \int_{t_{1}}^{t_{1} + n \cdot T} x^2 \left( t \right) dt} \]
 
-\subsection*{Formfaktor}
+\textbf{Formfaktor}
 \index{Anteile!Formfaktor}
 \index{Formfaktoren!Formfaktoren}
 \[F = \frac{x_{eff}}{\left|\overline{x}\right|} \\ 
 x_{eff} = \left|\overline{x}\right| \cdot F \]
 
-\subsection*{crest - Faktor}
+\textbf{crest - Faktor}
 \index{Anteile!crest - Faktor}
 \index{Formfaktoren!crest - Faktor}
 \[ \sigma = \frac{\hat{x}}{x_{eff}} \]
@@ -66,23 +66,23 @@ t1 \; \text{beliebiger Zeitwert} \rightarrow
 \section{Leistung und Leistungsfaktoren}
 \begin{multicols}{2}{}
  
-\subsection*{Wirkleistung}
+\textbf{Wirkleistung}
 \index{Leistung!Wirkleistung}
 \begin{align*}
 P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt \\
   &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} u \left( t \right) \cdot i \left( t \right) dt
 \end{align*}
 
-\subsection*{Mittlere Leistung}
+\textbf{Mittlere Leistung}
 \index{Leistung!Mittlere Leistung}
 \[\bar{p} \left(t\right) = P = \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt\]
 
-\subsection*{Scheinleistung}
+\textbf{Scheinleistung}
 \index{Leistung!Scheinleistung}
 \[ S = u_{eff} \cdot i_{eff} = U \cdot I\]
 \end{multicols}
 
-\subsection*{Leistungsfaktor}
+\textbf{Leistungsfaktor}
 \index{Leistung!Leistungssfaktor}
 \begin{align*}
 \lambda &= \frac{P}{S} \\
@@ -96,7 +96,7 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
 \newpage
 \section{Sinusförmige Größen}
 \begin{multicols}{2}{}
- \subsection*{Sinusschwingung}
+ \textbf{Sinusschwingung}
  \index{Sinus!Schwingung}
   \begin{align*}
    x\left(t\right) &= \hat{x} \sin\left( 2 \pi f + \varphi_x\right) \\
@@ -108,7 +108,7 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
    \item \(\varphi_{x}>0 :\) Linksverschiebung der Kurve
   \end{itemize}
 
- \subsection*{Kosinusschwingung}
+ \textbf{Kosinusschwingung}
  \index{Kosinus!Schwingung}
   \begin{align*}
    x\left(t\right) &= \hat{x} \cos\left( 2 \pi f + \varphi_x\right) \\
@@ -121,11 +121,11 @@ P &= \frac{1}{n \cdot T} \int_{t_{1}}^{t_{1} + n \cdot T} P \left( t \right) dt 
   \end{itemize}
 \end{multicols}
 
-\subsection*{Nullphasenzeit}
+\textbf{Nullphasenzeit}
 \index{Nullphasenzeit}
 \[ t_{x} = -\frac{\varphi_x}{\omega} = -\varphi_x \cdot \frac{T}{2 \pi} \]
 
-\subsection*{Addition zweier Sinusgrößen gleicher Frequenz}
+\textbf{Addition zweier Sinusgrößen gleicher Frequenz}
 \index{Sinus!Addition}
 \[\text{mit: } a = \hat{a} \sin \left( \omega t + \alpha \right) \wedge b = \hat{b} \sin \left( \omega t + \beta \right)\]
 
@@ -146,7 +146,7 @@ Resultierende Funktion:
 		\varphi &= \arctan \frac{\hat{a} \sin \alpha + \hat{b} \sin \beta}{\hat{a} \cos \alpha + \hat{b} \cos \beta } 
 \end{align*}
 
-\subsubsection*{Vierquadrantenarkustangens}
+\subsubsection{Vierquadrantenarkustangens}
 \newcommand{\mc}[3]{\multicolumn{#1}{#2}{#3}}
 \begin{center}
 \begin{tabular}{|c|c|}
@@ -156,7 +156,7 @@ Resultierende Funktion:
 \end{tabular}
 \end{center}
 
-\subsubsection*{Der rotierende Zeiger als rotierender Vektor}
+\subsubsection{Der rotierende Zeiger als rotierender Vektor}
 \index{rotierender Zeiger}
 \begin{align*}
  \text{Allgemein gillt: } \sin \left( \omega t + \varphi_{x} \right) &= \frac{GK}{HT} = \frac{b}{\hat{x}} \\
@@ -166,7 +166,7 @@ Resultierende Funktion:
 \text{Als Einheitsvektor: } \vec{x} &= a \cdot \vec{i} + b \cdot \vec{j}
 \end{align*}
 
-\subsubsection*{Zeigerspitzenendpunkt}
+\subsubsection{Zeigerspitzenendpunkt}
 \begin{align*}
 \underline{x} &= \text{ Zeigerspitzenendpunkt}\\
 \underline{x} &= \underbrace{\hat{x}\cos\left(\omega t + \varphi_{x}\right)}_{Re \rightarrow Abszisse} + j \cdot
@@ -176,7 +176,7 @@ Resultierende Funktion:
 \underline{x}_{eff} &= \hat{x}_{eff} \cdot e^{j \left( \omega t + \varphi_x \right)} 
 \end{align*}
 
-\subsection*{Wechsel zwischen Sinus und Kosinus}
+\textbf{Wechsel zwischen Sinus und Kosinus}
 \index{Sinus!zu Kosinus}
 \index{Kosinus!zu Sinus}
 \begin{align*}
@@ -185,7 +185,7 @@ Resultierende Funktion:
 \end{align*}
 
 \newpage
-\begin{landscape}
+\begin{sidewaysfigure}
 \index{Transformation!Zeitbereich}
 \index{Transformation!Bildbereich}
 \vspace*{\fill}
@@ -213,14 +213,14 @@ Zeitbereich &  & komplexer Zeitbereich\\\hline
 \end{itemize}
 \end{large}
 \vspace*{\fill}
-\end{landscape}
+\end{sidewaysfigure}
 
 
 \begin{alignat*}{3}
 &\text{Merke:} &\quad\quad& \frac{1}{j}=-j &\quad\quad& j=e^{j\frac{\pi}{2}}
 \end{alignat*}
 
-\subsection*{Differentiation und Integration von Sinusgrößen}
+\textbf{Differentiation und Integration von Sinusgrößen}
 \index{Sinus!Differentiation}
 \index{Kosinus!Differentiation}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
@@ -261,7 +261,7 @@ x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow
 \end{tabular}
 \end{center}
 
-\subsection*{R, L und C im kompl. Zeigerbereich}
+\textbf{R, L und C im kompl. Zeigerbereich}
 
 \newcommand{\mcc}[3]{\multicolumn{#1}{#2}{#3}}
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
@@ -295,7 +295,7 @@ x\left(t\right) = \hat{x} \cos\left( \omega t + \varphi_{x} \right) \xrightarrow
 \end{tabular}
 \end{center}
 
-\subsection*{Widerstands und Leitwertoperator}
+\textbf{Widerstands und Leitwertoperator}
 
 \definecolor{tcA}{rgb}{0.627451,0.627451,0.643137}
 \begin{center}
@@ -326,7 +326,7 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 \[\underline{Z} = j \omega L = \omega L e^{j \frac{\pi}{2}} \wedge \underline{Y} = \frac{1}{j \omega L} = \frac{1}{\omega L} e^{-j \frac{\pi}{2}}\]
 
 \newpage
-\subsection*{Resultierende Operatoren}
+\textbf{Resultierende Operatoren}
 
 \begin{multicols}{2}{}
 \subsubsection*{Reihenschaltung}
@@ -346,7 +346,7 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 \[\frac{\underline{i}_1}{\underline{i}_2} = \frac{\underline{Y}_1}{\underline{Y}_2}\]
 \end{multicols}
 
-\subsection*{Anteile am komplexen Widerstand (Impedanz)}
+\textbf{Anteile am komplexen Widerstand (Impedanz)}
 \[\underline{Z} = \operatorname{Re}\{\underline{Z}\} + j \cdot \operatorname{Im}\{\underline{Z}\} = R + jX = \left|\underline{Z}\right| \cdot e^{j\varphi}\]
 \begin{align*}
 \text{mit }\varphi &= \varphi_u - \varphi_i \text{ Phasenwinkel; } R = \text{Wirkwiderstand; } \\ X &= \text{Blindwiderstand; } \left|\underline{Z}\right| = \text{Scheinwiderstand }
@@ -355,7 +355,7 @@ mit \(\varphi_i - \varphi_u = -\varphi_Z = \gamma_Y\)
 R&=R &\quad\quad& L=\frac{X}{\omega} \text{ mit } X>0 &\quad\quad& C=-\frac{1}{\omega X} \text{ mit } X<0
 \end{alignat*}
 
-\subsection*{Anteile am komplexen Leiwert (Admitanz)}
+\textbf{Anteile am komplexen Leiwert (Admitanz)}
 \[\underline{Y} = \operatorname{Re}\{\underline{Y}\} + j \cdot \operatorname{Im}\{\underline{Y}\} = G + jB = \left|\underline{Y}\right| \cdot e^{j\gamma}\]
 \begin{align*}
 \text{mit }\gamma &= \varphi_i - \varphi_u \text{ Phasenwinkel; } G = \text{Wirkleitwert; } \\ B &= \text{Blindleitwert; } \left|\underline{Y}\right| = \text{Scheinleitwert }
@@ -364,7 +364,7 @@ R&=R &\quad\quad& L=\frac{X}{\omega} \text{ mit } X>0 &\quad\quad& C=-\frac{1}{\
 R&=\frac{1}{G} &\quad\quad& C=\frac{B}{\omega} \text{ mit } B>0 &\quad\quad& L=-\frac{1}{\omega B} \text{ mit } B<0
 \end{alignat*}
 
-\subsection*{komplexer Widerstand / komplexer Leitwert}
+\textbf{komplexer Widerstand / komplexer Leitwert}
 \begin{align*}
 \underline{Y} = G + jB &= \frac{1}{\underline{Z}} = \frac{1}{Z} \cdot e^{-j\varphi} \\
 	      &= \frac{1}{\sqrt{R^2 + X^2}} \cdot e^{-j\arctan\frac{X}{R}} \\
@@ -376,7 +376,7 @@ R&=\frac{1}{G} &\quad\quad& C=\frac{B}{\omega} \text{ mit } B>0 &\quad\quad& L=-
 	      &= \frac{1}{G + jB} = \frac{G-jB}{G^2 + B^2} = \underbrace{\frac{G}{G^2 + B^2}}_R \underbrace{-j\frac{B}{G^2 + B^2}}_X
 \end{align*}
 
-\subsection*{Momentanleistung / Augenblicksleistung}
+\textbf{Momentanleistung / Augenblicksleistung}
 \index{Leistung!Momentanleistung}
 \begin{align*}
 P\left(t\right) &= \underbrace{UI \cos \varphi}_{\text{zeitlich konstant}} - \underbrace{UI \cos \left(2 \omega t + \varphi_u + \varphi_i\right)}_{\text{mit doppelter Frequenz schwingend}} \\
@@ -384,7 +384,7 @@ P\left(t\right) &= \underbrace{UI \cos \varphi}_{\text{zeitlich konstant}} - \un
 		&\text{mit } \varphi = \varphi_u - \varphi_i \rightarrow \varphi_i = \varphi_u - \varphi
 \end{align*}
 
-\subsection*{Blindleistung}
+\textbf{Blindleistung}
 \index{Leistung!Blindleistung}
 \emph{Ermittlung des Blindleistungsanteils aus der Momentanleistung}
 \begin{align*}
@@ -400,11 +400,11 @@ P_{ges}\left(t\right) &= P_{wirk}\left(t\right) + P_{blind}\left(t\right)
 <0\text{ Energie zum Erzeuger}
 \end{cases}\]
 
-\subsection*{Mittlere Leistung / Wirkleistung}
+\textbf{Mittlere Leistung / Wirkleistung}
 \index{Leistung!Wirkleistung}
 \[P = \overline{P}\left(t\right) = \frac{1}{n \cdot T} \int_{t_1}^{t_1 + n \cdot T} u\left(t\right) \cdot i\left(t\right) dt = UI\cos\varphi\]
 
-\subsection*{Definition von Blind- und Scheinleistung}
+\textbf{Definition von Blind- und Scheinleistung}
 \index{Leistung!Blindleistung!Definition}
 \index{Leistung!Scheinleistung!Definition}
 \[Q = UI\sin\varphi \quad \left[Q\right] = \text{var} \quad \text{mit}
@@ -415,7 +415,7 @@ Q<0\text{ kapazitive Blindleistung } Q_{kap}
 \]
 \[S = u_{eff} \cdot i_{eff} = U \cdot I \quad \left[S\right] = VA\]
 
-\subsection*{Beziehungen zwischen Wirk- Blind- und Scheinleistung}
+\textbf{Beziehungen zwischen Wirk- Blind- und Scheinleistung}
 
 \begin{center}
 \boxed{P=UI\cdot\cos\varphi \quad\quad Q=UI\cdot\sin\varphi \quad\quad S=UI} 
@@ -459,7 +459,7 @@ S&=\sqrt{P^2+Q^2} \\
 
 \end{multicols}
 
-\subsection*{Die komplexe Leistung}
+\textbf{Die komplexe Leistung}
 \index{Leistung!komplexe L.}
 \begin{alignat*}{2}
 \underline{S}&=\underline{U}\cdot\underline{I}^* &\quad\quad\quad& ^*\text{ - konjugiert Komplex} \\
