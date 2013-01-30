@@ -1,134 +1,168 @@
-\contentsline {part}{I\hspace {1em}Mathematik}{5}{part.1}
-\contentsline {chapter}{\numberline {1}Algebra}{6}{chapter.1}
-\contentsline {section}{\numberline {1.1}Rechenregeln fuer Potenzen}{6}{section.1.1}
-\contentsline {section}{\numberline {1.2}Zusammenhang zwischen Wurzeln und Potenzen}{6}{section.1.2}
-\contentsline {section}{\numberline {1.3}Potenzen und Logarithmen}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Der Binomische Lehrsatz}{7}{section.1.4}
-\contentsline {section}{\numberline {1.5}Sinus, Kosinus, Tangens und Kotangens}{8}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Beziehungen zwischen Sinus, Kosinus, Tangens und Kotangens}{8}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Additionstheoreme}{8}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Komplexe Zahlen}{10}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Umrechnungen zwischen den Darstellungsformen}{10}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Rechnen mit Komplexen Zahlen}{11}{subsection.1.6.2}
-\contentsline {chapter}{\numberline {2}Funktionen}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Gleichungen}{12}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Gleichungen \emph {n}-ten Grades}{12}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Lineare Gleichungen}{12}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Quadratische Gleichungen}{13}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Biquadratische Gleichungen}{13}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Gleichungen h\IeC {\"o}heren Grades}{13}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Wurzelgleichung}{13}{subsection.2.1.6}
-\contentsline {subsection}{\numberline {2.1.7}Ungleichungen}{14}{subsection.2.1.7}
-\contentsline {subsection}{\numberline {2.1.8}Betragsgleichungen}{14}{subsection.2.1.8}
-\contentsline {chapter}{\numberline {3}Vektorrechnung}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Vektorrechnung}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Grundlagen}{15}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Vektoroperationen}{16}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Geraden}{17}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Ebenen}{17}{subsection.3.1.4}
-\contentsline {chapter}{\numberline {4}Differentialrechnung}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Differntialrechnung}{19}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Erste Ableitungen der elementaren Funktionen}{19}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Rechenregeln}{20}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Fehlerrechnung}{21}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Linearisierung und Taylor-Polynom}{21}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Grenzwertregel von Bernoulli und de l`Hospital}{22}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Differentielle Kurvenuntersuchung}{22}{subsection.4.1.6}
-\contentsline {section}{\numberline {4.2}Differentialgleichungen}{24}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}DG 1. Ordnung}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Lineare DG 2. Ordnung}{24}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Differential- und Integralrechnung mit mehreren Variablen}{26}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Differentialrechnung}{26}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Mehrfachintegral}{27}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Folgen und Reihen}{30}{chapter.5}
-\contentsline {section}{\numberline {5.1}Reihen}{30}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Geometrische Folge}{30}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Harmonische Reihe}{30}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Konvergenz}{31}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Bekannte konvergente Reihen}{31}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Funktionenreihen}{32}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Potenzreihen}{32}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Bekannte Potenzreihen}{32}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}spezielle Reihen}{33}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Fourier Reihen}{33}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Interpolation}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Interpolationspolynome}{35}{section.6.1}
-\contentsline {subsubsection}{Interpolationspolynome nach Newton}{35}{section*.106}
-\contentsline {subsubsection}{Differentenschema}{36}{section*.107}
-\contentsline {subsubsection}{Rechenregeln f\IeC {\"u}r dividierte Differenzen}{36}{section*.108}
-\contentsline {part}{II\hspace {1em}Physik}{37}{part.2}
-\contentsline {chapter}{\numberline {7}Kinematik}{38}{chapter.7}
-\contentsline {section}{\numberline {7.1}Analogietabelle}{38}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Translation}{39}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Rotation}{39}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Dynamik}{40}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Geradlinig (Translation)}{40}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Drehbewegung(Rotation)}{40}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Geneigte Ebene}{41}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Reibung}{41}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Feder}{42}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}Elastischer Sto\IeC {\ss }}{42}{subsection.7.2.6}
-\contentsline {subsection}{\numberline {7.2.7}Unelastischer Sto\IeC {\ss }}{42}{subsection.7.2.7}
-\contentsline {subsection}{\numberline {7.2.8}Rotierendes Bezugssystem}{43}{subsection.7.2.8}
-\contentsline {section}{\numberline {7.3}Schwerpunkt}{44}{section.7.3}
-\contentsline {section}{\numberline {7.4}Tr\IeC {\"a}gheitsmoment}{45}{section.7.4}
-\contentsline {section}{\numberline {7.5}Elastizit\IeC {\"a}tslehre}{46}{section.7.5}
-\contentsline {section}{\numberline {7.6}Schwingungen}{47}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Unged\IeC {\"a}mpfte Schwingungen}{47}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Ged\IeC {\"a}mpfte Schwingungen}{49}{subsection.7.6.2}
-\contentsline {chapter}{\numberline {8}Fluiddynamik}{50}{chapter.8}
-\contentsline {section}{\numberline {8.1}Ohne Reibung}{50}{section.8.1}
-\contentsline {section}{\numberline {8.2}Laminare Reibung}{51}{section.8.2}
-\contentsline {chapter}{\numberline {9}Gravitation}{52}{chapter.9}
-\contentsline {chapter}{\numberline {10}Elektrostatik}{53}{chapter.10}
-\contentsline {chapter}{\numberline {11}Thermodynamik}{55}{chapter.11}
-\contentsline {section}{\numberline {11.1}W\IeC {\"a}rmedehnung}{55}{section.11.1}
-\contentsline {section}{\numberline {11.2}W\IeC {\"a}rme}{55}{section.11.2}
-\contentsline {section}{\numberline {11.3}Mischtemperatur}{55}{section.11.3}
-\contentsline {section}{\numberline {11.4}W\IeC {\"a}rmeleitung}{55}{section.11.4}
-\contentsline {section}{\numberline {11.5}W\IeC {\"a}rmekonvektion}{55}{section.11.5}
-\contentsline {section}{\numberline {11.6}W\IeC {\"a}rmewiderstand}{56}{section.11.6}
-\contentsline {subsection}{\numberline {11.6.1}W\IeC {\"a}rme\IeC {\"u}bertragung}{56}{subsection.11.6.1}
-\contentsline {subsection}{\numberline {11.6.2}W\IeC {\"a}rmestrahlung}{56}{subsection.11.6.2}
-\contentsline {subsection}{\numberline {11.6.3}Zustands\IeC {\"a}nderung des idealen Gases}{56}{subsection.11.6.3}
-\contentsline {chapter}{\numberline {12}Optik}{59}{chapter.12}
-\contentsline {section}{\numberline {12.1}Brechung}{59}{section.12.1}
-\contentsline {section}{\numberline {12.2}Totalreflexion}{59}{section.12.2}
-\contentsline {section}{\numberline {12.3}Hohlspiegel}{59}{section.12.3}
-\contentsline {section}{\numberline {12.4}Linse}{60}{section.12.4}
-\contentsline {section}{\numberline {12.5}Lichtwellenleiter}{61}{section.12.5}
-\contentsline {part}{III\hspace {1em}Elektrotechnik}{62}{part.3}
-\contentsline {chapter}{\numberline {13}Gleichstromtechnik}{63}{chapter.13}
-\contentsline {section}{\numberline {13.1}Grundgr\IeC {\"o}\IeC {\ss }en}{63}{section.13.1}
-\contentsline {section}{\numberline {13.2}Lineare Quellen}{64}{section.13.2}
-\contentsline {section}{\numberline {13.3}Kirchhoffsche Gesetze}{64}{section.13.3}
+\contentsline {part}{I\hspace {1em}Mathematik}{6}{part.1}
+\contentsline {chapter}{\numberline {1}Algebra}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Rechenregeln fuer Potenzen}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Zusammenhang zwischen Wurzeln und Potenzen}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}Potenzen und Logarithmen}{8}{section.1.3}
+\contentsline {section}{\numberline {1.4}Der Binomische Lehrsatz}{8}{section.1.4}
+\contentsline {section}{\numberline {1.5}Sinus, Kosinus, Tangens und Kotangens}{9}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Beziehungen zwischen Sinus, Kosinus, Tangens und Kotangens}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Additionstheoreme}{9}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Komplexe Zahlen}{11}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Umrechnungen zwischen den Darstellungsformen}{11}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Rechnen mit Komplexen Zahlen}{12}{subsection.1.6.2}
+\contentsline {chapter}{\numberline {2}Funktionen}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Gleichungen}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Gleichungen \emph {n}-ten Grades}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Lineare Gleichungen}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Quadratische Gleichungen}{14}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Biquadratische Gleichungen}{14}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Gleichungen h\IeC {\"o}heren Grades}{14}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Wurzelgleichung}{14}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Ungleichungen}{15}{subsection.2.1.7}
+\contentsline {subsection}{\numberline {2.1.8}Betragsgleichungen}{15}{subsection.2.1.8}
+\contentsline {chapter}{\numberline {3}Vektorrechnung}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Vektorrechnung}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Grundlagen}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Vektoroperationen}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Geraden}{18}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Ebenen}{18}{subsection.3.1.4}
+\contentsline {chapter}{\numberline {4}Differentialrechnung}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Differntialrechnung}{20}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Erste Ableitungen der elementaren Funktionen}{20}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Rechenregeln}{21}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Fehlerrechnung}{22}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Linearisierung und Taylor-Polynom}{22}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Grenzwertregel von Bernoulli und de l`Hospital}{23}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Differentielle Kurvenuntersuchung}{23}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Differentialgleichungen}{25}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}DG 1. Ordnung}{25}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Lineare DG 2. Ordnung}{25}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Differential- und Integralrechnung mit mehreren Variablen}{27}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Differentialrechnung}{27}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Mehrfachintegral}{28}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Folgen und Reihen}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Reihen}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Geometrische Folge}{31}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Harmonische Reihe}{31}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Konvergenz}{32}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Bekannte konvergente Reihen}{32}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Funktionenreihen}{33}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Potenzreihen}{33}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Bekannte Potenzreihen}{33}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}spezielle Reihen}{34}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Fourier Reihen}{34}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Interpolation}{36}{chapter.6}
+\contentsline {section}{\numberline {6.1}Interpolationspolynome}{36}{section.6.1}
+\contentsline {subsubsection}{Interpolationspolynome nach Newton}{36}{section*.106}
+\contentsline {subsubsection}{Differentenschema}{37}{section*.107}
+\contentsline {subsubsection}{Rechenregeln f\IeC {\"u}r dividierte Differenzen}{37}{section*.108}
+\contentsline {part}{II\hspace {1em}Physik}{38}{part.2}
+\contentsline {chapter}{\numberline {7}Kinematik}{39}{chapter.7}
+\contentsline {section}{\numberline {7.1}Analogietabelle}{39}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Translation}{40}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Rotation}{40}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Dynamik}{41}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Geradlinig (Translation)}{41}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Drehbewegung(Rotation)}{41}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Geneigte Ebene}{42}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Reibung}{42}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Feder}{43}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Elastischer Sto\IeC {\ss }}{43}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.7}Unelastischer Sto\IeC {\ss }}{44}{subsection.7.2.7}
+\contentsline {subsection}{\numberline {7.2.8}Rotierendes Bezugssystem}{45}{subsection.7.2.8}
+\contentsline {section}{\numberline {7.3}Schwerpunkt}{45}{section.7.3}
+\contentsline {section}{\numberline {7.4}Tr\IeC {\"a}gheitsmoment}{46}{section.7.4}
+\contentsline {section}{\numberline {7.5}Elastizit\IeC {\"a}tslehre}{47}{section.7.5}
+\contentsline {section}{\numberline {7.6}Schwingungen}{48}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Unged\IeC {\"a}mpfte Schwingungen}{48}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Ged\IeC {\"a}mpfte Schwingungen}{50}{subsection.7.6.2}
+\contentsline {chapter}{\numberline {8}Fluiddynamik}{51}{chapter.8}
+\contentsline {section}{\numberline {8.1}Ohne Reibung}{51}{section.8.1}
+\contentsline {section}{\numberline {8.2}Laminare Reibung}{52}{section.8.2}
+\contentsline {chapter}{\numberline {9}Gravitation}{53}{chapter.9}
+\contentsline {chapter}{\numberline {10}Elektrostatik}{54}{chapter.10}
+\contentsline {chapter}{\numberline {11}Thermodynamik}{56}{chapter.11}
+\contentsline {section}{\numberline {11.1}W\IeC {\"a}rmedehnung}{56}{section.11.1}
+\contentsline {section}{\numberline {11.2}W\IeC {\"a}rme}{56}{section.11.2}
+\contentsline {section}{\numberline {11.3}Mischtemperatur}{56}{section.11.3}
+\contentsline {section}{\numberline {11.4}W\IeC {\"a}rmeleitung}{56}{section.11.4}
+\contentsline {section}{\numberline {11.5}W\IeC {\"a}rmekonvektion}{56}{section.11.5}
+\contentsline {section}{\numberline {11.6}W\IeC {\"a}rmewiderstand}{57}{section.11.6}
+\contentsline {subsection}{\numberline {11.6.1}W\IeC {\"a}rme\IeC {\"u}bertragung}{57}{subsection.11.6.1}
+\contentsline {subsection}{\numberline {11.6.2}W\IeC {\"a}rmestrahlung}{57}{subsection.11.6.2}
+\contentsline {subsection}{\numberline {11.6.3}Zustands\IeC {\"a}nderung des idealen Gases}{57}{subsection.11.6.3}
+\contentsline {chapter}{\numberline {12}Optik}{60}{chapter.12}
+\contentsline {section}{\numberline {12.1}Brechung}{60}{section.12.1}
+\contentsline {section}{\numberline {12.2}Totalreflexion}{60}{section.12.2}
+\contentsline {section}{\numberline {12.3}Hohlspiegel}{60}{section.12.3}
+\contentsline {section}{\numberline {12.4}Linse}{61}{section.12.4}
+\contentsline {section}{\numberline {12.5}Lichtwellenleiter}{62}{section.12.5}
+\contentsline {part}{III\hspace {1em}Elektrotechnik}{63}{part.3}
+\contentsline {chapter}{\numberline {13}Gleichstromtechnik}{64}{chapter.13}
+\contentsline {section}{\numberline {13.1}Grundgr\IeC {\"o}\IeC {\ss }en}{64}{section.13.1}
+\contentsline {section}{\numberline {13.2}Lineare Quellen}{65}{section.13.2}
+\contentsline {section}{\numberline {13.3}Kirchhoffsche Gesetze}{65}{section.13.3}
 \contentsline {chapter}{\numberline {14}Wechselstromtechnik}{66}{chapter.14}
-\contentsline {section}{\numberline {14.1}}{66}{section.14.1}
+\contentsline {section}{\numberline {14.1}Definitionen}{66}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Periodische zeitabh\IeC {\"a}ngige Gr\IeC {\"o}\IeC {\ss }en}{66}{subsection.14.1.1}
+\contentsline {subsection}{\numberline {14.1.2}Wechselgr\IeC {\"o}\IeC {\ss }en}{66}{subsection.14.1.2}
+\contentsline {subsection}{\numberline {14.1.3}Mischgr\IeC {\"o}\IeC {\ss }en}{66}{subsection.14.1.3}
 \contentsline {section}{\numberline {14.2}Anteile und Formfaktoren}{67}{section.14.2}
 \contentsline {section}{\numberline {14.3}Leistung und Leistungsfaktoren}{67}{section.14.3}
-\contentsline {section}{\numberline {14.4}Sinusf\IeC {\"o}rmige Gr\IeC {\"o}\IeC {\ss }en}{69}{section.14.4}
-\contentsline {chapter}{\numberline {15}Signal- und Systemtheorie}{77}{chapter.15}
-\contentsline {section}{\numberline {15.1}Einfache Impulse}{77}{section.15.1}
-\contentsline {section}{\numberline {15.2}Elementare Operationen auf zeitliche Verl\IeC {\"a}ufe}{78}{section.15.2}
-\contentsline {section}{\numberline {15.3}Signale}{82}{section.15.3}
-\contentsline {section}{\numberline {15.4}Signalbeschreibung Leistungssignale}{84}{section.15.4}
-\contentsline {section}{\numberline {15.5}Signalbeschreibung Energiesignale}{87}{section.15.5}
-\contentsline {section}{\numberline {15.6}Systeme}{89}{section.15.6}
-\contentsline {part}{IV\hspace {1em}Analoge Schaltungstechnik}{97}{part.4}
-\contentsline {chapter}{\numberline {16}Grundschaltungen}{98}{chapter.16}
-\contentsline {part}{V\hspace {1em}Messtechnik}{102}{part.5}
-\contentsline {chapter}{\numberline {17}Grundlagen}{103}{chapter.17}
-\contentsline {section}{\numberline {17.1}Begriffe}{103}{section.17.1}
-\contentsline {section}{\numberline {17.2}Messabweichung $e$}{103}{section.17.2}
-\contentsline {subsection}{\numberline {17.2.1}relative Messabweichung}{103}{subsection.17.2.1}
-\contentsline {subsection}{\numberline {17.2.2}Messabweichung $e_y$}{104}{subsection.17.2.2}
-\contentsline {subsection}{\numberline {17.2.3}Fortpflanzung systematischer Messabweichungen}{104}{subsection.17.2.3}
-\contentsline {section}{\numberline {17.3}Statistische Gr\IeC {\"o}\IeC {\ss }en}{105}{section.17.3}
-\contentsline {section}{\numberline {17.4}Erwartungswert, Varianz und Standardabweichung}{105}{section.17.4}
-\contentsline {section}{\numberline {17.5}Verteilungsfunktionen}{106}{section.17.5}
-\contentsline {section}{\numberline {17.6}Stichprobe}{107}{section.17.6}
-\contentsline {section}{\numberline {17.7}Vertrauensbereich f\IeC {\"u}r den Erwartungswert}{107}{section.17.7}
-\contentsline {section}{\numberline {17.8}Fortpflanzung zuf\IeC {\"a}lliger Abweichungen}{108}{section.17.8}
-\contentsline {section}{\numberline {17.9}Fortpflanzung von Messunsicherheiten}{109}{section.17.9}
-\contentsline {section}{Sachregister}{109}{section.17.9}
-\contentsline {part}{VI\hspace {1em}Anhang}{110}{part.6}
+\contentsline {section}{\numberline {14.4}Sinusf\IeC {\"o}rmige Gr\IeC {\"o}\IeC {\ss }en}{68}{section.14.4}
+\contentsline {subsubsection}{Vierquadrantenarkustangens}{68}{section*.207}
+\contentsline {subsubsection}{Der rotierende Zeiger als rotierender Vektor}{69}{section*.208}
+\contentsline {subsubsection}{Zeigerspitzenendpunkt}{69}{section*.209}
+\contentsline {chapter}{\numberline {15}Signal- und Systemtheorie}{75}{chapter.15}
+\contentsline {section}{\numberline {15.1}Einfache Impulse}{75}{section.15.1}
+\contentsline {section}{\numberline {15.2}Elementare Operationen auf zeitliche Verl\IeC {\"a}ufe}{76}{section.15.2}
+\contentsline {section}{\numberline {15.3}Signale}{80}{section.15.3}
+\contentsline {section}{\numberline {15.4}Signalbeschreibung Leistungssignale}{82}{section.15.4}
+\contentsline {section}{\numberline {15.5}Signalbeschreibung Energiesignale}{85}{section.15.5}
+\contentsline {section}{\numberline {15.6}Systeme}{86}{section.15.6}
+\contentsline {chapter}{\numberline {16}Signalverarbeitung}{90}{chapter.16}
+\contentsline {section}{\numberline {16.1}Laplace / Fourier-Transformation}{90}{section.16.1}
+\contentsline {section}{\numberline {16.2}Spektrum}{95}{section.16.2}
+\contentsline {section}{\numberline {16.3}Korrelation}{95}{section.16.3}
+\contentsline {chapter}{\numberline {17}Bin\IeC {\"a}re Rechenoperationen}{96}{chapter.17}
+\contentsline {section}{\numberline {17.1}Zahlensysteme}{96}{section.17.1}
+\contentsline {subsection}{\numberline {17.1.1}Dualsystem}{96}{subsection.17.1.1}
+\contentsline {subsection}{\numberline {17.1.2}Tern\IeC {\"a}rsystem}{96}{subsection.17.1.2}
+\contentsline {subsection}{\numberline {17.1.3}Oktalsystem}{96}{subsection.17.1.3}
+\contentsline {subsection}{\numberline {17.1.4}Hexadezimalsystem}{96}{subsection.17.1.4}
+\contentsline {subsection}{\numberline {17.1.5}Dezimalsystem}{96}{subsection.17.1.5}
+\contentsline {subsection}{\numberline {17.1.6}Stellenberechnung}{97}{subsection.17.1.6}
+\contentsline {subsection}{\numberline {17.1.7}Wertebereich und Quantisierungsfehler(Dualsystem)}{97}{subsection.17.1.7}
+\contentsline {section}{\numberline {17.2}Addition}{97}{section.17.2}
+\contentsline {subsection}{\numberline {17.2.1}Zwei Operanden}{97}{subsection.17.2.1}
+\contentsline {subsubsection}{Carry-Look-Ahead}{97}{section*.265}
+\contentsline {subsubsection}{Halbaddierer}{97}{section*.266}
+\contentsline {subsubsection}{Volladdierer}{97}{section*.267}
+\contentsline {subsection}{\numberline {17.2.2}Mehrere Operanden}{98}{subsection.17.2.2}
+\contentsline {subsection}{\numberline {17.2.3}\IeC {\"U}berlauf}{98}{subsection.17.2.3}
+\contentsline {subsubsection}{Positive Operanden}{98}{section*.268}
+\contentsline {subsubsection}{Negative Operanden}{98}{section*.269}
+\contentsline {subsubsection}{Vermeidung}{98}{section*.270}
+\contentsline {subsection}{\numberline {17.2.4}\IeC {\"U}berlaufserkennung}{98}{subsection.17.2.4}
+\contentsline {subsubsection}{Vergleich der MSB Stellen}{98}{section*.271}
+\contentsline {subsubsection}{Vergleich des Carry}{98}{section*.272}
+\contentsline {subsubsection}{Erweiterung der MSB Stelle}{98}{section*.273}
+\contentsline {subsection}{\numberline {17.2.5}S\IeC {\"a}ttigung}{99}{subsection.17.2.5}
+\contentsline {part}{IV\hspace {1em}Analoge Schaltungstechnik}{100}{part.4}
+\contentsline {chapter}{\numberline {18}Grundschaltungen}{101}{chapter.18}
+\contentsline {part}{V\hspace {1em}Messtechnik}{105}{part.5}
+\contentsline {chapter}{\numberline {19}Grundlagen}{106}{chapter.19}
+\contentsline {section}{\numberline {19.1}Begriffe}{106}{section.19.1}
+\contentsline {section}{\numberline {19.2}Messabweichung $e$}{106}{section.19.2}
+\contentsline {subsection}{\numberline {19.2.1}relative Messabweichung}{106}{subsection.19.2.1}
+\contentsline {subsection}{\numberline {19.2.2}Messabweichung $e_y$}{107}{subsection.19.2.2}
+\contentsline {subsection}{\numberline {19.2.3}Fortpflanzung systematischer Messabweichungen}{107}{subsection.19.2.3}
+\contentsline {section}{\numberline {19.3}Statistische Gr\IeC {\"o}\IeC {\ss }en}{108}{section.19.3}
+\contentsline {section}{\numberline {19.4}Erwartungswert, Varianz und Standardabweichung}{108}{section.19.4}
+\contentsline {section}{\numberline {19.5}Verteilungsfunktionen}{109}{section.19.5}
+\contentsline {section}{\numberline {19.6}Stichprobe}{110}{section.19.6}
+\contentsline {section}{\numberline {19.7}Vertrauensbereich f\IeC {\"u}r den Erwartungswert}{110}{section.19.7}
+\contentsline {section}{\numberline {19.8}Fortpflanzung zuf\IeC {\"a}lliger Abweichungen}{111}{section.19.8}
+\contentsline {section}{\numberline {19.9}Fortpflanzung von Messunsicherheiten}{112}{section.19.9}
+\contentsline {section}{Sachregister}{112}{section.19.9}
+\contentsline {part}{VI\hspace {1em}Anhang}{113}{part.6}

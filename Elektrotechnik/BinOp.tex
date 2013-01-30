@@ -1,0 +1,176 @@
+\section{Zahlensysteme}
+\begin{multicols}{2}
+	\subsection{Dualsystem}
+	\begin{align*}
+	&\text{Basis}:2\quad z\in\left(1;0\right)\\
+	&\text{Format}:2^{n-1} \dots 2^{0},2^{-1} \dots 2^{-m}\\
+	&\text{Zahlenwert}:\sum_{l=-m}^{n-1}z_l\cdot2^l
+	\end{align*}
+	
+	\subsection{Ternärsystem}
+	\begin{align*}
+	\text{Basis}:2\quad z\in\left(1;0;-1\right)
+	\end{align*}
+	
+	\subsection{Oktalsystem}
+	\begin{align*}
+	\text{Basis}:8\quad z\in\left(0;1;2;3;4;5;6;7\right)
+	\end{align*}
+	
+	\subsection{Hexadezimalsystem}
+	\begin{align*}
+	\text{Basis}:16\quad z\in\left(0;1;2;3\dots d;e;f\right)
+	\end{align*}
+	
+	\subsection{Dezimalsystem}
+	\begin{align*}
+	\text{Basis}:10\quad z\in\left(0;1;2;3\dots 8;9\right)
+	\end{align*}
+\end{multicols}
+
+\newpage
+\subsection{Stellenberechnung}
+\(
+k: \text{Zahlenwert}\\
+l: \text{Anzahl Nachkommastellen im Dezimalsystem}\\
+n: \text{Anzahl Vorkommanstellen im Dualsystem}\\
+m: \text{Anzahl Nachkommastellen im Dualsystem}
+\)
+\begin{align*}
+&n\geq\text{ceil}\left(\frac{\lg\left(k+1\right)}{\lg\left(2\right)}\right)\\
+&m\geq\text{ceil}\left(\frac{l}{\lg\left( 2\right)}\right)
+\end{align*}
+
+\subsection{Wertebereich und Quantisierungsfehler(Dualsystem)}
+\(
+n: \text{Anzahl Vorkommanstellen im Dualsystem}\\
+m: \text{Anzahl Nachkommastellen im Dualsystem}
+\)
+\begin{align*}
+&\text{Wertebereich}=0\dots 2^n-2^{-m}\\
+&\text{Quantisierungsfehler}=\pm\frac{1}{2}\text{LSB}=\pm 2^{-m-1}\\
+&\text{Quantisierungsstuffen}=2^{-m}
+\end{align*}
+
+\section{Addition}
+
+\subsection{Zwei Operanden}
+\begin{multicols}{2}
+\raggedcolumns
+	\subsubsection{Carry-Look-Ahead}
+	\(
+	s_i: \text{Summe der Stelle i}\\
+	p_{i+1}: \text{Propagate Übertrag an der Stelle i}\\
+	g_{i+1}: \text{Generate Übertrag kompensation}
+	\)
+	\begin{align*}
+	s_i&=a_i\nsim b_i \nsim c_i\\
+	p_{i+1}&=a_i\nsim b_i\\
+	g_{i+1}&=a_i\cdot b_i\\
+	c_{i+1}&=p_{i+1}\cdot c_i +g_{i+1}
+	\end{align*}
+
+	\subsubsection{Halbaddierer}
+	\(
+	s_i: \text{Summe der Stelle i}\\
+	c_{i+1}: \text{Übertrag der Stelle i+1}
+	\)
+	\begin{align*}
+	s_i&=a_i\nsim b_i\\
+	c_{i+1}&=a_i \cdot b_i
+	\end{align*}
+		
+	\subsubsection{Volladdierer}
+	\(
+	s_i: \text{Summe der Stelle i}\\
+	c_{i+1}: \text{Übertrag der Stelle i+1}\\
+	c_{i}: \text{Übertrag der Stelle i}
+	\)
+	\begin{align*}
+	s_i&=a_i\nsim b_i \nsim c_i\\
+	c_{i+1}&=a_i \cdot b_i+\left(a_i\nsim b_i\right)\cdot c_i
+	\end{align*}	
+\end{multicols}
+
+\subsection{Mehrere Operanden}
+\begin{description}
+  	\item [Ripple-Carry:] 	Jede Stufe addiert jeweils einen Operanden hinzu.
+	\item [Baumstruktur:] 	Die einzelnen Operanden werden Baumförmig addiert.
+	\item [Carry-Save:]		Nur der letzte Addierer ist Sequentiel aufgebaut. Daher
+							wird der Übertrag des Vorgängers beim nächsten aufaddiert.
+\end{description}
+
+\subsection{Überlauf}
+\begin{multicols}{2}
+	\subsubsection{Positive Operanden}
+	\(
+	s: \text{Summe}\\
+	n: \text{Anzahl Vorkommanstellen im Dualsystem}
+	\)
+	\begin{align*}
+	s&=\left(a+b\right)\text{mod} 2^n
+	\end{align*}
+	
+	\subsubsection{Negative Operanden}
+	\(
+	s: \text{Entstehender Summenwert}\\
+	p: \text{Operanden Anzahl}
+	\)
+	\begin{align*}
+	s&=\left(a+b+2^n\text{ceil}\left(\frac{p-1}{2}\right)+2^{n-1}\right)\text{mod} 2^n-2^{n-1}
+	\end{align*}
+	
+	\subsubsection{Vermeidung}
+	\(
+	r: \text{Zusätzliche Summenstellen}\\
+	p: \text{Operandenanzahl}
+	\)
+	\begin{align*}
+	r=\text{ceil}\left(\frac{\lg\left(p\right)}{\lg\left(2\right)}\right)
+	\end{align*}	
+\end{multicols}
+
+
+\subsection{Überlaufserkennung}
+\begin{multicols}{2}
+	\subsubsection{Vergleich der MSB Stellen}
+	\begin{align*}
+	&\begin{aligned}
+	&a_{MSB}\neq b_{MSB}\hfill&&\Rightarrow \text{Kein Überlauf möglich}\\
+	&a_{MSB}=b_{MSB}=s_{MSB}&&\Rightarrow \text{Kein Überlauf möglich}\\
+	&a_{MSB}=b_{MSB}=0 \quad\&\quad s_{MSB}=1&&\Rightarrow \text{Positiver Überlauf}\\
+	&a_{MSB}=b_{MSB}=1 \quad\&\quad s_{MSB}=0&&\Rightarrow \text{Negativer Überlauf}
+	\end{aligned}\\
+	&\mathit{MIN}=a_{MSB}\\
+	&\mathit{OVF}=\overline{a}_{MSB}s_{MSB}\left(\overline{b_{MSB}\nsim s_{MSB}}\right)+a_{MSB}\overline{s}_{MSB}\left(b_{MSB}\nsim s_{MSB}\right)
+	\end{align*}
+		
+	\subsubsection{Vergleich des Carry}
+	\begin{align*}
+	&c_{I;MSB}= c_{O;MSB}&&\Rightarrow \text{Kein Überlauf möglich}\\
+	&c_{I;MSB}=1\quad\&\quad c_{O;MSB}=0&&\Rightarrow \text{Positiver Überlauf}\\
+	&c_{I;MSB}=0\quad\&\quad c_{O;MSB}=1&&\Rightarrow \text{Negativer Überlauf}\\
+	&\mathit{MIN}=c_{O;MSB}\\
+	&\mathit{OVF}=c_{I;MSB}\nsim c_{O;MSB}
+	\end{align*}
+		
+	\subsubsection{Erweiterung der MSB Stelle}
+	\begin{align*}
+	&s_{MSB}= s_{MSB+1}&&\Rightarrow \text{Kein Überlauf möglich}\\
+	&s_{MSB}=1\quad\&\quad s_{MSB+1}=0&&\Rightarrow \text{Positiver Überlauf}\\
+	&s_{MSB}=0\quad\&\quad s_{MSB+1}=1&&\Rightarrow \text{Negativer Überlauf}\\
+	&\mathit{MIN}=s_{O;MSB}\\
+	&\mathit{OVF}=s_{I;MSB}\nsim s_{O;MSB}
+	\end{align*}
+\end{multicols}
+
+
+\subsection{Sättigung}
+\(
+s_{MSB}: \text{Behandlung der höchsten Stelle}\\
+s_{LSB}: \text{Behandlung der restlichen Stellen}
+\)
+\begin{align*}
+s'_{MSB}&=s_{MSB}\overline{\mathit{OVF}}+\mathit{OVF}\mathit{MIN}\\
+s'_{LSB}&=s_{LSB}\overline{\mathit{OVF}}+\mathit{OVF}\overline{{MIN}}
+\end{align*}
