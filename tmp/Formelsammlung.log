@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.1.30)  30 JAN 2013 18:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.13 (TeX Live 2013/dev) (format=pdflatex 2013.1.30)  4 FEB 2013 15:53
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1460,14 +1460,14 @@ Kapitel 7.
 (./Physik/Algemein.tex [39
 
 ] [40] [41] [42] [43] [44] [45] [46]
-<./Physik/Bilder/Spannung.png, id=1148, 501.875pt x 501.875pt>
+<./Physik/Bilder/Spannung.png, id=1158, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Spannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Spannung.png>
 Package pdftex.def Info: ./Physik/Bilder/Spannung.png used on input line 424.
 (pdftex.def)             Requested size: 113.80533pt x 113.80533pt.
 
-<./Physik/Bilder/Tangentialspannung.png, id=1150, 501.875pt x 501.875pt>
+<./Physik/Bilder/Tangentialspannung.png, id=1160, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Tangentialspannung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Tangentialspannung.png>
@@ -1475,7 +1475,7 @@ Package pdftex.def Info: ./Physik/Bilder/Tangentialspannung.png used on input l
 ine 438.
 (pdftex.def)             Requested size: 113.80533pt x 113.80533pt.
 
-<./Physik/Bilder/Scherbeanspruchung.png, id=1151, 501.875pt x 501.875pt>
+<./Physik/Bilder/Scherbeanspruchung.png, id=1161, 501.875pt x 501.875pt>
 File: ./Physik/Bilder/Scherbeanspruchung.png Graphic file (type png)
 
 <use ./Physik/Bilder/Scherbeanspruchung.png>
@@ -1509,7 +1509,7 @@ Kapitel 12.
 (./Physik/Optik.tex (./Physik/Brechung.tex
 \du=\skip58
 )
-<./Physik/Bilder/Hohlspiegel.png, id=1265, 326.72063pt x 224.33812pt>
+<./Physik/Bilder/Hohlspiegel.png, id=1275, 326.72063pt x 224.33812pt>
 File: ./Physik/Bilder/Hohlspiegel.png Graphic file (type png)
 
 <use ./Physik/Bilder/Hohlspiegel.png>
@@ -1523,14 +1523,14 @@ Overfull \vbox (74.80426pt too high) has occurred while \output is active []
 [60
 
  <./Physik/Bilder/Hohlspiegel.png>]
-<./Physik/Bilder/Linse.png, id=1271, 255.20343pt x 109.1578pt>
+<./Physik/Bilder/Linse.png, id=1281, 255.20343pt x 109.1578pt>
 File: ./Physik/Bilder/Linse.png Graphic file (type png)
 
 <use ./Physik/Bilder/Linse.png>
 Package pdftex.def Info: ./Physik/Bilder/Linse.png used on input line 45.
 (pdftex.def)             Requested size: 170.71652pt x 73.02374pt.
 
-<./Physik/Bilder/Beispiele-Linsen.png, id=1272, 778.40813pt x 292.09125pt>
+<./Physik/Bilder/Beispiele-Linsen.png, id=1282, 778.40813pt x 292.09125pt>
 File: ./Physik/Bilder/Beispiele-Linsen.png Graphic file (type png)
 
 <use ./Physik/Bilder/Beispiele-Linsen.png>
@@ -1543,7 +1543,7 @@ Overfull \hbox (2.84525pt too wide) in paragraph at lines 59--60
  []
 
 [61 <./Physik/Bilder/Linse.png> <./Physik/Bilder/Beispiele-Linsen.png>]
-<./Physik/Bilder/Lichtwellenleiter.png, id=1277, 207.77625pt x 313.17pt>
+<./Physik/Bilder/Lichtwellenleiter.png, id=1287, 207.77625pt x 313.17pt>
 File: ./Physik/Bilder/Lichtwellenleiter.png Graphic file (type png)
 
 <use ./Physik/Bilder/Lichtwellenleiter.png>
@@ -1578,7 +1578,7 @@ Underfull \hbox (badness 5548) in paragraph at lines 74--75
  []
 
 (./Elektrotechnik/Bilder/zeitbasis.tex)
-<./Elektrotechnik/Bilder/argument.pdf, id=1354, 477.72527pt x 279.54391pt>
+<./Elektrotechnik/Bilder/argument.pdf, id=1364, 477.72527pt x 279.54391pt>
 File: ./Elektrotechnik/Bilder/argument.pdf Graphic file (type pdf)
 
 <use ./Elektrotechnik/Bilder/argument.pdf>
@@ -1586,7 +1586,7 @@ Package pdftex.def Info: ./Elektrotechnik/Bilder/argument.pdf used on input lin
 e 98.
 (pdftex.def)             Requested size: 142.26378pt x 83.24532pt.
  [76 <./Elektrotechnik/Bilder/argument.pdf>]
-<./Elektrotechnik/Bilder/argumentversch.pdf, id=1374, 477.72527pt x 279.54391pt
+<./Elektrotechnik/Bilder/argumentversch.pdf, id=1384, 477.72527pt x 279.54391pt
 >
 File: ./Elektrotechnik/Bilder/argumentversch.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/argumentversch.pdf>
@@ -1594,7 +1594,7 @@ Package pdftex.def Info: ./Elektrotechnik/Bilder/argumentversch.pdf used on inp
 ut line 112.
 (pdftex.def)             Requested size: 142.26378pt x 83.24532pt.
 
-<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1375, 477.72527pt x 279.5439
+<./Elektrotechnik/Bilder/skalierungsfaktor.pdf, id=1385, 477.72527pt x 279.5439
 1pt>
 File: ./Elektrotechnik/Bilder/skalierungsfaktor.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/skalierungsfaktor.pdf>
@@ -1602,7 +1602,7 @@ Package pdftex.def Info: ./Elektrotechnik/Bilder/skalierungsfaktor.pdf used on
 input line 132.
 (pdftex.def)             Requested size: 142.26378pt x 83.24532pt.
 
-<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1376, 476.92241pt x 305.8078
+<./Elektrotechnik/Bilder/einheitssprungang.pdf, id=1386, 476.92241pt x 305.8078
 5pt>
 File: ./Elektrotechnik/Bilder/einheitssprungang.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitssprungang.pdf>
@@ -1621,7 +1621,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Elektrotechnik/Bilder/einheitssprunga
 ng.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
 >]
-<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1410, 477.72527pt x 300.35112pt
+<./Elektrotechnik/Bilder/einheitsimpuls.pdf, id=1420, 477.72527pt x 300.35112pt
 >
 File: ./Elektrotechnik/Bilder/einheitsimpuls.pdf Graphic file (type pdf)
  <use ./Elektrotechnik/Bilder/einheitsimpuls.pdf>
@@ -1661,36 +1661,11 @@ Kapitel 17.
 (./Elektrotechnik/BinOp.tex [96
 
 ]
-Overfull \hbox (1.60072pt too wide) in paragraph at lines 61--66
+Overfull \hbox (1.60072pt too wide) in paragraph at lines 76--81
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 : [][] 
  []
 
-[97]
-Overfull \hbox (20.58203pt too wide) in paragraph at lines 106--110
-\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 : []$ 
- []
-
-
-Overfull \hbox (77.669pt too wide) in paragraph at lines 121--121
-[] 
- []
-
-
-Overfull \hbox (145.42946pt too wide) in paragraph at lines 146--146
-[] 
- []
-
-
-Overfull \hbox (101.46358pt too wide) in paragraph at lines 155--155
-[] 
- []
-
-
-Overfull \hbox (97.39473pt too wide) in paragraph at lines 164--164
-[] 
- []
-
-[98]) [99] [100
+[97] [98]) [99] [100] [101
 
 ]
 Kapitel 18.
@@ -1900,7 +1875,7 @@ Overfull \vbox (25.99875pt too high) has occurred while \output is active []
 Overfull \vbox (24.99875pt too high) has occurred while \output is active []
 
 
-[101
+[102
 
 ]
 (./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/emitterschaltung.tex)
@@ -1908,7 +1883,7 @@ Overfull \hbox (1.5185pt too wide) in paragraph at lines 413--27
  [][] 
  []
 
-[102]
+[103]
 (./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/differenzverstaerker.tex
 )
 Overfull \hbox (53.12486pt too wide) in paragraph at lines 699--70
@@ -1982,9 +1957,9 @@ Overfull \vbox (25.24884pt too high) has occurred while \output is active []
 Overfull \vbox (24.24884pt too high) has occurred while \output is active []
 
 
-[103]
+[104]
 (./Elektrotechnik/AnalogeSchaltungstechnik/Zeichnungen/eingangswiderstand.tex))
-[104] [105
+[105] [106
 
 ]
 Kapitel 19.
@@ -1994,21 +1969,19 @@ Overfull \hbox (0.56554pt too wide) in paragraph at lines 6--8
 nter Wert mit ver-nach-läÿig-bar-er Dif-ferenz zum wahren
  []
 
-[106
+[107
 
-] [107] [108] [109]
+] [108] [109] [110]
 Overfull \hbox (6.65303pt too wide) in paragraph at lines 204--206
 []\T1/cmr/m/n/10 Endlich groÿe Stich-probe liefert zufäl-lige Dif-ferenz zwis-c
 hem Schätzw-ert $[]$ und wahrem
  []
 
-[110] [111]) [112] [113
+[111] [112]) [113] [114
 
-] (./Formelsammlung.ind [114
+] (./Formelsammlung.ind [115
 
-] [115] [116] [117] [118
-
-])
+] [116] [117] [118] [119])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 
@@ -2016,14 +1989,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `Formelsammlung.out' has not changed.
-(rerunfilecheck)             Checksum: AECCF7F7CB37A4B0619B135771369A6B;10637.
+(rerunfilecheck)             Checksum: 84713324586897458804AAA3353467A4;10806.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 18155 strings out of 494790
- 307817 string characters out of 3177378
- 393002 words of memory out of 3000000
- 20235 multiletter control sequences out of 15000+200000
+ 18157 strings out of 494790
+ 307861 string characters out of 3177378
+ 391990 words of memory out of 3000000
+ 20237 multiletter control sequences out of 15000+200000
  31556 words of font info for 83 fonts, out of 3000000 for 9000
  219 hyphenation exceptions out of 8191
  56i,25n,55p,404b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2036,7 +2009,7 @@ pdfTeX warning (dest): name{page.81\\protect\040\\kern\040+.1667em\\relax\040f.
 pdfTeX warning (dest): name{page.7\\protect\040\\kern\040+.1667em\\relax\040f.}
  has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{page.106\\protect\040\\kern\040+.1667em\\relax\040f
+pdfTeX warning (dest): name{page.107\\protect\040\\kern\040+.1667em\\relax\040f
 .} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{page.11\\protect\040\\kern\040+.1667em\\relax\040f.
@@ -2082,10 +2055,10 @@ ublic/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
 m-super/sfrm1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super
 /sfsl1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti07
 00.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Formelsammlung.pdf (119 pages, 959439 bytes).
+Output written on Formelsammlung.pdf (120 pages, 961813 bytes).
 PDF statistics:
- 2193 PDF objects out of 2487 (max. 8388607)
- 1990 compressed objects within 20 object streams
+ 2216 PDF objects out of 2487 (max. 8388607)
+ 2011 compressed objects within 21 object streams
  578 named destinations out of 1000 (max. 500000)
- 1297 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

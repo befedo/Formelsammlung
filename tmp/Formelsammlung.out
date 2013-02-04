@@ -127,27 +127,29 @@
 \BOOKMARK [2][-]{subsection.17.1.5}{Dezimalsystem}{section.17.1}% 127
 \BOOKMARK [2][-]{subsection.17.1.6}{Stellenberechnung}{section.17.1}% 128
 \BOOKMARK [2][-]{subsection.17.1.7}{Wertebereich und Quantisierungsfehler\(Dualsystem\)}{section.17.1}% 129
-\BOOKMARK [1][-]{section.17.2}{Addition}{chapter.17}% 130
-\BOOKMARK [2][-]{subsection.17.2.1}{Zwei Operanden}{section.17.2}% 131
-\BOOKMARK [2][-]{subsection.17.2.2}{Mehrere Operanden}{section.17.2}% 132
-\BOOKMARK [2][-]{subsection.17.2.3}{\334berlauf}{section.17.2}% 133
-\BOOKMARK [2][-]{subsection.17.2.4}{\334berlaufserkennung}{section.17.2}% 134
-\BOOKMARK [2][-]{subsection.17.2.5}{S\344ttigung}{section.17.2}% 135
-\BOOKMARK [-1][-]{part.4}{IV Analoge Schaltungstechnik}{}% 136
-\BOOKMARK [0][-]{chapter.18}{Grundschaltungen}{part.4}% 137
-\BOOKMARK [-1][-]{part.5}{V Messtechnik}{}% 138
-\BOOKMARK [0][-]{chapter.19}{Grundlagen}{part.5}% 139
-\BOOKMARK [1][-]{section.19.1}{Begriffe}{chapter.19}% 140
-\BOOKMARK [1][-]{section.19.2}{Messabweichung }{chapter.19}% 141
-\BOOKMARK [2][-]{subsection.19.2.1}{relative Messabweichung}{section.19.2}% 142
-\BOOKMARK [2][-]{subsection.19.2.2}{Messabweichung }{section.19.2}% 143
-\BOOKMARK [2][-]{subsection.19.2.3}{Fortpflanzung systematischer Messabweichungen}{section.19.2}% 144
-\BOOKMARK [1][-]{section.19.3}{Statistische Gr\366\337en}{chapter.19}% 145
-\BOOKMARK [1][-]{section.19.4}{Erwartungswert, Varianz und Standardabweichung}{chapter.19}% 146
-\BOOKMARK [1][-]{section.19.5}{Verteilungsfunktionen}{chapter.19}% 147
-\BOOKMARK [1][-]{section.19.6}{Stichprobe}{chapter.19}% 148
-\BOOKMARK [1][-]{section.19.7}{Vertrauensbereich f\374r den Erwartungswert}{chapter.19}% 149
-\BOOKMARK [1][-]{section.19.8}{Fortpflanzung zuf\344lliger Abweichungen}{chapter.19}% 150
-\BOOKMARK [1][-]{section.19.9}{Fortpflanzung von Messunsicherheiten}{chapter.19}% 151
-\BOOKMARK [1][-]{section.19.9}{Sachregister}{chapter.19}% 152
-\BOOKMARK [-1][-]{part.6}{VI Anhang}{}% 153
+\BOOKMARK [2][-]{subsection.17.1.8}{Umwandlung Negativer Dualzahlen}{section.17.1}% 130
+\BOOKMARK [1][-]{section.17.2}{Addition}{chapter.17}% 131
+\BOOKMARK [2][-]{subsection.17.2.1}{Zwei Operanden}{section.17.2}% 132
+\BOOKMARK [2][-]{subsection.17.2.2}{Mehrere Operanden}{section.17.2}% 133
+\BOOKMARK [2][-]{subsection.17.2.3}{\334berlauf}{section.17.2}% 134
+\BOOKMARK [2][-]{subsection.17.2.4}{\334berlaufserkennung}{section.17.2}% 135
+\BOOKMARK [2][-]{subsection.17.2.5}{S\344ttigung}{section.17.2}% 136
+\BOOKMARK [2][-]{subsection.17.2.6}{Umwandlung Tern\344rcode}{section.17.2}% 137
+\BOOKMARK [-1][-]{part.4}{IV Analoge Schaltungstechnik}{}% 138
+\BOOKMARK [0][-]{chapter.18}{Grundschaltungen}{part.4}% 139
+\BOOKMARK [-1][-]{part.5}{V Messtechnik}{}% 140
+\BOOKMARK [0][-]{chapter.19}{Grundlagen}{part.5}% 141
+\BOOKMARK [1][-]{section.19.1}{Begriffe}{chapter.19}% 142
+\BOOKMARK [1][-]{section.19.2}{Messabweichung }{chapter.19}% 143
+\BOOKMARK [2][-]{subsection.19.2.1}{relative Messabweichung}{section.19.2}% 144
+\BOOKMARK [2][-]{subsection.19.2.2}{Messabweichung }{section.19.2}% 145
+\BOOKMARK [2][-]{subsection.19.2.3}{Fortpflanzung systematischer Messabweichungen}{section.19.2}% 146
+\BOOKMARK [1][-]{section.19.3}{Statistische Gr\366\337en}{chapter.19}% 147
+\BOOKMARK [1][-]{section.19.4}{Erwartungswert, Varianz und Standardabweichung}{chapter.19}% 148
+\BOOKMARK [1][-]{section.19.5}{Verteilungsfunktionen}{chapter.19}% 149
+\BOOKMARK [1][-]{section.19.6}{Stichprobe}{chapter.19}% 150
+\BOOKMARK [1][-]{section.19.7}{Vertrauensbereich f\374r den Erwartungswert}{chapter.19}% 151
+\BOOKMARK [1][-]{section.19.8}{Fortpflanzung zuf\344lliger Abweichungen}{chapter.19}% 152
+\BOOKMARK [1][-]{section.19.9}{Fortpflanzung von Messunsicherheiten}{chapter.19}% 153
+\BOOKMARK [1][-]{section.19.9}{Sachregister}{chapter.19}% 154
+\BOOKMARK [-1][-]{part.6}{VI Anhang}{}% 155

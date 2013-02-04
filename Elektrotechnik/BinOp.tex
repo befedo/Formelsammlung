@@ -1,4 +1,5 @@
 \section{Zahlensysteme}
+\index{Binäre Rechenoperationen!Zahlensysteme}
 \begin{multicols}{2}
 	\subsection{Dualsystem}
 	\begin{align*}
@@ -29,6 +30,10 @@
 \end{multicols}
 
 \newpage
+\index{Binäre Rechenoperationen!Stellenberechnung}
+\index{Binäre Rechenoperationen!Wertebereich}
+\index{Binäre Rechenoperationen!Quantisierungsfehler}
+\index{Binäre Rechenoperationen!Umwandlung Negativer Dualzahlen}
 \subsection{Stellenberechnung}
 \(
 k: \text{Zahlenwert}\\
@@ -49,11 +54,21 @@ m: \text{Anzahl Nachkommastellen im Dualsystem}
 \begin{align*}
 &\text{Wertebereich}=0\dots 2^n-2^{-m}\\
 &\text{Quantisierungsfehler}=\pm\frac{1}{2}\text{LSB}=\pm 2^{-m-1}\\
-&\text{Quantisierungsstuffen}=2^{-m}
+&\text{Quantisierungsstufen}=2^{-m}
 \end{align*}
 
-\section{Addition}
+\subsection{Umwandlung Negativer Dualzahlen}
+\begin{align*}
+n&=\text{ceil}\left(1+\frac{\lg\left(|\text{Wert}|\right)}{\lg\left(2\right)}\right)\\
+\Delta&=2^{n-1}-\left|\text{Wert}\right|
+\end{align*}
+Umwandlung von $\Delta$ bis MSB Stelle -1, danach setzten der richtigen
+MSB-Stelle.
 
+\section{Addition}
+\index{Binäre Rechenoperationen!Addition!CLA}
+\index{Binäre Rechenoperationen!Addition!Halbaddierer}
+\index{Binäre Rechenoperationen!Addition!Volladdierer}
 \subsection{Zwei Operanden}
 \begin{multicols}{2}
 \raggedcolumns
@@ -93,6 +108,7 @@ m: \text{Anzahl Nachkommastellen im Dualsystem}
 \end{multicols}
 
 \subsection{Mehrere Operanden}
+\index{Binäre Rechenoperationen!Addition!mehrere Operanden}
 \begin{description}
   	\item [Ripple-Carry:] 	Jede Stufe addiert jeweils einen Operanden hinzu.
 	\item [Baumstruktur:] 	Die einzelnen Operanden werden Baumförmig addiert.
@@ -101,25 +117,8 @@ m: \text{Anzahl Nachkommastellen im Dualsystem}
 \end{description}
 
 \subsection{Überlauf}
+\index{Binäre Rechenoperationen!Addition!Überlauf}
 \begin{multicols}{2}
-	\subsubsection{Positive Operanden}
-	\(
-	s: \text{Summe}\\
-	n: \text{Anzahl Vorkommanstellen im Dualsystem}
-	\)
-	\begin{align*}
-	s&=\left(a+b\right)\text{mod} 2^n
-	\end{align*}
-	
-	\subsubsection{Negative Operanden}
-	\(
-	s: \text{Entstehender Summenwert}\\
-	p: \text{Operanden Anzahl}
-	\)
-	\begin{align*}
-	s&=\left(a+b+2^n\text{ceil}\left(\frac{p-1}{2}\right)+2^{n-1}\right)\text{mod} 2^n-2^{n-1}
-	\end{align*}
-	
 	\subsubsection{Vermeidung}
 	\(
 	r: \text{Zusätzliche Summenstellen}\\
@@ -127,13 +126,32 @@ m: \text{Anzahl Nachkommastellen im Dualsystem}
 	\)
 	\begin{align*}
 	r=\text{ceil}\left(\frac{\lg\left(p\right)}{\lg\left(2\right)}\right)
-	\end{align*}	
+	\end{align*}
+	
+	\subsubsection{Positive Operanden}
+	\(
+	s: \text{Summe}\\
+	n: \text{Vorkommanstellen im Dualsystem}
+	\)
+	\begin{align*}
+	s&=\left(a+b\right)\text{mod} 2^n
+	\end{align*}
 \end{multicols}
+	
+	\subsubsection{Negative Operanden}
+	\(
+	s: \text{Entstehender Summenwert}\\
+	n: \text{Vorkommanstellen im Dualsystem}\\
+	p: \text{Operandenanzahl}
+	\)
 
+	\[s=\left(a+b+2^n\text{ceil}\left(\frac{p-1}{2}\right)+2^{n-1}\right)\text{mod}
+	2^n-2^{n-1}\]
 
+\newpage
 \subsection{Überlaufserkennung}
-\begin{multicols}{2}
-	\subsubsection{Vergleich der MSB Stellen}
+\index{Binäre Rechenoperationen!Addition!Überlauf!Erkennung}
+	\textbf{Vergleich der MSB Stellen}
 	\begin{align*}
 	&\begin{aligned}
 	&a_{MSB}\neq b_{MSB}\hfill&&\Rightarrow \text{Kein Überlauf möglich}\\
@@ -142,10 +160,12 @@ m: \text{Anzahl Nachkommastellen im Dualsystem}
 	&a_{MSB}=b_{MSB}=1 \quad\&\quad s_{MSB}=0&&\Rightarrow \text{Negativer Überlauf}
 	\end{aligned}\\
 	&\mathit{MIN}=a_{MSB}\\
-	&\mathit{OVF}=\overline{a}_{MSB}s_{MSB}\left(\overline{b_{MSB}\nsim s_{MSB}}\right)+a_{MSB}\overline{s}_{MSB}\left(b_{MSB}\nsim s_{MSB}\right)
+	&\mathit{OVF}=\overline{a}_{MSB} \cdot s_{MSB}\left(\overline{b_{MSB}\nsim
+	s_{MSB}}\right)+a_{MSB} \cdot \overline{s}_{MSB}\left(b_{MSB}\nsim
+	s_{MSB}\right)
 	\end{align*}
 		
-	\subsubsection{Vergleich des Carry}
+	\textbf{Vergleich des Carry}
 	\begin{align*}
 	&c_{I;MSB}= c_{O;MSB}&&\Rightarrow \text{Kein Überlauf möglich}\\
 	&c_{I;MSB}=1\quad\&\quad c_{O;MSB}=0&&\Rightarrow \text{Positiver Überlauf}\\
@@ -154,23 +174,40 @@ m: \text{Anzahl Nachkommastellen im Dualsystem}
 	&\mathit{OVF}=c_{I;MSB}\nsim c_{O;MSB}
 	\end{align*}
 		
-	\subsubsection{Erweiterung der MSB Stelle}
+	\textbf{Erweiterung der MSB Stelle}
 	\begin{align*}
 	&s_{MSB}= s_{MSB+1}&&\Rightarrow \text{Kein Überlauf möglich}\\
 	&s_{MSB}=1\quad\&\quad s_{MSB+1}=0&&\Rightarrow \text{Positiver Überlauf}\\
 	&s_{MSB}=0\quad\&\quad s_{MSB+1}=1&&\Rightarrow \text{Negativer Überlauf}\\
-	&\mathit{MIN}=s_{O;MSB}\\
-	&\mathit{OVF}=s_{I;MSB}\nsim s_{O;MSB}
+	&\mathit{MIN}=s_{MSB}\\
+	&\mathit{OVF}=s_{MSB}\nsim s_{MSB+1}
 	\end{align*}
-\end{multicols}
 
 
 \subsection{Sättigung}
+\index{Binäre Rechenoperationen!Addition!Sättigungsverhalten}
 \(
 s_{MSB}: \text{Behandlung der höchsten Stelle}\\
 s_{LSB}: \text{Behandlung der restlichen Stellen}
 \)
 \begin{align*}
-s'_{MSB}&=s_{MSB}\overline{\mathit{OVF}}+\mathit{OVF}\mathit{MIN}\\
-s'_{LSB}&=s_{LSB}\overline{\mathit{OVF}}+\mathit{OVF}\overline{{MIN}}
+s'_{MSB}&=s_{MSB} \cdot \overline{\mathit{OVF}}+\mathit{OVF} \cdot
+\mathit{MIN}\\
+s'_{LSB}&=s_{LSB} \cdot \overline{\mathit{OVF}}+\mathit{OVF} \cdot
+\overline{{MIN}}
 \end{align*}
+
+\subsection{Umwandlung Ternärcode}
+
+\begin{tabular}{lll|ll}
+$h_i$& $b_{i+1}$&$b_i$&$c_i$&$h_{i+1}$\\
+\hline
+0&0&0&0&0\\
+0&0&1&1&0\\
+0&1&0&0&0\\
+0&1&1&-1&1\\
+1&0&0&1&0\\
+1&0&1&0&1\\
+1&1&0&-1&1\\
+1&1&1&0&1
+\end{tabular}
